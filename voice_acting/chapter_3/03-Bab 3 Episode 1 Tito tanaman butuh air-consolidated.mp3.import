@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dhlsqdsawhrdh"
+path="res://.godot/imported/03-Bab 3 Episode 1 Tito tanaman butuh air-consolidated.mp3-73df2da7ab2bfa485d60aed3cfdcce39.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_3/03-Bab 3 Episode 1 Tito tanaman butuh air-consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 3 Episode 1 Tito tanaman butuh air-consolidated.mp3-73df2da7ab2bfa485d60aed3cfdcce39.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://j2nq3e26hgwq"
+path="res://.godot/imported/03-Bab 1 Episode 1 Ibu Ide Bagus-consolidated.mp3-1e1706897fec222ce826473b880e2338.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_1/eps 1 & 2/03-Bab 1 Episode 1 Ibu Ide Bagus-consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 1 Episode 1 Ibu Ide Bagus-consolidated.mp3-1e1706897fec222ce826473b880e2338.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

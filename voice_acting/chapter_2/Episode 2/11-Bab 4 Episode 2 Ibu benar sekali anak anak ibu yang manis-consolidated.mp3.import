@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b45pxbedhn3em"
+path="res://.godot/imported/11-Bab 4 Episode 2 Ibu benar sekali anak anak ibu yang manis-consolidated.mp3-b4e60b4453107dc866a7f882895ce58a.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_2/Episode 2/11-Bab 4 Episode 2 Ibu benar sekali anak anak ibu yang manis-consolidated.mp3"
+dest_files=["res://.godot/imported/11-Bab 4 Episode 2 Ibu benar sekali anak anak ibu yang manis-consolidated.mp3-b4e60b4453107dc866a7f882895ce58a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

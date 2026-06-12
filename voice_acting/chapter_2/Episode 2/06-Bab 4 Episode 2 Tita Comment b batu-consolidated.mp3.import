@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://uf4gwhyy2ury"
+path="res://.godot/imported/06-Bab 4 Episode 2 Tita Comment b batu-consolidated.mp3-fd22f4b026a6d1ce298b71c763eba4f3.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_2/Episode 2/06-Bab 4 Episode 2 Tita Comment b batu-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 4 Episode 2 Tita Comment b batu-consolidated.mp3-fd22f4b026a6d1ce298b71c763eba4f3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

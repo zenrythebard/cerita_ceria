@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dugx0fxr1cpqo"
+path="res://.godot/imported/08-Bab 4 Episode 1 Tita Comment R Ranting -consolidated.mp3-02ca3c2c7807d0cb02bbe5b86e2bd892.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_2/Episode 1/08-Bab 4 Episode 1 Tita Comment R Ranting -consolidated.mp3"
+dest_files=["res://.godot/imported/08-Bab 4 Episode 1 Tita Comment R Ranting -consolidated.mp3-02ca3c2c7807d0cb02bbe5b86e2bd892.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

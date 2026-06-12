@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cuik65vbfwkpd"
+path="res://.godot/imported/19-Bab 3 Episode 1 Tito benar juga ya-consolidated.mp3-a8b2aae65d1cfe39c8cf774ac4019adb.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_3/19-Bab 3 Episode 1 Tito benar juga ya-consolidated.mp3"
+dest_files=["res://.godot/imported/19-Bab 3 Episode 1 Tito benar juga ya-consolidated.mp3-a8b2aae65d1cfe39c8cf774ac4019adb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

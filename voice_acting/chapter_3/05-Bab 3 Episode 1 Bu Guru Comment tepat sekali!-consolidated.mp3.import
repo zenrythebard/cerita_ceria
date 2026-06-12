@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://0qxe5qwdf7sb"
+path="res://.godot/imported/05-Bab 3 Episode 1 Bu Guru Comment tepat sekali!-consolidated.mp3-51b067df56fde6ee59b1d1ae67a85f64.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_3/05-Bab 3 Episode 1 Bu Guru Comment tepat sekali!-consolidated.mp3"
+dest_files=["res://.godot/imported/05-Bab 3 Episode 1 Bu Guru Comment tepat sekali!-consolidated.mp3-51b067df56fde6ee59b1d1ae67a85f64.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

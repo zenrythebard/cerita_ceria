@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ix05ed2abgpo"
+path="res://.godot/imported/01-Bab 3 Episode 1 Tito Wah keren-consolidated.mp3-ba8f03438253ddf20b1c8f00b9b3face.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_3/01-Bab 3 Episode 1 Tito Wah keren-consolidated.mp3"
+dest_files=["res://.godot/imported/01-Bab 3 Episode 1 Tito Wah keren-consolidated.mp3-ba8f03438253ddf20b1c8f00b9b3face.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

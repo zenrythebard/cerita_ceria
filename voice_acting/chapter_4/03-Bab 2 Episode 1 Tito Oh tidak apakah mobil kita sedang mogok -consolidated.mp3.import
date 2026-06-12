@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bmepleaeoltti"
+path="res://.godot/imported/03-Bab 2 Episode 1 Tito Oh tidak apakah mobil kita sedang mogok -consolidated.mp3-5ee7ebf079f3350ccf22a4926adc2059.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_4/03-Bab 2 Episode 1 Tito Oh tidak apakah mobil kita sedang mogok -consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 2 Episode 1 Tito Oh tidak apakah mobil kita sedang mogok -consolidated.mp3-5ee7ebf079f3350ccf22a4926adc2059.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

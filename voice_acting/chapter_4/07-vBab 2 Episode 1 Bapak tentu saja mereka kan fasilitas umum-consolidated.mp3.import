@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bn602ben0irg"
+path="res://.godot/imported/07-vBab 2 Episode 1 Bapak tentu saja mereka kan fasilitas umum-consolidated.mp3-fcb59d7bea1e44c52911678bd9edecb2.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_4/07-vBab 2 Episode 1 Bapak tentu saja mereka kan fasilitas umum-consolidated.mp3"
+dest_files=["res://.godot/imported/07-vBab 2 Episode 1 Bapak tentu saja mereka kan fasilitas umum-consolidated.mp3-fcb59d7bea1e44c52911678bd9edecb2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

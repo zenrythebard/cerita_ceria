@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dqbq58d6o6gwu"
+path="res://.godot/imported/01-Bab 3 Episode 1 Bu guru kerja bagus anak anak-consolidated.mp3-08e5530078b32da67b1a6965f69920ae.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_3/01-Bab 3 Episode 1 Bu guru kerja bagus anak anak-consolidated.mp3"
+dest_files=["res://.godot/imported/01-Bab 3 Episode 1 Bu guru kerja bagus anak anak-consolidated.mp3-08e5530078b32da67b1a6965f69920ae.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

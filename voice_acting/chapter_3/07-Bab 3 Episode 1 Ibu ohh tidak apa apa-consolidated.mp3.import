@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c5yevimo6ahov"
+path="res://.godot/imported/07-Bab 3 Episode 1 Ibu ohh tidak apa apa-consolidated.mp3-078c726c402f52a858a78528d5c94341.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_3/07-Bab 3 Episode 1 Ibu ohh tidak apa apa-consolidated.mp3"
+dest_files=["res://.godot/imported/07-Bab 3 Episode 1 Ibu ohh tidak apa apa-consolidated.mp3-078c726c402f52a858a78528d5c94341.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://k6hnmoxv7kke"
+path="res://.godot/imported/01-Bab 1 Episode 1 Tita Comment Kerja bagus-consolidated.mp3-13c08bb653ad3f31a6966ca5b468fe06.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_1/eps 1 & 2/01-Bab 1 Episode 1 Tita Comment Kerja bagus-consolidated.mp3"
+dest_files=["res://.godot/imported/01-Bab 1 Episode 1 Tita Comment Kerja bagus-consolidated.mp3-13c08bb653ad3f31a6966ca5b468fe06.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

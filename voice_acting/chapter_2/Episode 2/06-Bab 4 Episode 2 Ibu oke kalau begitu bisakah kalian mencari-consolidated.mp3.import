@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dqj6ti32uhvxj"
+path="res://.godot/imported/06-Bab 4 Episode 2 Ibu oke kalau begitu bisakah kalian mencari-consolidated.mp3-4c0242b47ec63958295b482b8fde85de.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_2/Episode 2/06-Bab 4 Episode 2 Ibu oke kalau begitu bisakah kalian mencari-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 4 Episode 2 Ibu oke kalau begitu bisakah kalian mencari-consolidated.mp3-4c0242b47ec63958295b482b8fde85de.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

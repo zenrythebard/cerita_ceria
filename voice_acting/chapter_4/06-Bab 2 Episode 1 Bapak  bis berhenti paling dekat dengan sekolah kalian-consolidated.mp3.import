@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dymkgdbijdrp8"
+path="res://.godot/imported/06-Bab 2 Episode 1 Bapak  bis berhenti paling dekat dengan sekolah kalian-consolidated.mp3-06ad3c9d7509172ea25d85136c7f1689.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_4/06-Bab 2 Episode 1 Bapak  bis berhenti paling dekat dengan sekolah kalian-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 2 Episode 1 Bapak  bis berhenti paling dekat dengan sekolah kalian-consolidated.mp3-06ad3c9d7509172ea25d85136c7f1689.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

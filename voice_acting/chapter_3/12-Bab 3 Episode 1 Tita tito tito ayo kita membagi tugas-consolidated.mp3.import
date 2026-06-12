@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://br2wp4kje6dv"
+path="res://.godot/imported/12-Bab 3 Episode 1 Tita tito tito ayo kita membagi tugas-consolidated.mp3-57086a9f110eb1d307335c679ce93576.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_3/12-Bab 3 Episode 1 Tita tito tito ayo kita membagi tugas-consolidated.mp3"
+dest_files=["res://.godot/imported/12-Bab 3 Episode 1 Tita tito tito ayo kita membagi tugas-consolidated.mp3-57086a9f110eb1d307335c679ce93576.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://deq4aa18puod1"
+path="res://.godot/imported/05-Bab 2 Episode 1 Bapak ah diseberang ada halte bis-consolidated.mp3-bc684c33965ca2f2e99fa66eb13cc858.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_4/05-Bab 2 Episode 1 Bapak ah diseberang ada halte bis-consolidated.mp3"
+dest_files=["res://.godot/imported/05-Bab 2 Episode 1 Bapak ah diseberang ada halte bis-consolidated.mp3-bc684c33965ca2f2e99fa66eb13cc858.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

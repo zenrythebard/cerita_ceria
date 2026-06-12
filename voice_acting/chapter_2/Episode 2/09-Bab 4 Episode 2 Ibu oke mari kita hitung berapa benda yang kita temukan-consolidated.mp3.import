@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://nqs3565hltxh"
+path="res://.godot/imported/09-Bab 4 Episode 2 Ibu oke mari kita hitung berapa benda yang kita temukan-consolidated.mp3-33c75082556a6014899367da79013db2.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_2/Episode 2/09-Bab 4 Episode 2 Ibu oke mari kita hitung berapa benda yang kita temukan-consolidated.mp3"
+dest_files=["res://.godot/imported/09-Bab 4 Episode 2 Ibu oke mari kita hitung berapa benda yang kita temukan-consolidated.mp3-33c75082556a6014899367da79013db2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

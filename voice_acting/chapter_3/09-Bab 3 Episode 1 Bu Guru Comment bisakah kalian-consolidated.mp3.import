@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://chtne7vcvgr67"
+path="res://.godot/imported/09-Bab 3 Episode 1 Bu Guru Comment bisakah kalian-consolidated.mp3-66d2e65ddcd9aec7db7c25007195e6ec.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_3/09-Bab 3 Episode 1 Bu Guru Comment bisakah kalian-consolidated.mp3"
+dest_files=["res://.godot/imported/09-Bab 3 Episode 1 Bu Guru Comment bisakah kalian-consolidated.mp3-66d2e65ddcd9aec7db7c25007195e6ec.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

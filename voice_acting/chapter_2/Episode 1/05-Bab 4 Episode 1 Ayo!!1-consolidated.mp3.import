@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cvb37l10c1ppp"
+path="res://.godot/imported/05-Bab 4 Episode 1 Ayo!!1-consolidated.mp3-dc0ef8cad24a70077824e90d691b802b.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_2/Episode 1/05-Bab 4 Episode 1 Ayo!!1-consolidated.mp3"
+dest_files=["res://.godot/imported/05-Bab 4 Episode 1 Ayo!!1-consolidated.mp3-dc0ef8cad24a70077824e90d691b802b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bqw31swgrpo0i"
+path="res://.godot/imported/10-Bab 4 Episode 1 Tito hmmmm-consolidated.mp3-a2d2b04a758ffb890b5b57ac15f8a678.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_2/Episode 1/10-Bab 4 Episode 1 Tito hmmmm-consolidated.mp3"
+dest_files=["res://.godot/imported/10-Bab 4 Episode 1 Tito hmmmm-consolidated.mp3-a2d2b04a758ffb890b5b57ac15f8a678.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

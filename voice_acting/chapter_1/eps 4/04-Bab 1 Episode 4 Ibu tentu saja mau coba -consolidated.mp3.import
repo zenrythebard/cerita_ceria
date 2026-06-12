@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cbd1mlu7wstta"
+path="res://.godot/imported/04-Bab 1 Episode 4 Ibu tentu saja mau coba -consolidated.mp3-e487f16dedc0a088265f701db77433de.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_1/eps 4/04-Bab 1 Episode 4 Ibu tentu saja mau coba -consolidated.mp3"
+dest_files=["res://.godot/imported/04-Bab 1 Episode 4 Ibu tentu saja mau coba -consolidated.mp3-e487f16dedc0a088265f701db77433de.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

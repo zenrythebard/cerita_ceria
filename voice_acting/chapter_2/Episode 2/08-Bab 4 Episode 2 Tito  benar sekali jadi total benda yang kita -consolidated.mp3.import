@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ylhxcb5anha3"
+path="res://.godot/imported/08-Bab 4 Episode 2 Tito  benar sekali jadi total benda yang kita -consolidated.mp3-0c1d626bf8fc40a5367cd066b789d4b5.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_2/Episode 2/08-Bab 4 Episode 2 Tito  benar sekali jadi total benda yang kita -consolidated.mp3"
+dest_files=["res://.godot/imported/08-Bab 4 Episode 2 Tito  benar sekali jadi total benda yang kita -consolidated.mp3-0c1d626bf8fc40a5367cd066b789d4b5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

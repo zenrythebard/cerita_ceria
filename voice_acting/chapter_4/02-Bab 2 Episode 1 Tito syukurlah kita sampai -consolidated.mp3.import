@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cv66s072a02gk"
+path="res://.godot/imported/02-Bab 2 Episode 1 Tito syukurlah kita sampai -consolidated.mp3-4e05eac7f09bade88d99084226cb8665.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_4/02-Bab 2 Episode 1 Tito syukurlah kita sampai -consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 2 Episode 1 Tito syukurlah kita sampai -consolidated.mp3-4e05eac7f09bade88d99084226cb8665.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

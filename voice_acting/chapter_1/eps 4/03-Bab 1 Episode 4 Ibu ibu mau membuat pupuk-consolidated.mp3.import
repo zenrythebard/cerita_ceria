@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bysg53gkppuc5"
+path="res://.godot/imported/03-Bab 1 Episode 4 Ibu ibu mau membuat pupuk-consolidated.mp3-f8633983ddf87c6289c261ae08f2a438.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_1/eps 4/03-Bab 1 Episode 4 Ibu ibu mau membuat pupuk-consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 1 Episode 4 Ibu ibu mau membuat pupuk-consolidated.mp3-f8633983ddf87c6289c261ae08f2a438.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

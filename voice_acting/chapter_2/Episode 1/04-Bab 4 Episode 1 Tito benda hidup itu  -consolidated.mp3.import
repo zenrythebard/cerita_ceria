@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://da0m2dexabexg"
+path="res://.godot/imported/04-Bab 4 Episode 1 Tito benda hidup itu  -consolidated.mp3-ea11ca6e0d532f814bcac321afb1100e.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_2/Episode 1/04-Bab 4 Episode 1 Tito benda hidup itu  -consolidated.mp3"
+dest_files=["res://.godot/imported/04-Bab 4 Episode 1 Tito benda hidup itu  -consolidated.mp3-ea11ca6e0d532f814bcac321afb1100e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

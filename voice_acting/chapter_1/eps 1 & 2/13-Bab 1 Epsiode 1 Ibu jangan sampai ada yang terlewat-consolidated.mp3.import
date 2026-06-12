@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://mil01eadydjn"
+path="res://.godot/imported/13-Bab 1 Epsiode 1 Ibu jangan sampai ada yang terlewat-consolidated.mp3-aa82d56cf2d819fa16c41d39166220f6.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_1/eps 1 & 2/13-Bab 1 Epsiode 1 Ibu jangan sampai ada yang terlewat-consolidated.mp3"
+dest_files=["res://.godot/imported/13-Bab 1 Epsiode 1 Ibu jangan sampai ada yang terlewat-consolidated.mp3-aa82d56cf2d819fa16c41d39166220f6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

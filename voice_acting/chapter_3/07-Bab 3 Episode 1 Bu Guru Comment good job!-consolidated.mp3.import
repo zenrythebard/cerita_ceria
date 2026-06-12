@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhn404xyqsqey"
+path="res://.godot/imported/07-Bab 3 Episode 1 Bu Guru Comment good job!-consolidated.mp3-20c80656be0ee989eb5205887f3cf5af.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_3/07-Bab 3 Episode 1 Bu Guru Comment good job!-consolidated.mp3"
+dest_files=["res://.godot/imported/07-Bab 3 Episode 1 Bu Guru Comment good job!-consolidated.mp3-20c80656be0ee989eb5205887f3cf5af.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

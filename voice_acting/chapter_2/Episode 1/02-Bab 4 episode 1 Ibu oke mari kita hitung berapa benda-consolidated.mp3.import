@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cblcrg51k7ex5"
+path="res://.godot/imported/02-Bab 4 episode 1 Ibu oke mari kita hitung berapa benda-consolidated.mp3-93aafefc378e13dfa779329dededf74c.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_2/Episode 1/02-Bab 4 episode 1 Ibu oke mari kita hitung berapa benda-consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 4 episode 1 Ibu oke mari kita hitung berapa benda-consolidated.mp3-93aafefc378e13dfa779329dededf74c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

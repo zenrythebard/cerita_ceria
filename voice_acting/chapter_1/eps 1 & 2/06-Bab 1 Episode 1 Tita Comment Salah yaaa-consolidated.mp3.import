@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ey6lstetn8eg"
+path="res://.godot/imported/06-Bab 1 Episode 1 Tita Comment Salah yaaa-consolidated.mp3-b1c7e9f5bb34b61b22d756a6cf39842f.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_1/eps 1 & 2/06-Bab 1 Episode 1 Tita Comment Salah yaaa-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 1 Episode 1 Tita Comment Salah yaaa-consolidated.mp3-b1c7e9f5bb34b61b22d756a6cf39842f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

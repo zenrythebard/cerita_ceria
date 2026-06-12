@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2ri3f1hy6ube"
+path="res://.godot/imported/03-BabBab 4 Episode 2 Tito Comment hijau-consolidated.mp3-e0a6e920af8af88465bc694aad8a2bcc.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_2/Episode 2/03-BabBab 4 Episode 2 Tito Comment hijau-consolidated.mp3"
+dest_files=["res://.godot/imported/03-BabBab 4 Episode 2 Tito Comment hijau-consolidated.mp3-e0a6e920af8af88465bc694aad8a2bcc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

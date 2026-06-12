@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://73bhctcys5tc"
+path="res://.godot/imported/07-Bab 1 Episode 3 Tita buruk dong pak-consolidated.mp3-3b4c61fae556500a14fa8a6a9d917968.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_1/eps 3/07-Bab 1 Episode 3 Tita buruk dong pak-consolidated.mp3"
+dest_files=["res://.godot/imported/07-Bab 1 Episode 3 Tita buruk dong pak-consolidated.mp3-3b4c61fae556500a14fa8a6a9d917968.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

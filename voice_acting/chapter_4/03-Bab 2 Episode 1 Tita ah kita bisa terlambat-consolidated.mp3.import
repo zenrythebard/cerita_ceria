@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cja4am6uik0k1"
+path="res://.godot/imported/03-Bab 2 Episode 1 Tita ah kita bisa terlambat-consolidated.mp3-2fc20ea657c417f7fa6d2c8837dfeb91.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_4/03-Bab 2 Episode 1 Tita ah kita bisa terlambat-consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 2 Episode 1 Tita ah kita bisa terlambat-consolidated.mp3-2fc20ea657c417f7fa6d2c8837dfeb91.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dx2ouoaqd7ias"
+path="res://.godot/imported/14-Bab 3 Episode 1 Tita  pleaaase-consolidated.mp3-be002d23fb5ab1c8e5f120af4ffb5bfc.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_3/14-Bab 3 Episode 1 Tita  pleaaase-consolidated.mp3"
+dest_files=["res://.godot/imported/14-Bab 3 Episode 1 Tita  pleaaase-consolidated.mp3-be002d23fb5ab1c8e5f120af4ffb5bfc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cy8bkikqynapa"
+path="res://.godot/imported/18-Bab 4 Episode 1 Bapak Comment itu benda mati tapi bukan termasuk benda alam-consolidated.mp3-775997460bc7b21001ba5580d7996da7.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_2/Episode 1/18-Bab 4 Episode 1 Bapak Comment itu benda mati tapi bukan termasuk benda alam-consolidated.mp3"
+dest_files=["res://.godot/imported/18-Bab 4 Episode 1 Bapak Comment itu benda mati tapi bukan termasuk benda alam-consolidated.mp3-775997460bc7b21001ba5580d7996da7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

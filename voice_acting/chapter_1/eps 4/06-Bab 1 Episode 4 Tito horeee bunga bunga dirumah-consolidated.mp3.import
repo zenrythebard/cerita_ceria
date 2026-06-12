@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dech88chschmq"
+path="res://.godot/imported/06-Bab 1 Episode 4 Tito horeee bunga bunga dirumah-consolidated.mp3-db37d29a261a87997442846237aa4f00.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_1/eps 4/06-Bab 1 Episode 4 Tito horeee bunga bunga dirumah-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 1 Episode 4 Tito horeee bunga bunga dirumah-consolidated.mp3-db37d29a261a87997442846237aa4f00.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://j28eyiwgqnur"
+path="res://.godot/imported/01-Bab 1 Episode 1 Bapak benar sekali bapak tidak bisa-consolidated.mp3-8de537ad5f5c7c8be74a64f4b5eb0f07.mp3str"
+
+[deps]
+
+source_file="res://voice_acting/chapter_1/eps 1 & 2/01-Bab 1 Episode 1 Bapak benar sekali bapak tidak bisa-consolidated.mp3"
+dest_files=["res://.godot/imported/01-Bab 1 Episode 1 Bapak benar sekali bapak tidak bisa-consolidated.mp3-8de537ad5f5c7c8be74a64f4b5eb0f07.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
