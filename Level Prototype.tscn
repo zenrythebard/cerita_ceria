@@ -1,0 +1,288 @@
+[gd_scene load_steps=21 format=3 uid="uid://bu8bvrnboh1tp"]
+
+[ext_resource type="Script" uid="uid://dt682c3nuepv5" path="res://scripts/testing/level_trash.gd" id="1_8d5hf"]
+[ext_resource type="Texture2D" uid="uid://da4v8wu3pathr" path="res://assets/Placeholders/bg_placeholder.png" id="2_pdt6m"]
+[ext_resource type="Texture2D" uid="uid://dc17pju3hqghn" path="res://assets/Placeholders/bookshelf_placeholder.png" id="3_voncs"]
+[ext_resource type="Script" uid="uid://cx86xr4l84pe7" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item_clickable.gd" id="4_dxr60"]
+[ext_resource type="Texture2D" uid="uid://ymt8pgsbucar" path="res://assets/Placeholders/clock_placeholder.png" id="5_f7684"]
+[ext_resource type="Texture2D" uid="uid://cpl66y5kbdec5" path="res://assets/Placeholders/cornerTable_placeholder.png" id="6_abqjm"]
+[ext_resource type="Texture2D" uid="uid://qk7ubvjm6mo5" path="res://assets/Placeholders/couchBack_placeholder.png" id="7_lebfx"]
+[ext_resource type="Texture2D" uid="uid://dwyvk0bvaaqgn" path="res://assets/Placeholders/couchForward_placeholder.png" id="8_3nfk3"]
+[ext_resource type="Texture2D" uid="uid://d1bs4k4gof087" path="res://assets/Placeholders/couchLeft_placeholder.png" id="9_keaxm"]
+[ext_resource type="Texture2D" uid="uid://c8pfajdq7ekc8" path="res://assets/Placeholders/famPhoto_placeholder.png" id="10_lf5cs"]
+[ext_resource type="Texture2D" uid="uid://dtdt7pkfatmgg" path="res://assets/Placeholders/tableGuest_placeholder.png" id="11_h8ee1"]
+[ext_resource type="Texture2D" uid="uid://bcaktf6qtlv57" path="res://assets/Placeholders/bottle_placeholder.png" id="12_wtww0"]
+[ext_resource type="Texture2D" uid="uid://dgaustntpa2aw" path="res://assets/Placeholders/milk_placeholder.png" id="13_iiili"]
+[ext_resource type="Texture2D" uid="uid://relkvy0e1h4d" path="res://assets/Placeholders/drink_placeholder.png" id="14_knx5j"]
+[ext_resource type="Script" uid="uid://sv38wo0bfv8f" path="res://scripts/controllers/camera_control.gd" id="16_kru2d"]
+[ext_resource type="Texture2D" uid="uid://cjuuhvu5e2onx" path="res://assets/Placeholders/person_placeholder.png" id="17_vllnl"]
+[ext_resource type="Script" uid="uid://bnh5m0ujdj4yg" path="res://scripts/testing/dialogue.gd" id="18_2d1o8"]
+
+[sub_resource type="Animation" id="Animation_7sjwh"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:offset")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1.5, 1.5)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath(".:destroy")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_8oi7v"]
+resource_name = "collect_trash"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.13333334, 0.3, 0.46666667, 0.7, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:offset")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.033333335, 0.23333333, 0.36666667, 0.43333334),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -30), Vector2(0, -30), Vector2(0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.36666667, 0.56666666),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1.5, 1.5), Vector2(5, 5)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.8333333, 0.9),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath(".:destroy")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.8333333, 0.9),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7fqoy"]
+_data = {
+&"RESET": SubResource("Animation_7sjwh"),
+&"collect_trash": SubResource("Animation_8oi7v")
+}
+
+[node name="Level_1" type="Node2D" node_paths=PackedStringArray("timer")]
+script = ExtResource("1_8d5hf")
+completeCount = 3
+timer = NodePath("Timer")
+
+[node name="Timer" type="Timer" parent="."]
+process_callback = 0
+wait_time = 2.0
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(640, 595)
+scale = Vector2(4.2585716, 4.2657595)
+texture = ExtResource("2_pdt6m")
+
+[node name="Furniture" type="Node2D" parent="."]
+
+[node name="Bookshelf" type="Sprite2D" parent="Furniture"]
+position = Vector2(164, -91)
+scale = Vector2(1.6523438, 1.6523438)
+texture = ExtResource("3_voncs")
+script = ExtResource("4_dxr60")
+
+[node name="Clock" type="Sprite2D" parent="Furniture"]
+position = Vector2(636, -231)
+scale = Vector2(1.7265625, 1.7265625)
+texture = ExtResource("5_f7684")
+script = ExtResource("4_dxr60")
+
+[node name="CornerTable" type="Sprite2D" parent="Furniture"]
+position = Vector2(1074, 114.00001)
+scale = Vector2(1.7265625, 1.7265625)
+texture = ExtResource("6_abqjm")
+
+[node name="CouchBack" type="Sprite2D" parent="Furniture"]
+position = Vector2(621, 1406)
+scale = Vector2(2.2578123, 2.2578123)
+texture = ExtResource("7_lebfx")
+script = ExtResource("4_dxr60")
+
+[node name="CouchForward" type="Sprite2D" parent="Furniture"]
+position = Vector2(641, 64)
+scale = Vector2(1.7656252, 1.7656252)
+texture = ExtResource("8_3nfk3")
+script = ExtResource("4_dxr60")
+
+[node name="CouchLeft" type="Sprite2D" parent="Furniture"]
+position = Vector2(1116, 753)
+scale = Vector2(2.3867188, 2.3867188)
+texture = ExtResource("9_keaxm")
+script = ExtResource("4_dxr60")
+
+[node name="FamPhoto" type="Sprite2D" parent="Furniture"]
+position = Vector2(1042, -224)
+scale = Vector2(1.765625, 1.765625)
+texture = ExtResource("10_lf5cs")
+script = ExtResource("4_dxr60")
+
+[node name="Table" type="Sprite2D" parent="Furniture"]
+position = Vector2(645, 748)
+scale = Vector2(2.2226563, 2.2226563)
+texture = ExtResource("11_h8ee1")
+
+[node name="Trash" type="Node2D" parent="."]
+position = Vector2(1018, 78.335)
+
+[node name="Bottle" type="Sprite2D" parent="Trash"]
+position = Vector2(2, -6.3349986)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("12_wtww0")
+script = ExtResource("4_dxr60")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Trash/Bottle"]
+libraries = {
+&"": SubResource("AnimationLibrary_7fqoy")
+}
+
+[node name="Bottle2" type="Sprite2D" parent="Trash"]
+position = Vector2(78, 727.66504)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("12_wtww0")
+script = ExtResource("4_dxr60")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Trash/Bottle2"]
+libraries = {
+&"": SubResource("AnimationLibrary_7fqoy")
+}
+
+[node name="Milk" type="Sprite2D" parent="Trash"]
+position = Vector2(-437, 587.665)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("13_iiili")
+script = ExtResource("4_dxr60")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Trash/Milk"]
+libraries = {
+&"": SubResource("AnimationLibrary_7fqoy")
+}
+
+[node name="Drink" type="Sprite2D" parent="Trash"]
+position = Vector2(-277, 751.665)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("14_knx5j")
+script = ExtResource("4_dxr60")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Trash/Drink"]
+libraries = {
+&"": SubResource("AnimationLibrary_7fqoy")
+}
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_left = 0
+limit_top = -640
+limit_right = 1280
+limit_bottom = 1920
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+script = ExtResource("16_kru2d")
+can_pan = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Dialogue" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(152, 527)
+texture = ExtResource("17_vllnl")
+script = ExtResource("18_2d1o8")
+
+[node name="DialogueTimer" type="Timer" parent="CanvasLayer/Dialogue"]
+wait_time = 5.0
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="trash_pressed" from="Trash/Bottle" to="CanvasLayer/Dialogue" method="_on_bottle_trash_pressed"]
+[connection signal="trash_pressed" from="Trash/Bottle2" to="CanvasLayer/Dialogue" method="_on_bottle_trash_pressed"]
+[connection signal="trash_pressed" from="Trash/Milk" to="CanvasLayer/Dialogue" method="_on_milk_trash_pressed"]
+[connection signal="trash_pressed" from="Trash/Drink" to="CanvasLayer/Dialogue" method="_on_drink_trash_pressed"]
+[connection signal="timeout" from="CanvasLayer/Dialogue/DialogueTimer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="CanvasLayer/Dialogue/DialogueTimer" to="CanvasLayer/Dialogue" method="_on_dialogue_timer_timeout"]

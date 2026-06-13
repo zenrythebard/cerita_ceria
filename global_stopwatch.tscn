@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfb5vwdx02nw6"]
+
+[ext_resource type="Script" uid="uid://dlugtf3q05ipo" path="res://global_stopwatch.gd" id="1_3tur6"]
+[ext_resource type="PackedScene" uid="uid://c04tadjjxaajd" path="res://addons/stopwatch/Stopwatch.tscn" id="2_pwvtb"]
+
+[node name="GlobalStopwatch" type="Node"]
+script = ExtResource("1_3tur6")
+
+[node name="Stopwatch" parent="." instance=ExtResource("2_pwvtb")]
+autostart = true
