@@ -1,0 +1,158 @@
+[gd_scene load_steps=11 format=3 uid="uid://cdwgamjyqj0t5"]
+
+[ext_resource type="Script" uid="uid://o6qitafem6s3" path="res://scripts/level_select.gd" id="1_7g76b"]
+[ext_resource type="Texture2D" uid="uid://b1y2p3k4wvrba" path="res://UI/menu_bg/bg_bab1.png" id="2_u04ib"]
+[ext_resource type="Texture2D" uid="uid://s62fy70e51nq" path="res://UI/UI Blank/Rectangle 28.png" id="3_eofv3"]
+[ext_resource type="Texture2D" uid="uid://brs2guxeosv2q" path="res://UI/menu_bg/bg_bab4.png" id="3_u04ib"]
+[ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="4_jw526"]
+[ext_resource type="Texture2D" uid="uid://bxyvvfd7ckfvm" path="res://assets/alam semesta/pantai/benda hidup/pohon kelapa.PNG" id="7_7g76b"]
+[ext_resource type="Texture2D" uid="uid://g7x1ctg7mnty" path="res://assets/alam semesta/pantai/pasir.PNG" id="8_u04ib"]
+[ext_resource type="Texture2D" uid="uid://eee130i5xs2l" path="res://assets/alam semesta/pantai/benda alam mati/kerang.PNG" id="9_eofv3"]
+[ext_resource type="Texture2D" uid="uid://bd62coqewyget" path="res://assets/alam semesta/pantai/benda hidup/kepiting.PNG" id="10_jw526"]
+[ext_resource type="Script" uid="uid://c5kcfyhpvpdik" path="res://scripts/back_button.gd" id="10_lu2pp"]
+
+[node name="LevelSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7g76b")
+
+[node name="BgMainMenu" type="Sprite2D" parent="."]
+position = Vector2(1920, 1080)
+scale = Vector2(2, 2)
+texture = ExtResource("2_u04ib")
+
+[node name="BgMainMenu2" type="Sprite2D" parent="."]
+position = Vector2(1920, 1173)
+scale = Vector2(2, 2)
+texture = ExtResource("3_u04ib")
+region_enabled = true
+region_rect = Rect2(0, 93.55533, 1920, 986.4447)
+
+[node name="Pantai" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1415.0
+offset_top = 1091.0
+offset_right = 1882.0
+offset_bottom = 1825.0
+pivot_offset = Vector2(500, 160)
+focus_mode = 0
+flat = true
+vertical_icon_alignment = 0
+
+[node name="Rectangle29" type="NinePatchRect" parent="Pantai"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = 500.0
+offset_right = 468.0
+offset_bottom = 737.0
+texture = ExtResource("3_eofv3")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="PohonKelapa" type="Sprite2D" parent="Pantai"]
+position = Vector2(162.99976, 197)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("7_7g76b")
+
+[node name="Pasir" type="Sprite2D" parent="Pantai"]
+position = Vector2(220, 308)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("8_u04ib")
+
+[node name="Kerang" type="Sprite2D" parent="Pantai"]
+position = Vector2(294, 209)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("9_eofv3")
+
+[node name="Kepiting" type="Sprite2D" parent="Pantai"]
+position = Vector2(293, 312)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("10_jw526")
+
+[node name="Label3" type="Label" parent="Pantai"]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 550.0
+offset_right = 439.0
+offset_bottom = 697.0
+theme_override_fonts/font = ExtResource("4_jw526")
+theme_override_font_sizes/font_size = 60
+text = "Mengenal
+Pantai"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Taman" type="Button" parent="."]
+layout_mode = 0
+offset_left = 2052.0
+offset_top = 1096.0
+offset_right = 2519.0
+offset_bottom = 1830.0
+pivot_offset = Vector2(500, 160)
+focus_mode = 0
+flat = true
+vertical_icon_alignment = 0
+
+[node name="Rectangle30" type="NinePatchRect" parent="Taman"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = 500.0
+offset_right = 468.0
+offset_bottom = 737.0
+texture = ExtResource("3_eofv3")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="Label3" type="Label" parent="Taman"]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 550.0
+offset_right = 439.0
+offset_bottom = 697.0
+theme_override_fonts/font = ExtResource("4_jw526")
+theme_override_font_sizes/font_size = 60
+text = "Mengenal
+Taman"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 3664.0
+offset_top = 14.0
+offset_right = 3820.5781
+offset_bottom = 174.52527
+scale = Vector2(0.7600049, 0.7600049)
+theme_override_font_sizes/font_size = 100
+flat = true
+
+[node name="Settings" type="Button" parent="."]
+layout_mode = 0
+offset_left = 39.000015
+offset_top = 5.0
+offset_right = 461.2221
+offset_bottom = 393.88876
+scale = Vector2(0.36000013, 0.36000013)
+flat = true
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 0
+offset_left = 145.00002
+offset_top = 258.00003
+offset_right = 1064.4441
+offset_bottom = 646.8888
+scale = Vector2(0.36000013, 0.36000013)
+flat = true
+script = ExtResource("10_lu2pp")
+
+[connection signal="pressed" from="Pantai" to="." method="_on_pantai_pressed"]
+[connection signal="pressed" from="Taman" to="." method="_on_taman_pressed"]
+[connection signal="pressed" from="Back" to="Back" method="_on_pressed"]

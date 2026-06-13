@@ -1,0 +1,112 @@
+[gd_scene load_steps=14 format=3 uid="uid://dj18atodh667x"]
+
+[ext_resource type="Script" uid="uid://ceymt1ox7rj12" path="res://scripts/settings.gd" id="1_gis3k"]
+[ext_resource type="Texture2D" uid="uid://1f21qmhw7wu7" path="res://UI/UI Blank/CHECK.png" id="2_4ppmf"]
+[ext_resource type="Texture2D" uid="uid://om4l4nwtow0a" path="res://UI/vol/VOLUME SLIDE BAR-3.png" id="2_83j8s"]
+[ext_resource type="Texture2D" uid="uid://bx4mm5fbgfofx" path="res://UI/vol/Vol Slider 1.png" id="3_gjs24"]
+[ext_resource type="Texture2D" uid="uid://cxneab8gvrrkw" path="res://UI/vol/Vol Slider 2.png" id="4_am25x"]
+[ext_resource type="Texture2D" uid="uid://56pfhdx65fec" path="res://UI/vol/VOLUME SLIDE BAR 2-2.png" id="5_4ppmf"]
+[ext_resource type="Script" uid="uid://hrtquip4l67o" path="res://scripts/slider.gd" id="6_uhhto"]
+[ext_resource type="Texture2D" uid="uid://f3r4mo1dcc50" path="res://UI/X.png" id="8_uhhto"]
+[ext_resource type="Texture2D" uid="uid://c2vo6g8mfxm0p" path="res://UI/UI Blank/RESTART.png" id="9_1g033"]
+[ext_resource type="Texture2D" uid="uid://cqd13sodf2iht" path="res://UI/HOME.png" id="10_01roj"]
+
+[sub_resource type="Gradient" id="Gradient_ubhxj"]
+offsets = PackedFloat32Array(0.43333334)
+colors = PackedColorArray(0, 0, 0, 0.40784314)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_4ppmf"]
+gradient = SubResource("Gradient_ubhxj")
+fill = 2
+fill_from = Vector2(0.52803737, 0.42990655)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3j6r5"]
+texture = ExtResource("5_4ppmf")
+expand_margin_top = 44.0
+expand_margin_bottom = 39.0
+region_rect = Rect2(72, 417.5, 884, 66)
+
+[node name="Settings" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gis3k")
+
+[node name="Darken" type="Sprite2D" parent="."]
+position = Vector2(2110, 107.000015)
+rotation = -3.1415925
+scale = Vector2(121.06997, -205.27133)
+texture = SubResource("GradientTexture2D_4ppmf")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_left = 331.0
+offset_top = 174.0
+offset_right = 2169.0
+offset_bottom = 1057.0
+texture = ExtResource("2_4ppmf")
+region_rect = Rect2(64, 64, 896, 880)
+patch_margin_left = 208
+patch_margin_top = 240
+patch_margin_right = 224
+patch_margin_bottom = 224
+
+[node name="Volume Slider" type="Node2D" parent="."]
+position = Vector2(1252, 813)
+
+[node name="Volume Background" type="Sprite2D" parent="Volume Slider"]
+position = Vector2(-6.840332, 395.15967)
+scale = Vector2(1.6799994, 1.6799994)
+texture = ExtResource("2_83j8s")
+
+[node name="Volume" type="HSlider" parent="Volume Slider"]
+offset_left = -672.84033
+offset_top = -423.84027
+offset_right = 665.15967
+offset_bottom = 600.15967
+theme_override_icons/grabber = ExtResource("3_gjs24")
+theme_override_icons/grabber_highlight = ExtResource("4_am25x")
+theme_override_icons/grabber_disabled = ExtResource("3_gjs24")
+theme_override_styles/slider = SubResource("StyleBoxTexture_3j6r5")
+script = ExtResource("6_uhhto")
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 0
+offset_left = 465.99976
+offset_top = 383.99997
+offset_right = 1165.9998
+offset_bottom = 617.0
+scale = Vector2(0.32000124, 0.32000124)
+flat = true
+
+[node name="Back" type="Sprite2D" parent="Back"]
+position = Vector2(350, 106)
+texture = ExtResource("8_uhhto")
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 779.0
+offset_top = 303.0
+offset_right = 1648.7872
+offset_bottom = 1109.5737
+scale = Vector2(0.32000124, 0.32000124)
+theme_override_font_sizes/font_size = 100
+flat = true
+
+[node name="Sprite2D2" type="Sprite2D" parent="Quit"]
+position = Vector2(430.26025, 362.00095)
+texture = ExtResource("9_1g033")
+
+[node name="Sprite2D" type="Sprite2D" parent="Quit"]
+position = Vector2(430.2603, 362.00082)
+scale = Vector2(0.789475, 0.789475)
+texture = ExtResource("10_01roj")
+
+[connection signal="mouse_exited" from="Volume Slider/Volume" to="Volume Slider/Volume" method="_on_mouse_exited"]
+[connection signal="value_changed" from="Volume Slider/Volume" to="." method="_on_volume_value_changed"]
+[connection signal="value_changed" from="Volume Slider/Volume" to="Volume Slider/Volume" method="_on_value_changed"]
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

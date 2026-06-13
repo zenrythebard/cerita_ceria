@@ -1,0 +1,1385 @@
+[gd_scene load_steps=90 format=4 uid="uid://bf2vu7c4mxiag"]
+
+[ext_resource type="Script" uid="uid://xv621io6pjn4" path="res://scripts/bab_1a_bersih-bersih/level_control.gd" id="1_rjr1t"]
+[ext_resource type="PackedScene" uid="uid://dvt7tnqcq6tc7" path="res://scenes/hud_ui.tscn" id="2_fbfib"]
+[ext_resource type="PackedScene" uid="uid://bcxmwmf8cvj21" path="res://scenes/camera_component.tscn" id="3_qlxjn"]
+[ext_resource type="Texture2D" uid="uid://dy217qmewrf52" path="res://tiles/512 Tile Map Dinding Dapur 4.png" id="4_6tku2"]
+[ext_resource type="Script" uid="uid://damv6oq6yqong" path="res://scripts/camera_buttons.gd" id="4_kx1lf"]
+[ext_resource type="Script" uid="uid://cf7r63pf67kba" path="res://scripts/bab_1a_bersih-bersih/darken.gd" id="5_rpq1b"]
+[ext_resource type="Texture2D" uid="uid://rulplvwsc58k" path="res://tiles/LANTAI RUANG TAMU KESELURUHAN.png" id="6_x67mp"]
+[ext_resource type="Texture2D" uid="uid://dlvtc0cd36xrk" path="res://tiles/Tak berjudul33_20260416141712.png" id="7_e67lv"]
+[ext_resource type="Texture2D" uid="uid://dii8qq6snaj7h" path="res://tiles/256 Dapur.png" id="8_3mvfp"]
+[ext_resource type="Texture2D" uid="uid://ces21acfn4mtg" path="res://tiles/64 x 64 Tile Map Lantai Toilet.png" id="8_3nlbr"]
+[ext_resource type="Texture2D" uid="uid://vb5ttfsek3pb" path="res://tiles/512 Dapur.png" id="9_aj485"]
+[ext_resource type="Texture2D" uid="uid://bsn7f8x7i78xa" path="res://tiles/Tak berjudul38_20260420141942.png" id="9_kyhs1"]
+[ext_resource type="Texture2D" uid="uid://bm46fx1v17i37" path="res://tiles/128x128 tamu.png" id="10_7r5mn"]
+[ext_resource type="Texture2D" uid="uid://cxbvo2bctw0y7" path="res://tiles/512 Tile Map Dinding Dapur 1.png" id="10_q1pn2"]
+[ext_resource type="Texture2D" uid="uid://d3jeji5t8bqnb" path="res://tiles/512 Tile Map Dinding Dapur 2.png" id="11_3p3jh"]
+[ext_resource type="Texture2D" uid="uid://vnjw8lb2kfnm" path="res://tiles/512 Tile Map Dinding Dapur 3.png" id="12_t534m"]
+[ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="13_q0fhj"]
+[ext_resource type="Script" uid="uid://o6fi2k5k8j88" path="res://scripts/count_label.gd" id="14_d0cch"]
+[ext_resource type="Script" uid="uid://clngot2kpm07s" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item.gd" id="15_wol00"]
+[ext_resource type="Texture2D" uid="uid://c8w7v0rbfdc1j" path="res://assets/dapur/countertop.PNG" id="16_aj485"]
+[ext_resource type="Texture2D" uid="uid://13lx6lfg812x" path="res://assets/dapur/pisau.PNG" id="16_q1pn2"]
+[ext_resource type="Texture2D" uid="uid://divcdk5ew8ohe" path="res://assets/dapur/kitchen set atas 2x.png" id="16_uf7vo"]
+[ext_resource type="Texture2D" uid="uid://b5h3c4jytxqqy" path="res://assets/dapur/spatula.PNG" id="17_3p3jh"]
+[ext_resource type="Texture2D" uid="uid://7uwx3opc1vh4" path="res://assets/dapur/kitchen set bawah gabungan.png" id="17_5krf0"]
+[ext_resource type="Script" uid="uid://cx86xr4l84pe7" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item_clickable.gd" id="17_7aa5d"]
+[ext_resource type="Texture2D" uid="uid://br5vq8x8ggdpf" path="res://assets/dapur/celemek.PNG" id="17_q1pn2"]
+[ext_resource type="Texture2D" uid="uid://djwdc7hhrj2x7" path="res://assets/dapur/kulkas.png" id="18_1uauo"]
+[ext_resource type="Texture2D" uid="uid://pqetd3gpvbiv" path="res://assets/dapur/kompor.png" id="19_o17as"]
+[ext_resource type="Texture2D" uid="uid://b0i7y832jgeiu" path="res://assets/dapur/wajan gantung.png" id="22_rpq1b"]
+[ext_resource type="Texture2D" uid="uid://bchmbosytrcdl" path="res://assets/dapur/kettle listrik.PNG" id="23_0ga8i"]
+[ext_resource type="Texture2D" uid="uid://dmlb7wj48xlcp" path="res://assets/dapur/gunting.PNG" id="23_4oi75"]
+[ext_resource type="Texture2D" uid="uid://b4xfy11ia0alm" path="res://assets/dapur/panci di atas kompor.PNG" id="23_rirkw"]
+[ext_resource type="Texture2D" uid="uid://u1n0odbftj74" path="res://assets/dapur/sarung tangan (gantung).PNG" id="24_rjr1t"]
+[ext_resource type="Texture2D" uid="uid://chsrmmshnltef" path="res://assets/dapur/tempat telur.PNG" id="26_qlxjn"]
+[ext_resource type="Texture2D" uid="uid://47en56qp2c07" path="res://assets/dapur/saklar.PNG" id="26_ywyih"]
+[ext_resource type="Texture2D" uid="uid://dbctipuc6041e" path="res://assets/dapur/talenan.PNG" id="27_kx1lf"]
+[ext_resource type="Texture2D" uid="uid://cy20xbevhah17" path="res://assets/tempat sampah/tempat sampah 2.PNG" id="30_4hy0a"]
+[ext_resource type="Texture2D" uid="uid://dails8cneqbfk" path="res://assets/dapur/gantungan dapur.png" id="30_rpq1b"]
+[ext_resource type="Texture2D" uid="uid://b348wvo8npo45" path="res://assets/bukan sampah/mangkok kotor.PNG" id="30_x67mp"]
+[ext_resource type="Texture2D" uid="uid://bylkbmtlp24ab" path="res://assets/dapur/dispenser warna alt 2.PNG" id="31_u5s4n"]
+[ext_resource type="Texture2D" uid="uid://hkwbofd23ba4" path="res://assets/dapur/wastafel.PNG" id="32_6gdnk"]
+[ext_resource type="Texture2D" uid="uid://bcb2egnns11eb" path="res://assets/dapur/stoo kontak.PNG" id="32_ywyih"]
+[ext_resource type="Script" uid="uid://b724fo2wi1863" path="res://scripts/bab_1a_bersih-bersih/trashlvl_completion_cond.gd" id="37_bktoy"]
+[ext_resource type="Texture2D" uid="uid://b3rgr54qpaj6e" path="res://assets/sampah anorganik/botol plastik.png" id="38_e7nw3"]
+[ext_resource type="Animation" uid="uid://ua48vfmq66k0" path="res://collect_animation.res" id="39_4nwrh"]
+[ext_resource type="Animation" uid="uid://bb0mi1853lx1e" path="res://showcase_animation.res" id="40_vms8i"]
+[ext_resource type="Texture2D" uid="uid://dwc5glqkg3uc1" path="res://assets/sampah anorganik/snack.png" id="42_3exxo"]
+[ext_resource type="Texture2D" uid="uid://mwltg1ymyne5" path="res://assets/sampah anorganik/cup air plastik kecil.PNG" id="46_huv4u"]
+[ext_resource type="Texture2D" uid="uid://ca2jw0jqb7b8m" path="res://assets/sampah anorganik/susu kosomg.PNG" id="46_rpq1b"]
+[ext_resource type="Texture2D" uid="uid://115c8cxypj0y" path="res://assets/sampah organik/kulit pisang.PNG" id="47_xa5io"]
+[ext_resource type="Texture2D" uid="uid://cxt5tf82gg0j2" path="res://assets/sampah anorganik/mie cup.PNG" id="48_dmrg4"]
+[ext_resource type="Texture2D" uid="uid://baowswyg0adpm" path="res://assets/sampah organik/cangkang telur.PNG" id="48_qlxjn"]
+[ext_resource type="Texture2D" uid="uid://d2hys3oainirl" path="res://assets/sampah organik/tulang ayam.PNG" id="49_x67mp"]
+[ext_resource type="Script" uid="uid://dalcdquitp5oe" path="res://scripts/bab_1a_bersih-bersih/key_item.gd" id="51_6g5jl"]
+[ext_resource type="Texture2D" uid="uid://dn7tpfmt6gm8d" path="res://assets/sampah anorganik/bumbu saset.PNG" id="51_e67lv"]
+[ext_resource type="Texture2D" uid="uid://dmwp1c0upaogw" path="res://assets/bukan sampah/kunci mobil.PNG" id="52_6ei4c"]
+[ext_resource type="Texture2D" uid="uid://clru6io8s8xcp" path="res://assets/kotoran/debu.png" id="53_iuuvh"]
+[ext_resource type="Texture2D" uid="uid://blq0rx5ocplwr" path="res://assets/sampah anorganik/telur kosng.PNG" id="53_kx1lf"]
+[ext_resource type="Texture2D" uid="uid://c0u5w44pt1uja" path="res://assets/sampah anorganik/kaleng bekas.PNG" id="54_3nlbr"]
+[ext_resource type="Texture2D" uid="uid://4eckhmcitwlj" path="res://assets/kotoran/bekas.png" id="54_gldsx"]
+[ext_resource type="Texture2D" uid="uid://cs6a0a2ogix1v" path="res://assets/sampah organik/kulit apel.PNG" id="54_rpq1b"]
+[ext_resource type="Texture2D" uid="uid://d4c1n5iam3vi3" path="res://assets/sampah organik/tulang ikan.PNG" id="55_x67mp"]
+
+[sub_resource type="Gradient" id="Gradient_kawpp"]
+offsets = PackedFloat32Array(0.43333334)
+colors = PackedColorArray(0, 0, 0, 0.40784314)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_65or1"]
+gradient = SubResource("Gradient_kawpp")
+fill = 2
+fill_from = Vector2(0.52803737, 0.42990655)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rpq1b"]
+texture = ExtResource("6_x67mp")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+16:0/0 = 0
+17:0/0 = 0
+18:0/0 = 0
+19:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+16:1/0 = 0
+17:1/0 = 0
+18:1/0 = 0
+19:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+12:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+16:2/0 = 0
+17:2/0 = 0
+18:2/0 = 0
+19:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+13:3/0 = 0
+14:3/0 = 0
+15:3/0 = 0
+16:3/0 = 0
+17:3/0 = 0
+18:3/0 = 0
+19:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+11:4/0 = 0
+12:4/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+16:4/0 = 0
+17:4/0 = 0
+18:4/0 = 0
+19:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+11:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+16:5/0 = 0
+17:5/0 = 0
+18:5/0 = 0
+19:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+10:6/0 = 0
+11:6/0 = 0
+12:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+15:6/0 = 0
+16:6/0 = 0
+17:6/0 = 0
+18:6/0 = 0
+19:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+10:7/0 = 0
+11:7/0 = 0
+12:7/0 = 0
+13:7/0 = 0
+14:7/0 = 0
+15:7/0 = 0
+16:7/0 = 0
+17:7/0 = 0
+18:7/0 = 0
+19:7/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x67mp"]
+texture = ExtResource("7_e67lv")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+4:1/0 = 0
+3:1/0 = 0
+2:1/0 = 0
+1:1/0 = 0
+0:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e67lv"]
+texture = ExtResource("4_6tku2")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3nlbr"]
+texture = ExtResource("8_3nlbr")
+texture_region_size = Vector2i(128, 128)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kyhs1"]
+texture = ExtResource("9_kyhs1")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+1:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7r5mn"]
+texture = ExtResource("10_7r5mn")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jta8i"]
+texture = ExtResource("8_3mvfp")
+texture_region_size = Vector2i(256, 256)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0d8tf"]
+texture = ExtResource("9_aj485")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q0fhj"]
+texture = ExtResource("10_q1pn2")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d0cch"]
+texture = ExtResource("11_3p3jh")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wol00"]
+texture = ExtResource("12_t534m")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_3nlbr"]
+tile_size = Vector2i(512, 512)
+sources/0 = SubResource("TileSetAtlasSource_rpq1b")
+sources/1 = SubResource("TileSetAtlasSource_x67mp")
+sources/2 = SubResource("TileSetAtlasSource_3nlbr")
+sources/3 = SubResource("TileSetAtlasSource_kyhs1")
+sources/4 = SubResource("TileSetAtlasSource_7r5mn")
+sources/5 = SubResource("TileSetAtlasSource_jta8i")
+sources/6 = SubResource("TileSetAtlasSource_0d8tf")
+sources/7 = SubResource("TileSetAtlasSource_q0fhj")
+sources/8 = SubResource("TileSetAtlasSource_d0cch")
+sources/9 = SubResource("TileSetAtlasSource_wol00")
+sources/10 = SubResource("TileSetAtlasSource_e67lv")
+
+[sub_resource type="Gradient" id="Gradient_rpq1b"]
+offsets = PackedFloat32Array(0.19433962, 0.46792454, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1, 0.52, 0.52, 0.52, 0.52)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_ubhxj"]
+gradient = SubResource("Gradient_rpq1b")
+fill = 1
+fill_from = Vector2(0.50934577, 0.4813084)
+fill_to = Vector2(0, 0.8551402)
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_sof0w"]
+blend_mode = 4
+light_mode = 2
+particles_animation = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="Gradient" id="Gradient_x67mp"]
+offsets = PackedFloat32Array(0.7266667, 1)
+colors = PackedColorArray(0, 0, 0, 0.7254902, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_sof0w"]
+gradient = SubResource("Gradient_x67mp")
+fill_from = Vector2(0.5233645, 0)
+fill_to = Vector2(0.4906542, 1)
+
+[sub_resource type="Animation" id="Animation_jvyjx"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_qh3vj"]
+resource_name = "showcase_other"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.1, 0.33333334, 1.6, 1.8666667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(2000, 1100)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.1, 0.36666667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1.7, 1.7)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_n10ko"]
+_data = {
+&"RESET": SubResource("Animation_jvyjx"),
+&"showcase_other": SubResource("Animation_qh3vj")
+}
+
+[sub_resource type="Animation" id="Animation_ubhxj"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite:offset:y")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:destroy")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_65or1"]
+_data = {
+&"RESET": SubResource("Animation_ubhxj"),
+&"collect_animation": ExtResource("39_4nwrh"),
+&"showcase_animation": ExtResource("40_vms8i")
+}
+
+[sub_resource type="Animation" id="Animation_svnrg"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1483, -898)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:destroy")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_uwsp3"]
+resource_name = "showcase_key"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.03333333),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(2000, 1100)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.033333335),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(3, 3)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.03333333, 0.33333334, 1.6666666, 1.9333333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:destroy")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(1.6333333, 1.9),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_svnrg"]
+_data = {
+&"RESET": SubResource("Animation_svnrg"),
+&"showcase_key": SubResource("Animation_uwsp3")
+}
+
+[node name="Dapur L1" type="Node2D" node_paths=PackedStringArray("camera_comp")]
+script = ExtResource("1_rjr1t")
+camera_comp = NodePath("CameraComponent")
+
+[node name="HUD UI" parent="." instance=ExtResource("2_fbfib")]
+visible = false
+
+[node name="CameraComponent" parent="." node_paths=PackedStringArray("camera_2d") instance=ExtResource("3_qlxjn")]
+camera_2d = NodePath("Camera2D")
+
+[node name="Camera2D" type="Camera2D" parent="CameraComponent"]
+unique_name_in_owner = true
+position = Vector2(3039, -1462)
+limit_left = 0
+limit_top = -4600
+limit_right = 6655
+limit_bottom = 2165
+position_smoothing_enabled = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+script = ExtResource("4_kx1lf")
+camera_speed = 50.0
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Darken" type="Sprite2D" parent="."]
+visible = false
+z_index = 5
+position = Vector2(2110, 107.000015)
+rotation = -3.1415925
+scale = Vector2(121.06997, -205.27133)
+texture = SubResource("GradientTexture2D_65or1")
+script = ExtResource("5_rpq1b")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAACAPn/CAAAAAAAAAABAPn/CAAAAAAAAAAAAPj/CAAAAAAAAAAAAPf/CAAAAAAAAAABAPf/CAAAAAAAAAACAPf/CAAAAAAAAAACAAAABgAAAAIAAAACAP//BgAAAAIAAAACAP7/BgAAAAIAAAABAP7/BgAAAAIAAAABAP//BgAAAAIAAAABAAAABgAAAAIAAAABAAEABgAAAAIAAAACAAEABgAAAAIAAAADAP//BgAAAAIAAAADAP7/BgAAAAIAAAADAAAABgAAAAIAAAADAAEABgAAAAIAAAADAAIABgAAAAIAAAAEAP7/BgAAAAIAAAAFAP7/BgAAAAIAAAAGAP7/BgAAAAIAAAAGAP//BgAAAAIAAAAHAP//BgAAAAIAAAAHAP7/BgAAAAIAAAAEAP//BgAAAAIAAAAFAP//BgAAAAIAAAAGAAAABgAAAAIAAAAHAAAABgAAAAIAAAAFAAAABgAAAAIAAAAEAAAABgAAAAIAAAAAAAAABgAAAAIAAAAAAP//BgAAAAIAAAAAAP7/BgAAAAIAAAAAAP3/BwAAAAAAAAABAP3/BwAAAAAAAAACAP3/BwAAAAAAAAADAP3/BwAAAAAAAAAEAP3/BwAAAAAAAAAFAP3/BwAAAAAAAAAGAP3/BwAAAAAAAAAHAP3/BwAAAAAAAAAHAAEABgAAAAIAAAAHAAIABgAAAAIAAAAHAAMABgAAAAIAAAAHAAQABgAAAAIAAAAHAAUABgAAAAIAAAAGAAUABgAAAAIAAAAFAAUABgAAAAIAAAAEAAUABgAAAAIAAAADAAUABgAAAAIAAAACAAUABgAAAAIAAAABAAUABgAAAAIAAAAAAAUABgAAAAIAAAAAAAQABgAAAAIAAAAAAAMABgAAAAIAAAAAAAIABgAAAAIAAAAAAAEABgAAAAIAAAABAAIABgAAAAIAAAABAAMABgAAAAIAAAABAAQABgAAAAIAAAACAAMABgAAAAIAAAACAAIABgAAAAIAAAACAAQABgAAAAIAAAADAAQABgAAAAIAAAAEAAQABgAAAAIAAAAFAAQABgAAAAIAAAAGAAQABgAAAAIAAAAGAAMABgAAAAIAAAAGAAIABgAAAAIAAAAFAAIABgAAAAIAAAAFAAEABgAAAAIAAAAFAAMABgAAAAIAAAAEAAMABgAAAAIAAAAEAAIABgAAAAIAAAAEAAEABgAAAAIAAAADAAMABgAAAAIAAAAGAAEABgAAAAIAAAAAAAYABgAAAAIAAAABAAYABgAAAAIAAAACAAYABgAAAAIAAAADAAYABgAAAAIAAAAEAAYABgAAAAIAAAAFAAYABgAAAAIAAAAGAAYABgAAAAIAAAAHAAYABgAAAAIAAAAIAP3/BwAAAAAAAAAIAP7/BgAAAAIAAAAIAP//BgAAAAIAAAAIAAAABgAAAAIAAAAIAAEABgAAAAIAAAAIAAIABgAAAAIAAAAJAAIABgAAAAIAAAAJAAEABgAAAAIAAAAJAAAABgAAAAIAAAAJAP//BgAAAAIAAAAJAP7/BgAAAAIAAAAJAP3/BwAAAAAAAAAKAP3/BwAAAAAAAAAKAP7/BgAAAAIAAAAKAP//BgAAAAIAAAAKAAAABgAAAAIAAAAKAAEABgAAAAIAAAAKAAIABgAAAAIAAAAKAAMABgAAAAIAAAAKAAQABgAAAAIAAAAKAAUABgAAAAIAAAAKAAYABgAAAAIAAAAJAAYABgAAAAIAAAAIAAYABgAAAAIAAAAIAAUABgAAAAIAAAAIAAQABgAAAAIAAAAIAAMABgAAAAIAAAAJAAMABgAAAAIAAAAJAAQABgAAAAIAAAAJAAUABgAAAAIAAAAAAPz/CgAAAAAAAAABAPz/CgAAAAAAAAACAPz/CgAAAAAAAAADAPz/CgAAAAAAAAAEAPz/CgAAAAAAAAAFAPz/CgAAAAAAAAAGAPz/CgAAAAAAAAAHAPz/CgAAAAAAAAAIAPz/CgAAAAAAAAAJAPz/CgAAAAAAAAAKAPz/CgAAAAAAAAAAAPv/CAAAAAAAAAABAPv/CAAAAAAAAAACAPv/CAAAAAAAAAADAPv/CAAAAAAAAAAEAPv/CAAAAAAAAAAFAPv/CAAAAAAAAAAGAPv/CAAAAAAAAAAHAPv/CAAAAAAAAAAIAPv/CAAAAAAAAAAJAPv/CAAAAAAAAAAKAPv/CAAAAAAAAAAKAPr/CAAAAAAAAAAKAPn/CAAAAAAAAAAKAPj/CAAAAAAAAAAJAPj/CAAAAAAAAAAIAPj/CAAAAAAAAAAHAPj/CAAAAAAAAAAGAPf/CAAAAAAAAAAFAPf/CAAAAAAAAAAEAPf/CAAAAAAAAAAEAPj/CAAAAAAAAAADAPj/CAAAAAAAAAACAPj/CAAAAAAAAAABAPj/CAAAAAAAAAADAPf/CAAAAAAAAAAAAPn/CAAAAAAAAAADAPn/CAAAAAAAAAAEAPn/CAAAAAAAAAAFAPn/CAAAAAAAAAAGAPn/CAAAAAAAAAAGAPj/CAAAAAAAAAAFAPj/CAAAAAAAAAAHAPf/CAAAAAAAAAAIAPf/CAAAAAAAAAAJAPf/CAAAAAAAAAAKAPf/CAAAAAAAAAAJAPn/CAAAAAAAAAAJAPr/CAAAAAAAAAAIAPn/CAAAAAAAAAAIAPr/CAAAAAAAAAAHAPr/CAAAAAAAAAAHAPn/CAAAAAAAAAAGAPr/CAAAAAAAAAAFAPr/CAAAAAAAAAAEAPr/CAAAAAAAAAADAPr/CAAAAAAAAAACAPr/CAAAAAAAAAABAPr/CAAAAAAAAAAAAPr/CAAAAAAAAAALAAQABgAAAAIAAAALAAUABgAAAAIAAAALAAYABgAAAAIAAAAMAAQABgAAAAIAAAAMAAUABgAAAAIAAAAMAAYABgAAAAIAAAAMAAEABgAAAAIAAAAMAAIABgAAAAIAAAAMAAMABgAAAAIAAAAMAP7/BgAAAAIAAAAMAP//BgAAAAIAAAAMAAAABgAAAAIAAAALAP7/BgAAAAIAAAALAP//BgAAAAIAAAALAAAABgAAAAIAAAALAAEABgAAAAIAAAALAAIABgAAAAIAAAALAAMABgAAAAIAAAALAP3/BwAAAAAAAAAMAP3/BwAAAAAAAAALAPz/CgAAAAAAAAAMAPz/CgAAAAAAAAALAPv/CAAAAAAAAAALAPr/CAAAAAAAAAALAPn/CAAAAAAAAAALAPj/CAAAAAAAAAALAPf/CAAAAAAAAAAMAPf/CAAAAAAAAAAMAPj/CAAAAAAAAAAMAPn/CAAAAAAAAAAMAPr/CAAAAAAAAAAMAPv/CAAAAAAAAAA=")
+tile_set = SubResource("TileSet_3nlbr")
+
+[node name="CanvasShow" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+
+[node name="Label" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("13_q0fhj")
+theme_override_font_sizes/font_size = 50
+script = ExtResource("14_d0cch")
+item_counter = NodePath("../../Items/Trash")
+label_text = "Sampah yang harus dibuang"
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(3010.5002, -475.98438)
+scale = Vector2(174.51563, 151.06299)
+energy = 0.93
+blend_mode = 2
+texture = SubResource("GradientTexture2D_ubhxj")
+
+[node name="Items" type="Node2D" parent="."]
+position = Vector2(49, 0)
+
+[node name="ShadowLayer" type="Node2D" parent="Items"]
+
+[node name="Shadow" type="Sprite2D" parent="Items/ShadowLayer"]
+modulate = Color(0.19607843, 0.19607843, 0.19607843, 0.57254905)
+material = SubResource("CanvasItemMaterial_sof0w")
+position = Vector2(3282.5, -891.5)
+scale = Vector2(104.296875, 7.7031245)
+texture = SubResource("GradientTexture2D_sof0w")
+
+[node name="Shadow2" type="Sprite2D" parent="Items/ShadowLayer"]
+modulate = Color(0.19607843, 0.19607843, 0.19607843, 0.57254905)
+material = SubResource("CanvasItemMaterial_sof0w")
+position = Vector2(3360.2349, -1544.9121)
+rotation = 3.1415927
+scale = Vector2(111.27389, 16.519115)
+texture = SubResource("GradientTexture2D_sof0w")
+
+[node name="Shadow3" type="Sprite2D" parent="Items/ShadowLayer"]
+modulate = Color(0.19607843, 0.19607843, 0.19607843, 0.57254905)
+material = SubResource("CanvasItemMaterial_sof0w")
+position = Vector2(3115.0598, 2380.753)
+rotation = 3.1415927
+scale = Vector2(110.08102, 38.659863)
+texture = SubResource("GradientTexture2D_sof0w")
+
+[node name="Furniture" type="Node2D" parent="Items"]
+z_index = 1
+
+[node name="Interactible" type="Node2D" parent="Items/Furniture"]
+unique_name_in_owner = true
+
+[node name="Spatula" type="Node2D" parent="Items/Furniture/Interactible"]
+z_index = 2
+position = Vector2(1519, -1626)
+script = ExtResource("15_wol00")
+type = "interact"
+item = "spatula"
+
+[node name="Sprite" type="Sprite2D" parent="Items/Furniture/Interactible/Spatula"]
+rotation = 1.6057029
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("17_3p3jh")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Furniture/Interactible/Spatula"]
+libraries = {
+&"": SubResource("AnimationLibrary_n10ko")
+}
+
+[node name="Wajan" type="Node2D" parent="Items/Furniture/Interactible"]
+z_index = 2
+position = Vector2(1519, -1626)
+script = ExtResource("15_wol00")
+type = "interact"
+item = "wajan"
+
+[node name="Sprite" type="Sprite2D" parent="Items/Furniture/Interactible/Wajan"]
+position = Vector2(156, -52)
+texture = ExtResource("22_rpq1b")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Furniture/Interactible/Wajan"]
+libraries = {
+&"": SubResource("AnimationLibrary_n10ko")
+}
+
+[node name="Pisau" type="Node2D" parent="Items/Furniture/Interactible"]
+z_index = 2
+position = Vector2(3837, -88)
+script = ExtResource("15_wol00")
+type = "interact"
+item = "pisau"
+
+[node name="Sprite" type="Sprite2D" parent="Items/Furniture/Interactible/Pisau"]
+rotation = 0.71733034
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("16_q1pn2")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Furniture/Interactible/Pisau"]
+libraries = {
+&"": SubResource("AnimationLibrary_n10ko")
+}
+
+[node name="Panci" type="Node2D" parent="Items/Furniture/Interactible"]
+z_index = 2
+position = Vector2(700, -1705)
+script = ExtResource("15_wol00")
+type = "interact"
+item = "panci"
+
+[node name="Sprite" type="Sprite2D" parent="Items/Furniture/Interactible/Panci"]
+position = Vector2(-197, 222)
+texture = ExtResource("23_rirkw")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Furniture/Interactible/Panci"]
+libraries = {
+&"": SubResource("AnimationLibrary_n10ko")
+}
+
+[node name="SarungTangan" type="Node2D" parent="Items/Furniture/Interactible"]
+z_index = 2
+position = Vector2(5185, -2200)
+script = ExtResource("15_wol00")
+type = "interact"
+item = "sarung_tangan"
+
+[node name="Sprite" type="Sprite2D" parent="Items/Furniture/Interactible/SarungTangan"]
+position = Vector2(-601, 16)
+rotation = 1.6144296
+texture = ExtResource("24_rjr1t")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Furniture/Interactible/SarungTangan"]
+libraries = {
+&"": SubResource("AnimationLibrary_n10ko")
+}
+
+[node name="Cerek" type="Node2D" parent="Items/Furniture/Interactible"]
+z_index = 2
+position = Vector2(2764, -1748)
+script = ExtResource("15_wol00")
+type = "interact"
+item = "cerek"
+
+[node name="Sprite" type="Sprite2D" parent="Items/Furniture/Interactible/Cerek"]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("23_0ga8i")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Furniture/Interactible/Cerek"]
+libraries = {
+&"": SubResource("AnimationLibrary_n10ko")
+}
+
+[node name="Talenan" type="Node2D" parent="Items/Furniture/Interactible"]
+z_index = 2
+position = Vector2(3623, 636)
+script = ExtResource("15_wol00")
+type = "interact"
+item = "talenan"
+
+[node name="Sprite" type="Sprite2D" parent="Items/Furniture/Interactible/Talenan"]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("27_kx1lf")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Furniture/Interactible/Talenan"]
+libraries = {
+&"": SubResource("AnimationLibrary_n10ko")
+}
+
+[node name="Gunting" type="Node2D" parent="Items/Furniture/Interactible"]
+z_index = 2
+position = Vector2(2505, 334)
+script = ExtResource("15_wol00")
+type = "interact"
+item = "gunting"
+
+[node name="Sprite" type="Sprite2D" parent="Items/Furniture/Interactible/Gunting"]
+rotation = 0.71733034
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("23_4oi75")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Furniture/Interactible/Gunting"]
+libraries = {
+&"": SubResource("AnimationLibrary_n10ko")
+}
+
+[node name="Celemek" type="Node2D" parent="Items/Furniture/Interactible"]
+z_index = 2
+position = Vector2(3837, -88)
+script = ExtResource("15_wol00")
+type = "interact"
+item = "celemek"
+
+[node name="Sprite" type="Sprite2D" parent="Items/Furniture/Interactible/Celemek"]
+position = Vector2(2208.9998, -1875.9999)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("17_q1pn2")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Furniture/Interactible/Celemek"]
+libraries = {
+&"": SubResource("AnimationLibrary_n10ko")
+}
+
+[node name="Mangkok" type="Node2D" parent="Items/Furniture/Interactible"]
+z_index = 2
+position = Vector2(3623, 636)
+script = ExtResource("15_wol00")
+type = "interact"
+item = "mangkok"
+
+[node name="Sprite" type="Sprite2D" parent="Items/Furniture/Interactible/Mangkok"]
+position = Vector2(-1617, -2279)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("30_x67mp")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Furniture/Interactible/Mangkok"]
+libraries = {
+&"": SubResource("AnimationLibrary_n10ko")
+}
+
+[node name="Static" type="Node2D" parent="Items/Furniture"]
+position = Vector2(34, 135)
+
+[node name="TempatTelur" type="Sprite2D" parent="Items/Furniture/Static"]
+z_index = 1
+position = Vector2(2358, -1892)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("26_qlxjn")
+
+[node name="GantunganDapur" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(2395, -1809)
+texture = ExtResource("30_rpq1b")
+
+[node name="GantunganDapur2" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(1655, -1814)
+texture = ExtResource("30_rpq1b")
+
+[node name="Saklar" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(6422.0005, -2301)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("26_ywyih")
+
+[node name="Countertop" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(2680, 437)
+texture = ExtResource("16_aj485")
+
+[node name="KitchenSetAtas2x" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(2467, -3173)
+texture = ExtResource("16_uf7vo")
+
+[node name="KitchenSetBawahGabungan" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(2419, -1631)
+texture = ExtResource("17_5krf0")
+
+[node name="Kulkas" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(4300, -1775)
+texture = ExtResource("18_1uauo")
+
+[node name="Kompor" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(466, -1658)
+texture = ExtResource("19_o17as")
+
+[node name="StopKontak" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(2836, -2265)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("32_ywyih")
+
+[node name="StopKontak2" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(2690, -2265)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("32_ywyih")
+
+[node name="DispenserWarnaAlt1" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(5121, -1605)
+scale = Vector2(0.7435484, 0.7435484)
+texture = ExtResource("31_u5s4n")
+
+[node name="TempatSampah2" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(6112, 1370)
+scale = Vector2(0.48000002, 0.48000002)
+texture = ExtResource("30_4hy0a")
+
+[node name="Countertop2" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(3658, 446)
+texture = ExtResource("16_aj485")
+
+[node name="Wastafel" type="Sprite2D" parent="Items/Furniture/Static"]
+position = Vector2(3334, -1624)
+scale = Vector2(1.04, 1.04)
+texture = ExtResource("32_6gdnk")
+
+[node name="Trash" type="Node2D" parent="Items"]
+unique_name_in_owner = true
+z_index = 2
+script = ExtResource("37_bktoy")
+level_type = "trash"
+
+[node name="Botol" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+z_index = -2
+position = Vector2(1440, -320)
+rotation = 0.6806784
+script = ExtResource("15_wol00")
+type = "trash"
+item = "botol"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/Botol"]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("38_e7nw3")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/Botol"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="Susu" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+position = Vector2(2846.0005, 867.00006)
+rotation = 0.6702064
+script = ExtResource("15_wol00")
+type = "trash"
+item = "susu"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/Susu"]
+position = Vector2(-2, -45)
+scale = Vector2(0.19, 0.19)
+texture = ExtResource("46_rpq1b")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/Susu"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="Snack" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+position = Vector2(4591, -255)
+script = ExtResource("15_wol00")
+type = "trash"
+item = "snack"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/Snack"]
+position = Vector2(2, -10)
+rotation = 0.4223697
+scale = Vector2(0.19, 0.19)
+texture = ExtResource("42_3exxo")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/Snack"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="GelasPlastik" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+position = Vector2(750, -244)
+script = ExtResource("15_wol00")
+type = "trash"
+item = "gelas_plastik"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/GelasPlastik"]
+rotation = -1.150172
+scale = Vector2(0.17, 0.17)
+texture = ExtResource("46_huv4u")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/GelasPlastik"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="Pisang" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+position = Vector2(4728, 239)
+script = ExtResource("15_wol00")
+type = "trash"
+item = "pisang"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/Pisang"]
+rotation = 0.6928957
+scale = Vector2(0.17, 0.17)
+texture = ExtResource("47_xa5io")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/Pisang"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="CupMie" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+z_index = 1
+position = Vector2(2612, 673.9999)
+rotation = -0.61086524
+script = ExtResource("15_wol00")
+type = "trash"
+item = "mi_cangkir"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/CupMie"]
+rotation = 0.6928957
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("48_dmrg4")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/CupMie"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="Cangkang" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+z_index = 2
+position = Vector2(2393, -1627)
+script = ExtResource("15_wol00")
+type = "trash"
+item = "cangkang"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/Cangkang"]
+position = Vector2(2, -10)
+rotation = 2.4644048
+scale = Vector2(0.085, 0.085)
+texture = ExtResource("48_qlxjn")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/Cangkang"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="TulangAyam" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+position = Vector2(5835, 534)
+script = ExtResource("15_wol00")
+type = "trash"
+item = "tulang_ayam"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/TulangAyam"]
+position = Vector2(2, -10)
+rotation = -0.50265485
+scale = Vector2(0.12, 0.12)
+texture = ExtResource("49_x67mp")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/TulangAyam"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="Saset" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+position = Vector2(2361, 301)
+script = ExtResource("15_wol00")
+type = "trash"
+item = "saset"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/Saset"]
+rotation = -1.150172
+scale = Vector2(0.17, 0.17)
+texture = ExtResource("51_e67lv")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/Saset"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="Kaleng" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+z_index = 2
+position = Vector2(3440, -63.00006)
+rotation = -0.61086524
+script = ExtResource("15_wol00")
+type = "trash"
+item = "kaleng"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/Kaleng"]
+rotation = 0.6928957
+scale = Vector2(0.14, 0.14)
+texture = ExtResource("54_3nlbr")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/Kaleng"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="KartonTelur" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+z_index = -2
+position = Vector2(1230, 512)
+rotation = -0.61086524
+script = ExtResource("15_wol00")
+type = "trash"
+item = "karton_telur"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/KartonTelur"]
+rotation = 0.6928957
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("53_kx1lf")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/KartonTelur"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="Apel" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+position = Vector2(3347, 331.99982)
+rotation = -0.61086524
+script = ExtResource("15_wol00")
+type = "trash"
+item = "apel"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/Apel"]
+rotation = 0.6928957
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("54_rpq1b")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/Apel"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="TulangIkan" type="Node2D" parent="Items/Trash" node_paths=PackedStringArray("item_counter")]
+position = Vector2(5565, -34.99994)
+rotation = -0.61086524
+script = ExtResource("15_wol00")
+type = "trash"
+item = "tulang_ikan"
+item_counter = NodePath("..")
+
+[node name="Sprite" type="Sprite2D" parent="Items/Trash/TulangIkan"]
+rotation = 0.6928957
+scale = Vector2(0.16, 0.16)
+texture = ExtResource("55_x67mp")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/Trash/TulangIkan"]
+libraries = {
+&"": SubResource("AnimationLibrary_65or1")
+}
+
+[node name="KeyItem" type="Node2D" parent="Items"]
+position = Vector2(1483, -898)
+script = ExtResource("51_6g5jl")
+type = "key"
+item = "key"
+
+[node name="Sprite" type="Sprite2D" parent="Items/KeyItem"]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("52_6ei4c")
+script = ExtResource("17_7aa5d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Items/KeyItem"]
+libraries = {
+&"": SubResource("AnimationLibrary_svnrg")
+}
+
+[node name="DirtGroup" type="Node2D" parent="."]
+
+[node name="Dirt" type="Node2D" parent="DirtGroup"]
+position = Vector2(5362, 80)
+
+[node name="Sprite" type="Sprite2D" parent="DirtGroup/Dirt"]
+position = Vector2(-13, -96)
+texture = ExtResource("53_iuuvh")
+
+[node name="Dirt2" type="Node2D" parent="DirtGroup"]
+z_index = 2
+position = Vector2(2532, -125)
+scale = Vector2(0.5, 0.5)
+
+[node name="Sprite" type="Sprite2D" parent="DirtGroup/Dirt2"]
+modulate = Color(4.7827163, 4.7827163, 4.7827163, 1)
+position = Vector2(-13, -96)
+rotation = 1.9645187
+scale = Vector2(0.5390202, 0.5919373)
+texture = ExtResource("53_iuuvh")
+
+[node name="Dirt6" type="Node2D" parent="DirtGroup"]
+z_index = 2
+position = Vector2(1463, -1626.0001)
+scale = Vector2(0.5, 0.5)
+skew = -1.261873
+
+[node name="Sprite" type="Sprite2D" parent="DirtGroup/Dirt6"]
+modulate = Color(4.7827163, 4.7827163, 4.7827163, 1)
+position = Vector2(-13, -96)
+rotation = 1.9645187
+scale = Vector2(0.5390202, 0.5919373)
+texture = ExtResource("53_iuuvh")
+
+[node name="Dirt5" type="Node2D" parent="DirtGroup"]
+z_index = 2
+position = Vector2(4338, -2521)
+scale = Vector2(0.5, 0.5)
+skew = 1.1588986
+
+[node name="Sprite" type="Sprite2D" parent="DirtGroup/Dirt5"]
+modulate = Color(4.7827163, 4.7827163, 4.7827163, 1)
+position = Vector2(-13, -96)
+rotation = 1.9645187
+scale = Vector2(0.5390202, 0.5919373)
+texture = ExtResource("53_iuuvh")
+
+[node name="Dirt3" type="Node2D" parent="DirtGroup"]
+position = Vector2(1162, -420)
+
+[node name="Sprite" type="Sprite2D" parent="DirtGroup/Dirt3"]
+position = Vector2(22, 124)
+rotation = -2.9606605
+scale = Vector2(0.61372745, 0.61372745)
+texture = ExtResource("54_gldsx")
+
+[node name="Dirt7" type="Node2D" parent="DirtGroup"]
+position = Vector2(1714, 320)
+
+[node name="Sprite" type="Sprite2D" parent="DirtGroup/Dirt7"]
+position = Vector2(22, 124)
+rotation = -2.9606605
+scale = Vector2(0.61372745, 0.61372745)
+texture = ExtResource("54_gldsx")
+
+[node name="Dirt4" type="Node2D" parent="DirtGroup"]
+position = Vector2(5149, 1130)
+
+[node name="Sprite" type="Sprite2D" parent="DirtGroup/Dirt4"]
+position = Vector2(22, 124)
+rotation = -2.9606605
+scale = Vector2(0.60269535, 0.6924219)
+texture = ExtResource("53_iuuvh")
+
+[node name="Dirt8" type="Node2D" parent="DirtGroup"]
+position = Vector2(794, 682)
+
+[node name="Sprite" type="Sprite2D" parent="DirtGroup/Dirt8"]
+position = Vector2(22, 124)
+rotation = -2.9606605
+scale = Vector2(0.60269535, 0.6924219)
+texture = ExtResource("53_iuuvh")
+
+[connection signal="down_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_down_pressed"]
+[connection signal="down_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_down_released"]
+[connection signal="left_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_left_pressed"]
+[connection signal="left_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_left_released"]
+[connection signal="right_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_right_pressed"]
+[connection signal="right_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_right_released"]
+[connection signal="up_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_up_pressed"]
+[connection signal="up_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_up_released"]
+[connection signal="other_pressed" from="Items/Furniture/Interactible/Spatula/Sprite" to="Items/Furniture/Interactible/Spatula" method="_on_sprite_other_pressed"]
+[connection signal="trash_pressed" from="Items/Furniture/Interactible/Spatula/Sprite" to="Items/Furniture/Interactible/Spatula" method="_on_sprite_trash_pressed"]
+[connection signal="other_pressed" from="Items/Furniture/Interactible/Wajan/Sprite" to="Items/Furniture/Interactible/Wajan" method="_on_sprite_other_pressed"]
+[connection signal="trash_pressed" from="Items/Furniture/Interactible/Wajan/Sprite" to="Items/Furniture/Interactible/Wajan" method="_on_sprite_trash_pressed"]
+[connection signal="other_pressed" from="Items/Furniture/Interactible/Pisau/Sprite" to="Items/Furniture/Interactible/Pisau" method="_on_sprite_other_pressed"]
+[connection signal="trash_pressed" from="Items/Furniture/Interactible/Pisau/Sprite" to="Items/Furniture/Interactible/Pisau" method="_on_sprite_trash_pressed"]
+[connection signal="other_pressed" from="Items/Furniture/Interactible/Panci/Sprite" to="Items/Furniture/Interactible/Panci" method="_on_sprite_other_pressed"]
+[connection signal="trash_pressed" from="Items/Furniture/Interactible/Panci/Sprite" to="Items/Furniture/Interactible/Panci" method="_on_sprite_trash_pressed"]
+[connection signal="other_pressed" from="Items/Furniture/Interactible/SarungTangan/Sprite" to="Items/Furniture/Interactible/SarungTangan" method="_on_sprite_other_pressed"]
+[connection signal="trash_pressed" from="Items/Furniture/Interactible/SarungTangan/Sprite" to="Items/Furniture/Interactible/SarungTangan" method="_on_sprite_trash_pressed"]
+[connection signal="other_pressed" from="Items/Furniture/Interactible/Cerek/Sprite" to="Items/Furniture/Interactible/Cerek" method="_on_sprite_other_pressed"]
+[connection signal="trash_pressed" from="Items/Furniture/Interactible/Cerek/Sprite" to="Items/Furniture/Interactible/Cerek" method="_on_sprite_trash_pressed"]
+[connection signal="other_pressed" from="Items/Furniture/Interactible/Talenan/Sprite" to="Items/Furniture/Interactible/Talenan" method="_on_sprite_other_pressed"]
+[connection signal="trash_pressed" from="Items/Furniture/Interactible/Talenan/Sprite" to="Items/Furniture/Interactible/Talenan" method="_on_sprite_trash_pressed"]
+[connection signal="other_pressed" from="Items/Furniture/Interactible/Gunting/Sprite" to="Items/Furniture/Interactible/Gunting" method="_on_sprite_other_pressed"]
+[connection signal="trash_pressed" from="Items/Furniture/Interactible/Gunting/Sprite" to="Items/Furniture/Interactible/Gunting" method="_on_sprite_trash_pressed"]
+[connection signal="other_pressed" from="Items/Furniture/Interactible/Celemek/Sprite" to="Items/Furniture/Interactible/Celemek" method="_on_sprite_other_pressed"]
+[connection signal="trash_pressed" from="Items/Furniture/Interactible/Celemek/Sprite" to="Items/Furniture/Interactible/Celemek" method="_on_sprite_trash_pressed"]
+[connection signal="other_pressed" from="Items/Furniture/Interactible/Mangkok/Sprite" to="Items/Furniture/Interactible/Mangkok" method="_on_sprite_other_pressed"]
+[connection signal="placable_pressed" from="Items/Furniture/Interactible/Mangkok/Sprite" to="Items/Furniture/Interactible/Mangkok" method="_on_sprite_placable_pressed"]
+[connection signal="trash_pressed" from="Items/Furniture/Interactible/Mangkok/Sprite" to="Items/Furniture/Interactible/Mangkok" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/Botol/Sprite" to="Items/Trash/Botol" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/Susu/Sprite" to="Items/Trash/Susu" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/Snack/Sprite" to="Items/Trash/Snack" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/GelasPlastik/Sprite" to="Items/Trash/GelasPlastik" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/Pisang/Sprite" to="Items/Trash/Pisang" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/CupMie/Sprite" to="Items/Trash/CupMie" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/Cangkang/Sprite" to="Items/Trash/Cangkang" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/TulangAyam/Sprite" to="Items/Trash/TulangAyam" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/Saset/Sprite" to="Items/Trash/Saset" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/Kaleng/Sprite" to="Items/Trash/Kaleng" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/KartonTelur/Sprite" to="Items/Trash/KartonTelur" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/Apel/Sprite" to="Items/Trash/Apel" method="_on_sprite_trash_pressed"]
+[connection signal="trash_pressed" from="Items/Trash/TulangIkan/Sprite" to="Items/Trash/TulangIkan" method="_on_sprite_trash_pressed"]
+[connection signal="key_item_pressed" from="Items/KeyItem/Sprite" to="Items/KeyItem" method="_on_sprite_key_item_pressed"]

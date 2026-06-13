@@ -1,0 +1,77 @@
+[gd_scene load_steps=5 format=3 uid="uid://bcxmwmf8cvj21"]
+
+[ext_resource type="Script" uid="uid://dukm2nc5aechi" path="res://scenes/camera_component.gd" id="1_5kfpg"]
+[ext_resource type="Texture2D" uid="uid://cundu5yq51sga" path="res://UI/pLAY/START.png" id="1_ar1wr"]
+[ext_resource type="Script" uid="uid://d246mtls5hqtt" path="res://scripts/canvas_camera.gd" id="1_u2x2j"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_w2dla"]
+
+[node name="CameraComponent" type="Node"]
+script = ExtResource("1_5kfpg")
+
+[node name="CanvasCamera" type="CanvasLayer" parent="."]
+offset = Vector2(50, 50)
+transform = Transform2D(1, 0, 0, 1, 50, 50)
+script = ExtResource("1_u2x2j")
+
+[node name="Node2D" type="Node2D" parent="CanvasCamera"]
+position = Vector2(-94, -411)
+scale = Vector2(1.2, 1.2)
+
+[node name="UpSprite" type="Sprite2D" parent="CanvasCamera/Node2D"]
+z_index = 50
+position = Vector2(457, 1530.3997)
+rotation = -1.5707964
+scale = Vector2(0.19999939, 0.19999939)
+texture = ExtResource("1_ar1wr")
+
+[node name="UpButton" type="TouchScreenButton" parent="CanvasCamera/Node2D/UpSprite"]
+z_index = 50
+rotation = 1.5707964
+scale = Vector2(57.40018, 57.40018)
+shape = SubResource("CircleShape2D_w2dla")
+
+[node name="DownSprite" type="Sprite2D" parent="CanvasCamera/Node2D"]
+z_index = 50
+position = Vector2(457, 1881.3997)
+rotation = 1.5707964
+scale = Vector2(0.19999939, 0.19999939)
+texture = ExtResource("1_ar1wr")
+
+[node name="DownButton" type="TouchScreenButton" parent="CanvasCamera/Node2D/DownSprite"]
+z_index = 50
+rotation = -1.5707964
+scale = Vector2(57.40018, 57.40018)
+shape = SubResource("CircleShape2D_w2dla")
+
+[node name="RightSprite" type="Sprite2D" parent="CanvasCamera/Node2D"]
+z_index = 50
+position = Vector2(645.39966, 1705.0001)
+scale = Vector2(0.19999939, 0.19999939)
+texture = ExtResource("1_ar1wr")
+
+[node name="RightButton" type="TouchScreenButton" parent="CanvasCamera/Node2D/RightSprite"]
+z_index = 50
+scale = Vector2(57.40018, 57.40018)
+shape = SubResource("CircleShape2D_w2dla")
+
+[node name="LeftSprite" type="Sprite2D" parent="CanvasCamera/Node2D"]
+z_index = 50
+position = Vector2(269.3997, 1705.0001)
+scale = Vector2(0.19999939, 0.19999939)
+texture = ExtResource("1_ar1wr")
+flip_h = true
+
+[node name="LeftButton" type="TouchScreenButton" parent="CanvasCamera/Node2D/LeftSprite"]
+z_index = 50
+scale = Vector2(57.40018, 57.40018)
+shape = SubResource("CircleShape2D_w2dla")
+
+[connection signal="pressed" from="CanvasCamera/Node2D/UpSprite/UpButton" to="." method="_on_up_button_pressed"]
+[connection signal="released" from="CanvasCamera/Node2D/UpSprite/UpButton" to="." method="_on_up_button_released"]
+[connection signal="pressed" from="CanvasCamera/Node2D/DownSprite/DownButton" to="." method="_on_down_button_pressed"]
+[connection signal="released" from="CanvasCamera/Node2D/DownSprite/DownButton" to="." method="_on_down_button_released"]
+[connection signal="pressed" from="CanvasCamera/Node2D/RightSprite/RightButton" to="." method="_on_right_button_pressed"]
+[connection signal="released" from="CanvasCamera/Node2D/RightSprite/RightButton" to="." method="_on_right_button_released"]
+[connection signal="pressed" from="CanvasCamera/Node2D/LeftSprite/LeftButton" to="." method="_on_left_button_pressed"]
+[connection signal="released" from="CanvasCamera/Node2D/LeftSprite/LeftButton" to="." method="_on_left_button_released"]

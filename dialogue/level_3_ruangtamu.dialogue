@@ -1,0 +1,105 @@
+~ start_tutorial
+IBU:[#voice=uid://c3un4g1d8o5tn] Lihat Tita! Rumah kita jadi rapi sekarang! 
+TITA:[#voice=uid://cp80iasixcesc] Benar bu! Tapi bagaimana dengan debunya? 
+IBU:[#voice=uid://gfh6i2df0lq6] Pilih yang mana yang harus dilakukan dulu, menggunakan kemoceng, sapu, atau pel? 
+IBU: Jangan sampai salah urutan. Nanti, usapkan alat ke permukaan yang kotor.
+IBU:[#voice=uid://bfdwl450roly3]Jangan sampai ada yang terlewat ya.
+=> END
+#------SAMPAH------
+~ success
+TITA: Hebat! Jadi bersih!
+=> END
+~ half
+TITA: Hebat! Tapi kok masih kotor ya?
+=> END
+~ fail
+TITA: Hmm... coba pakai alat lain.
+=> END
+~ neutral
+TITA: Membersihkannya pakai alat apa ya?
+=> END
+~ key
+TITA: Itu [color=#32cd32]kunci mobil[/color] Bapak!
+=> END
+#------------------
+~ lampu
+TITA: [color=#32cd32]Lampu[/color] ini sudah bersih.
+=> END
+~ vas
+TITA: [color=#32cd32]Vas[/color] ini sudah bersih.
+=> END
+~ jam
+TITA: [color=#32cd32]Jam[/color] ini sudah bersih.
+=> END
+~ lukisan
+TITA: [color=#32cd32]Lukisan[/color] ini sudah bersih.
+=> END
+~ tanaman_gantung
+TITA: [color=#32cd32]Tanaman[/color] ini sudah bersih.
+=> END
+~ pohon_indoor
+TITA: [color=#32cd32]Tanaman[/color] ini sudah bersih.
+=> END
+~ layang2
+IBU: Main [color=#32cd32]layang-layang[/color]nya nanti aja ya.
+=> END
+~ bola
+IBU: Main [color=#32cd32]bola[/color]nya nanti dulu ya.
+=> END
+~ buku
+IBU: Baca [color=#32cd32]buku[/color]nya nanti dulu ya.
+=> END
+
+~ karpet
+TITA: [color=#32cd32]Karpet[/color] ini sudah bersih.
+=> END
+~ tanaman_pot
+TITA: [color=#32cd32]Tanaman pot[/color] ini sudah bersih.
+=> END
+~ televisi
+TITA: [color=#32cd32]Televisi[/color] ini sudah bersih.
+=> END
+~ kipas
+TITA: [color=#32cd32]Kipas[/color] ini sudah bersih.
+=> END
+
+#-------------------
+~ find_key
+IBU: Ruangannya sudah bersih, tapi kunci mobil Bapak masih belum ketemu ya.
+IBU: Coba carilah kembali, Tita.
+=> END
+~ level_end_r_tamu
+IBU:[#voice=uid://jaht5tqf50hx] Wah! Akhirnya semuanya menjadi bersih! 
+TITA: [#voice=uid://fb8lap6078e6] Aku menemukan kunci milik Bapak!
+BAPAK: [#voice=uid://dykhe4wl0oe4y] Terimakasih Tita, kalian pintar sekali!
+TITA:[#voice=uid://blfkm5g21jsiu] Sekarang kita tahu kalau menjaga kebersihan rumah itu penting untuk kenyamanan kita! 
+TITA:[#voice=uid://blfkm5g21jsiu]Barang bapak jadi tidak hilang lagi deh!
+=> END
+
+~ level_end_dapur
+IBU: Terimakasih Tita, sudah membantu ibu membersihkan dapur.
+=> END
+
+
+#----------NON-SAMPAH DAPUR---------------
+~ spatula
+TITA: [color=#32cd32]Spatula[/color] ini sudah bersih.
+~ wajan
+TITA: [color=#32cd32]Wajan[/color] ini sudah bersih.
+~ panci
+TITA: [color=#32cd32]Panci[/color] ini sudah bersih.
+~ sarung_tangan
+TITA: [color=#32cd32]sarung tangan[/color] ini sudah bersih.
+~ cerek
+TITA: [color=#32cd32]cerek[/color] ini sudah bersih.
+~ talenan
+TITA: [color=#32cd32]talenan[/color] ini sudah bersih.
+~ celemek
+TITA: [color=#32cd32]celemek[/color] ini sudah bersih.
+
+~ mangkok
+IBU: [color=#32cd32]mangkok[/color]nya nanti dicuci oleh ibu saja.
+~ gunting
+IBU: [color=#32cd32]Gunting[/color]nya nanti dicuci oleh ibu saja.
+~ pisau
+IBU: [color=#32cd32]Pisau[/color]nya nanti dicuci oleh ibu saja.

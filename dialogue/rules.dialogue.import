@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c2eol7yukc1jx"
+path="res://.godot/imported/rules.dialogue-ea40f5fbd2279d3cfac9effd4eb182b2.tres"
+
+[deps]
+
+source_file="res://dialogue/rules.dialogue"
+dest_files=["res://.godot/imported/rules.dialogue-ea40f5fbd2279d3cfac9effd4eb182b2.tres"]
+
+[params]
+
+defaults=true

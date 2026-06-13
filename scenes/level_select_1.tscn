@@ -1,0 +1,194 @@
+[gd_scene load_steps=11 format=3 uid="uid://c42vyble0fpuq"]
+
+[ext_resource type="Script" uid="uid://o6qitafem6s3" path="res://scripts/level_select.gd" id="1_u0tq7"]
+[ext_resource type="Texture2D" uid="uid://b1y2p3k4wvrba" path="res://UI/menu_bg/bg_bab1.png" id="2_odtkg"]
+[ext_resource type="Texture2D" uid="uid://s62fy70e51nq" path="res://UI/UI Blank/Rectangle 28.png" id="3_qcn1u"]
+[ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="4_7n2e0"]
+[ext_resource type="Texture2D" uid="uid://crhe6xjqdc8d8" path="res://assets/tempat sampah/tempat sampah anorganik.PNG" id="5_qcn1u"]
+[ext_resource type="Texture2D" uid="uid://cb41rlky2eh47" path="res://assets/sampah anorganik/kresek sampah.PNG" id="6_6l2qe"]
+[ext_resource type="Texture2D" uid="uid://cnut5caq4vaw8" path="res://assets/tempat sampah/tempat sampah organik.PNG" id="6_7n2e0"]
+[ext_resource type="Texture2D" uid="uid://db37xqpvgy5y" path="res://assets/sampah organik/daun kering 1.PNG" id="6_gbqi5"]
+[ext_resource type="Texture2D" uid="uid://cvem3jkmlnlme" path="res://assets/kotoran/sapu.png" id="7_sh6l6"]
+[ext_resource type="Script" uid="uid://c5kcfyhpvpdik" path="res://scripts/back_button.gd" id="10_gbqi5"]
+
+[node name="LevelSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_u0tq7")
+
+[node name="BgMainMenu" type="Sprite2D" parent="."]
+position = Vector2(1920, 1080)
+scale = Vector2(2, 2)
+texture = ExtResource("2_odtkg")
+
+[node name="Bersih" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1097.0
+offset_top = 1091.0
+offset_right = 1564.0
+offset_bottom = 1825.0
+pivot_offset = Vector2(500, 160)
+focus_mode = 0
+flat = true
+vertical_icon_alignment = 0
+
+[node name="Rectangle29" type="NinePatchRect" parent="Bersih"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = 517.0
+offset_right = 468.0
+offset_bottom = 737.0
+texture = ExtResource("3_qcn1u")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="Label3" type="Label" parent="Bersih"]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 550.0
+offset_right = 439.0
+offset_bottom = 697.0
+theme_override_fonts/font = ExtResource("4_7n2e0")
+theme_override_font_sizes/font_size = 60
+text = "Bersih
+Bersih!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Kresek" type="Sprite2D" parent="Bersih"]
+position = Vector2(147, 294)
+scale = Vector2(0.13177422, 0.13177422)
+texture = ExtResource("6_6l2qe")
+
+[node name="DaunKering1" type="Sprite2D" parent="Bersih"]
+position = Vector2(283, 307)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("6_gbqi5")
+
+[node name="Sapu" type="Sprite2D" parent="Bersih"]
+position = Vector2(251, 207)
+rotation = -0.3403392
+scale = Vector2(0.3600012, 0.3600012)
+texture = ExtResource("7_sh6l6")
+
+[node name="Memilah" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1734.0
+offset_top = 1096.0
+offset_right = 2201.0
+offset_bottom = 1830.0
+pivot_offset = Vector2(500, 160)
+focus_mode = 0
+flat = true
+vertical_icon_alignment = 0
+
+[node name="Rectangle29" type="NinePatchRect" parent="Memilah"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = 517.0
+offset_right = 468.0
+offset_bottom = 737.0
+texture = ExtResource("3_qcn1u")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="TempatSampahAnorganik" type="Sprite2D" parent="Memilah"]
+position = Vector2(135.79999, 245.00012)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("5_qcn1u")
+
+[node name="TempatSampahOrganik" type="Sprite2D" parent="Memilah"]
+position = Vector2(325.99988, 245)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("6_7n2e0")
+
+[node name="Label3" type="Label" parent="Memilah"]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 550.0
+offset_right = 439.0
+offset_bottom = 697.0
+theme_override_fonts/font = ExtResource("4_7n2e0")
+theme_override_font_sizes/font_size = 60
+text = "Memilah
+Sampah"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Mendaur" type="Button" parent="."]
+layout_mode = 0
+offset_left = 2330.0
+offset_top = 1096.0
+offset_right = 2797.0
+offset_bottom = 1830.0
+pivot_offset = Vector2(500, 160)
+focus_mode = 0
+flat = true
+vertical_icon_alignment = 0
+
+[node name="Rectangle29" type="NinePatchRect" parent="Mendaur"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = 517.0
+offset_right = 468.0
+offset_bottom = 737.0
+texture = ExtResource("3_qcn1u")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="Label3" type="Label" parent="Mendaur"]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 550.0
+offset_right = 439.0
+offset_bottom = 697.0
+theme_override_fonts/font = ExtResource("4_7n2e0")
+theme_override_font_sizes/font_size = 60
+text = "Mendaur
+Ulang"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 3664.0
+offset_top = 14.0
+offset_right = 3820.5781
+offset_bottom = 174.52527
+scale = Vector2(0.7600049, 0.7600049)
+theme_override_font_sizes/font_size = 100
+flat = true
+
+[node name="Settings" type="Button" parent="."]
+layout_mode = 0
+offset_left = 39.000015
+offset_top = 5.0
+offset_right = 461.2221
+offset_bottom = 393.88876
+scale = Vector2(0.36000013, 0.36000013)
+flat = true
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 0
+offset_left = 145.00002
+offset_top = 258.00003
+offset_right = 1064.4441
+offset_bottom = 646.8888
+scale = Vector2(0.36000013, 0.36000013)
+flat = true
+script = ExtResource("10_gbqi5")
+
+[connection signal="pressed" from="Bersih" to="." method="_on_bersih_pressed"]
+[connection signal="pressed" from="Memilah" to="." method="_on_memilah_pressed"]
+[connection signal="pressed" from="Mendaur" to="." method="_on_mendaur_pressed"]
+[connection signal="pressed" from="Back" to="Back" method="_on_pressed"]

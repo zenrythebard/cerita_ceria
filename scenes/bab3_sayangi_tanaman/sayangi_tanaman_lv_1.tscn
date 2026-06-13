@@ -1,0 +1,114 @@
+[gd_scene load_steps=12 format=3 uid="uid://c436lbksu3ecs"]
+
+[ext_resource type="Texture2D" uid="uid://c41ulefwaoyb3" path="res://illustration/Bab 3 - Sayangi Tanaman/bg kelas_duduk_blur.PNG" id="1_kn7y6"]
+[ext_resource type="Script" uid="uid://p2555xvvjdfu" path="res://scenes/bab3_sayangi_tanaman/sayangi_tanaman_lvcontrol.gd" id="1_yqack"]
+[ext_resource type="Texture2D" uid="uid://c2ltm8f50vook" path="res://illustration/Bab 3 - Sayangi Tanaman/meja_panjang.png" id="2_itung"]
+[ext_resource type="PackedScene" uid="uid://dvt7tnqcq6tc7" path="res://scenes/hud_ui.tscn" id="2_lrald"]
+[ext_resource type="Script" uid="uid://b2lfcxdbkq8fk" path="res://scenes/bab3_sayangi_tanaman/plant_object.gd" id="3_07jql"]
+[ext_resource type="Texture2D" uid="uid://b2cpwwi0ta4xt" path="res://assets/sayangi tanaman/gelas _ wadah.PNG" id="4_yqack"]
+[ext_resource type="Script" uid="uid://bv7ndueoa81i3" path="res://scripts/bab_1b_memilah_sampah/sprite_click.gd" id="5_jtnjq"]
+[ext_resource type="Texture2D" uid="uid://deit65xheh21h" path="res://assets/sayangi tanaman/kapas tampak depan.PNG" id="7_jtnjq"]
+[ext_resource type="Texture2D" uid="uid://deaf2lunhvuyn" path="res://assets/sayangi tanaman/biji kacang hijau.PNG" id="8_5fwue"]
+[ext_resource type="PackedScene" uid="uid://bcxmwmf8cvj21" path="res://scenes/camera_component.tscn" id="10_lltbf"]
+[ext_resource type="Script" uid="uid://damv6oq6yqong" path="res://scripts/camera_buttons.gd" id="11_mflkn"]
+
+[node name="Sayangi Tanaman LV1" type="Node2D"]
+script = ExtResource("1_yqack")
+
+[node name="CameraComponent" parent="." node_paths=PackedStringArray("camera_2d") instance=ExtResource("10_lltbf")]
+camera_2d = NodePath("Camera2D")
+disable_h = true
+disable_v = true
+
+[node name="Camera2D" type="Camera2D" parent="CameraComponent"]
+unique_name_in_owner = true
+position = Vector2(1949, 1087)
+limit_left = 0
+limit_top = -3900
+limit_right = 3900
+limit_bottom = 3700
+position_smoothing_enabled = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+script = ExtResource("11_mflkn")
+camera_speed = 50.0
+
+[node name="HUD UI" parent="." instance=ExtResource("2_lrald")]
+layer = 7
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="CanvasLayer"]
+offset_left = -28.0
+offset_right = 3849.0
+offset_bottom = 2186.0
+expand = true
+
+[node name="BgKelasDudukSekelas" type="Sprite2D" parent="."]
+modulate = Color(0.29586652, 0.2958665, 0.2958665, 1)
+position = Vector2(1920.7988, 1088.4589)
+scale = Vector2(2.0799987, 2.0799987)
+texture = ExtResource("1_kn7y6")
+
+[node name="MejaPanjang" type="Sprite2D" parent="."]
+position = Vector2(1944.7988, 1277.0001)
+scale = Vector2(1.79537, 1.79537)
+texture = ExtResource("2_itung")
+
+[node name="CenterPoint" type="Sprite2D" parent="."]
+position = Vector2(1887, 881)
+scale = Vector2(0.53, 0.53)
+
+[node name="ObjectGelas" type="Node2D" parent="." node_paths=PackedStringArray("level_controler")]
+position = Vector2(2919, 1570)
+script = ExtResource("3_07jql")
+object_name = "gelas"
+object_order = 1
+level_controler = NodePath("..")
+
+[node name="ClickSprite" type="Sprite2D" parent="ObjectGelas"]
+scale = Vector2(0.53, 0.53)
+texture = ExtResource("4_yqack")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("5_jtnjq")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="ObjectKapas" type="Node2D" parent="." node_paths=PackedStringArray("level_controler")]
+position = Vector2(1870, 1652)
+script = ExtResource("3_07jql")
+object_name = "kapas"
+object_order = 2
+level_controler = NodePath("..")
+
+[node name="ClickSprite" type="Sprite2D" parent="ObjectKapas"]
+scale = Vector2(0.45, 0.45)
+texture = ExtResource("7_jtnjq")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("5_jtnjq")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="ObjectBiji" type="Node2D" parent="." node_paths=PackedStringArray("level_controler")]
+position = Vector2(964, 1645)
+script = ExtResource("3_07jql")
+object_name = "kapas"
+object_order = 3
+level_controler = NodePath("..")
+
+[node name="ClickSprite" type="Sprite2D" parent="ObjectBiji"]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("8_5fwue")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("5_jtnjq")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[connection signal="down_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_down_pressed"]
+[connection signal="down_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_down_released"]
+[connection signal="left_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_left_pressed"]
+[connection signal="left_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_left_released"]
+[connection signal="right_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_right_pressed"]
+[connection signal="right_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_right_released"]
+[connection signal="up_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_up_pressed"]
+[connection signal="up_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_up_released"]
+[connection signal="neutral_pressed" from="ObjectGelas/ClickSprite" to="ObjectGelas" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="ObjectKapas/ClickSprite" to="ObjectKapas" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="ObjectBiji/ClickSprite" to="ObjectBiji" method="_on_click_sprite_neutral_pressed"]

@@ -1,0 +1,29 @@
+~ start_tutorial
+BAPAK: Sekarang, kita kumpulkan daun daun dan ranting kering. 
+BAPAK: Taruh didekat pohon atau tumbuhan sebagai pupuk alami.
+=> END
+~ daun
+TITO: Ayo [color=#32cd32]daun[/color]nya kumpulkan!
+=> END
+#----------------NON-DAUN-----------------
+~ bungaan
+TITO: Itu [color=#32cd32]pot bunga[/color], bukan daun...
+=> END
+~ bush
+TITO: Itu [color=#32cd32]semak[/color], bukan daun...
+=> END
+~ kendi
+TITO: Itu [color=#32cd32]kendi air[/color], bukan daun...
+=> END
+~ kolam
+TITO: Itu [color=#32cd32]kolam ikan[/color], bukan daun...
+=> END
+~ lampu
+TITO: Itu [color=#32cd32]lampu-lampu taman[/color], bukan daun...
+=> END
+~ gelas
+TITO: [color=#32cd32]Gelas[/color] kotor ini seharusnya dibawa kemana ya...
+=> END
+~ mangkok
+TITO: [color=#32cd32]Mangkok[/color] kotor ini seharusnya dibawa kemana ya...
+=> END

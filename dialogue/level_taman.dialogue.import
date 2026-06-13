@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://ddfn2gkgtnb28"
+path="res://.godot/imported/level_taman.dialogue-31d6f06fe5ddc2352af76ab7c1e3f3cb.tres"
+
+[deps]
+
+source_file="res://dialogue/level_taman.dialogue"
+dest_files=["res://.godot/imported/level_taman.dialogue-31d6f06fe5ddc2352af76ab7c1e3f3cb.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://byic4evgruyd3"
+path="res://.godot/imported/level_2_ruangtamu.dialogue-a87236fd5d3b8656a2ec01cd868632b5.tres"
+
+[deps]
+
+source_file="res://dialogue/level_2_ruangtamu.dialogue"
+dest_files=["res://.godot/imported/level_2_ruangtamu.dialogue-a87236fd5d3b8656a2ec01cd868632b5.tres"]
+
+[params]
+
+defaults=true

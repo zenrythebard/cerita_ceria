@@ -1,0 +1,98 @@
+#32cd32 Green Highlight
+~ start_tutorial
+TITA: [#voice=uid://crnq6ih60k4v5] Fyuh! Akhirnya ruangan ini jadi lebih lega! 
+IBU: [#voice=uid://cqnn4f1n4hutq] Nah, selanjutnya kita akan menata kembali barang barang ke tempat semula.  
+IBU: [#voice=uid://b4ci41w0t8ugs]Taruhlah barang barang yang bisa diinteraksikan ke tempat-tempat yang sudah diberi tanda. 
+=> END
+#----------FURNITURE---------------
+~ lampu
+TITA: [#voice=uid://brqvdrgcpft6b] [color=#32cd32]Lampu[/color] ini sudah benar tempatnya. 
+=> END
+~ vas
+TITA: [color=#32cd32]Vas[/color] ini sudah benar tempatnya.
+=> END
+~ jam
+TITA: [color=#32cd32]Jam[/color] ini sudah benar tempatnya.
+=> END
+~ lukisan
+TITA: [color=#32cd32]Lukisan[/color] ini sudah benar tempatnya.
+=> END
+~ tanaman_gantung
+TITA: [color=#32cd32]Tanaman[/color] ini sudah benar tempatnya.
+=> END
+~ pohon_indoor
+TITA: [color=#32cd32]Tanaman[/color] ini sudah benar tempatnya.
+=> END
+#----------PLACABLE---------------
+~ buku
+TITA: Ayo cari tempat buat [color=#32cd32]buku[/color] ini.
+=> END
+~ layang2
+TITA: Ayo cari tempat buat [color=#32cd32]layang-layang[/color] ini.
+=> END
+~ bola
+TITA: Ayo cari tempat buat [color=#32cd32]bola[/color] ini.
+=> END
+~ key
+TITA: Itu [color=#32cd32]kunci mobil[/color] Bapak!
+=> END
+~ jaket
+TITA: [color=#32cd32]Jaket[/color] Bapak seharusnya dibawa kemana ya...
+=> END
+~ gelas
+TITA: [color=#32cd32]Gelas[/color] kotor ini seharusnya dibawa kemana ya...
+=> END
+~ mangkok
+TITA: [color=#32cd32]Mangkok[/color] kotor ini seharusnya dibawa kemana ya...
+=> END
+~ selimut
+TITA: [color=#32cd32]Selimut[/color] ini seharusnya disimpan dimana ya...
+=> END
+~ place_here
+TITA: Hebat!
+=> END
+
+#----------DAPUR PLACABLE---------------
+~ spatula
+TITA: [color=#32cd32]Spatula[/color] ini seharusnya disimpan dimana ya...
+~ pisau
+TITA: [color=#32cd32]Pisau[/color] ini seharusnya disimpan dimana ya...
+~ panci
+TITA: [color=#32cd32]Panci[/color] ini seharusnya disimpan dimana ya...
+~ sarung_tangan
+TITA: [color=#32cd32]Sarung tangan[/color] ini seharusnya disimpan dimana ya...
+~ talenan
+TITA: [color=#32cd32]Talenan[/color] ini seharusnya disimpan dimana ya...
+~ gunting
+TITA: [color=#32cd32]Gunting[/color] ini seharusnya disimpan dimana ya...
+
+
+#----------DAPUR NONPLACABLE---------------
+~ wajan
+TITA: [color=#32cd32]Wajan[/color] ini sudah benar tempatnya.
+~ celemek
+TITA: [color=#32cd32]Celemek[/color] ini sudah benar tempatnya.
+~ cerek
+TITA: [color=#32cd32]Cerek[/color] ini sudah benar tempatnya.
+
+#----------R KELUARGA PLACABLE---------------
+~ tas
+TITA: [color=#32cd32]Tas[/color]nya Tito ini seharusnya dibawa dimana ya...
+=> END
+~ boneka
+TITA: [color=#32cd32]Boneka[/color] ini seharusnya disimpan dimana ya...
+=> END
+~ karpet
+TITA: [color=#32cd32]/Karpet[/color] ini seharusnya disimpan dimana ya...
+
+#----------R KELUARGA NONPLACABLE------------
+=> END
+~ tanaman_pot
+TITA: [color=#32cd32]Tanaman pot[/color] ini sudah benar tempatnya.
+=> END
+~ televisi
+TITA: [color=#32cd32]Televisi[/color] ini sudah benar tempatnya.
+=> END
+~ kipas
+TITA: [color=#32cd32]Kipas[/color] ini sudah benar tempatnya.
+=> END

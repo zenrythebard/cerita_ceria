@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://grhei24kpgii"
+path="res://.godot/imported/level_2_halamanrumah.dialogue-9069740d39153c2143d98f1515a0f256.tres"
+
+[deps]
+
+source_file="res://dialogue/level_2_halamanrumah.dialogue"
+dest_files=["res://.godot/imported/level_2_halamanrumah.dialogue-9069740d39153c2143d98f1515a0f256.tres"]
+
+[params]
+
+defaults=true

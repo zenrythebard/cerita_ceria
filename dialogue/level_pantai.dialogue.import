@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bmata2ccep7i7"
+path="res://.godot/imported/level_pantai.dialogue-0b8b06cddfec71419e03a5f602d341a3.tres"
+
+[deps]
+
+source_file="res://dialogue/level_pantai.dialogue"
+dest_files=["res://.godot/imported/level_pantai.dialogue-0b8b06cddfec71419e03a5f602d341a3.tres"]
+
+[params]
+
+defaults=true

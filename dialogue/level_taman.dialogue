@@ -1,0 +1,69 @@
+~ start_tutorial
+BAPAK:   [#voice=uid://cnt682oafla6u]Benda-benda di alam sekitar adalah semua hal yang ada di sekeliling kita, dan dibagi menjadi [color=#32cd32]benda hidup[/color] dan [color=#32cd32]benda mati[/color].
+BAPAK:[#voice=uid://raeihon5m2nw] Bisakah kalian menunjukkan manakah [color=#32cd32]benda alam[/color] yang merupakan [color=#32cd32]makhluk hidup[/color], seperti [color=#32cd32]hewan[/color] dan [color=#32cd32]tumbuhan[/color]? 
+=> END
+~ check2
+BAPAK: [#voice=uid://cdbqpycdrhi1w] Keren sekali anak-anak Bapak! Selain [color=#32cd32]benda hidup[/color], ada juga [color=#32cd32]benda mati[/color]. 
+BAPAK:  [#voice=uid://cxmg24oqa4n7f][color=#32cd32]Benda mati[/color] bisa ada di langit seperti [color=#32cd32]matahari[/color], atau di tanah seperti [color=#32cd32]bebatuan[/color]. 
+BAPAK: [#voice=uid://raeihon5m2nw]Sekarang, bisakah kalian menemukan [color=#32cd32]benda alam[/color] yang merupakan [color=#32cd32]benda mati[/color]? 
+=> END
+~ check3
+BAPAK: [#voice=uid://buin8p17i5mc6]Oke! bagaimana kalau kita buat lebih menantang lagi? 
+TITA: Aku siap!
+TITO: Oke!
+=> END
+~ check4
+IBU:[#voice=uid://clrnh1yqstklv] Kerja bagus, anak-anak! 
+TITA:[#voice=uid://dopbkouyq7mey] Yeyyy! 
+TITO: [#voice=uid://yd7jw35mxm8c]Yeyy! 
+=> END
+~ correct
+% 
+	BAPAK: Benar!
+%
+	BAPAK: Bagus sekali!
+% 
+	BAPAK: Hebat!
+=> END
+~ wrongcheck1
+BAPAK: [#voice=uid://10xucvt0xk5m]Itu bukan benda hidup! Kalian perlu mencari benda hidup seperti hewan dan tumbuhan. 
+=> END
+~ wrongcheck2_1
+BAPAK:[#voice=uid://c3jjm87tdhnej] Itu bukan benda mati! Kita perlu mencari benda mati seperti batu, pasir, atau laut. 
+=> END
+~ wrongcheck2_2
+BAPAK:[#voice=uid://bhxepidkqikku] Itu benda mati tapi bukan termasuk benda alam, karena itu buatan manusia. 
+=> END
+~ wrongcheck3
+[#voice=uid://duk1r25n10f8u]Belum tepat, nak. Ayo kita coba pelan-pelan. 
+=> END
+~ hidupputih
+BAPAK: Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=WHITE]putih[/color]
+=> END
+~ hiduphijau
+BAPAK: Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=GREEN]hijau?[/color]
+=> END
+~ hidupmerah
+BAPAK: Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=RED]merah?[/color]
+=> END
+~ matiputih
+BAPAK: Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=#c9c9c9]putih[/color]
+=> END
+~ matihijau
+BAPAK: Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=GREEN]hijau?[/color]
+=> END
+~ matimerah
+BAPAK: Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=RED]merah?[/color]
+=> END
+~ matibiru
+BAPAK: Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=BLUE]biru?[/color]
+=> END
+~ maticokelat
+BAPAK: Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=BROWN]cokelat?[/color]
+=> END
+~ matikuning
+BAPAK: Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=YELLOW]kuning?[/color]
+=> END
+~ hidupkuning
+BAPAK: Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=YELLOW]kuning?[/color]
+=> END

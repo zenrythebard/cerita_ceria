@@ -1,0 +1,612 @@
+[gd_scene load_steps=40 format=3 uid="uid://bjxsi88aqpral"]
+
+[ext_resource type="Script" uid="uid://le58hkx20hnl" path="res://scenes/bab_4_mengenal_alam/explore_level.gd" id="1_d1s76"]
+[ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="2_ck7te"]
+[ext_resource type="PackedScene" uid="uid://dvt7tnqcq6tc7" path="res://scenes/hud_ui.tscn" id="2_rwntn"]
+[ext_resource type="Script" uid="uid://beo37k0f0irhv" path="res://scenes/bab_4_mengenal_alam/explore_label.gd" id="3_mlxsf"]
+[ext_resource type="Script" uid="uid://w2g3bey3lj1f" path="res://scenes/bab_4_mengenal_alam/label_condition.gd" id="4_7o7of"]
+[ext_resource type="Texture2D" uid="uid://c7e30nt1i43jv" path="res://background_taman/1.png" id="5_ck7te"]
+[ext_resource type="Script" uid="uid://bmamgjwkxdsad" path="res://scenes/bab_4_mengenal_alam/label_current_item.gd" id="5_jp8pe"]
+[ext_resource type="Script" uid="uid://c7d7mwp51ouve" path="res://scenes/bab_4_mengenal_alam/exploration_object.gd" id="6_tkql6"]
+[ext_resource type="Texture2D" uid="uid://dqvhr1uti4ys5" path="res://background_taman/2.png" id="7_mlxsf"]
+[ext_resource type="Script" uid="uid://bv7ndueoa81i3" path="res://scripts/bab_1b_memilah_sampah/sprite_click.gd" id="8_2jp0l"]
+[ext_resource type="Texture2D" uid="uid://d125224wdgcq8" path="res://background_taman/3.png" id="9_7o7of"]
+[ext_resource type="Texture2D" uid="uid://clfmy0vd3bejr" path="res://assets/alam semesta/pantai/benda alam mati/matahari.PNG" id="10_ucsm1"]
+[ext_resource type="Texture2D" uid="uid://c2nn1adu0pi78" path="res://background_taman/5.png" id="11_l6wm5"]
+[ext_resource type="Texture2D" uid="uid://d2w5nom43j7in" path="res://background_taman/full taman.png" id="12_tkql6"]
+[ext_resource type="Texture2D" uid="uid://djdd6j6uh7b8w" path="res://background_taman/6.png" id="13_t0qxk"]
+[ext_resource type="Texture2D" uid="uid://bm8fv45sapexb" path="res://background_taman/7.png" id="14_2jp0l"]
+[ext_resource type="Texture2D" uid="uid://revknmvnu7t6" path="res://background_pantai/Bagian 2.png" id="15_mdoh6"]
+[ext_resource type="Texture2D" uid="uid://y8tyb8k25mwg" path="res://background_taman/8.png" id="15_mlxsf"]
+[ext_resource type="Script" uid="uid://by31pg1ngot6x" path="res://scenes/bab_4_mengenal_alam/exploration_controler.gd" id="16_bxbio"]
+[ext_resource type="Texture2D" uid="uid://dhd1hhfcymr1d" path="res://background_taman/9.png" id="16_mlxsf"]
+[ext_resource type="Texture2D" uid="uid://ba1sruhdxkmwh" path="res://assets/alam semesta/taman/benda hidup/burung merpati.PNG" id="18_7o7of"]
+[ext_resource type="Texture2D" uid="uid://bkanpio88r1dq" path="res://assets/alam semesta/taman/benda hidup/kucing.PNG" id="19_l6wm5"]
+[ext_resource type="Texture2D" uid="uid://dbxkha0nu4f3f" path="res://assets/alam semesta/taman/benda alam mati/ranting.PNG" id="19_mlxsf"]
+[ext_resource type="Texture2D" uid="uid://daur3legso3ta" path="res://assets/alam semesta/taman/benda mati/pagar.PNG" id="19_tkql6"]
+[ext_resource type="Texture2D" uid="uid://dhcksl6gvitw7" path="res://assets/alam semesta/taman/benda hidup/rumput.PNG" id="20_tkql6"]
+[ext_resource type="Texture2D" uid="uid://chekm81b8kndl" path="res://assets/alam semesta/taman/benda hidup/tanaman hias (bunga).PNG" id="22_7o7of"]
+[ext_resource type="Texture2D" uid="uid://dckks1ofbujla" path="res://assets/alam semesta/taman/benda mati/bola.PNG" id="23_7o7of"]
+[ext_resource type="Texture2D" uid="uid://dtpue6cax8u1q" path="res://assets/alam semesta/taman/bangku taman.PNG" id="23_uc14x"]
+[ext_resource type="Texture2D" uid="uid://c6upcgamo1bew" path="res://assets/alam semesta/taman/benda mati/layangan.PNG" id="24_7o7of"]
+[ext_resource type="Texture2D" uid="uid://bpedldfvm55nj" path="res://assets/alam semesta/taman/semak.PNG" id="27_cm50u"]
+[ext_resource type="Texture2D" uid="uid://b31elw0sgqiem" path="res://assets/alam semesta/taman/IMG_2031.PNG" id="27_l6wm5"]
+[ext_resource type="Texture2D" uid="uid://1rojup26spt1" path="res://assets/alam semesta/taman/speeda.PNG" id="29_6woyi"]
+[ext_resource type="PackedScene" uid="uid://bcxmwmf8cvj21" path="res://scenes/camera_component.tscn" id="36_boqru"]
+[ext_resource type="Texture2D" uid="uid://82eq35x08idf" path="res://background_taman/10.png" id="37_7o7of"]
+[ext_resource type="Script" uid="uid://damv6oq6yqong" path="res://scripts/camera_buttons.gd" id="37_ra0gn"]
+[ext_resource type="Texture2D" uid="uid://dlvdsbt1lygh5" path="res://background_taman/11.png" id="38_7o7of"]
+[ext_resource type="Script" uid="uid://h3nnvebfxopn" path="res://scenes/bab_4_mengenal_alam/exploration_characters.gd" id="38_cdya5"]
+[ext_resource type="Texture2D" uid="uid://cwmiuywh33lw2" path="res://assets/characters/Fullbody/Tita.PNG" id="39_xqp3l"]
+[ext_resource type="Texture2D" uid="uid://mnuqejbgc5bv" path="res://assets/characters/Fullbody/Tito.PNG" id="40_hrr77"]
+
+[node name="MengenalTaman L1" type="Node2D"]
+script = ExtResource("1_d1s76")
+
+[node name="HUD UI" parent="." instance=ExtResource("2_rwntn")]
+
+[node name="CanvasShow" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+layer = 5
+
+[node name="LabelCount" type="Label" parent="CanvasShow"]
+offset_left = 81.0
+offset_top = 194.0
+offset_right = 121.0
+offset_bottom = 254.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_ck7te")
+theme_override_font_sizes/font_size = 50
+script = ExtResource("3_mlxsf")
+label_text = "Target objek"
+
+[node name="LabelCondition" type="Label" parent="CanvasShow"]
+offset_left = 81.0
+offset_top = 82.0
+offset_right = 121.0
+offset_bottom = 142.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_ck7te")
+theme_override_font_sizes/font_size = 50
+script = ExtResource("4_7o7of")
+
+[node name="LabelCurrentItem" type="Label" parent="CanvasShow"]
+z_index = 24
+offset_left = 5.0
+offset_top = 392.0
+offset_right = 3837.0
+offset_bottom = 536.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 6
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("2_ck7te")
+theme_override_font_sizes/font_size = 160
+text = "ITEM NAME"
+horizontal_alignment = 1
+script = ExtResource("5_jp8pe")
+
+[node name="BG" type="Node2D" parent="."]
+position = Vector2(6583, 1091)
+scale = Vector2(2.2, 2.2)
+
+[node name="Sky" type="Parallax2D" parent="BG"]
+repeat_size = Vector2(1000, 0)
+repeat_times = 15
+ignore_camera_scroll = true
+
+[node name="Sky" type="Sprite2D" parent="BG/Sky"]
+position = Vector2(-2014.0908, 0)
+texture = ExtResource("5_ck7te")
+
+[node name="Clouds" type="Parallax2D" parent="BG"]
+z_index = 3
+scroll_scale = Vector2(0.7, 1)
+autoscroll = Vector2(10, 0)
+repeat_times = 15
+
+[node name="awan" type="Node2D" parent="BG/Clouds"]
+modulate = Color(0.9372549, 0.95686275, 1, 1)
+position = Vector2(2.2727275, -91.36363)
+scale = Vector2(1.8, 1.8)
+script = ExtResource("6_tkql6")
+item_color = "putih"
+benda_alam = true
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/Clouds/awan"]
+position = Vector2(-493.8636, -65.45456)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("7_mlxsf")
+region_enabled = true
+region_rect = Rect2(-1.5998535, 0.66619873, 4180.5195, 834.27057)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="ClickSprite2" type="Sprite2D" parent="BG/Clouds/awan"]
+position = Vector2(1274.0911, 71.36363)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("9_7o7of")
+region_enabled = true
+region_rect = Rect2(1142.8403, 134.90268, 3720.0918, 439.7382)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="ClickSprite3" type="Sprite2D" parent="BG/Clouds/awan"]
+position = Vector2(2655.4546, -65.45457)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("7_mlxsf")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(-87.79028, -0.34054565, 4266.71, 835.27734)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="ClickSprite4" type="Sprite2D" parent="BG/Clouds/awan"]
+position = Vector2(5149.3184, 40.38635)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("7_mlxsf")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="ClickSprite5" type="Sprite2D" parent="BG/Clouds/awan"]
+position = Vector2(6242.5, 80.454544)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("7_mlxsf")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(-87.79028, -0.34054565, 4266.71, 835.27734)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="matahari" type="Node2D" parent="BG/Clouds"]
+position = Vector2(-2670.909, -341.36365)
+scale = Vector2(0.7, 0.7)
+script = ExtResource("6_tkql6")
+benda_alam = true
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/Clouds/matahari"]
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("10_ucsm1")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Bg1" type="Parallax2D" parent="BG"]
+z_index = 4
+scroll_scale = Vector2(0.6, 1)
+scroll_offset = Vector2(0, 27.272726)
+repeat_times = 15
+
+[node name="Islands3" type="Sprite2D" parent="BG/Bg1"]
+position = Vector2(665.90906, -41.818176)
+texture = ExtResource("9_7o7of")
+
+[node name="Islands9" type="Sprite2D" parent="BG/Bg1"]
+position = Vector2(4192.273, -94.0909)
+texture = ExtResource("9_7o7of")
+
+[node name="Islands10" type="Sprite2D" parent="BG/Bg1"]
+position = Vector2(2309.0908, -41.818172)
+texture = ExtResource("9_7o7of")
+flip_h = true
+
+[node name="Islands8" type="Sprite2D" parent="BG/Bg1"]
+position = Vector2(-4354.5454, -41.818176)
+texture = ExtResource("9_7o7of")
+
+[node name="Islands4" type="Sprite2D" parent="BG/Bg1"]
+position = Vector2(-179.09091, -41.818176)
+texture = ExtResource("11_l6wm5")
+
+[node name="Islands5" type="Sprite2D" parent="BG/Bg1"]
+position = Vector2(5820, -41.818176)
+texture = ExtResource("11_l6wm5")
+flip_h = true
+
+[node name="Islands6" type="Sprite2D" parent="BG/Bg1"]
+position = Vector2(-10857.272, -41.818176)
+texture = ExtResource("11_l6wm5")
+
+[node name="Islands7" type="Sprite2D" parent="BG/Bg1"]
+position = Vector2(-4858.1816, -41.818176)
+texture = ExtResource("11_l6wm5")
+flip_h = true
+
+[node name="bg2" type="Parallax2D" parent="BG"]
+z_index = 5
+scroll_scale = Vector2(0.6, 1)
+scroll_offset = Vector2(0, 30.454544)
+repeat_times = 15
+
+[node name="6" type="Sprite2D" parent="BG/bg2"]
+position = Vector2(-194.99994, -38.63637)
+scale = Vector2(0.8, 1)
+texture = ExtResource("13_t0qxk")
+
+[node name="9" type="Sprite2D" parent="BG/bg2"]
+position = Vector2(-9753.182, -38.63637)
+scale = Vector2(0.8, 1)
+texture = ExtResource("13_t0qxk")
+
+[node name="7" type="Sprite2D" parent="BG/bg2"]
+position = Vector2(4604.5454, -38.63637)
+scale = Vector2(0.8, 1)
+texture = ExtResource("13_t0qxk")
+flip_h = true
+
+[node name="8" type="Sprite2D" parent="BG/bg2"]
+position = Vector2(-4958.1816, -38.63637)
+scale = Vector2(0.8, 1)
+texture = ExtResource("13_t0qxk")
+flip_h = true
+
+[node name="bg3" type="Parallax2D" parent="BG"]
+z_index = 6
+scroll_scale = Vector2(0.6, 1)
+scroll_offset = Vector2(0, 42.727272)
+repeat_times = 15
+
+[node name="7" type="Sprite2D" parent="BG/bg3"]
+position = Vector2(-5760, -32.27274)
+texture = ExtResource("14_2jp0l")
+
+[node name="8" type="Sprite2D" parent="BG/bg3"]
+position = Vector2(-11751.363, -32.27274)
+texture = ExtResource("14_2jp0l")
+
+[node name="9" type="Sprite2D" parent="BG/bg3"]
+position = Vector2(228.63647, -32.27274)
+texture = ExtResource("14_2jp0l")
+flip_h = true
+
+[node name="10" type="Sprite2D" parent="BG/bg3"]
+position = Vector2(6178.6357, -32.27274)
+texture = ExtResource("14_2jp0l")
+
+[node name="11" type="Sprite2D" parent="BG/bg3"]
+position = Vector2(-1399.0908, -30.45451)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("15_mlxsf")
+
+[node name="12" type="Sprite2D" parent="BG/bg3"]
+position = Vector2(5033.636, -30.45451)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("15_mlxsf")
+
+[node name="13" type="Sprite2D" parent="BG/bg3"]
+position = Vector2(-7923.636, -30.45451)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("15_mlxsf")
+flip_h = true
+
+[node name="ground" type="Parallax2D" parent="BG"]
+z_index = 7
+scroll_scale = Vector2(0.8, 1)
+repeat_times = 15
+
+[node name="Static" type="Node2D" parent="BG/ground"]
+
+[node name="Shore2" type="Sprite2D" parent="BG/ground/Static"]
+position = Vector2(-5924.5454, -5.9090905)
+texture = ExtResource("16_mlxsf")
+
+[node name="Shore" type="Sprite2D" parent="BG/ground/Static"]
+position = Vector2(74.090904, -5.9090905)
+texture = ExtResource("16_mlxsf")
+flip_h = true
+
+[node name="Shore3" type="Sprite2D" parent="BG/ground/Static"]
+position = Vector2(5930, -5.9090905)
+texture = ExtResource("16_mlxsf")
+
+[node name="Rocks2" type="Sprite2D" parent="BG/ground/Static"]
+position = Vector2(-5934.091, 0)
+texture = ExtResource("15_mdoh6")
+
+[node name="Interactible" type="Node2D" parent="BG/ground"]
+unique_name_in_owner = true
+y_sort_enabled = true
+script = ExtResource("16_bxbio")
+correct_target = 2
+
+[node name="Background" type="Node2D" parent="BG/ground/Interactible"]
+
+[node name="Pohon" type="Node2D" parent="BG/ground/Interactible/Background"]
+position = Vector2(955, 23.181793)
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_tkql6")
+item_color = "hijau"
+benda_hidup = true
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Background/Pohon"]
+position = Vector2(1.3636923, -106.36359)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("27_l6wm5")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Layangan" type="Node2D" parent="BG/ground/Interactible/Background"]
+position = Vector2(-4066.8184, -269.09103)
+rotation = 0.47996554
+scale = Vector2(0.49999997, 0.49999997)
+script = ExtResource("6_tkql6")
+item_color = "biru"
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Background/Layangan"]
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("24_7o7of")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Pagar" type="Node2D" parent="BG/ground/Interactible/Background"]
+position = Vector2(-7177.2725, 58.181793)
+scale = Vector2(0.49999997, 0.49999997)
+script = ExtResource("6_tkql6")
+item_color = "putih"
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Background/Pagar"]
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("19_tkql6")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Merpati" type="Node2D" parent="BG/ground/Interactible/Background"]
+position = Vector2(250.90909, -95.454544)
+scale = Vector2(0.2, 0.2)
+script = ExtResource("6_tkql6")
+item_color = "putih"
+benda_hidup = true
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Background/Merpati"]
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("18_7o7of")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Kursi Taman" type="Node2D" parent="BG/ground/Interactible/Background"]
+position = Vector2(-486.81818, 50.45453)
+script = ExtResource("6_tkql6")
+item_color = "putih"
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Background/Kursi Taman"]
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("23_uc14x")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Foreground" type="Node2D" parent="BG/ground/Interactible"]
+z_index = 4
+
+[node name="Sepeda" type="Node2D" parent="BG/ground/Interactible/Foreground"]
+position = Vector2(2733.1816, 282.72723)
+script = ExtResource("6_tkql6")
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Sepeda"]
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("29_6woyi")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Bola" type="Node2D" parent="BG/ground/Interactible/Foreground"]
+position = Vector2(-4513.636, 220.90909)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("6_tkql6")
+item_color = "kuning"
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Bola"]
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("23_7o7of")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Kucing" type="Node2D" parent="BG/ground/Interactible/Foreground"]
+position = Vector2(-5537.272, 232.72726)
+scale = Vector2(0.34999996, 0.34999996)
+script = ExtResource("6_tkql6")
+item_color = "kuning"
+benda_hidup = true
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Kucing"]
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("19_l6wm5")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Rumput" type="Node2D" parent="BG/ground/Interactible/Foreground"]
+position = Vector2(-6978.1826, 263.1818)
+scale = Vector2(0.4, 0.4)
+script = ExtResource("6_tkql6")
+item_color = "hijau"
+benda_hidup = true
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Rumput"]
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("20_tkql6")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="ClickSprite2" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Rumput"]
+position = Vector2(256.82037, 0)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("20_tkql6")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="ClickSprite3" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Rumput"]
+position = Vector2(513.63855, 0)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("20_tkql6")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Ranting" type="Node2D" parent="BG/ground/Interactible/Foreground"]
+position = Vector2(21.363525, 287.27267)
+script = ExtResource("6_tkql6")
+item_color = "cokelat"
+benda_alam = true
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Ranting"]
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("19_mlxsf")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Semak" type="Node2D" parent="BG/ground/Interactible/Foreground"]
+position = Vector2(853.6362, 287.27267)
+script = ExtResource("6_tkql6")
+item_color = "hijau"
+benda_hidup = true
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Semak"]
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("27_cm50u")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Trees" type="Parallax2D" parent="BG"]
+z_index = 11
+repeat_times = 15
+
+[node name="Trees" type="Sprite2D" parent="BG/Trees"]
+position = Vector2(-1809.5453, 0)
+texture = ExtResource("37_7o7of")
+
+[node name="Trees4" type="Sprite2D" parent="BG/Trees"]
+position = Vector2(-9915.909, 0)
+texture = ExtResource("37_7o7of")
+
+[node name="Trees2" type="Sprite2D" parent="BG/Trees"]
+visible = false
+position = Vector2(-4794.545, 0)
+texture = ExtResource("37_7o7of")
+
+[node name="Trees3" type="Sprite2D" parent="BG/Trees"]
+position = Vector2(6233.181, 0)
+texture = ExtResource("37_7o7of")
+flip_h = true
+
+[node name="Rocks" type="Sprite2D" parent="BG/Trees"]
+z_index = -1
+position = Vector2(-54.090908, 189.54544)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("38_7o7of")
+
+[node name="Rocks2" type="Sprite2D" parent="BG/Trees"]
+z_index = -1
+position = Vector2(5920.909, 189.54544)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("38_7o7of")
+flip_h = true
+
+[node name="Rocks3" type="Sprite2D" parent="BG/Trees"]
+z_index = -1
+position = Vector2(-9714.091, 189.54544)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("38_7o7of")
+flip_h = true
+
+[node name="Bunga" type="Node2D" parent="BG/Trees"]
+position = Vector2(-4149.9995, 434.54544)
+script = ExtResource("6_tkql6")
+item_color = "merah"
+benda_hidup = true
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/Trees/Bunga"]
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("22_7o7of")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="FullTaman" type="Sprite2D" parent="BG"]
+position = Vector2(-953.6365, 1545.909)
+texture = ExtResource("12_tkql6")
+
+[node name="CameraComponent" parent="." node_paths=PackedStringArray("camera_2d") instance=ExtResource("36_boqru")]
+camera_2d = NodePath("Camera2D")
+disable_v = true
+
+[node name="Camera2D" type="Camera2D" parent="CameraComponent"]
+unique_name_in_owner = true
+z_index = 10
+position = Vector2(2886, 475)
+limit_left = -19000
+limit_top = 0
+limit_right = 23935
+limit_bottom = 2160
+position_smoothing_enabled = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+script = ExtResource("37_ra0gn")
+camera_speed = 30.0
+bounce_back = false
+
+[node name="Characters" type="Node2D" parent="CameraComponent"]
+z_index = 10
+y_sort_enabled = true
+position = Vector2(2580, 1223.0001)
+scale = Vector2(0.87, 0.87)
+script = ExtResource("38_cdya5")
+
+[node name="Tita" type="Sprite2D" parent="CameraComponent/Characters"]
+z_index = -3
+position = Vector2(-263, 0)
+scale = Vector2(0.44, 0.44)
+texture = ExtResource("39_xqp3l")
+
+[node name="Tito" type="Sprite2D" parent="CameraComponent/Characters"]
+z_index = -3
+position = Vector2(248, 0)
+scale = Vector2(0.44, 0.44)
+texture = ExtResource("40_hrr77")
+
+[connection signal="neutral_pressed" from="BG/Clouds/awan/ClickSprite" to="BG/Clouds/awan" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/Clouds/awan/ClickSprite2" to="BG/Clouds/awan" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/Clouds/awan/ClickSprite3" to="BG/Clouds/awan" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/Clouds/awan/ClickSprite4" to="BG/Clouds/awan" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/Clouds/awan/ClickSprite5" to="BG/Clouds/awan" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/Clouds/matahari/ClickSprite" to="BG/Clouds/matahari" method="_on_click_sprite_neutral_pressed"]
+[connection signal="end_dialogue" from="BG/ground/Interactible" to="BG/ground/Interactible" method="_on_end_dialogue"]
+[connection signal="level_end" from="BG/ground/Interactible" to="." method="_on_interactible_level_end"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Background/Pohon/ClickSprite" to="BG/ground/Interactible/Background/Pohon" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Background/Layangan/ClickSprite" to="BG/ground/Interactible/Background/Layangan" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Background/Pagar/ClickSprite" to="BG/ground/Interactible/Background/Pagar" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Background/Merpati/ClickSprite" to="BG/ground/Interactible/Background/Merpati" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Background/Kursi Taman/ClickSprite" to="BG/ground/Interactible/Background/Kursi Taman" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Sepeda/ClickSprite" to="BG/ground/Interactible/Foreground/Sepeda" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Bola/ClickSprite" to="BG/ground/Interactible/Foreground/Bola" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Kucing/ClickSprite" to="BG/ground/Interactible/Foreground/Kucing" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Rumput/ClickSprite" to="BG/ground/Interactible/Foreground/Rumput" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Rumput/ClickSprite2" to="BG/ground/Interactible/Foreground/Rumput" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Rumput/ClickSprite3" to="BG/ground/Interactible/Foreground/Rumput" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Ranting/ClickSprite" to="BG/ground/Interactible/Foreground/Ranting" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Semak/ClickSprite" to="BG/ground/Interactible/Foreground/Semak" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/Trees/Bunga/ClickSprite" to="BG/Trees/Bunga" method="_on_click_sprite_neutral_pressed"]
+[connection signal="down_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_down_pressed"]
+[connection signal="down_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_down_released"]
+[connection signal="left_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_left_pressed"]
+[connection signal="left_pressed" from="CameraComponent" to="CameraComponent/Characters" method="_on_camera_component_left_pressed"]
+[connection signal="left_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_left_released"]
+[connection signal="left_released" from="CameraComponent" to="CameraComponent/Characters" method="_on_camera_component_left_released"]
+[connection signal="right_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_right_pressed"]
+[connection signal="right_pressed" from="CameraComponent" to="CameraComponent/Characters" method="_on_camera_component_right_pressed"]
+[connection signal="right_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_right_released"]
+[connection signal="right_released" from="CameraComponent" to="CameraComponent/Characters" method="_on_camera_component_right_released"]
+[connection signal="up_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_up_pressed"]
+[connection signal="up_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_up_released"]

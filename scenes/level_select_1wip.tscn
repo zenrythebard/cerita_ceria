@@ -1,0 +1,295 @@
+[gd_scene load_steps=10 format=3 uid="uid://bmahhgq2xo4nu"]
+
+[ext_resource type="Script" uid="uid://o6qitafem6s3" path="res://scripts/level_select.gd" id="1_rkboc"]
+[ext_resource type="Texture2D" uid="uid://s62fy70e51nq" path="res://UI/UI Blank/Rectangle 28.png" id="3_df05k"]
+[ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="4_i8puc"]
+[ext_resource type="Texture2D" uid="uid://mi5yjln6y7sr" path="res://assets/bukan sampah/bola.PNG" id="5_2lk63"]
+[ext_resource type="Texture2D" uid="uid://cb41rlky2eh47" path="res://assets/sampah anorganik/kresek sampah.PNG" id="6_0424a"]
+[ext_resource type="Texture2D" uid="uid://c4oqtpaiji3o0" path="res://assets/ruang tamu/rak buku.PNG" id="7_6uloy"]
+[ext_resource type="Texture2D" uid="uid://cg5tqijhxlylc" path="res://assets/sampah organik/daun kering 2.PNG" id="8_gpww0"]
+[ext_resource type="Texture2D" uid="uid://db37xqpvgy5y" path="res://assets/sampah organik/daun kering 1.PNG" id="9_8vtbr"]
+[ext_resource type="Texture2D" uid="uid://cn1v6eo2ra6d6" path="res://assets/halaman rumah/pohon.png" id="10_2u57v"]
+
+[node name="LevelSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rkboc")
+
+[node name="Indoor" type="Button" parent="."]
+layout_mode = 0
+offset_left = 229.0
+offset_top = 736.0
+offset_right = 696.0
+offset_bottom = 1470.0
+pivot_offset = Vector2(500, 160)
+focus_mode = 0
+flat = true
+vertical_icon_alignment = 0
+
+[node name="Rectangle30" type="NinePatchRect" parent="Indoor"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = -4.0
+offset_right = 468.0
+offset_bottom = 444.0
+texture = ExtResource("3_df05k")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="Rectangle29" type="NinePatchRect" parent="Indoor"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = 517.0
+offset_right = 468.0
+offset_bottom = 737.0
+texture = ExtResource("3_df05k")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="Label3" type="Label" parent="Indoor"]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 550.0
+offset_right = 439.0
+offset_bottom = 697.0
+theme_override_fonts/font = ExtResource("4_i8puc")
+theme_override_font_sizes/font_size = 60
+text = "Membersihkan
+Ruangan"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Bola" type="Sprite2D" parent="Indoor"]
+position = Vector2(373.00006, 229)
+scale = Vector2(0.07, 0.07)
+texture = ExtResource("5_2lk63")
+
+[node name="Bola2" type="Sprite2D" parent="Indoor"]
+position = Vector2(372.00006, 357)
+scale = Vector2(0.07, 0.07)
+texture = ExtResource("6_0424a")
+
+[node name="RakBuku" type="Sprite2D" parent="Indoor"]
+position = Vector2(155, 229)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("7_6uloy")
+
+[node name="Dapur" type="Button" parent="."]
+layout_mode = 0
+offset_left = 772.0
+offset_top = 736.0
+offset_right = 1239.0
+offset_bottom = 1470.0
+pivot_offset = Vector2(500, 160)
+focus_mode = 0
+flat = true
+vertical_icon_alignment = 0
+
+[node name="Rectangle30" type="NinePatchRect" parent="Dapur"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = -4.0
+offset_right = 468.0
+offset_bottom = 444.0
+texture = ExtResource("3_df05k")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="Rectangle29" type="NinePatchRect" parent="Dapur"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = 517.0
+offset_right = 468.0
+offset_bottom = 737.0
+texture = ExtResource("3_df05k")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="Label3" type="Label" parent="Dapur"]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 550.0
+offset_right = 439.0
+offset_bottom = 697.0
+theme_override_fonts/font = ExtResource("4_i8puc")
+theme_override_font_sizes/font_size = 60
+text = "Dapur"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Bola" type="Sprite2D" parent="Dapur"]
+position = Vector2(373.00006, 229)
+scale = Vector2(0.07, 0.07)
+texture = ExtResource("5_2lk63")
+
+[node name="Bola2" type="Sprite2D" parent="Dapur"]
+position = Vector2(372.00006, 357)
+scale = Vector2(0.07, 0.07)
+texture = ExtResource("6_0424a")
+
+[node name="RakBuku" type="Sprite2D" parent="Dapur"]
+position = Vector2(155, 229)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("7_6uloy")
+
+[node name="R Keluarga" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1304.0
+offset_top = 736.0
+offset_right = 1771.0
+offset_bottom = 1470.0
+pivot_offset = Vector2(500, 160)
+focus_mode = 0
+flat = true
+vertical_icon_alignment = 0
+
+[node name="Rectangle30" type="NinePatchRect" parent="R Keluarga"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = -4.0
+offset_right = 468.0
+offset_bottom = 444.0
+texture = ExtResource("3_df05k")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="Rectangle29" type="NinePatchRect" parent="R Keluarga"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = 517.0
+offset_right = 468.0
+offset_bottom = 737.0
+texture = ExtResource("3_df05k")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="Label3" type="Label" parent="R Keluarga"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 550.0
+offset_right = 453.0
+offset_bottom = 697.0
+theme_override_fonts/font = ExtResource("4_i8puc")
+theme_override_font_sizes/font_size = 60
+text = "Ruang Keluarga"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Bola" type="Sprite2D" parent="R Keluarga"]
+position = Vector2(373.00006, 229)
+scale = Vector2(0.07, 0.07)
+texture = ExtResource("5_2lk63")
+
+[node name="Bola2" type="Sprite2D" parent="R Keluarga"]
+position = Vector2(372.00006, 357)
+scale = Vector2(0.07, 0.07)
+texture = ExtResource("6_0424a")
+
+[node name="RakBuku" type="Sprite2D" parent="R Keluarga"]
+position = Vector2(155, 229)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("7_6uloy")
+
+[node name="Outdoor" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1941.0
+offset_top = 736.0
+offset_right = 2408.0
+offset_bottom = 1470.0
+pivot_offset = Vector2(500, 160)
+focus_mode = 0
+flat = true
+vertical_icon_alignment = 0
+
+[node name="Rectangle29" type="NinePatchRect" parent="Outdoor"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = 517.0
+offset_right = 468.0
+offset_bottom = 737.0
+texture = ExtResource("3_df05k")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="Rectangle30" type="NinePatchRect" parent="Outdoor"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = -4.0
+offset_right = 468.0
+offset_bottom = 444.0
+texture = ExtResource("3_df05k")
+patch_margin_left = 56
+patch_margin_top = 54
+patch_margin_right = 55
+patch_margin_bottom = 70
+
+[node name="DaunKering2" type="Sprite2D" parent="Outdoor"]
+position = Vector2(385, 285)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("8_gpww0")
+
+[node name="DaunKering3" type="Sprite2D" parent="Outdoor"]
+position = Vector2(348, 393)
+rotation = -0.4886922
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("9_8vtbr")
+
+[node name="Pohon" type="Sprite2D" parent="Outdoor"]
+position = Vector2(189.99994, 222.00002)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("10_2u57v")
+
+[node name="Label3" type="Label" parent="Outdoor"]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 550.0
+offset_right = 439.0
+offset_bottom = 697.0
+theme_override_fonts/font = ExtResource("4_i8puc")
+theme_override_font_sizes/font_size = 60
+text = "Membersihkan
+Halaman"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 3664.0
+offset_top = 14.0
+offset_right = 3820.5781
+offset_bottom = 174.52527
+scale = Vector2(0.7600049, 0.7600049)
+theme_override_font_sizes/font_size = 100
+flat = true
+
+[node name="Settings" type="Button" parent="."]
+layout_mode = 0
+offset_left = 39.000015
+offset_top = 5.0
+offset_right = 461.2221
+offset_bottom = 393.88876
+scale = Vector2(0.36000013, 0.36000013)
+flat = true
+
+[connection signal="pressed" from="Indoor" to="." method="_on_indoor_pressed"]
+[connection signal="pressed" from="Dapur" to="." method="_on_dapur_pressed"]
+[connection signal="pressed" from="R Keluarga" to="." method="_on_r_keluarga_pressed"]
+[connection signal="pressed" from="Outdoor" to="." method="_on_outdoor_pressed"]

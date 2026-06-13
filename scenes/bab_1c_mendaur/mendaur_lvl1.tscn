@@ -1,0 +1,114 @@
+[gd_scene load_steps=19 format=3 uid="uid://cip75jlmavnnw"]
+
+[ext_resource type="Texture2D" uid="uid://cif0538lngbtc" path="res://assets/daur ulang kompos/kulit buah apel.PNG" id="1_ikn7o"]
+[ext_resource type="Texture2D" uid="uid://c72iosmvrblj7" path="res://assets/daur ulang kompos/kulit buah jeruk.PNG" id="2_yqw4y"]
+[ext_resource type="Texture2D" uid="uid://d2a6b7u7fj6qr" path="res://assets/daur ulang kompos/kulit buah pisang.PNG" id="3_e0psh"]
+[ext_resource type="Texture2D" uid="uid://dx202n1h2hg2o" path="res://assets/daur ulang kompos/larutan gula.PNG" id="4_vwkry"]
+[ext_resource type="Texture2D" uid="uid://duidyragykyl2" path="res://assets/daur ulang kompos/daun kering 1.PNG" id="5_byv5n"]
+[ext_resource type="Texture2D" uid="uid://8nrmw0jvqsdm" path="res://assets/daur ulang kompos/daun kering 2.PNG" id="6_rlcb2"]
+[ext_resource type="Texture2D" uid="uid://cqshi5a5p76e4" path="res://assets/daur ulang kompos/em4.PNG" id="7_1fgpj"]
+[ext_resource type="Texture2D" uid="uid://cv8apg1i4dnta" path="res://assets/daur ulang kompos/kertas.PNG" id="8_m6fra"]
+[ext_resource type="Texture2D" uid="uid://ddw2yfoxrx8e6" path="res://assets/daur ulang kompos/kotak kompos.PNG" id="9_ix1bb"]
+[ext_resource type="Texture2D" uid="uid://bucmpec4tk1u" path="res://assets/daur ulang kompos/bunga ibu 2.PNG" id="10_8w1l1"]
+[ext_resource type="Texture2D" uid="uid://dpvql5xidy3l" path="res://assets/daur ulang kompos/bunga ibu 3.PNG" id="11_33t0j"]
+[ext_resource type="Texture2D" uid="uid://4aiiqh0k6bo6" path="res://assets/daur ulang kompos/bunga ibu 1.PNG" id="12_8dhhb"]
+[ext_resource type="Texture2D" uid="uid://dyl8dkfi4qlf0" path="res://assets/daur ulang kompos/potongan sayur (paprika).PNG" id="13_1fgpj"]
+[ext_resource type="Texture2D" uid="uid://ceia1go6t20qm" path="res://assets/daur ulang kompos/potongan sayur (timun).PNG" id="14_m6fra"]
+[ext_resource type="Texture2D" uid="uid://d10dd0hs8lhxm" path="res://assets/daur ulang kompos/ranting.PNG" id="15_ix1bb"]
+[ext_resource type="Texture2D" uid="uid://cg2gtpdeirf4e" path="res://assets/daur ulang kompos/sisa potongan sayur kentang.PNG" id="16_8w1l1"]
+[ext_resource type="Texture2D" uid="uid://b715ejggn10m1" path="res://assets/daur ulang kompos/sisa potongan sayur wortel.PNG" id="17_33t0j"]
+[ext_resource type="Texture2D" uid="uid://dgca6ym221vvv" path="res://assets/daur ulang kompos/tanah.PNG" id="18_m6fra"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="SpriteTanah" type="Sprite2D" parent="Node2D"]
+position = Vector2(5038, 2334)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("18_m6fra")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(5050, 274.00003)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_ikn7o")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(5050, 763)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_yqw4y")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(5050, 1161)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("3_e0psh")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(5050, 1625)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("4_vwkry")
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+position = Vector2(5050, 2119)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("5_byv5n")
+
+[node name="Sprite2D6" type="Sprite2D" parent="."]
+position = Vector2(5657, 274.00003)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("6_rlcb2")
+
+[node name="Sprite2D7" type="Sprite2D" parent="."]
+position = Vector2(5651, 820)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("7_1fgpj")
+
+[node name="Sprite2D8" type="Sprite2D" parent="."]
+position = Vector2(5637, 1367)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("8_m6fra")
+
+[node name="Sprite2D10" type="Sprite2D" parent="."]
+position = Vector2(6211, 325.00012)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("10_8w1l1")
+
+[node name="Sprite2D11" type="Sprite2D" parent="."]
+position = Vector2(6234, 766)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("11_33t0j")
+
+[node name="Sprite2D12" type="Sprite2D" parent="."]
+position = Vector2(6229, 1184)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("12_8dhhb")
+
+[node name="Sprite2D13" type="Sprite2D" parent="."]
+position = Vector2(6246, 1668)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("13_1fgpj")
+
+[node name="Sprite2D14" type="Sprite2D" parent="."]
+position = Vector2(6255, 2067)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("14_m6fra")
+
+[node name="Sprite2D15" type="Sprite2D" parent="."]
+position = Vector2(6661, 286.00003)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("15_ix1bb")
+
+[node name="Sprite2D16" type="Sprite2D" parent="."]
+position = Vector2(6679, 765)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("16_8w1l1")
+
+[node name="Sprite2D17" type="Sprite2D" parent="."]
+position = Vector2(6696, 1266)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("17_33t0j")
+
+[node name="SpriteBox" type="Sprite2D" parent="."]
+position = Vector2(1947, 1011)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("9_ix1bb")

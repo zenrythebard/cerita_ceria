@@ -1,0 +1,62 @@
+~ start_tutorial
+IBU:[#voice=uid://cg5eremmh4kdl] Alam sekitar adalah semua hal yang ada di sekeliling kita, baik yang dibuat oleh Tuhan maupun yang kita temui setiap hari di luar rumah. 
+IBU: [#voice=uid://cp5v7yd3gtmlb]Alam membuat hidup kita nyaman dan indah.  
+IBU: Yang manakah [color=#32cd32]benda alam[/color] yang merupakan [color=#32cd32]makhluk hidup[/color], seperti [color=#32cd32]hewan[/color] dan [color=#32cd32]tumbuhan[/color]?
+=> END
+~ check2
+IBU: Bagus sekali, Tita, Tito! Sekarang, bisakah kalian menemukan [color=#32cd32]benda alam[/color] yang merupakan  [color=#32cd32]benda mati[/color]?
+=> END
+~ check3
+IBU: [#voice=uid://6cbcm40nxhcw]Keren! bagaimana kalau kita buat permainan yang lebih menantang? 
+TITA:  [#voice=uid://s0iswc3hqag2]Aku suka tantangan!
+TITO: [#voice=uid://dristnnrpoc6x]Setuju! 
+=> END
+~ check4
+IBU:[#voice=uid://cyq6krhajg21e] Kerja bagus, anak-anak! 
+TITA:  [#voice=uid://dopbkouyq7mey]Yeyyy!
+TITO: [#voice=uid://yd7jw35mxm8c]Yeyy! 
+=> END
+~ correct
+% 
+	IBU:  [#voice=uid://2ts8roq2yfcn]Benar!
+%
+	IBU: [#voice=uid://c41c46u25n4xg]Bagus sekali! 
+% 
+	IBU: [#voice=uid://banxo6qlyyrjs] Hebat!
+=> END
+~ wrongcheck1
+IBU:[#voice=uid://dirpd6cqdwr7q] Itu bukan benda hidup! Kalian perlu mencari benda hidup seperti hewan dan tumbuhan. 
+=> END
+~ wrongcheck2_1
+IBU:[#voice=uid://bf18i7dm72pdq] Itu bukan benda mati! Kita perlu mencari benda mati seperti batu, pasir, atau laut. 
+=> END
+~ wrongcheck2_2
+IBU:  [#voice=uid://cg4nooxped41t]Itu benda mati tapi bukan termasuk benda alam, karena itu buatan manusia.
+=> END
+~ wrongcheck3
+[#voice=uid://duk1r25n10f8u]Belum tepat, nak. Ayo kita coba pelan-pelan. 
+=> END
+~ hidupputih
+IBU: [#voice=uid://csb4nw7nrmlr2]Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=WHITE]putih[/color] 
+=> END
+~ hiduphijau
+IBU:[#voice=uid://csb4nw7nrmlr2] Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=GREEN]hijau?[/color] 
+=> END
+~ hidupmerah
+IBU: [#voice=uid://csb4nw7nrmlr2]Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=RED]merah?[/color]
+=> END
+~ matiputih
+IBU: [#voice=uid://csb4nw7nrmlr2]Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=#c9c9c9]putih[/color]
+=> END
+~ matihijau
+IBU: [#voice=uid://csb4nw7nrmlr2]Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=GREEN]hijau?[/color]
+=> END
+~ matimerah
+IBU: [#voice=uid://csb4nw7nrmlr2]Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=RED]merah?[/color]
+=> END
+~ matibiru
+IBU:[#voice=uid://csb4nw7nrmlr2] Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=BLUE]biru?[/color]
+=> END
+~ maticokelat
+IBU: [#voice=uid://csb4nw7nrmlr2]Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=BROWN]cokelat?[/color]
+=> END

@@ -1,0 +1,50 @@
+[gd_scene load_steps=6 format=3 uid="uid://dvt7tnqcq6tc7"]
+
+[ext_resource type="Script" uid="uid://ohjagdnsqp6h" path="res://scenes/bab_4_mengenal_alam/settings.gd" id="1_lecxb"]
+[ext_resource type="Script" uid="uid://7y035x5366yp" path="res://scenes/hud_ui.gd" id="1_vha3o"]
+[ext_resource type="Texture2D" uid="uid://ckeex53c65053" path="res://ui/UI Blank/PAUSE.png" id="2_vha3o"]
+[ext_resource type="Texture2D" uid="uid://mebkmpeabt2k" path="res://ui/Settings.png" id="3_dh3a3"]
+[ext_resource type="Texture2D" uid="uid://bl083kxeo6qp4" path="res://ui/UI Blank/START.png" id="6_47rti"]
+
+[node name="HUD UI" type="CanvasLayer"]
+script = ExtResource("1_vha3o")
+
+[node name="Settings" type="Button" parent="."]
+offset_left = 3558.0
+offset_top = 96.0
+offset_right = 4410.7773
+offset_bottom = 951.5547
+scale = Vector2(0.20000015, 0.20000015)
+flat = true
+script = ExtResource("1_lecxb")
+
+[node name="Sprite2D" type="Sprite2D" parent="Settings"]
+position = Vector2(425.00055, 427.77765)
+texture = ExtResource("2_vha3o")
+
+[node name="Settings" type="Sprite2D" parent="Settings"]
+position = Vector2(438.88953, 416.6665)
+scale = Vector2(1.0036889, 1.0036889)
+texture = ExtResource("3_dh3a3")
+
+[node name="Sprite2D2" type="NinePatchRect" parent="."]
+offset_left = 3511.0002
+offset_top = 272.0
+offset_right = 4349.0
+offset_bottom = 836.0
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("6_47rti")
+patch_margin_left = 254
+patch_margin_top = 291
+patch_margin_right = 263
+patch_margin_bottom = 273
+
+[node name="Label" type="Label" parent="."]
+offset_left = 3557.0
+offset_top = 314.0
+offset_right = 3727.0
+offset_bottom = 403.0
+theme_override_font_sizes/font_size = 60
+text = "00:00"
+
+[connection signal="pressed" from="Settings" to="Settings" method="_on_pressed"]

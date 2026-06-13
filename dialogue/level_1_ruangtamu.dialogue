@@ -1,0 +1,156 @@
+#32cd32 Green Highlight
+~ start_tutorial
+IBU: [#voice=uid://rry53rfafn82] Pilihlah bagian ruangan yang ada sampahnya!  
+IBU: [#voice=uid://d1fisv7godd6v] [color=#32cd32]Tekan[/color] barang yang merupakan [color=#32cd32]sampah[/color], 
+IBU: [#voice=uid://c3hu08l5fajp5] Jika barang bukan sampah, jangan dibuang ya! 
+=> END
+#------SAMPAH------
+~ botol
+TITA: [#voice=uid://cbps3jc41in0y] Betul, [color=#32cd32]botol[/color]nya kita buang ya! 
+=> END
+~ susu
+TITA: [#voice=uid://dqng6tb64ps57] Betul, [color=#32cd32]susu[/color]nya buang ya! 
+=> END
+~ es_cekek
+TITA: [#voice=uid://dqng6tb64ps57] Hebat! [color=#32cd32]es cekek[/color]nya kita buang ya!
+=> END
+~ surat
+TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]amplop[/color]nya kita buang ya!
+=> END
+~ snack
+TITA: [#voice=uid://cbps3jc41in0y] Betul, [color=#32cd32]kemasan cemilan[/color]nya buang ya!
+=> END
+~ kertas
+TITA: [#voice=uid://dqng6tb64ps57] Betul, [color=#32cd32]kertas[/color]nya buang ya!
+=> END
+~ gelas_plastik
+TITA: [#voice=uid://dqng6tb64ps57] Betul, [color=#32cd32]gelas plastik[/color]nya buang ya!
+=> END
+~ pisang
+TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]kulit pisang[/color]nya kita buang ya!
+=> END
+~ mi_cangkir
+TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]mi cangkir[/color]nya kita buang ya!
+=> END
+~ kresek
+TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]kantong plastik[/color]nya kita buang ya!
+=> END
+~ kardus
+TITA: [#voice=uid://dqng6tb64ps57] Hebat! [color=#32cd32]kardus[/color]nya kita buang ya!
+=> END
+#-----------SAMPAH DAPUR
+~ tulang_ayam
+TITA: [#voice=uid://dqng6tb64ps57] Hebat! [color=#32cd32]tulang ayam[/color]nya kita buang ya!
+=> END
+~ saset
+TITA: [#voice=uid://dqng6tb64ps57] Hebat! [color=#32cd32]saset[/color]nya kita buang ya!
+=> END
+~ kaleng
+TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]kaleng[/color]nya kita buang ya!
+=> END
+~ karton_telur
+TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]karton telur[/color]nya kita buang ya!
+=> END
+~ apel
+TITA: [#voice=uid://dqng6tb64ps57] Hebat! [color=#32cd32]bekas apel[/color]nya kita buang ya!
+=> END
+~ tulang_ikan
+TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]tulang ikan[/color]nya kita buang ya!
+~ cangkang
+TITA: [#voice=uid://dqng6tb64ps57] Hebat! [color=#32cd32]cangkang[/color]nya kita buang ya!
+
+
+#----------NON-SAMPAH R TAMU---------------
+~ lampu
+TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]lampu[/color], bukan sampah... 
+=> END
+~ vas
+TITA: [#voice=uid://c0m1fabxp0r4s] Itu [color=#32cd32]vas[/color], bukan sampah... 
+=> END
+~ jam
+TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]jam[/color], bukan sampah...
+=> END
+~ rak_buku
+TITA: Di rak buku tidak ada sampah.
+=> END
+~ lukisan
+TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]lukisan[/color], bukan sampah...
+=> END
+~ tanaman_gantung
+TITA: [#voice=uid://c0m1fabxp0r4s] Itu [color=#32cd32]tanaman[/color], bukan sampah...
+=> END
+~ pohon_indoor
+TITA: [#voice=uid://c0m1fabxp0r4s] Itu [color=#32cd32]tanaman[/color], bukan sampah...
+=> END
+~ buku
+TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]buku[/color], bukan sampah...
+=> END
+~ layang2
+TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]layang-layang[/color], bukan sampah...
+=> END
+~ bola
+TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]bola[/color] punyaku, bukan sampah...
+=> END
+~ key
+TITA: [#voice=uid://c0m1fabxp0r4s] Itu [color=#32cd32]kunci mobil[/color] Bapak!
+=> END
+~ jaket
+TITA: [#voice=uid://c0m1fabxp0r4s] Itu [color=#32cd32]jaket[/color] punya Bapak, bukan sampah...
+=> END
+~ gelas
+TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]gelas[/color], bukan sampah...
+=> END
+~ mangkok
+TITA: [#voice=uid://c0m1fabxp0r4s] Itu [color=#32cd32]mangkok[/color], bukan sampah...
+=> END
+~ selimut
+TITA: Itu [color=#32cd32]selimut[/color]nya Tito, bukan sampah...
+=> END
+#----------NON-SAMPAH DAPUR---------------
+~ spatula
+TITA: Itu [color=#32cd32]spatula[/color], bukan sampah...
+=> END
+~ wajan
+TITA: Itu [color=#32cd32]wajan[/color], bukan sampah...
+=> END
+~ pisau
+TITA: Itu [color=#32cd32]pisau[/color], bukan sampah...
+=> END
+~ panci
+TITA: Itu [color=#32cd32]panci[/color], bukan sampah...
+=> END
+~ sarung_tangan
+TITA: Itu [color=#32cd32]sarung tangan[/color], bukan sampah...
+=> END
+~ cerek
+TITA: Itu [color=#32cd32]cerek[/color], bukan sampah...
+=> END
+~ talenan
+TITA: Itu [color=#32cd32]talenan[/color], bukan sampah...
+=> END
+~ gunting
+TITA: Itu [color=#32cd32]gunting[/color], bukan sampah...
+=> END
+~ celemek
+TITA: Itu [color=#32cd32]celemek[/color], bukan sampah...
+=> END
+
+#----------NON-SAMPAH R KELUARGA---------------
+~ tas
+TITA: Itu [color=#32cd32]tas[/color]nya Tito, bukan sampah...
+=> END
+~ karpet
+TITA: Itu [color=#32cd32]karpet[/color], bukan sampah...
+=> END
+~ tanaman_pot
+TITA: Itu [color=#32cd32]tanaman pot[/color], bukan sampah...
+=> END
+~ televisi
+TITA: Itu [color=#32cd32]televisi[/color], bukan sampah...
+=> END
+~ kipas
+TITA: Itu [color=#32cd32]kipas[/color], bukan sampah...
+=> END
+~ boneka
+TITA: Itu [color=#32cd32]boneka[/color], bukan sampah...
+=> END

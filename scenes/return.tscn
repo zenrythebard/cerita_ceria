@@ -1,0 +1,64 @@
+[gd_scene load_steps=5 format=3 uid="uid://b41i6wxa0ptyc"]
+
+[ext_resource type="Script" uid="uid://dhydojcfe38q8" path="res://scripts/return.gd" id="1_p1l50"]
+[ext_resource type="Texture2D" uid="uid://bl083kxeo6qp4" path="res://UI/UI Blank/START.png" id="2_e8x0b"]
+[ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="3_q02j0"]
+[ext_resource type="Texture2D" uid="uid://1gxnvuxbq4ue" path="res://UI/NEXT.png" id="4_lrgnr"]
+
+[node name="Return" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_p1l50")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_left = 1170.0
+offset_top = 648.0
+offset_right = 2778.0
+offset_bottom = 1350.0
+texture = ExtResource("2_e8x0b")
+region_rect = Rect2(57.374084, 41.195465, 907.0061, 928.9751)
+patch_margin_left = 202
+patch_margin_top = 204
+patch_margin_right = 216
+patch_margin_bottom = 235
+
+[node name="Label" type="Label" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 413.0
+offset_top = 89.0
+offset_right = 1165.0
+offset_bottom = 329.0
+theme_override_fonts/font = ExtResource("3_q02j0")
+theme_override_font_sizes/font_size = 200
+text = "SELESAI!"
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1608.9999
+offset_top = 1063.0
+offset_right = 2478.787
+offset_bottom = 1298.4155
+scale = Vector2(0.7600049, 0.7600049)
+theme_override_font_sizes/font_size = 100
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Quit"]
+position = Vector2(430.2603, 92.104614)
+texture = ExtResource("4_lrgnr")
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1726.0
+offset_top = 1047.0
+offset_right = 2215.0
+offset_bottom = 1203.0
+theme_override_fonts/font = ExtResource("3_q02j0")
+theme_override_font_sizes/font_size = 40
+text = "kembali ke main menu"
+
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

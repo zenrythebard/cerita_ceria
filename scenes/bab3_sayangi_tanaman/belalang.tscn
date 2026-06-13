@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://l600p51wwt3e"]
+
+[ext_resource type="Script" uid="uid://b6svmg4fdhp22" path="res://scenes/bab3_sayangi_tanaman/belalang.gd" id="1_jw5tu"]
+[ext_resource type="Texture2D" uid="uid://dagxwtjw3ka03" path="res://assets/sayangi tanaman/belalang.PNG" id="2_i6bkp"]
+[ext_resource type="Script" uid="uid://bv7ndueoa81i3" path="res://scripts/bab_1b_memilah_sampah/sprite_click.gd" id="3_seg5j"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4lawy"]
+radius = 122.0
+height = 928.0
+
+[node name="Belalang" type="CharacterBody2D" node_paths=PackedStringArray("sprite", "collision_shape")]
+scale = Vector2(0.2, 0.2)
+script = ExtResource("1_jw5tu")
+sprite = NodePath("Belalang")
+direction = -1
+speed_mod = 2.0
+jump_mod = 2.0
+collision_shape = NodePath("CollisionShape2D")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+
+[node name="Belalang" type="Sprite2D" parent="."]
+texture = ExtResource("2_i6bkp")
+script = ExtResource("3_seg5j")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(29.000004, 107.000015)
+rotation = 1.6056026
+shape = SubResource("CapsuleShape2D_4lawy")
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="button_pressed" from="Belalang" to="." method="_on_belalang_button_pressed"]
