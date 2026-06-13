@@ -1,8 +1,8 @@
 [gd_scene load_steps=15 format=3 uid="uid://2iol5j6o3lmb"]
 
 [ext_resource type="Script" uid="uid://dktd0e3me2emh" path="res://scripts/menu.gd" id="1_4ytvr"]
-[ext_resource type="Texture2D" uid="uid://bny0j1y6gowju" path="res://UI/menu_bg/bg_main_menu.png" id="2_4ytvr"]
-[ext_resource type="Texture2D" uid="uid://s62fy70e51nq" path="res://UI/UI Blank/Rectangle 28.png" id="3_i42df"]
+[ext_resource type="Texture2D" uid="uid://bny0j1y6gowju" path="res://ui_old/menu_bg/bg_main_menu.png" id="2_4ytvr"]
+[ext_resource type="Texture2D" uid="uid://s62fy70e51nq" path="res://ui_old/UI Blank/Rectangle 28.png" id="3_i42df"]
 [ext_resource type="Texture2D" uid="uid://db37xqpvgy5y" path="res://assets/sampah organik/daun kering 1.PNG" id="4_7jp70"]
 [ext_resource type="Texture2D" uid="uid://mnuqejbgc5bv" path="res://assets/characters/Fullbody/Tito.PNG" id="4_13sgg"]
 [ext_resource type="Texture2D" uid="uid://cwmiuywh33lw2" path="res://assets/characters/Fullbody/Tita.PNG" id="5_i6lef"]
