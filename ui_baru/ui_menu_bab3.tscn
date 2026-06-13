@@ -1,0 +1,64 @@
+[gd_scene load_steps=3 format=3 uid="uid://cum7aqms8nfnc"]
+
+[ext_resource type="Script" path="res://ui_baru/ui_menu_bab_3.gd" id="1_px35v"]
+[ext_resource type="Texture2D" uid="uid://wm1otc12nxbe" path="res://ui_baru/bab 3.png" id="2_bi4po"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_px35v")
+
+[node name="Bab3" type="Sprite2D" parent="."]
+position = Vector2(1916.3331, 1078.5)
+scale = Vector2(2.010185, 2.0101852)
+texture = ExtResource("2_bi4po")
+
+[node name="setting" type="Button" parent="."]
+layout_mode = 0
+offset_left = 55.0
+offset_top = 3.0
+offset_right = 199.0
+offset_bottom = 147.0
+flat = true
+
+[node name="quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 3646.0
+offset_top = -1.0
+offset_right = 3790.0
+offset_bottom = 143.0
+flat = true
+
+[node name="home" type="Button" parent="."]
+layout_mode = 0
+offset_left = 63.0
+offset_top = 1829.0
+offset_right = 336.0
+offset_bottom = 2102.0
+flat = true
+
+[node name="menu2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1969.0
+offset_top = 1061.0
+offset_right = 2473.0
+offset_bottom = 1725.0
+flat = true
+
+[node name="menu1" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1367.0
+offset_top = 1062.0
+offset_right = 1871.0
+offset_bottom = 1717.0
+flat = true
+
+[connection signal="pressed" from="setting" to="." method="_on_setting_pressed"]
+[connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="home" to="." method="_on_home_pressed"]
+[connection signal="pressed" from="menu2" to="." method="_on_menu_2_pressed"]
+[connection signal="pressed" from="menu1" to="." method="_on_menu_1_pressed"]

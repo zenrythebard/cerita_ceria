@@ -1,0 +1,64 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmo6htvwp7tj8"]
+
+[ext_resource type="Script" uid="uid://bvvy5qeiwaxpo" path="res://ui_baru/ui_main_menu.gd" id="1_c8cw1"]
+[ext_resource type="Texture2D" uid="uid://qx2vbswdmgi3" path="res://ui_baru/main.png" id="2_68tt8"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_c8cw1")
+
+[node name="Main" type="Sprite2D" parent="."]
+position = Vector2(1922.889, 1073.25)
+scale = Vector2(2.0069444, 2.0069444)
+texture = ExtResource("2_68tt8")
+
+[node name="Settings" type="Button" parent="."]
+layout_mode = 0
+offset_left = 14.0
+offset_top = -5.0
+offset_right = 203.0
+offset_bottom = 120.0
+flat = true
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 3640.0
+offset_top = -5.0
+offset_right = 3829.0
+offset_bottom = 120.0
+flat = true
+
+[node name="Bab1" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1090.0
+offset_top = 1047.0
+offset_right = 1575.0
+offset_bottom = 1686.0
+flat = true
+
+[node name="Bab2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1676.0
+offset_top = 1047.0
+offset_right = 2161.0
+offset_bottom = 1686.0
+flat = true
+
+[node name="Bab3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 2254.0
+offset_top = 1047.0
+offset_right = 2739.0
+offset_bottom = 1686.0
+flat = true
+
+[connection signal="button_up" from="Settings" to="." method="_on_settings_button_up"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="Bab1" to="." method="_on_bab_1_pressed"]
+[connection signal="pressed" from="Bab2" to="." method="_on_bab_2_pressed"]
+[connection signal="pressed" from="Bab3" to="." method="_on_bab_3_pressed"]
