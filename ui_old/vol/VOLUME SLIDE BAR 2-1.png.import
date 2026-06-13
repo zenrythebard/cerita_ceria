@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cq5i11vpn0eag"
-path="res://.godot/imported/VOLUME SLIDE BAR 2-1.png-8073ee345a321af239264d7404f24b20.ctex"
+path="res://.godot/imported/VOLUME SLIDE BAR 2-1.png-5bd647193c21912c96b2cdf8af6d069e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI/vol/VOLUME SLIDE BAR 2-1.png"
-dest_files=["res://.godot/imported/VOLUME SLIDE BAR 2-1.png-8073ee345a321af239264d7404f24b20.ctex"]
+source_file="res://ui_old/vol/VOLUME SLIDE BAR 2-1.png"
+dest_files=["res://.godot/imported/VOLUME SLIDE BAR 2-1.png-5bd647193c21912c96b2cdf8af6d069e.ctex"]
 
 [params]
 
