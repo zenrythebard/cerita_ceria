@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://255kq1ui8q8u"
+path="res://.godot/imported/Piki - A New Day (freetouse.com).mp3-c626a5439ede8e11630834c7650caae2.mp3str"
+
+[deps]
+
+source_file="res://bgm/Piki - A New Day (freetouse.com).mp3"
+dest_files=["res://.godot/imported/Piki - A New Day (freetouse.com).mp3-c626a5439ede8e11630834c7650caae2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
