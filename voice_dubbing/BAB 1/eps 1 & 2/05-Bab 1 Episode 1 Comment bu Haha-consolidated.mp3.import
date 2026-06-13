@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b4m0ew54ecb"
+path="res://.godot/imported/05-Bab 1 Episode 1 Comment bu Haha-consolidated.mp3-7b3557afe825ed7a696ec817a6d4c17e.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/05-Bab 1 Episode 1 Comment bu Haha-consolidated.mp3"
+dest_files=["res://.godot/imported/05-Bab 1 Episode 1 Comment bu Haha-consolidated.mp3-7b3557afe825ed7a696ec817a6d4c17e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

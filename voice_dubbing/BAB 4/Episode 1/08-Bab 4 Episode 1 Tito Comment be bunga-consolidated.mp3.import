@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmskirhy453vr"
+path="res://.godot/imported/08-Bab 4 Episode 1 Tito Comment be bunga-consolidated.mp3-68b5133048088f1ea7c0642710e5721f.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/08-Bab 4 Episode 1 Tito Comment be bunga-consolidated.mp3"
+dest_files=["res://.godot/imported/08-Bab 4 Episode 1 Tito Comment be bunga-consolidated.mp3-68b5133048088f1ea7c0642710e5721f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

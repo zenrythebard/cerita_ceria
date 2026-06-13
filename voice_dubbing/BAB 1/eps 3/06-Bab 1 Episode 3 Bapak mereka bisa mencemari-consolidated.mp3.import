@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bj04cqmt466g4"
+path="res://.godot/imported/06-Bab 1 Episode 3 Bapak mereka bisa mencemari-consolidated.mp3-995ace69cec3707b6406a3fd9c47a2ce.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 3/06-Bab 1 Episode 3 Bapak mereka bisa mencemari-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 1 Episode 3 Bapak mereka bisa mencemari-consolidated.mp3-995ace69cec3707b6406a3fd9c47a2ce.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

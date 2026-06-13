@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://gia67g4mlpiq"
+path="res://.godot/imported/02-Bab 3 Episode 1 Tito kalian melakukannya dengan baik-consolidated.mp3-e3d37f8a693bbd0d39207e32763f93b7.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/02-Bab 3 Episode 1 Tito kalian melakukannya dengan baik-consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 3 Episode 1 Tito kalian melakukannya dengan baik-consolidated.mp3-e3d37f8a693bbd0d39207e32763f93b7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

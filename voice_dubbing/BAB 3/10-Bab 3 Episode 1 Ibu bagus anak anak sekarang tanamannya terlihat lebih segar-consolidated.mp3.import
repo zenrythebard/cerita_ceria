@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dtmyh80xgwde3"
+path="res://.godot/imported/10-Bab 3 Episode 1 Ibu bagus anak anak sekarang tanamannya terlihat lebih segar-consolidated.mp3-67cd8ab983278e5a19d3078361187201.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/10-Bab 3 Episode 1 Ibu bagus anak anak sekarang tanamannya terlihat lebih segar-consolidated.mp3"
+dest_files=["res://.godot/imported/10-Bab 3 Episode 1 Ibu bagus anak anak sekarang tanamannya terlihat lebih segar-consolidated.mp3-67cd8ab983278e5a19d3078361187201.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://blfkm5g21jsiu"
+path="res://.godot/imported/02-Bab 1 Episode 1 Tita Nah sekarang kita tahu  -consolidated.mp3-8260e0e0e18119a961f249d07275f397.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/02-Bab 1 Episode 1 Tita Nah sekarang kita tahu  -consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 1 Episode 1 Tita Nah sekarang kita tahu  -consolidated.mp3-8260e0e0e18119a961f249d07275f397.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

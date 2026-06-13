@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://5a36olc0p3lq"
+path="res://.godot/imported/06-Bab 3 Episode 1 Tito ooh kenapa kacang hijau bu-consolidated.mp3-01106deceb0c8a5c4b16a800d49dd397.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/06-Bab 3 Episode 1 Tito ooh kenapa kacang hijau bu-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 3 Episode 1 Tito ooh kenapa kacang hijau bu-consolidated.mp3-01106deceb0c8a5c4b16a800d49dd397.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

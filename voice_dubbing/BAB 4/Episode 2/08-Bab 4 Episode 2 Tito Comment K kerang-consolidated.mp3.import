@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dbi7s7b83q3ed"
+path="res://.godot/imported/08-Bab 4 Episode 2 Tito Comment K kerang-consolidated.mp3-829a8d10d6435665984c33c549b6baf4.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/08-Bab 4 Episode 2 Tito Comment K kerang-consolidated.mp3"
+dest_files=["res://.godot/imported/08-Bab 4 Episode 2 Tito Comment K kerang-consolidated.mp3-829a8d10d6435665984c33c549b6baf4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bc5lq8ry48d04"
+path="res://.godot/imported/15-Bab 4 Episode 1 Tito Comment kita mencari-consolidated.mp3-9c34c8d40ed7b9bc0418f2f290e5cc03.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/15-Bab 4 Episode 1 Tito Comment kita mencari-consolidated.mp3"
+dest_files=["res://.godot/imported/15-Bab 4 Episode 1 Tito Comment kita mencari-consolidated.mp3-9c34c8d40ed7b9bc0418f2f290e5cc03.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

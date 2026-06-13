@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cdbqpycdrhi1w"
+path="res://.godot/imported/09-Bab 4 episode 1 Bapak keren sekali anak anak bapak-consolidated.mp3-20fcf0f7e95a2e6539ab3c27445fa793.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/09-Bab 4 episode 1 Bapak keren sekali anak anak bapak-consolidated.mp3"
+dest_files=["res://.godot/imported/09-Bab 4 episode 1 Bapak keren sekali anak anak bapak-consolidated.mp3-20fcf0f7e95a2e6539ab3c27445fa793.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

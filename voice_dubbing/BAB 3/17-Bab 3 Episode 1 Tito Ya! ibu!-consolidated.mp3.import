@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://wh2bnw6k0f4a"
+path="res://.godot/imported/17-Bab 3 Episode 1 Tito Ya! ibu!-consolidated.mp3-e31f59aa27f7119fe9f163cd6ed839bc.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/17-Bab 3 Episode 1 Tito Ya! ibu!-consolidated.mp3"
+dest_files=["res://.godot/imported/17-Bab 3 Episode 1 Tito Ya! ibu!-consolidated.mp3-e31f59aa27f7119fe9f163cd6ed839bc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

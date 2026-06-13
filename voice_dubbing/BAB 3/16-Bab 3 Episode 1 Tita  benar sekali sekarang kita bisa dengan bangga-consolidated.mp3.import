@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dfhiqqm3g76fy"
+path="res://.godot/imported/16-Bab 3 Episode 1 Tita  benar sekali sekarang kita bisa dengan bangga-consolidated.mp3-b676f67e0bdd3420df99658b1cb99158.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/16-Bab 3 Episode 1 Tita  benar sekali sekarang kita bisa dengan bangga-consolidated.mp3"
+dest_files=["res://.godot/imported/16-Bab 3 Episode 1 Tita  benar sekali sekarang kita bisa dengan bangga-consolidated.mp3-b676f67e0bdd3420df99658b1cb99158.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

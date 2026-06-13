@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dristnnrpoc6x"
+path="res://.godot/imported/06-Bab 4 Episode 2 Tito Setuju-consolidated.mp3-c92e05c9b355a157011f98d360c073e6.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/06-Bab 4 Episode 2 Tito Setuju-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 4 Episode 2 Tito Setuju-consolidated.mp3-c92e05c9b355a157011f98d360c073e6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

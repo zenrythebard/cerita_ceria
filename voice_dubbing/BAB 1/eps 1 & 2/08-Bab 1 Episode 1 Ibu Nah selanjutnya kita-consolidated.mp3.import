@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cqnn4f1n4hutq"
+path="res://.godot/imported/08-Bab 1 Episode 1 Ibu Nah selanjutnya kita-consolidated.mp3-ee8b49931343c689fc6fa301170fd358.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/08-Bab 1 Episode 1 Ibu Nah selanjutnya kita-consolidated.mp3"
+dest_files=["res://.godot/imported/08-Bab 1 Episode 1 Ibu Nah selanjutnya kita-consolidated.mp3-ee8b49931343c689fc6fa301170fd358.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://whn3sdb08is4"
+path="res://.godot/imported/16-Bab 4 Episode 1 Tito Comment yang merupakan-consolidated.mp3-d300faff03454cb0cbdc54520c85bd9e.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/16-Bab 4 Episode 1 Tito Comment yang merupakan-consolidated.mp3"
+dest_files=["res://.godot/imported/16-Bab 4 Episode 1 Tito Comment yang merupakan-consolidated.mp3-d300faff03454cb0cbdc54520c85bd9e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

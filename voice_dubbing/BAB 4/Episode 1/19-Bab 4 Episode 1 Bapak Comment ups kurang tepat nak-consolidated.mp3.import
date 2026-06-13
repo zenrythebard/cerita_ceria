@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b5btvrcovxn3y"
+path="res://.godot/imported/19-Bab 4 Episode 1 Bapak Comment ups kurang tepat nak-consolidated.mp3-0cc249d87b63c71c758d9e7e7f5773c2.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/19-Bab 4 Episode 1 Bapak Comment ups kurang tepat nak-consolidated.mp3"
+dest_files=["res://.godot/imported/19-Bab 4 Episode 1 Bapak Comment ups kurang tepat nak-consolidated.mp3-0cc249d87b63c71c758d9e7e7f5773c2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cfgy1t15efstk"
+path="res://.godot/imported/09-Bab 1 Episode 2 Bapak taruh di dekat pohon-consolidated.mp3-ae0932ed497e0739832a10be3b576c5e.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/09-Bab 1 Episode 2 Bapak taruh di dekat pohon-consolidated.mp3"
+dest_files=["res://.godot/imported/09-Bab 1 Episode 2 Bapak taruh di dekat pohon-consolidated.mp3-ae0932ed497e0739832a10be3b576c5e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://crnq6ih60k4v5"
+path="res://.godot/imported/03-Bab 1 Episode 1 Tita fyuh akhirnya ruangan -consolidated.mp3-539f70cb77bc1b4e3eb4616e3f4c74ce.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/03-Bab 1 Episode 1 Tita fyuh akhirnya ruangan -consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 1 Episode 1 Tita fyuh akhirnya ruangan -consolidated.mp3-539f70cb77bc1b4e3eb4616e3f4c74ce.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

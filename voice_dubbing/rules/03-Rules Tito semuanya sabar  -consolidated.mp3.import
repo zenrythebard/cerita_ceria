@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dqyhclwg78hbh"
+path="res://.godot/imported/03-Rules Tito semuanya sabar  -consolidated.mp3-96e6cb3b86e1c36df87417261398c6a4.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/rules/03-Rules Tito semuanya sabar  -consolidated.mp3"
+dest_files=["res://.godot/imported/03-Rules Tito semuanya sabar  -consolidated.mp3-96e6cb3b86e1c36df87417261398c6a4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dw6qieugpyafj"
+path="res://.godot/imported/10-Bab 4 Episode 2 Tito Comment  A awan-consolidated.mp3-d17278f29299ab3d904cc76c54575d2a.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/10-Bab 4 Episode 2 Tito Comment  A awan-consolidated.mp3"
+dest_files=["res://.godot/imported/10-Bab 4 Episode 2 Tito Comment  A awan-consolidated.mp3-d17278f29299ab3d904cc76c54575d2a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

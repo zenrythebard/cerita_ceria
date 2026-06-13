@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c1mem53hlfor8"
+path="res://.godot/imported/12-Bab 4 Episode 1 Tita Comment yang merupakan-consolidated.mp3-6763e5d625ab849679408b59b4cbe8c5.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/12-Bab 4 Episode 1 Tita Comment yang merupakan-consolidated.mp3"
+dest_files=["res://.godot/imported/12-Bab 4 Episode 1 Tita Comment yang merupakan-consolidated.mp3-6763e5d625ab849679408b59b4cbe8c5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

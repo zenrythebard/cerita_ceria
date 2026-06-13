@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b5mkxwfetqt1v"
+path="res://.godot/imported/04-Rules Tito yang penting kita main yang tertib-consolidated.mp3-8aa8b256f4950e584efd634a850b23ee.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/rules/04-Rules Tito yang penting kita main yang tertib-consolidated.mp3"
+dest_files=["res://.godot/imported/04-Rules Tito yang penting kita main yang tertib-consolidated.mp3-8aa8b256f4950e584efd634a850b23ee.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

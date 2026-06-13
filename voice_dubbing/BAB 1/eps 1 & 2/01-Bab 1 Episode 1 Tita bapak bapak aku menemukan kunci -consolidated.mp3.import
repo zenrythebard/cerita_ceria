@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://fb8lap6078e6"
+path="res://.godot/imported/01-Bab 1 Episode 1 Tita bapak bapak aku menemukan kunci -consolidated.mp3-a3147765c7fa983ae5810f816a34cdb3.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/01-Bab 1 Episode 1 Tita bapak bapak aku menemukan kunci -consolidated.mp3"
+dest_files=["res://.godot/imported/01-Bab 1 Episode 1 Tita bapak bapak aku menemukan kunci -consolidated.mp3-a3147765c7fa983ae5810f816a34cdb3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

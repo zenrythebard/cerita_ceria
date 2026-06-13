@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://mg8wig18ttoo"
+path="res://.godot/imported/06-Bab 4 episode 1 Ibu oh iya tugas apa nak-consolidated.mp3-d5c8e4da4e798fee41868e078ad2476f.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/06-Bab 4 episode 1 Ibu oh iya tugas apa nak-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 4 episode 1 Ibu oh iya tugas apa nak-consolidated.mp3-d5c8e4da4e798fee41868e078ad2476f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

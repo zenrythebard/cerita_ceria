@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b784fax0wbl1h"
+path="res://.godot/imported/01-Bab 4 Episode 1 Tita Comment Hijau-consolidated.mp3-b6a0c72dd119da1507846b041a4d6005.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/01-Bab 4 Episode 1 Tita Comment Hijau-consolidated.mp3"
+dest_files=["res://.godot/imported/01-Bab 4 Episode 1 Tita Comment Hijau-consolidated.mp3-b6a0c72dd119da1507846b041a4d6005.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

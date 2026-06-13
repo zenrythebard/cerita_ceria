@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://raeihon5m2nw"
+path="res://.godot/imported/12-Bab 4 episode 1 Bapak sekarang bisakah kalian menemukan benda alam yang merupakan benda mati -consolidated.mp3-2a9781f3f757d575f14f3fd58d719244.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/12-Bab 4 episode 1 Bapak sekarang bisakah kalian menemukan benda alam yang merupakan benda mati -consolidated.mp3"
+dest_files=["res://.godot/imported/12-Bab 4 episode 1 Bapak sekarang bisakah kalian menemukan benda alam yang merupakan benda mati -consolidated.mp3-2a9781f3f757d575f14f3fd58d719244.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

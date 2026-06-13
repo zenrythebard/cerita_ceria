@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://di54h7yan2rh5"
+path="res://.godot/imported/09-Bab 4 Episode 1 Tito Comment p pohon-consolidated.mp3-6e8a478f833ab4a217137e924b3191c8.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/09-Bab 4 Episode 1 Tito Comment p pohon-consolidated.mp3"
+dest_files=["res://.godot/imported/09-Bab 4 Episode 1 Tito Comment p pohon-consolidated.mp3-6e8a478f833ab4a217137e924b3191c8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

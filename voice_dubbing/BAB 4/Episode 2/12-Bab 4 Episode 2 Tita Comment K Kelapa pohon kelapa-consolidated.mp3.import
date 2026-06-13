@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cvk2xdf1fvunh"
+path="res://.godot/imported/12-Bab 4 Episode 2 Tita Comment K Kelapa pohon kelapa-consolidated.mp3-1ba121e701bc4c2f098e1d9366c857c8.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/12-Bab 4 Episode 2 Tita Comment K Kelapa pohon kelapa-consolidated.mp3"
+dest_files=["res://.godot/imported/12-Bab 4 Episode 2 Tita Comment K Kelapa pohon kelapa-consolidated.mp3-1ba121e701bc4c2f098e1d9366c857c8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

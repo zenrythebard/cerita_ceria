@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cyf3q28l3vjte"
+path="res://.godot/imported/03-Bab 1 Episode 1 Tita Comment Oh! -consolidated.mp3-577f96c8860193e4cf0d24f5bc1afd03.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/03-Bab 1 Episode 1 Tita Comment Oh! -consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 1 Episode 1 Tita Comment Oh! -consolidated.mp3-577f96c8860193e4cf0d24f5bc1afd03.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

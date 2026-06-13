@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c1iw34td1g754"
+path="res://.godot/imported/08-Bab 1 Episode 2 Bapak Sekarang kita kumpulkan daun-consolidated.mp3-3ef20d91879bf3976b9b86fbfecd486e.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/08-Bab 1 Episode 2 Bapak Sekarang kita kumpulkan daun-consolidated.mp3"
+dest_files=["res://.godot/imported/08-Bab 1 Episode 2 Bapak Sekarang kita kumpulkan daun-consolidated.mp3-3ef20d91879bf3976b9b86fbfecd486e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

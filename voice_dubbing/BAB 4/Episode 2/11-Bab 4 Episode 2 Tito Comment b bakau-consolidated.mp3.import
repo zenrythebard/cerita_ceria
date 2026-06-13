@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dfl3gyev0b0no"
+path="res://.godot/imported/11-Bab 4 Episode 2 Tito Comment b bakau-consolidated.mp3-802746ff459220e269957416da6ebc89.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/11-Bab 4 Episode 2 Tito Comment b bakau-consolidated.mp3"
+dest_files=["res://.godot/imported/11-Bab 4 Episode 2 Tito Comment b bakau-consolidated.mp3-802746ff459220e269957416da6ebc89.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

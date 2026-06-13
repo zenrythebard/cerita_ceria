@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dd3xsxim85haf"
+path="res://.godot/imported/04-Bab 1 Episode 1 Comment Ibu Hmm_-consolidated.mp3-bb9cbb8d74db09f032d1798755e4e6d1.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/04-Bab 1 Episode 1 Comment Ibu Hmm_-consolidated.mp3"
+dest_files=["res://.godot/imported/04-Bab 1 Episode 1 Comment Ibu Hmm_-consolidated.mp3-bb9cbb8d74db09f032d1798755e4e6d1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

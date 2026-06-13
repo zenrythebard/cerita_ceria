@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ddev5k21rq2m7"
+path="res://.godot/imported/01-Bab 4 Episode 2 Ibu Comment betul sekali -consolidated.mp3-d46d6c79cd50819261be6c5fa1286e6e.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/01-Bab 4 Episode 2 Ibu Comment betul sekali -consolidated.mp3"
+dest_files=["res://.godot/imported/01-Bab 4 Episode 2 Ibu Comment betul sekali -consolidated.mp3-d46d6c79cd50819261be6c5fa1286e6e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

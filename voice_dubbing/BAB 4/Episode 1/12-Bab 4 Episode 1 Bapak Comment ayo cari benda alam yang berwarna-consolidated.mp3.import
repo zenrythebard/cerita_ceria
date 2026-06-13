@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://oyftdsb3x43e"
+path="res://.godot/imported/12-Bab 4 Episode 1 Bapak Comment ayo cari benda alam yang berwarna-consolidated.mp3-f53ae61e2a83b5628b64cd11a4509c62.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/12-Bab 4 Episode 1 Bapak Comment ayo cari benda alam yang berwarna-consolidated.mp3"
+dest_files=["res://.godot/imported/12-Bab 4 Episode 1 Bapak Comment ayo cari benda alam yang berwarna-consolidated.mp3-f53ae61e2a83b5628b64cd11a4509c62.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

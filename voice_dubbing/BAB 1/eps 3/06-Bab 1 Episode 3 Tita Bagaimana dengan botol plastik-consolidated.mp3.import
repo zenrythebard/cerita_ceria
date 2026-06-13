@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c47nibxup823h"
+path="res://.godot/imported/06-Bab 1 Episode 3 Tita Bagaimana dengan botol plastik-consolidated.mp3-f1add8198b8107a9dbbc52850efc7fa1.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 3/06-Bab 1 Episode 3 Tita Bagaimana dengan botol plastik-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 1 Episode 3 Tita Bagaimana dengan botol plastik-consolidated.mp3-f1add8198b8107a9dbbc52850efc7fa1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

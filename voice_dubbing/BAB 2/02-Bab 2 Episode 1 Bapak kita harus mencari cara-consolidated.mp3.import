@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://3jqfojhpc384"
+path="res://.godot/imported/02-Bab 2 Episode 1 Bapak kita harus mencari cara-consolidated.mp3-6a1e919962aaa948d0c154ccc184ccb1.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 2/02-Bab 2 Episode 1 Bapak kita harus mencari cara-consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 2 Episode 1 Bapak kita harus mencari cara-consolidated.mp3-6a1e919962aaa948d0c154ccc184ccb1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

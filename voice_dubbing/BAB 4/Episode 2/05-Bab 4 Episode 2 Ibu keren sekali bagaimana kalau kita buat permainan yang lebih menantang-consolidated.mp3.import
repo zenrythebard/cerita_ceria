@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://6cbcm40nxhcw"
+path="res://.godot/imported/05-Bab 4 Episode 2 Ibu keren sekali bagaimana kalau kita buat permainan yang lebih menantang-consolidated.mp3-c9d7c25e366ab05bd1bc6d8c0a6b8ead.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/05-Bab 4 Episode 2 Ibu keren sekali bagaimana kalau kita buat permainan yang lebih menantang-consolidated.mp3"
+dest_files=["res://.godot/imported/05-Bab 4 Episode 2 Ibu keren sekali bagaimana kalau kita buat permainan yang lebih menantang-consolidated.mp3-c9d7c25e366ab05bd1bc6d8c0a6b8ead.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

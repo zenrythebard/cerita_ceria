@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dykhe4wl0oe4y"
+path="res://.godot/imported/03-Bab 1 Episode 1 Bapak terimakasih tita-consolidated.mp3-199be80023b8b1aebc79b2d9e7b67c90.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/03-Bab 1 Episode 1 Bapak terimakasih tita-consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 1 Episode 1 Bapak terimakasih tita-consolidated.mp3-199be80023b8b1aebc79b2d9e7b67c90.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

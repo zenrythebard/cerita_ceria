@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cg5eremmh4kdl"
+path="res://.godot/imported/01-Bab 4 Episode 2 Ibu alam sekitar adalah-consolidated.mp3-43c26007ef5fd078d10a52598eceb9cc.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/01-Bab 4 Episode 2 Ibu alam sekitar adalah-consolidated.mp3"
+dest_files=["res://.godot/imported/01-Bab 4 Episode 2 Ibu alam sekitar adalah-consolidated.mp3-43c26007ef5fd078d10a52598eceb9cc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

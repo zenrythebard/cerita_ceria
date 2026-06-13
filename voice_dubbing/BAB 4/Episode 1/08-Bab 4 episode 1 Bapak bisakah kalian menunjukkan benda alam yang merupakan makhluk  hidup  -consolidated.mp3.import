@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bbxceq527x56o"
+path="res://.godot/imported/08-Bab 4 episode 1 Bapak bisakah kalian menunjukkan benda alam yang merupakan makhluk  hidup  -consolidated.mp3-fb3009a4162dfe64a48e269e9be0b2c9.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/08-Bab 4 episode 1 Bapak bisakah kalian menunjukkan benda alam yang merupakan makhluk  hidup  -consolidated.mp3"
+dest_files=["res://.godot/imported/08-Bab 4 episode 1 Bapak bisakah kalian menunjukkan benda alam yang merupakan makhluk  hidup  -consolidated.mp3-fb3009a4162dfe64a48e269e9be0b2c9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

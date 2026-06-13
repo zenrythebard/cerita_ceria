@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://drwvv13cnff5t"
+path="res://.godot/imported/02-Bab 4 Episode 2 Tito eee tapi itu apa ya-consolidated.mp3-e7b1b9e9a882a94c2af24397fd8c501e.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/02-Bab 4 Episode 2 Tito eee tapi itu apa ya-consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 4 Episode 2 Tito eee tapi itu apa ya-consolidated.mp3-e7b1b9e9a882a94c2af24397fd8c501e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

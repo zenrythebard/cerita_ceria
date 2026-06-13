@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c6ir4uc1lxmlh"
+path="res://.godot/imported/04-Bab 3 Episode 1 Tita mauuu!!!-consolidated.mp3-afa2475690c1c62fa2b89e49958d8888.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/04-Bab 3 Episode 1 Tita mauuu!!!-consolidated.mp3"
+dest_files=["res://.godot/imported/04-Bab 3 Episode 1 Tita mauuu!!!-consolidated.mp3-afa2475690c1c62fa2b89e49958d8888.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

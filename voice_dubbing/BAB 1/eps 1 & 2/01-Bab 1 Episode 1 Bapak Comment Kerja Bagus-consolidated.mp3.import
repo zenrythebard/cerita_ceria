@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b8rqv8byoc6tn"
+path="res://.godot/imported/01-Bab 1 Episode 1 Bapak Comment Kerja Bagus-consolidated.mp3-cc7441e42cdc21659f3927bbaca33aeb.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/01-Bab 1 Episode 1 Bapak Comment Kerja Bagus-consolidated.mp3"
+dest_files=["res://.godot/imported/01-Bab 1 Episode 1 Bapak Comment Kerja Bagus-consolidated.mp3-cc7441e42cdc21659f3927bbaca33aeb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

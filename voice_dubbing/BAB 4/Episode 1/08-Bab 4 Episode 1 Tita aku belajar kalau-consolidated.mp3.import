@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bmrdh7gq1x7if"
+path="res://.godot/imported/08-Bab 4 Episode 1 Tita aku belajar kalau-consolidated.mp3-a6e09038932ff4dc3f4a8b33614d9739.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/08-Bab 4 Episode 1 Tita aku belajar kalau-consolidated.mp3"
+dest_files=["res://.godot/imported/08-Bab 4 Episode 1 Tita aku belajar kalau-consolidated.mp3-a6e09038932ff4dc3f4a8b33614d9739.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

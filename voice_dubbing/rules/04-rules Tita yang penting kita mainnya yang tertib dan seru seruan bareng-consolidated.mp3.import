@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b33crdyms4so1"
+path="res://.godot/imported/04-rules Tita yang penting kita mainnya yang tertib dan seru seruan bareng-consolidated.mp3-285e4508d5a2e09c4cb64f56c5a705c7.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/rules/04-rules Tita yang penting kita mainnya yang tertib dan seru seruan bareng-consolidated.mp3"
+dest_files=["res://.godot/imported/04-rules Tita yang penting kita mainnya yang tertib dan seru seruan bareng-consolidated.mp3-285e4508d5a2e09c4cb64f56c5a705c7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dl7tkg7tp4s7k"
+path="res://.godot/imported/09-Bab 1 Episode 3 Bapak sekarang bagaimana kalau kita -consolidated.mp3-48a419e6a5672bc81e4cbbe2944c742f.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 3/09-Bab 1 Episode 3 Bapak sekarang bagaimana kalau kita -consolidated.mp3"
+dest_files=["res://.godot/imported/09-Bab 1 Episode 3 Bapak sekarang bagaimana kalau kita -consolidated.mp3-48a419e6a5672bc81e4cbbe2944c742f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

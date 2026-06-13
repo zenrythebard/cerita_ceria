@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://e7uw7h6nboym"
+path="res://.godot/imported/05-Bab 1 Episode 2 Bapak kalau sampah berair-consolidated.mp3-1afba78903d1a41250c71e757b422cdf.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/05-Bab 1 Episode 2 Bapak kalau sampah berair-consolidated.mp3"
+dest_files=["res://.godot/imported/05-Bab 1 Episode 2 Bapak kalau sampah berair-consolidated.mp3-1afba78903d1a41250c71e757b422cdf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

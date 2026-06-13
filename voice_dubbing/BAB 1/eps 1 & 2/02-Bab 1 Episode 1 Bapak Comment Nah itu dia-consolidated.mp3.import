@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://disci0tjab6kf"
+path="res://.godot/imported/02-Bab 1 Episode 1 Bapak Comment Nah itu dia-consolidated.mp3-e428cb1e3c476d6dcbf7eafdc3f05aa4.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/02-Bab 1 Episode 1 Bapak Comment Nah itu dia-consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 1 Episode 1 Bapak Comment Nah itu dia-consolidated.mp3-e428cb1e3c476d6dcbf7eafdc3f05aa4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dkiyv0lsx857k"
+path="res://.godot/imported/16-Bab 4 episode 1 Bapak nah tita tito apa yang kalian pelajari -consolidated.mp3-cfb98b28e7213eaf82e46d70ce707675.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/16-Bab 4 episode 1 Bapak nah tita tito apa yang kalian pelajari -consolidated.mp3"
+dest_files=["res://.godot/imported/16-Bab 4 episode 1 Bapak nah tita tito apa yang kalian pelajari -consolidated.mp3-cfb98b28e7213eaf82e46d70ce707675.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c57v3a4s4ybf7"
+path="res://.godot/imported/02-Bab 3 Episode 1 Ibu ayo geser tanaman-consolidated.mp3-5d7d4dd968ece203293546edc756ad2d.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/02-Bab 3 Episode 1 Ibu ayo geser tanaman-consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 3 Episode 1 Ibu ayo geser tanaman-consolidated.mp3-5d7d4dd968ece203293546edc756ad2d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

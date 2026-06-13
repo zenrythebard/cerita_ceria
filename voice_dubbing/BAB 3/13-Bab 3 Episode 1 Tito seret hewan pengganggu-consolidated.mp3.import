@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmsqjci2r0yxf"
+path="res://.godot/imported/13-Bab 3 Episode 1 Tito seret hewan pengganggu-consolidated.mp3-4cd96c0aa17c763b4bea5ef7503ccc91.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/13-Bab 3 Episode 1 Tito seret hewan pengganggu-consolidated.mp3"
+dest_files=["res://.godot/imported/13-Bab 3 Episode 1 Tito seret hewan pengganggu-consolidated.mp3-4cd96c0aa17c763b4bea5ef7503ccc91.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

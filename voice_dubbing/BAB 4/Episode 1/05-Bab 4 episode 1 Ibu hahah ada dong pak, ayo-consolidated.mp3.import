@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://kjgtr2wgws38"
+path="res://.godot/imported/05-Bab 4 episode 1 Ibu hahah ada dong pak, ayo-consolidated.mp3-8847f8ba7100d4f17fb023ebf63ce929.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/05-Bab 4 episode 1 Ibu hahah ada dong pak, ayo-consolidated.mp3"
+dest_files=["res://.godot/imported/05-Bab 4 episode 1 Ibu hahah ada dong pak, ayo-consolidated.mp3-8847f8ba7100d4f17fb023ebf63ce929.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

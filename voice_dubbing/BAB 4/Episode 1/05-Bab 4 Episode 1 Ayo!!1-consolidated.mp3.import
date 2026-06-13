@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://crmf15jytpsp5"
+path="res://.godot/imported/05-Bab 4 Episode 1 Ayo!!1-consolidated.mp3-d4b2b67f6198b6d30abc28a6013d881e.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/05-Bab 4 Episode 1 Ayo!!1-consolidated.mp3"
+dest_files=["res://.godot/imported/05-Bab 4 Episode 1 Ayo!!1-consolidated.mp3-d4b2b67f6198b6d30abc28a6013d881e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

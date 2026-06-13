@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bx1eq52s26dq5"
+path="res://.godot/imported/01-Bab 3 Episode 1 Tita Hama itu hewan pengganggu tanaman-consolidated.mp3-ec3700c992b94a72364240649264cd80.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/01-Bab 3 Episode 1 Tita Hama itu hewan pengganggu tanaman-consolidated.mp3"
+dest_files=["res://.godot/imported/01-Bab 3 Episode 1 Tita Hama itu hewan pengganggu tanaman-consolidated.mp3-ec3700c992b94a72364240649264cd80.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

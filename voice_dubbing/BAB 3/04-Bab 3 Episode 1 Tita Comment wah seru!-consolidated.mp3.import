@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bolqs3bv8hc6y"
+path="res://.godot/imported/04-Bab 3 Episode 1 Tita Comment wah seru!-consolidated.mp3-2b00154262dd8574d00088043babed0b.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/04-Bab 3 Episode 1 Tita Comment wah seru!-consolidated.mp3"
+dest_files=["res://.godot/imported/04-Bab 3 Episode 1 Tita Comment wah seru!-consolidated.mp3-2b00154262dd8574d00088043babed0b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

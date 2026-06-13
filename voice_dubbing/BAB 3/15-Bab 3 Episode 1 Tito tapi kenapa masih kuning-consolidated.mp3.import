@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://6e65cku51ej8"
+path="res://.godot/imported/15-Bab 3 Episode 1 Tito tapi kenapa masih kuning-consolidated.mp3-6f5a95bd705a915f0dfdfd57481bc8e9.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/15-Bab 3 Episode 1 Tito tapi kenapa masih kuning-consolidated.mp3"
+dest_files=["res://.godot/imported/15-Bab 3 Episode 1 Tito tapi kenapa masih kuning-consolidated.mp3-6f5a95bd705a915f0dfdfd57481bc8e9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

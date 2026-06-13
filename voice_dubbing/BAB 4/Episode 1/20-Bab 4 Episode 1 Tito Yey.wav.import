@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://yd7jw35mxm8c"
+path="res://.godot/imported/20-Bab 4 Episode 1 Tito Yey.wav-23ed0d9d1ee1ab224c8979d5231bac94.sample"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/20-Bab 4 Episode 1 Tito Yey.wav"
+dest_files=["res://.godot/imported/20-Bab 4 Episode 1 Tito Yey.wav-23ed0d9d1ee1ab224c8979d5231bac94.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dirpd6cqdwr7q"
+path="res://.godot/imported/07-Bab 4 Episode 2 Ibu Comment  itu bukan benda hidup-consolidated.mp3-9eca8bea467b90712b630f14dc9c8222.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/07-Bab 4 Episode 2 Ibu Comment  itu bukan benda hidup-consolidated.mp3"
+dest_files=["res://.godot/imported/07-Bab 4 Episode 2 Ibu Comment  itu bukan benda hidup-consolidated.mp3-9eca8bea467b90712b630f14dc9c8222.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

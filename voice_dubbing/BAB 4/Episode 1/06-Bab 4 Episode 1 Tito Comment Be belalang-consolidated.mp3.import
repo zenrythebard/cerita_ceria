@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2iphn8knao3y"
+path="res://.godot/imported/06-Bab 4 Episode 1 Tito Comment Be belalang-consolidated.mp3-317c34f1e9ff2c0a8d9ec89f24481d51.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/06-Bab 4 Episode 1 Tito Comment Be belalang-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 4 Episode 1 Tito Comment Be belalang-consolidated.mp3-317c34f1e9ff2c0a8d9ec89f24481d51.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

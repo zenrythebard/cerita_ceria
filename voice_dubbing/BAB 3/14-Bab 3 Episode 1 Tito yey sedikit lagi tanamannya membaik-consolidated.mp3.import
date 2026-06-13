@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://153qxhpro8yi"
+path="res://.godot/imported/14-Bab 3 Episode 1 Tito yey sedikit lagi tanamannya membaik-consolidated.mp3-13bcae2e393e4c457dfb1fdd9ddc8053.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/14-Bab 3 Episode 1 Tito yey sedikit lagi tanamannya membaik-consolidated.mp3"
+dest_files=["res://.godot/imported/14-Bab 3 Episode 1 Tito yey sedikit lagi tanamannya membaik-consolidated.mp3-13bcae2e393e4c457dfb1fdd9ddc8053.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

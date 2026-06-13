@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhs4v3gcv7vlt"
+path="res://.godot/imported/02-Bab 1 Episode 2 Tito Wah sampahnya banyak-consolidated.mp3-335dc0f20be3330f8e972d5ad5cffbf9.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/02-Bab 1 Episode 2 Tito Wah sampahnya banyak-consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 1 Episode 2 Tito Wah sampahnya banyak-consolidated.mp3-335dc0f20be3330f8e972d5ad5cffbf9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

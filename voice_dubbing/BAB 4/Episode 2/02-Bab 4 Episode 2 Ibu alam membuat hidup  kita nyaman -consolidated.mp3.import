@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cp5v7yd3gtmlb"
+path="res://.godot/imported/02-Bab 4 Episode 2 Ibu alam membuat hidup  kita nyaman -consolidated.mp3-b0745c7581a7028deae5d06e4abf1ad7.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/02-Bab 4 Episode 2 Ibu alam membuat hidup  kita nyaman -consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 4 Episode 2 Ibu alam membuat hidup  kita nyaman -consolidated.mp3-b0745c7581a7028deae5d06e4abf1ad7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cri2fmd8nif4q"
+path="res://.godot/imported/02-Bab 4 Episode 1 Bapak benda hidup    -consolidated.mp3-ca6eeee4188311ddd6d9d49f9314f5f6.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/02-Bab 4 Episode 1 Bapak benda hidup    -consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 4 Episode 1 Bapak benda hidup    -consolidated.mp3-ca6eeee4188311ddd6d9d49f9314f5f6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

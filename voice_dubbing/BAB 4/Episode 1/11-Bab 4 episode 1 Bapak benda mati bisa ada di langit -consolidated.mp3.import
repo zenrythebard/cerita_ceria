@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cxmg24oqa4n7f"
+path="res://.godot/imported/11-Bab 4 episode 1 Bapak benda mati bisa ada di langit -consolidated.mp3-cdc54886a652be4a8904438089aaa966.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/11-Bab 4 episode 1 Bapak benda mati bisa ada di langit -consolidated.mp3"
+dest_files=["res://.godot/imported/11-Bab 4 episode 1 Bapak benda mati bisa ada di langit -consolidated.mp3-cdc54886a652be4a8904438089aaa966.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

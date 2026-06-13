@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://1vow0uonagkh"
+path="res://.godot/imported/01-Bab 4 Episode 2 Tito Hehee-consolidated.mp3-bc892dbaddd52a9bd31f3f092eb86cea.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/01-Bab 4 Episode 2 Tito Hehee-consolidated.mp3"
+dest_files=["res://.godot/imported/01-Bab 4 Episode 2 Tito Hehee-consolidated.mp3-bc892dbaddd52a9bd31f3f092eb86cea.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

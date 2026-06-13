@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://vgtrpxtep7oq"
+path="res://.godot/imported/03-Bab 1 Episode 2 Tito hmm apakah pohonnya akan  -consolidated.mp3-f8b35d2f32f8a02d242e666e4bdd7ee9.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/03-Bab 1 Episode 2 Tito hmm apakah pohonnya akan  -consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 1 Episode 2 Tito hmm apakah pohonnya akan  -consolidated.mp3-f8b35d2f32f8a02d242e666e4bdd7ee9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

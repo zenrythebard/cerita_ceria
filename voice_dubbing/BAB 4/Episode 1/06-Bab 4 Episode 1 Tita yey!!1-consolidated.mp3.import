@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bl6qkly2cn44t"
+path="res://.godot/imported/06-Bab 4 Episode 1 Tita yey!!1-consolidated.mp3-09d5721b8d370a94ff8b57af062f1123.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/06-Bab 4 Episode 1 Tita yey!!1-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 4 Episode 1 Tita yey!!1-consolidated.mp3-09d5721b8d370a94ff8b57af062f1123.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

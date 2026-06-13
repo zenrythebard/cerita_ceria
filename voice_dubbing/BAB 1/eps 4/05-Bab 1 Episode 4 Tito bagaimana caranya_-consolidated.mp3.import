@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bavvhu50gl4wv"
+path="res://.godot/imported/05-Bab 1 Episode 4 Tito bagaimana caranya_-consolidated.mp3-91f0b7e88d46a584d12ff797290ee9e6.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 4/05-Bab 1 Episode 4 Tito bagaimana caranya_-consolidated.mp3"
+dest_files=["res://.godot/imported/05-Bab 1 Episode 4 Tito bagaimana caranya_-consolidated.mp3-91f0b7e88d46a584d12ff797290ee9e6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

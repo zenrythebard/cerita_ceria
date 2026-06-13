@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c11icnghb83ac"
+path="res://.godot/imported/03-Bab 1 Episode 1 Comment Ibu Nah benar yang itu -consolidated.mp3-0aa0e8783d8caa0dbee23109fb1aecbb.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/03-Bab 1 Episode 1 Comment Ibu Nah benar yang itu -consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 1 Episode 1 Comment Ibu Nah benar yang itu -consolidated.mp3-0aa0e8783d8caa0dbee23109fb1aecbb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

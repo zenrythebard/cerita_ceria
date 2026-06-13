@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://duk1r25n10f8u"
+path="res://.godot/imported/10-Bab 4 Episode 2 Ibu Comment  belum tepat nak, ayo kita coba pelan pelan-consolidated.mp3-a6eca78ac8727652fca7fcba809103c5.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/10-Bab 4 Episode 2 Ibu Comment  belum tepat nak, ayo kita coba pelan pelan-consolidated.mp3"
+dest_files=["res://.godot/imported/10-Bab 4 Episode 2 Ibu Comment  belum tepat nak, ayo kita coba pelan pelan-consolidated.mp3-a6eca78ac8727652fca7fcba809103c5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

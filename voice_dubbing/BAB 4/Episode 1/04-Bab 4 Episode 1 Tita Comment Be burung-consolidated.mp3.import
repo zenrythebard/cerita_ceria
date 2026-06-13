@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://5r5loppusi33"
+path="res://.godot/imported/04-Bab 4 Episode 1 Tita Comment Be burung-consolidated.mp3-7cd8ed3448f312aecf23b257f499f28f.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/04-Bab 4 Episode 1 Tita Comment Be burung-consolidated.mp3"
+dest_files=["res://.godot/imported/04-Bab 4 Episode 1 Tita Comment Be burung-consolidated.mp3-7cd8ed3448f312aecf23b257f499f28f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

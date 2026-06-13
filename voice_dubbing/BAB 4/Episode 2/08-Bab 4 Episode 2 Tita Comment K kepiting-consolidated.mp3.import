@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://m6dnbh4ghsw6"
+path="res://.godot/imported/08-Bab 4 Episode 2 Tita Comment K kepiting-consolidated.mp3-d9a031d27a911dd537d1cca47ac3a7da.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/08-Bab 4 Episode 2 Tita Comment K kepiting-consolidated.mp3"
+dest_files=["res://.godot/imported/08-Bab 4 Episode 2 Tita Comment K kepiting-consolidated.mp3-d9a031d27a911dd537d1cca47ac3a7da.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

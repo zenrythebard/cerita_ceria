@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c8flmkac674ne"
+path="res://.godot/imported/04-Bab 1 Episode 4 Tito eee memangnya dia se berguna itu-consolidated.mp3-0d146b73241e1607a72389855bcff8aa.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 4/04-Bab 1 Episode 4 Tito eee memangnya dia se berguna itu-consolidated.mp3"
+dest_files=["res://.godot/imported/04-Bab 1 Episode 4 Tito eee memangnya dia se berguna itu-consolidated.mp3-0d146b73241e1607a72389855bcff8aa.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

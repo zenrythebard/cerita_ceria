@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dopbkouyq7mey"
+path="res://.godot/imported/10- Bab 4 Episode 2 Tita yeyyy-consolidated.mp3-de170aad591ec174d288d711a593a7f3.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/10- Bab 4 Episode 2 Tita yeyyy-consolidated.mp3"
+dest_files=["res://.godot/imported/10- Bab 4 Episode 2 Tita yeyyy-consolidated.mp3-de170aad591ec174d288d711a593a7f3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

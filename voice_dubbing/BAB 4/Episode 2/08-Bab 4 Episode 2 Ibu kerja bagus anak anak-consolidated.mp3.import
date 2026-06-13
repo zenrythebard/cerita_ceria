@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dsdec68bgik3"
+path="res://.godot/imported/08-Bab 4 Episode 2 Ibu kerja bagus anak anak-consolidated.mp3-0b44829af87ca81d97330a7191bb7973.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/08-Bab 4 Episode 2 Ibu kerja bagus anak anak-consolidated.mp3"
+dest_files=["res://.godot/imported/08-Bab 4 Episode 2 Ibu kerja bagus anak anak-consolidated.mp3-0b44829af87ca81d97330a7191bb7973.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

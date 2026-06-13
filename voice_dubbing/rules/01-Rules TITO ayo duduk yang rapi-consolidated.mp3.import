@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c5tvkhjg547ik"
+path="res://.godot/imported/01-Rules TITO ayo duduk yang rapi-consolidated.mp3-0fe761034240b3155398ac88fdfd9b15.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/rules/01-Rules TITO ayo duduk yang rapi-consolidated.mp3"
+dest_files=["res://.godot/imported/01-Rules TITO ayo duduk yang rapi-consolidated.mp3-0fe761034240b3155398ac88fdfd9b15.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

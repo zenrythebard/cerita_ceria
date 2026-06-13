@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://brnkiwpaqmpnq"
+path="res://.godot/imported/02-Bab 4 Episode 1 Tita Ayo ayo kita berpetualang-consolidated.mp3-3ea3c1dd5ef4f0e96f2417e5c41792ac.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/02-Bab 4 Episode 1 Tita Ayo ayo kita berpetualang-consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 4 Episode 1 Tita Ayo ayo kita berpetualang-consolidated.mp3-3ea3c1dd5ef4f0e96f2417e5c41792ac.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

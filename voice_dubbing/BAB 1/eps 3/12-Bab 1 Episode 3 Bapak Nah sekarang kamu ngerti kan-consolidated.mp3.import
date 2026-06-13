@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://kjhd8gw55apd"
+path="res://.godot/imported/12-Bab 1 Episode 3 Bapak Nah sekarang kamu ngerti kan-consolidated.mp3-6d4535024a6387f5ccd72aa1e0393e6f.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 3/12-Bab 1 Episode 3 Bapak Nah sekarang kamu ngerti kan-consolidated.mp3"
+dest_files=["res://.godot/imported/12-Bab 1 Episode 3 Bapak Nah sekarang kamu ngerti kan-consolidated.mp3-6d4535024a6387f5ccd72aa1e0393e6f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

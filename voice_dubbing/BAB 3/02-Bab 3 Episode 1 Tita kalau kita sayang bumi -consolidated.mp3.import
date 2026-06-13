@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ch5tjvl5dopch"
+path="res://.godot/imported/02-Bab 3 Episode 1 Tita kalau kita sayang bumi -consolidated.mp3-c3597baa06aae1061d2c500950944e51.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/02-Bab 3 Episode 1 Tita kalau kita sayang bumi -consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 3 Episode 1 Tita kalau kita sayang bumi -consolidated.mp3-c3597baa06aae1061d2c500950944e51.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

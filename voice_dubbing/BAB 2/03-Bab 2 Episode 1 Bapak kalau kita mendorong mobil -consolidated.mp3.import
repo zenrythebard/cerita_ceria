@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bydrhsftjkvfs"
+path="res://.godot/imported/03-Bab 2 Episode 1 Bapak kalau kita mendorong mobil -consolidated.mp3-aee0fdc6ffcd60e1078fee704a8021f9.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 2/03-Bab 2 Episode 1 Bapak kalau kita mendorong mobil -consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 2 Episode 1 Bapak kalau kita mendorong mobil -consolidated.mp3-aee0fdc6ffcd60e1078fee704a8021f9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://u4wg7pyh4nbb"
+path="res://.godot/imported/07-Bab 4 Episode 1 Tito karena semua benda di bumi ini-consolidated.mp3-70b76b39028c8be6eca23232d6d55b54.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/07-Bab 4 Episode 1 Tito karena semua benda di bumi ini-consolidated.mp3"
+dest_files=["res://.godot/imported/07-Bab 4 Episode 1 Tito karena semua benda di bumi ini-consolidated.mp3-70b76b39028c8be6eca23232d6d55b54.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

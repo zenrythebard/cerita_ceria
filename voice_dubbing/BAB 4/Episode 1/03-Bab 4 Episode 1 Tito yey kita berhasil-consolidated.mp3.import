@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dufdqcq2gbdgp"
+path="res://.godot/imported/03-Bab 4 Episode 1 Tito yey kita berhasil-consolidated.mp3-308b4b3814382697914119de850866a7.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/03-Bab 4 Episode 1 Tito yey kita berhasil-consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 4 Episode 1 Tito yey kita berhasil-consolidated.mp3-308b4b3814382697914119de850866a7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

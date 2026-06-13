@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cdw2rqltcgcnn"
+path="res://.godot/imported/04-Bab 4 Episode 2 Tito fokus dong tita-consolidated.mp3-7f6b0881db08750d45bd5dec0a7622a4.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/04-Bab 4 Episode 2 Tito fokus dong tita-consolidated.mp3"
+dest_files=["res://.godot/imported/04-Bab 4 Episode 2 Tito fokus dong tita-consolidated.mp3-7f6b0881db08750d45bd5dec0a7622a4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

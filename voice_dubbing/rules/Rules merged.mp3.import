@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dkx831x4bj0xj"
+path="res://.godot/imported/Rules merged.mp3-4b56ebe0d2903ee63195c6da9a66f684.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/rules/Rules merged.mp3"
+dest_files=["res://.godot/imported/Rules merged.mp3-4b56ebe0d2903ee63195c6da9a66f684.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

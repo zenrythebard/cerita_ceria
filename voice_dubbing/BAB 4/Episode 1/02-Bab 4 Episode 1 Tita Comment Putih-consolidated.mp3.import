@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://1dcxna60u3mv"
+path="res://.godot/imported/02-Bab 4 Episode 1 Tita Comment Putih-consolidated.mp3-168e2195ce65b0895292703ab0a9353f.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/02-Bab 4 Episode 1 Tita Comment Putih-consolidated.mp3"
+dest_files=["res://.godot/imported/02-Bab 4 Episode 1 Tita Comment Putih-consolidated.mp3-168e2195ce65b0895292703ab0a9353f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

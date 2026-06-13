@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://2ts8roq2yfcn"
+path="res://.godot/imported/03-Bab 4 Episode 2 Ibu Comment benar-consolidated.mp3-796c3e031045dd4898db037de43fb39e.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/03-Bab 4 Episode 2 Ibu Comment benar-consolidated.mp3"
+dest_files=["res://.godot/imported/03-Bab 4 Episode 2 Ibu Comment benar-consolidated.mp3-796c3e031045dd4898db037de43fb39e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

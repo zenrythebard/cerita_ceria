@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3fl43uvoh7tv"
+path="res://.godot/imported/06-Bab 4 Episode 2 Ibu Comment  yang berwarna-consolidated.mp3-d30a635018f8d373b9c0cf4cdfbb5866.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/06-Bab 4 Episode 2 Ibu Comment  yang berwarna-consolidated.mp3"
+dest_files=["res://.godot/imported/06-Bab 4 Episode 2 Ibu Comment  yang berwarna-consolidated.mp3-d30a635018f8d373b9c0cf4cdfbb5866.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

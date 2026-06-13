@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://f87tje3kva6m"
+path="res://.godot/imported/01-Bab 2 Episode 1 Bapak Waduh sepertinya bensinnya habis-consolidated.mp3-2c62ca0c20800c823bdbb71c84b9f63d.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 2/01-Bab 2 Episode 1 Bapak Waduh sepertinya bensinnya habis-consolidated.mp3"
+dest_files=["res://.godot/imported/01-Bab 2 Episode 1 Bapak Waduh sepertinya bensinnya habis-consolidated.mp3-2c62ca0c20800c823bdbb71c84b9f63d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

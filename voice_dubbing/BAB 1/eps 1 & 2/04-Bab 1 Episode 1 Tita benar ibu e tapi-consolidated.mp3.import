@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cp80iasixcesc"
+path="res://.godot/imported/04-Bab 1 Episode 1 Tita benar ibu e tapi-consolidated.mp3-c976ef7c0527177e09745a7f73d76299.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 1/eps 1 & 2/04-Bab 1 Episode 1 Tita benar ibu e tapi-consolidated.mp3"
+dest_files=["res://.godot/imported/04-Bab 1 Episode 1 Tita benar ibu e tapi-consolidated.mp3-c976ef7c0527177e09745a7f73d76299.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

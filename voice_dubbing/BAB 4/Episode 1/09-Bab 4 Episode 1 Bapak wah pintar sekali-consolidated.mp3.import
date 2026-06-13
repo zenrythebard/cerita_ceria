@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bfci50abow7by"
+path="res://.godot/imported/09-Bab 4 Episode 1 Bapak wah pintar sekali-consolidated.mp3-f954175ca2c1b5dc28657043daf79c33.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 1/09-Bab 4 Episode 1 Bapak wah pintar sekali-consolidated.mp3"
+dest_files=["res://.godot/imported/09-Bab 4 Episode 1 Bapak wah pintar sekali-consolidated.mp3-f954175ca2c1b5dc28657043daf79c33.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

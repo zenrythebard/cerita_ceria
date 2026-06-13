@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bksb7foc7gksj"
+path="res://.godot/imported/07-Bab 4 Episode 2 Tita hhh iya iya-consolidated.mp3-57284b48b82f0a4ce48736fbbf634f2e.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 4/Episode 2/07-Bab 4 Episode 2 Tita hhh iya iya-consolidated.mp3"
+dest_files=["res://.godot/imported/07-Bab 4 Episode 2 Tita hhh iya iya-consolidated.mp3-57284b48b82f0a4ce48736fbbf634f2e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://vq81tmrtjylh"
+path="res://.godot/imported/07-Bab 3 Episode 1 Tito ooohhh-consolidated.mp3-0c85bf686d2a922cc39e7fdc51ef1477.mp3str"
+
+[deps]
+
+source_file="res://voice_dubbing/BAB 3/07-Bab 3 Episode 1 Tito ooohhh-consolidated.mp3"
+dest_files=["res://.godot/imported/07-Bab 3 Episode 1 Tito ooohhh-consolidated.mp3-0c85bf686d2a922cc39e7fdc51ef1477.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
