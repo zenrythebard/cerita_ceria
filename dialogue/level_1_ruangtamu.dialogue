@@ -18,7 +18,7 @@ TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Es Cekek[/color]
 TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Amplop[/color]
 => END
 ~ snack
-TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Kemasan Cemilan[/color]
+TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Cemilan[/color]
 => END
 ~ kertas
 TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Kertas[/color]
@@ -27,130 +27,130 @@ TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Kertas[/color]
 TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Gelas Plastik[/color]
 => END
 ~ pisang
-TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]kulit pisang[/color]nya kita buang ya!
+TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Kulit Pisang[/color]
 => END
 ~ mi_cangkir
-TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]mi cangkir[/color]nya kita buang ya!
+TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Mi Cangkir[/color]
 => END
 ~ kresek
-TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]kantong plastik[/color]nya kita buang ya!
+TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Kantong Plastik[/color] 
 => END
 ~ kardus
-TITA: [#voice=uid://dqng6tb64ps57] Hebat! [color=#32cd32]kardus[/color]nya kita buang ya!
+TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Kardus[/color] 
 => END
 #-----------SAMPAH DAPUR
 ~ tulang_ayam
-TITA: [#voice=uid://dqng6tb64ps57] Hebat! [color=#32cd32]tulang ayam[/color]nya kita buang ya!
+TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Tulang Ayam[/color] 
 => END
 ~ saset
-TITA: [#voice=uid://dqng6tb64ps57] Hebat! [color=#32cd32]saset[/color]nya kita buang ya!
+TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Bumbu Saset[/color] 
 => END
 ~ kaleng
-TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]kaleng[/color]nya kita buang ya!
+TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Kaleng[/color] 
 => END
 ~ karton_telur
-TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]karton telur[/color]nya kita buang ya!
+TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Karton Telur[/color] 
 => END
 ~ apel
-TITA: [#voice=uid://dqng6tb64ps57] Hebat! [color=#32cd32]bekas apel[/color]nya kita buang ya!
+TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Bekas Apel[/color] 
 => END
 ~ tulang_ikan
-TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]tulang ikan[/color]nya kita buang ya!
+TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Tulang Ikan[/color]
 ~ cangkang
-TITA: [#voice=uid://dqng6tb64ps57] Hebat! [color=#32cd32]cangkang[/color]nya kita buang ya!
+TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]cangkang[/color]
 
 
 #----------NON-SAMPAH R TAMU---------------
 ~ lampu
-TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]lampu[/color], bukan sampah... 
+TITA: [#voice=uid://brqvdrgcpft6b] Lampu
 => END
 ~ vas
-TITA: [#voice=uid://c0m1fabxp0r4s] Itu [color=#32cd32]vas[/color], bukan sampah... 
+TITA: [#voice=uid://c0m1fabxp0r4s] Vas
 => END
 ~ jam
-TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]jam[/color], bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Jam
 => END
 ~ rak_buku
 TITA: Di rak buku tidak ada sampah.
 => END
 ~ lukisan
-TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]lukisan[/color], bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Lukisan
 => END
 ~ tanaman_gantung
-TITA: [#voice=uid://c0m1fabxp0r4s] Itu [color=#32cd32]tanaman[/color], bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Tanaman 
 => END
 ~ pohon_indoor
-TITA: [#voice=uid://c0m1fabxp0r4s] Itu [color=#32cd32]tanaman[/color], bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Tanaman Hias
 => END
 ~ buku
-TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]buku[/color], bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Buku
 => END
 ~ layang2
-TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]layang-layang[/color], bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Layang-layang
 => END
 ~ bola
-TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]bola[/color] punyaku, bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Bola
 => END
 ~ key
-TITA: [#voice=uid://c0m1fabxp0r4s] Itu [color=#32cd32]kunci mobil[/color] Bapak!
+TITA: [#voice=uid://dv55kitmhxp76] [color=#32cd32]Kunci Mobil[/color]
 => END
 ~ jaket
-TITA: [#voice=uid://c0m1fabxp0r4s] Itu [color=#32cd32]jaket[/color] punya Bapak, bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Jaket Kotor
 => END
 ~ gelas
-TITA: [#voice=uid://brqvdrgcpft6b] Itu [color=#32cd32]gelas[/color], bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Gelas Kotor
 => END
 ~ mangkok
-TITA: [#voice=uid://c0m1fabxp0r4s] Itu [color=#32cd32]mangkok[/color], bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Mangkok Kotor
 => END
 ~ selimut
-TITA: Itu [color=#32cd32]selimut[/color]nya Tito, bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Selimut
 => END
 #----------NON-SAMPAH DAPUR---------------
 ~ spatula
-TITA: Itu [color=#32cd32]spatula[/color], bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Spatula
 => END
 ~ wajan
-TITA: Itu [color=#32cd32]wajan[/color], bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Wajan
 => END
 ~ pisau
-TITA: Itu [color=#32cd32]pisau[/color], bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Pisau
 => END
 ~ panci
-TITA: Itu [color=#32cd32]panci[/color], bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Panci
 => END
 ~ sarung_tangan
-TITA: Itu [color=#32cd32]sarung tangan[/color], bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Sarung Tangan
 => END
 ~ cerek
-TITA: Itu [color=#32cd32]cerek[/color], bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Cerek
 => END
 ~ talenan
-TITA: Itu [color=#32cd32]talenan[/color], bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Talenan
 => END
 ~ gunting
-TITA: Itu [color=#32cd32]gunting[/color], bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Gunting
 => END
 ~ celemek
-TITA: Itu [color=#32cd32]celemek[/color], bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Celemek
 => END
 
 #----------NON-SAMPAH R KELUARGA---------------
 ~ tas
-TITA: Itu [color=#32cd32]tas[/color]nya Tito, bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Tas
 => END
 ~ karpet
-TITA: Itu [color=#32cd32]karpet[/color], bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Karpet
 => END
 ~ tanaman_pot
-TITA: Itu [color=#32cd32]tanaman pot[/color], bukan sampah...
+TITA: [#voice=uid://brqvdrgcpft6b] Tanaman Pot
 => END
 ~ televisi
-TITA: Itu [color=#32cd32]televisi[/color], bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Televisi
 => END
 ~ kipas
-TITA: Itu [color=#32cd32]kipas[/color], bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Kipas
 => END
 ~ boneka
-TITA: Itu [color=#32cd32]boneka[/color], bukan sampah...
+TITA: [#voice=uid://c0m1fabxp0r4s] Boneka
 => END

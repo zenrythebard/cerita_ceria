@@ -8,10 +8,11 @@ const LEVEL_2_HALAMANRUMAH = preload("uid://grhei24kpgii")
 
 func _ready() -> void:
 	GlobalStopwatch.stopwatch.reset()
-	GlobalAudio.bgm_player.stream = GlobalAudio.BGM_BERSIH_2
-	GlobalAudio.bgm_player.play()
 	GlobalStopwatch.stopwatch._set_paused(true)
 	Global.neutral_state = false
+	if get_tree().current_scene.name.contains("L1"):
+		GlobalAudio.bgm_player.stream = GlobalAudio.BGM_BERSIH_2
+		GlobalAudio.bgm_player.play()
 	if !get_tree().current_scene.name.contains("L1"):
 		camera_comp.camera_2d.position = Global.camera_position
 	match get_tree().current_scene.name:

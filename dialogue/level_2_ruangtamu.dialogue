@@ -6,93 +6,93 @@ IBU: [#voice=uid://b4ci41w0t8ugs]Taruhlah barang barang yang bisa diinteraksikan
 => END
 #----------FURNITURE---------------
 ~ lampu
-TITA: [#voice=uid://brqvdrgcpft6b] [color=#32cd32]Lampu[/color] ini sudah benar tempatnya. 
+TITA: Lampu [#voice=uid://c0m1fabxp0r4s]
 => END
 ~ vas
-TITA: [color=#32cd32]Vas[/color] ini sudah benar tempatnya.
+TITA: Vas [#voice=uid://c0m1fabxp0r4s]
 => END
 ~ jam
-TITA: [color=#32cd32]Jam[/color] ini sudah benar tempatnya.
+TITA: Jam [#voice=uid://c0m1fabxp0r4s]
 => END
 ~ lukisan
-TITA: [color=#32cd32]Lukisan[/color] ini sudah benar tempatnya.
+TITA: Lukisan [#voice=uid://c0m1fabxp0r4s]
 => END
 ~ tanaman_gantung
-TITA: [color=#32cd32]Tanaman[/color] ini sudah benar tempatnya.
+TITA: Tanaman Gantung [#voice=uid://c0m1fabxp0r4s]
 => END
 ~ pohon_indoor
-TITA: [color=#32cd32]Tanaman[/color] ini sudah benar tempatnya.
+TITA: Tanaman Hias [#voice=uid://c0m1fabxp0r4s]
 => END
 #----------PLACABLE---------------
 ~ buku
-TITA: Ayo cari tempat buat [color=#32cd32]buku[/color] ini.
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Buku[/color]
 => END
 ~ layang2
-TITA: Ayo cari tempat buat [color=#32cd32]layang-layang[/color] ini.
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Layang-layang[/color] 
 => END
 ~ bola
-TITA: Ayo cari tempat buat [color=#32cd32]bola[/color] ini.
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Bola[/color]  
 => END
 ~ key
-TITA: Itu [color=#32cd32]kunci mobil[/color] Bapak!
+TITA: [#voice=uid://dv55kitmhxp76] [color=#32cd32]Kunci Mobil[/color]
 => END
 ~ jaket
-TITA: [color=#32cd32]Jaket[/color] Bapak seharusnya dibawa kemana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Jaket Kotor[/color]  
 => END
 ~ gelas
-TITA: [color=#32cd32]Gelas[/color] kotor ini seharusnya dibawa kemana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Gelas Kotor[/color]  
 => END
 ~ mangkok
-TITA: [color=#32cd32]Mangkok[/color] kotor ini seharusnya dibawa kemana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Mangkok Kotor[/color]  
 => END
 ~ selimut
-TITA: [color=#32cd32]Selimut[/color] ini seharusnya disimpan dimana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Selimut[/color]  
 => END
 ~ place_here
-TITA: Hebat!
+% TITA: Hebat! [#voice=uid://cbps3jc41in0y]
+% TITA: Hebat! [#voice=uid://dqng6tb64ps57]
 => END
 
 #----------DAPUR PLACABLE---------------
 ~ spatula
-TITA: [color=#32cd32]Spatula[/color] ini seharusnya disimpan dimana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Spatula[/color]  
 ~ pisau
-TITA: [color=#32cd32]Pisau[/color] ini seharusnya disimpan dimana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Pisau[/color]  
 ~ panci
-TITA: [color=#32cd32]Panci[/color] ini seharusnya disimpan dimana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Panci[/color]  
 ~ sarung_tangan
-TITA: [color=#32cd32]Sarung tangan[/color] ini seharusnya disimpan dimana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Sarung Tangan[/color]  
 ~ talenan
-TITA: [color=#32cd32]Talenan[/color] ini seharusnya disimpan dimana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Talenan[/color]  
 ~ gunting
-TITA: [color=#32cd32]Gunting[/color] ini seharusnya disimpan dimana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Gunting[/color]  
 
 
 #----------DAPUR NONPLACABLE---------------
 ~ wajan
-TITA: [color=#32cd32]Wajan[/color] ini sudah benar tempatnya.
+TITA: Wajan [#voice=uid://c0m1fabxp0r4s]
 ~ celemek
-TITA: [color=#32cd32]Celemek[/color] ini sudah benar tempatnya.
+TITA: Celemek [#voice=uid://c0m1fabxp0r4s]
 ~ cerek
-TITA: [color=#32cd32]Cerek[/color] ini sudah benar tempatnya.
-
+TITA: Cerek [#voice=uid://c0m1fabxp0r4s]
 #----------R KELUARGA PLACABLE---------------
 ~ tas
-TITA: [color=#32cd32]Tas[/color]nya Tito ini seharusnya dibawa dimana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Tas[/color]  
 => END
 ~ boneka
-TITA: [color=#32cd32]Boneka[/color] ini seharusnya disimpan dimana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Boneka[/color]  
 => END
 ~ karpet
-TITA: [color=#32cd32]/Karpet[/color] ini seharusnya disimpan dimana ya...
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Karpet[/color]  
 
 #----------R KELUARGA NONPLACABLE------------
 => END
 ~ tanaman_pot
-TITA: [color=#32cd32]Tanaman pot[/color] ini sudah benar tempatnya.
+TITA: Tanaman Pot [#voice=uid://c0m1fabxp0r4s]
 => END
 ~ televisi
-TITA: [color=#32cd32]Televisi[/color] ini sudah benar tempatnya.
+TITA: Televisi [#voice=uid://c0m1fabxp0r4s]
 => END
 ~ kipas
-TITA: [color=#32cd32]Kipas[/color] ini sudah benar tempatnya.
+TITA: Kipas [#voice=uid://c0m1fabxp0r4s]
 => END

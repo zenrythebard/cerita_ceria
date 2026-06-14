@@ -89,4 +89,4 @@ func _on_sprite_dirt_pressed() -> void:
 
 
 func dialogue_show():
-	DialogueManager.show_dialogue_balloon_scene(Global.SOLO_BALLOON,load("res://dialogue/level_3_ruangtamu.dialogue"), dia_show)
+	DialogueManager.show_dialogue_balloon_scene(Global.SOLO_BALLOON, preload("uid://bvsik370322v8"), dia_show)

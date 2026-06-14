@@ -912,12 +912,35 @@ script = ExtResource("17_wivgv")
 type = "button"
 metadata/_custom_type_script = "uid://cx86xr4l84pe7"
 
+[node name="Label" type="Label" parent="CanvasShow/SendToRoom/Button1"]
+offset_left = -232.42184
+offset_top = 228.37971
+offset_right = 257.57816
+offset_bottom = 348.37973
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("13_2o237")
+theme_override_font_sizes/font_size = 100
+text = "Dapur"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="Button2" type="Sprite2D" parent="CanvasShow/SendToRoom"]
 position = Vector2(2012, 1725)
 scale = Vector2(0.6184873, 0.6184873)
 texture = ExtResource("18_5gl63")
 script = ExtResource("17_wivgv")
 metadata/_custom_type_script = "uid://cx86xr4l84pe7"
+
+[node name="Label" type="Label" parent="CanvasShow/SendToRoom/Button2"]
+offset_left = -358.94022
+offset_top = 228.37971
+offset_right = 390.05978
+offset_bottom = 348.37973
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("13_2o237")
+theme_override_font_sizes/font_size = 100
+text = "Ruang Cuci"
+horizontal_alignment = 1
 
 [node name="Button3" type="Sprite2D" parent="CanvasShow/SendToRoom"]
 position = Vector2(2738, 1765.0001)
@@ -926,6 +949,16 @@ texture = ExtResource("19_3b5wt")
 script = ExtResource("17_wivgv")
 type = "button"
 metadata/_custom_type_script = "uid://cx86xr4l84pe7"
+
+[node name="Label" type="Label" parent="CanvasShow/SendToRoom/Button3"]
+offset_left = -274.8636
+offset_top = 163.30112
+offset_right = 289.1364
+offset_bottom = 283.30115
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("13_2o237")
+theme_override_font_sizes/font_size = 100
+text = "Kamar Anak"
 
 [node name="CounterUi" type="Sprite2D" parent="CanvasShow"]
 position = Vector2(688, 176)

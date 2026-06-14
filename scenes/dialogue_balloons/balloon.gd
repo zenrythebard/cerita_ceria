@@ -204,7 +204,7 @@ func apply_dialogue_line() -> void:
 		audio_stream_player.play()
 		await audio_stream_player.finished
 		mouth.play("idle")
-		await get_tree().create_timer(2.5).timeout
+		await get_tree().create_timer(1.5).timeout
 		next(dialogue_line.next_id)
 	elif dialogue_line.responses.size() > 0:
 		balloon.focus_mode = Control.FOCUS_NONE
