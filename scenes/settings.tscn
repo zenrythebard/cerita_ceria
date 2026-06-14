@@ -1,15 +1,15 @@
-[gd_scene load_steps=14 format=3 uid="uid://dj18atodh667x"]
+[gd_scene load_steps=15 format=3 uid="uid://dj18atodh667x"]
 
 [ext_resource type="Script" uid="uid://ceymt1ox7rj12" path="res://scripts/settings.gd" id="1_gis3k"]
-[ext_resource type="Texture2D" uid="uid://1f21qmhw7wu7" path="res://UI/UI Blank/CHECK.png" id="2_4ppmf"]
-[ext_resource type="Texture2D" uid="uid://om4l4nwtow0a" path="res://UI/vol/VOLUME SLIDE BAR-3.png" id="2_83j8s"]
-[ext_resource type="Texture2D" uid="uid://bx4mm5fbgfofx" path="res://UI/vol/Vol Slider 1.png" id="3_gjs24"]
-[ext_resource type="Texture2D" uid="uid://cxneab8gvrrkw" path="res://UI/vol/Vol Slider 2.png" id="4_am25x"]
-[ext_resource type="Texture2D" uid="uid://56pfhdx65fec" path="res://UI/vol/VOLUME SLIDE BAR 2-2.png" id="5_4ppmf"]
+[ext_resource type="Texture2D" uid="uid://om4l4nwtow0a" path="res://ui_old/vol/VOLUME SLIDE BAR-3.png" id="2_83j8s"]
+[ext_resource type="Texture2D" uid="uid://bx4mm5fbgfofx" path="res://ui_old/vol/Vol Slider 1.png" id="3_gjs24"]
+[ext_resource type="Texture2D" uid="uid://cxneab8gvrrkw" path="res://ui_old/vol/Vol Slider 2.png" id="4_am25x"]
+[ext_resource type="Texture2D" uid="uid://56pfhdx65fec" path="res://ui_old/vol/VOLUME SLIDE BAR 2-2.png" id="5_4ppmf"]
 [ext_resource type="Script" uid="uid://hrtquip4l67o" path="res://scripts/slider.gd" id="6_uhhto"]
-[ext_resource type="Texture2D" uid="uid://f3r4mo1dcc50" path="res://UI/X.png" id="8_uhhto"]
-[ext_resource type="Texture2D" uid="uid://c2vo6g8mfxm0p" path="res://UI/UI Blank/RESTART.png" id="9_1g033"]
-[ext_resource type="Texture2D" uid="uid://cqd13sodf2iht" path="res://UI/HOME.png" id="10_01roj"]
+[ext_resource type="Texture2D" uid="uid://8pnsrhjnr1n0" path="res://ui_old/X-1.png" id="8_4ppmf"]
+[ext_resource type="Texture2D" uid="uid://c2vo6g8mfxm0p" path="res://ui_old/UI Blank/RESTART.png" id="9_1g033"]
+[ext_resource type="Texture2D" uid="uid://cqd13sodf2iht" path="res://ui_old/HOME.png" id="10_01roj"]
+[ext_resource type="Texture2D" uid="uid://1d12cxv0a3kp" path="res://ui_baru/settings.png" id="10_4ppmf"]
 
 [sub_resource type="Gradient" id="Gradient_ubhxj"]
 offsets = PackedFloat32Array(0.43333334)
@@ -26,7 +26,22 @@ expand_margin_top = 44.0
 expand_margin_bottom = 39.0
 region_rect = Rect2(72, 417.5, 884, 66)
 
-[node name="Settings" type="Control"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uhhto"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="Darken" type="Sprite2D" parent="."]
+position = Vector2(2110, 107.000015)
+rotation = -3.1415925
+scale = Vector2(121.06997, -205.27133)
+texture = SubResource("GradientTexture2D_4ppmf")
+
+[node name="Settings2" type="Sprite2D" parent="."]
+position = Vector2(1920, 1080)
+scale = Vector2(1.9174528, 1.9174527)
+texture = ExtResource("10_4ppmf")
+
+[node name="Settings" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -35,34 +50,16 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_gis3k")
 
-[node name="Darken" type="Sprite2D" parent="."]
-position = Vector2(2110, 107.000015)
-rotation = -3.1415925
-scale = Vector2(121.06997, -205.27133)
-texture = SubResource("GradientTexture2D_4ppmf")
+[node name="Volume Slider" type="Node2D" parent="Settings"]
+position = Vector2(1919.9998, 756)
+scale = Vector2(0.76, 0.76)
 
-[node name="NinePatchRect" type="NinePatchRect" parent="."]
-layout_mode = 0
-offset_left = 331.0
-offset_top = 174.0
-offset_right = 2169.0
-offset_bottom = 1057.0
-texture = ExtResource("2_4ppmf")
-region_rect = Rect2(64, 64, 896, 880)
-patch_margin_left = 208
-patch_margin_top = 240
-patch_margin_right = 224
-patch_margin_bottom = 224
-
-[node name="Volume Slider" type="Node2D" parent="."]
-position = Vector2(1252, 813)
-
-[node name="Volume Background" type="Sprite2D" parent="Volume Slider"]
+[node name="Volume Background" type="Sprite2D" parent="Settings/Volume Slider"]
 position = Vector2(-6.840332, 395.15967)
 scale = Vector2(1.6799994, 1.6799994)
 texture = ExtResource("2_83j8s")
 
-[node name="Volume" type="HSlider" parent="Volume Slider"]
+[node name="Volume" type="HSlider" parent="Settings/Volume Slider"]
 offset_left = -672.84033
 offset_top = -423.84027
 offset_right = 665.15967
@@ -73,40 +70,44 @@ theme_override_icons/grabber_disabled = ExtResource("3_gjs24")
 theme_override_styles/slider = SubResource("StyleBoxTexture_3j6r5")
 script = ExtResource("6_uhhto")
 
-[node name="Back" type="Button" parent="."]
+[node name="X1" type="Sprite2D" parent="Settings"]
+position = Vector2(2468.75, 396.75003)
+scale = Vector2(0.12353521, 0.12353521)
+texture = ExtResource("8_4ppmf")
+
+[node name="Back" type="Button" parent="Settings"]
 layout_mode = 0
-offset_left = 465.99976
-offset_top = 383.99997
-offset_right = 1165.9998
-offset_bottom = 617.0
+offset_left = 2415.0
+offset_top = 346.0
+offset_right = 2736.874
+offset_bottom = 667.8738
 scale = Vector2(0.32000124, 0.32000124)
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_uhhto")
 flat = true
 
-[node name="Back" type="Sprite2D" parent="Back"]
-position = Vector2(350, 106)
-texture = ExtResource("8_uhhto")
-
-[node name="Quit" type="Button" parent="."]
+[node name="Quit" type="Button" parent="Settings"]
 layout_mode = 0
-offset_left = 779.0
-offset_top = 303.0
-offset_right = 1648.7872
-offset_bottom = 1109.5737
-scale = Vector2(0.32000124, 0.32000124)
+offset_left = 1297.0
+offset_top = 352.0
+offset_right = 2166.787
+offset_bottom = 1158.5737
+scale = Vector2(0.12000005, 0.12000005)
 theme_override_font_sizes/font_size = 100
 flat = true
 
-[node name="Sprite2D2" type="Sprite2D" parent="Quit"]
+[node name="Sprite2D2" type="Sprite2D" parent="Settings/Quit"]
+visible = false
 position = Vector2(430.26025, 362.00095)
 texture = ExtResource("9_1g033")
 
-[node name="Sprite2D" type="Sprite2D" parent="Quit"]
+[node name="Sprite2D" type="Sprite2D" parent="Settings/Quit"]
+modulate = Color(0.39478135, 0.21174005, 0.18591377, 1)
 position = Vector2(430.2603, 362.00082)
 scale = Vector2(0.789475, 0.789475)
 texture = ExtResource("10_01roj")
 
-[connection signal="mouse_exited" from="Volume Slider/Volume" to="Volume Slider/Volume" method="_on_mouse_exited"]
-[connection signal="value_changed" from="Volume Slider/Volume" to="." method="_on_volume_value_changed"]
-[connection signal="value_changed" from="Volume Slider/Volume" to="Volume Slider/Volume" method="_on_value_changed"]
-[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
-[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+[connection signal="mouse_exited" from="Settings/Volume Slider/Volume" to="Settings/Volume Slider/Volume" method="_on_mouse_exited"]
+[connection signal="value_changed" from="Settings/Volume Slider/Volume" to="Settings" method="_on_volume_value_changed"]
+[connection signal="value_changed" from="Settings/Volume Slider/Volume" to="Settings/Volume Slider/Volume" method="_on_value_changed"]
+[connection signal="pressed" from="Settings/Back" to="Settings" method="_on_back_pressed"]
+[connection signal="pressed" from="Settings/Quit" to="Settings" method="_on_quit_pressed"]

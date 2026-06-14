@@ -1,4 +1,9 @@
-[gd_scene format=3 uid="uid://mxd70xkg6sx2"]
+[gd_scene load_steps=4 format=3 uid="uid://mxd70xkg6sx2"]
+
+[ext_resource type="Script" uid="uid://b6x17dcffc8wu" path="res://ui_baru/ui_menu_bab_1.gd" id="1_7a1he"]
+[ext_resource type="Texture2D" uid="uid://c53ipa4ugayml" path="res://ui_baru/bab 1.png" id="1_u0sm5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7a1he"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -7,3 +12,60 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_7a1he")
+
+[node name="Bab1" type="Sprite2D" parent="."]
+position = Vector2(1931.9998, 1081.5)
+scale = Vector2(2.0194442, 2.0194445)
+texture = ExtResource("1_u0sm5")
+
+[node name="setting" type="Button" parent="."]
+layout_mode = 0
+offset_left = 55.0
+offset_top = 3.0
+offset_right = 199.0
+offset_bottom = 147.0
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_7a1he")
+flat = true
+
+[node name="close" type="Button" parent="."]
+layout_mode = 0
+offset_left = 3692.0
+offset_top = -1.0
+offset_right = 3836.0
+offset_bottom = 143.0
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_7a1he")
+flat = true
+
+[node name="home" type="Button" parent="."]
+layout_mode = 0
+offset_left = 63.0
+offset_top = 1829.0
+offset_right = 336.0
+offset_bottom = 2102.0
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_7a1he")
+flat = true
+
+[node name="menu1" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1367.0
+offset_top = 1062.0
+offset_right = 1871.0
+offset_bottom = 1717.0
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_7a1he")
+flat = true
+
+[node name="menu2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1969.0
+offset_top = 1061.0
+offset_right = 2473.0
+offset_bottom = 1725.0
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_7a1he")
+flat = true
+
+[connection signal="pressed" from="setting" to="." method="_on_setting_pressed"]
+[connection signal="pressed" from="close" to="." method="_on_close_pressed"]
+[connection signal="pressed" from="home" to="." method="_on_home_pressed"]
+[connection signal="pressed" from="menu1" to="." method="_on_menu_1_pressed"]
+[connection signal="pressed" from="menu2" to="." method="_on_menu_2_pressed"]

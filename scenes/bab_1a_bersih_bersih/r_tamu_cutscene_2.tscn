@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://cu1myttle7ftw"]
+
+[ext_resource type="Script" uid="uid://cygxqdone2fy1" path="res://scenes/bab_1a_bersih_bersih/r_tamu_cutscene_2.gd" id="1_xuqs5"]
+[ext_resource type="PackedScene" uid="uid://b41i6wxa0ptyc" path="res://scenes/return.tscn" id="2_7gkmb"]
+[ext_resource type="VideoStream" uid="uid://fc8ra1alngdb" path="res://videos/Animasi Cuctscene 2 + Epilogue_converted.ogv" id="2_xuqs5"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xuqs5")
+
+[node name="CanvasLayer" parent="." instance=ExtResource("2_7gkmb")]
+visible = false
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_right = 3854.0
+offset_bottom = 2170.0
+stream = ExtResource("2_xuqs5")
+volume_db = 3.0299995
+autoplay = true
+expand = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

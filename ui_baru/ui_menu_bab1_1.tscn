@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=3 uid="uid://20dx51swruli"]
+
+[ext_resource type="Script" uid="uid://dgwuvs5m76ah0" path="res://ui_baru/ui_menu_bab_1_1.gd" id="1_dt3oy"]
+[ext_resource type="Texture2D" uid="uid://bl5thshfo2il4" path="res://ui_baru/bab 1 pilihan ruangan.png" id="1_i1ket"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_i1ket"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dt3oy")
+
+[node name="Bab1PilihanRuangan" type="Sprite2D" parent="."]
+position = Vector2(1918.9999, 1091)
+scale = Vector2(2.0275733, 2.0275736)
+texture = ExtResource("1_i1ket")
+
+[node name="setting" type="Button" parent="."]
+layout_mode = 0
+offset_left = 3506.0
+offset_top = 171.0
+offset_right = 3697.0
+offset_bottom = 354.0
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_i1ket")
+flat = true
+
+[node name="back" type="Button" parent="."]
+layout_mode = 0
+offset_left = 3506.0
+offset_top = 171.0
+offset_right = 3697.0
+offset_bottom = 354.0
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_i1ket")
+flat = true
+
+[connection signal="pressed" from="setting" to="." method="_on_setting_pressed"]
+[connection signal="pressed" from="back" to="." method="_on_back_pressed"]

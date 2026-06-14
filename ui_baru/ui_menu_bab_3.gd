@@ -1,17 +1,19 @@
 extends Control
 
 
-
+var settings_node = preload("res://scenes/settings.tscn")
+	
 func _on_setting_pressed():
-	pass # Replace with function body.
+	var instance = settings_node.instantiate()
+	add_child(instance)
 
 
 func _on_quit_pressed():
-	pass # Replace with function body.
+	get_tree().quit()
 
 
 func _on_home_pressed():
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("uid://dmo6htvwp7tj8")
 
 
 func _on_menu_1_pressed():
