@@ -1,6 +1,7 @@
-[gd_scene load_steps=15 format=3 uid="uid://dj18atodh667x"]
+[gd_scene load_steps=16 format=3 uid="uid://dj18atodh667x"]
 
 [ext_resource type="Script" uid="uid://ceymt1ox7rj12" path="res://scripts/settings.gd" id="1_gis3k"]
+[ext_resource type="Script" uid="uid://bpc8xe8xiflh1" path="res://ui_baru/settings.gd" id="1_uhhto"]
 [ext_resource type="Texture2D" uid="uid://om4l4nwtow0a" path="res://ui_old/vol/VOLUME SLIDE BAR-3.png" id="2_83j8s"]
 [ext_resource type="Texture2D" uid="uid://bx4mm5fbgfofx" path="res://ui_old/vol/Vol Slider 1.png" id="3_gjs24"]
 [ext_resource type="Texture2D" uid="uid://cxneab8gvrrkw" path="res://ui_old/vol/Vol Slider 2.png" id="4_am25x"]
@@ -28,7 +29,8 @@ region_rect = Rect2(72, 417.5, 884, 66)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uhhto"]
 
-[node name="CanvasLayer" type="CanvasLayer"]
+[node name="CanvasSettings" type="CanvasLayer"]
+script = ExtResource("1_uhhto")
 
 [node name="Darken" type="Sprite2D" parent="."]
 position = Vector2(2110, 107.000015)
@@ -106,6 +108,7 @@ position = Vector2(430.2603, 362.00082)
 scale = Vector2(0.789475, 0.789475)
 texture = ExtResource("10_01roj")
 
+[connection signal="exit" from="Settings" to="." method="_on_settings_exit"]
 [connection signal="mouse_exited" from="Settings/Volume Slider/Volume" to="Settings/Volume Slider/Volume" method="_on_mouse_exited"]
 [connection signal="value_changed" from="Settings/Volume Slider/Volume" to="Settings" method="_on_volume_value_changed"]
 [connection signal="value_changed" from="Settings/Volume Slider/Volume" to="Settings/Volume Slider/Volume" method="_on_value_changed"]

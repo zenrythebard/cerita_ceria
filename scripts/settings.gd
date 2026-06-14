@@ -1,5 +1,7 @@
 extends Control
 
+signal exit
+
 func _ready() -> void:
 	GlobalStopwatch.stopwatch._set_paused(true)
 
@@ -8,7 +10,7 @@ func _on_volume_value_changed(value: float) -> void:
 	
 func _on_back_pressed() -> void:
 	GlobalStopwatch.stopwatch._set_paused(false)
-	queue_free()
+	emit_signal("exit")
 
 func _on_quit_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/menu.tscn")

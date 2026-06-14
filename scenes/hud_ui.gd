@@ -1,6 +1,8 @@
 extends CanvasLayer
-@onready var label: Label = $Label
+@onready var timer_label: Label = $TimerLabel
 @onready var stopwatch: Stopwatch = GlobalStopwatch.stopwatch
+@export var counter : Node2D
+
 
 func _process(delta: float) -> void:
-	label.text = stopwatch.get_elapsed_time_as_formatted_string("{MM}:{ss}")
+	timer_label.text = stopwatch.get_elapsed_time_as_formatted_string("{MM}:{ss}")

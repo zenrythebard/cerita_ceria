@@ -30,10 +30,10 @@ flat = true
 
 [node name="back" type="Button" parent="."]
 layout_mode = 0
-offset_left = 3506.0
-offset_top = 171.0
-offset_right = 3697.0
-offset_bottom = 354.0
+offset_left = 69.0
+offset_top = 1882.0
+offset_right = 463.0
+offset_bottom = 2065.0
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_i1ket")
 flat = true
 
