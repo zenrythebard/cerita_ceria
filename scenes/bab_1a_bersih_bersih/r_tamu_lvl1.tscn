@@ -1,4 +1,4 @@
-[gd_scene load_steps=84 format=4 uid="uid://dhxodxm2g7id"]
+[gd_scene load_steps=85 format=4 uid="uid://dhxodxm2g7id"]
 
 [ext_resource type="Script" uid="uid://xv621io6pjn4" path="res://scripts/bab_1a_bersih-bersih/level_control.gd" id="1_8aevx"]
 [ext_resource type="Script" uid="uid://cf7r63pf67kba" path="res://scripts/bab_1a_bersih-bersih/darken.gd" id="2_ec5ou"]
@@ -12,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://dbmf6g3gd48ui" path="res://tiles/256 Tile Map Dinding 2.png" id="9_lgfgv"]
 [ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="10_i8vab"]
 [ext_resource type="Script" uid="uid://o6fi2k5k8j88" path="res://scripts/count_label.gd" id="11_62khu"]
+[ext_resource type="Texture2D" uid="uid://c8u6bfatrtd0h" path="res://ui_baru/counter_ui.png" id="13_ec5ou"]
 [ext_resource type="Script" uid="uid://damv6oq6yqong" path="res://scripts/camera_buttons.gd" id="14_jjwvk"]
 [ext_resource type="Script" uid="uid://clngot2kpm07s" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item.gd" id="15_sw3vs"]
 [ext_resource type="Texture2D" uid="uid://b5e8ruftcbfae" path="res://assets/ruang tamu/lampu msti.PNG" id="16_7d88y"]
@@ -53,10 +54,10 @@
 [ext_resource type="Texture2D" uid="uid://dmwp1c0upaogw" path="res://assets/bukan sampah/kunci mobil.PNG" id="52_tpg7n"]
 [ext_resource type="Texture2D" uid="uid://clru6io8s8xcp" path="res://assets/kotoran/debu.png" id="53_o7sja"]
 [ext_resource type="Texture2D" uid="uid://4eckhmcitwlj" path="res://assets/kotoran/bekas.png" id="54_c7lps"]
-[ext_resource type="Texture2D" uid="uid://5yvl4unkgi1i" path="res://UI/cursor/cursor_neutral.png" id="55_pj7re"]
+[ext_resource type="Texture2D" uid="uid://5yvl4unkgi1i" path="res://ui_old/cursor/cursor_neutral.png" id="55_pj7re"]
 [ext_resource type="Script" uid="uid://b22dh64vxqro1" path="res://scripts/bab_1a_bersih-bersih/trash_tutorial_sprite.gd" id="56_heihy"]
 [ext_resource type="PackedScene" uid="uid://dvt7tnqcq6tc7" path="res://scenes/hud_ui.tscn" id="57_8aevx"]
-[ext_resource type="Texture2D" uid="uid://rhuh0405oqba" path="res://UI/cursor/cursor_click.png" id="57_bwpxw"]
+[ext_resource type="Texture2D" uid="uid://rhuh0405oqba" path="res://ui_old/cursor/cursor_click.png" id="57_bwpxw"]
 
 [sub_resource type="Gradient" id="Gradient_kawpp"]
 offsets = PackedFloat32Array(0.43333334)
@@ -656,14 +657,35 @@ tile_set = SubResource("TileSet_5hph3")
 [node name="CanvasShow" type="CanvasLayer" parent="."]
 unique_name_in_owner = true
 
-[node name="Label" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
-offset_right = 40.0
-offset_bottom = 23.0
+[node name="CounterUi" type="Sprite2D" parent="CanvasShow"]
+position = Vector2(688, 176)
+scale = Vector2(2, 2)
+texture = ExtResource("13_ec5ou")
+
+[node name="Counter" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
+offset_left = 1062.0
+offset_top = 145.0
+offset_right = 1160.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
 theme_override_fonts/font = ExtResource("10_i8vab")
 theme_override_font_sizes/font_size = 50
+text = "1"
+horizontal_alignment = 1
 script = ExtResource("11_62khu")
 item_counter = NodePath("../../Items/Trash")
 label_text = "Sampah yang harus dibuang"
+
+[node name="Text" type="Label" parent="CanvasShow"]
+offset_left = 274.0
+offset_top = 145.0
+offset_right = 943.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("10_i8vab")
+theme_override_font_sizes/font_size = 50
+text = "sampah yang harus dibuang"
+horizontal_alignment = 1
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
 position = Vector2(2018.0837, 136.51575)

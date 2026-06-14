@@ -46,9 +46,7 @@ func _process(delta: float) -> void:
 						if level_end_dialogue == true:
 							level_end_dialogue = false
 							await DialogueManager.dialogue_ended
-							DialogueManager.show_dialogue_balloon_scene(Global.SOLO_BALLOON, LEVEL_3_RUANGTAMU, "level_end_r_tamu")
-							await DialogueManager.dialogue_ended
-							emit_signal("level_end")
+							get_tree().change_scene_to_file("uid://cu1myttle7ftw")
 			"Dapur L1":
 				if Global.neutral_state == true:
 					get_tree().change_scene_to_file("uid://6m43cuhiaxx1")

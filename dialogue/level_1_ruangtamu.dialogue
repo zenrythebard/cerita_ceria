@@ -6,25 +6,25 @@ IBU: [#voice=uid://c3hu08l5fajp5] Jika barang bukan sampah, jangan dibuang ya!
 => END
 #------SAMPAH------
 ~ botol
-TITA: [#voice=uid://cbps3jc41in0y] Betul, [color=#32cd32]botol[/color]nya kita buang ya! 
+TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Botol[/color]
 => END
 ~ susu
-TITA: [#voice=uid://dqng6tb64ps57] Betul, [color=#32cd32]susu[/color]nya buang ya! 
+TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Susu[/color]
 => END
 ~ es_cekek
-TITA: [#voice=uid://dqng6tb64ps57] Hebat! [color=#32cd32]es cekek[/color]nya kita buang ya!
+TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Es Cekek[/color]
 => END
 ~ surat
-TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]amplop[/color]nya kita buang ya!
+TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Amplop[/color]
 => END
 ~ snack
-TITA: [#voice=uid://cbps3jc41in0y] Betul, [color=#32cd32]kemasan cemilan[/color]nya buang ya!
+TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Kemasan Cemilan[/color]
 => END
 ~ kertas
-TITA: [#voice=uid://dqng6tb64ps57] Betul, [color=#32cd32]kertas[/color]nya buang ya!
+TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Kertas[/color]
 => END
 ~ gelas_plastik
-TITA: [#voice=uid://dqng6tb64ps57] Betul, [color=#32cd32]gelas plastik[/color]nya buang ya!
+TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Gelas Plastik[/color]
 => END
 ~ pisang
 TITA: [#voice=uid://cbps3jc41in0y] Hebat! [color=#32cd32]kulit pisang[/color]nya kita buang ya!

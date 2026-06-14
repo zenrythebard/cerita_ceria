@@ -1,7 +1,7 @@
 extends Node2D
 
 @onready var button: Button = $Button
-@onready var progress_bar: ProgressBar = $ProgressBar
+@export var progress_bar: TextureProgressBar  
 var next_scene_path = Global.LEVEL_MEMILAH_1
 var progress : Array[float] = []
 

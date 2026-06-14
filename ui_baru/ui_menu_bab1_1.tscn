@@ -37,5 +37,45 @@ offset_bottom = 2065.0
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_i1ket")
 flat = true
 
+[node name="r_tamu" type="Button" parent="."]
+layout_mode = 0
+offset_left = 643.0
+offset_top = 746.0
+offset_right = 1231.0
+offset_bottom = 1488.0
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_i1ket")
+flat = true
+
+[node name="dapur" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1319.0
+offset_top = 746.0
+offset_right = 1907.0
+offset_bottom = 1488.0
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_i1ket")
+flat = true
+
+[node name="r_keluarga" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1981.0
+offset_top = 746.0
+offset_right = 2569.0
+offset_bottom = 1488.0
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_i1ket")
+flat = true
+
+[node name="halaman" type="Button" parent="."]
+layout_mode = 0
+offset_left = 2634.0
+offset_top = 746.0
+offset_right = 3222.0
+offset_bottom = 1488.0
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_i1ket")
+flat = true
+
 [connection signal="pressed" from="setting" to="." method="_on_setting_pressed"]
 [connection signal="pressed" from="back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="r_tamu" to="." method="_on_r_tamu_pressed"]
+[connection signal="pressed" from="dapur" to="." method="_on_dapur_pressed"]
+[connection signal="pressed" from="r_keluarga" to="." method="_on_r_keluarga_pressed"]
+[connection signal="pressed" from="halaman" to="." method="_on_halaman_pressed"]

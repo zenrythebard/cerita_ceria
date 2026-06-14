@@ -8,6 +8,7 @@ var engaged_items : Array = []
 var dialogue_on : bool
 var previous_scene_path : String = ""
 
+var NAME_BALLOON = load("uid://ddpb67lbotv5y")
 var SOLO_BALLOON = load("uid://craj2egm38fht")
 var NO_BALLOON = load("uid://cgrvjjmbv8yn6")
 var TUTORIAL_BALLOON = load("uid://codnavram0hot")

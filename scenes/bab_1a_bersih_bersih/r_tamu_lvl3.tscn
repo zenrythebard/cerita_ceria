@@ -1,4 +1,4 @@
-[gd_scene load_steps=70 format=4 uid="uid://bu27qv4lml2oe"]
+[gd_scene load_steps=71 format=4 uid="uid://bu27qv4lml2oe"]
 
 [ext_resource type="Script" uid="uid://xv621io6pjn4" path="res://scripts/bab_1a_bersih-bersih/level_control.gd" id="1_d10kf"]
 [ext_resource type="PackedScene" uid="uid://dvt7tnqcq6tc7" path="res://scenes/hud_ui.tscn" id="2_7ux1b"]
@@ -14,12 +14,13 @@
 [ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="12_dsc2r"]
 [ext_resource type="Script" uid="uid://o6fi2k5k8j88" path="res://scripts/count_label.gd" id="13_kgjc1"]
 [ext_resource type="Script" uid="uid://dklvpwcs2ot8v" path="res://scripts/bab_1a_bersih-bersih/tools_active.gd" id="14_grxmw"]
-[ext_resource type="Texture2D" uid="uid://1f21qmhw7wu7" path="res://UI/UI Blank/CHECK.png" id="15_lmt16"]
+[ext_resource type="Texture2D" uid="uid://1f21qmhw7wu7" path="res://ui_old/UI Blank/CHECK.png" id="15_lmt16"]
 [ext_resource type="Script" uid="uid://cx86xr4l84pe7" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item_clickable.gd" id="16_e2fel"]
 [ext_resource type="Texture2D" uid="uid://gbhiedk35j8f" path="res://assets/kotoran/kemoceng.PNG" id="17_nupii"]
 [ext_resource type="Texture2D" uid="uid://cvem3jkmlnlme" path="res://assets/kotoran/sapu.png" id="18_060n2"]
 [ext_resource type="Texture2D" uid="uid://pnikdo2j7xd8" path="res://assets/kotoran/pel.PNG" id="19_ku6kq"]
 [ext_resource type="Script" uid="uid://clngot2kpm07s" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item.gd" id="20_aog7d"]
+[ext_resource type="Texture2D" uid="uid://c8u6bfatrtd0h" path="res://ui_baru/counter_ui.png" id="20_p2s7t"]
 [ext_resource type="Texture2D" uid="uid://b5e8ruftcbfae" path="res://assets/ruang tamu/lampu msti.PNG" id="21_ycbe4"]
 [ext_resource type="Texture2D" uid="uid://dodjsing4bcv7" path="res://assets/ruang tamu/vas.png" id="22_pcya6"]
 [ext_resource type="Texture2D" uid="uid://b5so2qxgpk6v1" path="res://assets/ruang tamu/lukisan 2.PNG" id="23_q3b12"]
@@ -1085,6 +1086,36 @@ text = "Pel"
 horizontal_alignment = 1
 
 [node name="ToolSprite" type="Sprite2D" parent="CanvasShow"]
+
+[node name="CounterUi" type="Sprite2D" parent="CanvasShow"]
+position = Vector2(688, 176)
+scale = Vector2(2, 2)
+texture = ExtResource("20_p2s7t")
+
+[node name="Counter" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
+offset_left = 1062.0
+offset_top = 145.0
+offset_right = 1160.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("12_dsc2r")
+theme_override_font_sizes/font_size = 50
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("13_kgjc1")
+item_counter = NodePath("../../ItemCounter")
+label_text = "Sampah yang harus dibuang"
+
+[node name="Text" type="Label" parent="CanvasShow"]
+offset_left = 233.0
+offset_top = 145.0
+offset_right = 991.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("12_dsc2r")
+theme_override_font_sizes/font_size = 50
+text = "kotoran yang perlu dibersihkan "
+horizontal_alignment = 1
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
 position = Vector2(2018, 133.01505)

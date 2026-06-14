@@ -7,6 +7,7 @@ const LEVEL_1_HALAMANRUMAH = preload("uid://ds6spugweadrc")
 const LEVEL_2_HALAMANRUMAH = preload("uid://grhei24kpgii")
 
 func _ready() -> void:
+	GlobalStopwatch.stopwatch.reset()
 	GlobalAudio.bgm_player.stream = GlobalAudio.BGM_BERSIH_2
 	GlobalAudio.bgm_player.play()
 	GlobalStopwatch.stopwatch._set_paused(true)

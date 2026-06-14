@@ -69,48 +69,48 @@ func dialogue_show():
 func get_dialogue():
 	match get_tree().current_scene.name:
 		"R Tamu L1":
-			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_1_RUANGTAMU, item)
+			DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_1_RUANGTAMU, item)
 	
 		"R Tamu L2":
 			if type != "place_here":
-				DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_2_RUANGTAMU, item)
+				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_2_RUANGTAMU, item)
 	
 		"R Tamu L3":
 			if type != "dirt" and type != "button":
-					DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_3_RUANGTAMU, item)
+					DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_3_RUANGTAMU, item)
 		
 		"Dapur L1":
-			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_1_RUANGTAMU, item)
+			DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_1_RUANGTAMU, item)
 	
 		"Dapur L2":
 			if type != "place_here":
-				DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_2_RUANGTAMU, item)
+				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_2_RUANGTAMU, item)
 	
 		"Dapur L3":
 			if type != "dirt" and type != "button":
-					DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_3_RUANGTAMU, item)
+					DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_3_RUANGTAMU, item)
 
 		"R Keluarga L1":
-			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_1_RUANGTAMU, item)
+			DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_1_RUANGTAMU, item)
 	
 		"R Keluarga L2":
 			if type != "place_here":
-				DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_2_RUANGTAMU, item)
+				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_2_RUANGTAMU, item)
 	
 		"R Keluarga L3":
 			if type != "dirt" and type != "button":
-					DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_3_RUANGTAMU, item)
+					DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_3_RUANGTAMU, item)
 
 
 		"Halaman L1":
-			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_1_HALAMANRUMAH, item)
+			DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_1_HALAMANRUMAH, item)
 		"Halaman L2":
 			if type == "place_here":
 				return
 			if type == "place":
-				DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_2_HALAMANRUMAH, "daun")
+				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_2_HALAMANRUMAH, "daun")
 				return
 			else:
-				DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_2_HALAMANRUMAH, item)
+				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_2_HALAMANRUMAH, item)
 		"Halaman L3":
-				DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,load("res://dialogue/level_3_halamanrumah.dialogue"), item)
+				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,load("res://dialogue/level_3_halamanrumah.dialogue"), item)

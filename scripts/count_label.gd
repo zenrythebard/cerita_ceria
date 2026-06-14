@@ -5,4 +5,4 @@ extends Label
 
 func _process(delta: float) -> void:
 	var count := item_counter.complete_count - item_counter.item_count
-	text = label_text + ": " + str(count)
+	text = str(count)

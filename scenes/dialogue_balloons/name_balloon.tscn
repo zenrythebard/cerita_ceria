@@ -1,256 +1,257 @@
-[gd_scene load_steps=86 format=3 uid="uid://cgrvjjmbv8yn6"]
+[gd_scene load_steps=87 format=3 uid="uid://ddpb67lbotv5y"]
 
-[ext_resource type="Script" uid="uid://cyoxtwgbuye2k" path="res://scenes/dialogue_balloons/balloon.gd" id="1_f2hwe"]
-[ext_resource type="Texture2D" uid="uid://dmiowassqlu40" path="res://animations/spritesheet/bapak_idle.png" id="2_761g8"]
-[ext_resource type="Texture2D" uid="uid://d2qfhhuqymfmu" path="res://animations/spritesheet/guru_idle.png" id="3_5ear3"]
-[ext_resource type="Texture2D" uid="uid://blqdv0au1k6j5" path="res://textbox/Tita.png" id="3_eu47c"]
-[ext_resource type="PackedScene" uid="uid://ckvgyvclnwggo" path="res://addons/dialogue_manager/dialogue_label.tscn" id="4_dffuf"]
-[ext_resource type="Texture2D" uid="uid://b8j2hjw7gnqp3" path="res://animations/spritesheet/ibu_idle.png" id="4_o3bc0"]
-[ext_resource type="FontFile" uid="uid://1n8omiwakrjh" path="res://assets/BaksoSapi.otf" id="5_0gpwr"]
-[ext_resource type="Texture2D" uid="uid://6bjiru2bjkd6" path="res://animations/spritesheet/tita_idle.png" id="5_drqbs"]
-[ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="6_luv4t"]
-[ext_resource type="Texture2D" uid="uid://750cymtw8rub" path="res://animations/spritesheet/tito_idle.png" id="6_r7tod"]
-[ext_resource type="Texture2D" uid="uid://qaawngwdj00g" path="res://animations/spritesheet/mulut.png" id="7_8ni8t"]
-[ext_resource type="Script" uid="uid://bb52rsfwhkxbn" path="res://addons/dialogue_manager/dialogue_responses_menu.gd" id="7_qva2j"]
+[ext_resource type="Script" uid="uid://cyoxtwgbuye2k" path="res://scenes/dialogue_balloons/balloon.gd" id="1_4y304"]
+[ext_resource type="Texture2D" uid="uid://dmiowassqlu40" path="res://animations/spritesheet/bapak_idle.png" id="2_ww85m"]
+[ext_resource type="Texture2D" uid="uid://d2qfhhuqymfmu" path="res://animations/spritesheet/guru_idle.png" id="3_qqk5w"]
+[ext_resource type="Texture2D" uid="uid://b8j2hjw7gnqp3" path="res://animations/spritesheet/ibu_idle.png" id="4_0u6n0"]
+[ext_resource type="Texture2D" uid="uid://6bjiru2bjkd6" path="res://animations/spritesheet/tita_idle.png" id="5_opgcv"]
+[ext_resource type="Texture2D" uid="uid://750cymtw8rub" path="res://animations/spritesheet/tito_idle.png" id="6_mwmu7"]
+[ext_resource type="Texture2D" uid="uid://qaawngwdj00g" path="res://animations/spritesheet/mulut.png" id="7_v8rfi"]
+[ext_resource type="Texture2D" uid="uid://blqdv0au1k6j5" path="res://textbox/Tita.png" id="8_5bllb"]
+[ext_resource type="PackedScene" uid="uid://ckvgyvclnwggo" path="res://addons/dialogue_manager/dialogue_label.tscn" id="9_obj4w"]
+[ext_resource type="Texture2D" uid="uid://cr8vtdjybnm10" path="res://ui_baru/Background pelafalan objek.png" id="9_ww85m"]
+[ext_resource type="FontFile" uid="uid://b43qjsnydot54" path="res://ui_baru/Matcha Cih.otf" id="11_qqk5w"]
+[ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="11_tfka0"]
+[ext_resource type="Script" uid="uid://bb52rsfwhkxbn" path="res://addons/dialogue_manager/dialogue_responses_menu.gd" id="12_je7c4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dj5in"]
-atlas = ExtResource("2_761g8")
+atlas = ExtResource("2_ww85m")
 region = Rect2(0, 0, 1010, 1610)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_udufj"]
-atlas = ExtResource("2_761g8")
+atlas = ExtResource("2_ww85m")
 region = Rect2(1010, 0, 1010, 1610)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_m3842"]
-atlas = ExtResource("2_761g8")
+atlas = ExtResource("2_ww85m")
 region = Rect2(2020, 0, 1010, 1610)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vpr8d"]
-atlas = ExtResource("2_761g8")
+atlas = ExtResource("2_ww85m")
 region = Rect2(3030, 0, 1010, 1610)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lut62"]
-atlas = ExtResource("2_761g8")
+atlas = ExtResource("2_ww85m")
 region = Rect2(4040, 0, 1010, 1610)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3alcc"]
-atlas = ExtResource("2_761g8")
+atlas = ExtResource("2_ww85m")
 region = Rect2(0, 1610, 1010, 1610)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_50w5n"]
-atlas = ExtResource("2_761g8")
+atlas = ExtResource("2_ww85m")
 region = Rect2(1010, 1610, 1010, 1610)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mwv4y"]
-atlas = ExtResource("2_761g8")
+atlas = ExtResource("2_ww85m")
 region = Rect2(2020, 1610, 1010, 1610)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_j702u"]
-atlas = ExtResource("2_761g8")
+atlas = ExtResource("2_ww85m")
 region = Rect2(3030, 1610, 1010, 1610)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fi3yo"]
-atlas = ExtResource("2_761g8")
+atlas = ExtResource("2_ww85m")
 region = Rect2(4040, 1610, 1010, 1610)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x6tvw"]
-atlas = ExtResource("2_761g8")
+atlas = ExtResource("2_ww85m")
 region = Rect2(0, 3220, 1010, 1610)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4bnmy"]
-atlas = ExtResource("2_761g8")
+atlas = ExtResource("2_ww85m")
 region = Rect2(1010, 3220, 1010, 1610)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_k3ijw"]
-atlas = ExtResource("3_5ear3")
+atlas = ExtResource("3_qqk5w")
 region = Rect2(0, 0, 900, 1492)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hr2gn"]
-atlas = ExtResource("3_5ear3")
+atlas = ExtResource("3_qqk5w")
 region = Rect2(900, 0, 900, 1492)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bxmcy"]
-atlas = ExtResource("3_5ear3")
+atlas = ExtResource("3_qqk5w")
 region = Rect2(1800, 0, 900, 1492)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wmi18"]
-atlas = ExtResource("3_5ear3")
+atlas = ExtResource("3_qqk5w")
 region = Rect2(2700, 0, 900, 1492)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l8xsk"]
-atlas = ExtResource("3_5ear3")
+atlas = ExtResource("3_qqk5w")
 region = Rect2(3600, 0, 900, 1492)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cpc44"]
-atlas = ExtResource("3_5ear3")
+atlas = ExtResource("3_qqk5w")
 region = Rect2(0, 1492, 900, 1492)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mr1gj"]
-atlas = ExtResource("3_5ear3")
+atlas = ExtResource("3_qqk5w")
 region = Rect2(900, 1492, 900, 1492)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rmkgq"]
-atlas = ExtResource("3_5ear3")
+atlas = ExtResource("3_qqk5w")
 region = Rect2(1800, 1492, 900, 1492)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mjov4"]
-atlas = ExtResource("3_5ear3")
+atlas = ExtResource("3_qqk5w")
 region = Rect2(2700, 1492, 900, 1492)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tbmwy"]
-atlas = ExtResource("3_5ear3")
+atlas = ExtResource("3_qqk5w")
 region = Rect2(3600, 1492, 900, 1492)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_02gyb"]
-atlas = ExtResource("3_5ear3")
+atlas = ExtResource("3_qqk5w")
 region = Rect2(0, 2984, 900, 1492)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_o0feg"]
-atlas = ExtResource("3_5ear3")
+atlas = ExtResource("3_qqk5w")
 region = Rect2(900, 2984, 900, 1492)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i1dhf"]
-atlas = ExtResource("4_o3bc0")
+atlas = ExtResource("4_0u6n0")
 region = Rect2(0, 0, 840, 1392)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_m5aot"]
-atlas = ExtResource("4_o3bc0")
+atlas = ExtResource("4_0u6n0")
 region = Rect2(840, 0, 840, 1392)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ajp8y"]
-atlas = ExtResource("4_o3bc0")
+atlas = ExtResource("4_0u6n0")
 region = Rect2(1680, 0, 840, 1392)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7h5pv"]
-atlas = ExtResource("4_o3bc0")
+atlas = ExtResource("4_0u6n0")
 region = Rect2(2520, 0, 840, 1392)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u6pdk"]
-atlas = ExtResource("4_o3bc0")
+atlas = ExtResource("4_0u6n0")
 region = Rect2(3360, 0, 840, 1392)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jwn7v"]
-atlas = ExtResource("4_o3bc0")
+atlas = ExtResource("4_0u6n0")
 region = Rect2(0, 1392, 840, 1392)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l6cse"]
-atlas = ExtResource("4_o3bc0")
+atlas = ExtResource("4_0u6n0")
 region = Rect2(840, 1392, 840, 1392)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sqx8d"]
-atlas = ExtResource("4_o3bc0")
+atlas = ExtResource("4_0u6n0")
 region = Rect2(1680, 1392, 840, 1392)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wh3e4"]
-atlas = ExtResource("4_o3bc0")
+atlas = ExtResource("4_0u6n0")
 region = Rect2(2520, 1392, 840, 1392)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_77y0y"]
-atlas = ExtResource("4_o3bc0")
+atlas = ExtResource("4_0u6n0")
 region = Rect2(3360, 1392, 840, 1392)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t0tck"]
-atlas = ExtResource("4_o3bc0")
+atlas = ExtResource("4_0u6n0")
 region = Rect2(0, 2784, 840, 1392)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xa6vn"]
-atlas = ExtResource("4_o3bc0")
+atlas = ExtResource("4_0u6n0")
 region = Rect2(840, 2784, 840, 1392)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_y4g4e"]
-atlas = ExtResource("5_drqbs")
+atlas = ExtResource("5_opgcv")
 region = Rect2(0, 0, 910, 1260)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eq3n0"]
-atlas = ExtResource("5_drqbs")
+atlas = ExtResource("5_opgcv")
 region = Rect2(910, 0, 910, 1260)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0418s"]
-atlas = ExtResource("5_drqbs")
+atlas = ExtResource("5_opgcv")
 region = Rect2(1820, 0, 910, 1260)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2icjh"]
-atlas = ExtResource("5_drqbs")
+atlas = ExtResource("5_opgcv")
 region = Rect2(2730, 0, 910, 1260)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3ejff"]
-atlas = ExtResource("5_drqbs")
+atlas = ExtResource("5_opgcv")
 region = Rect2(3640, 0, 910, 1260)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8u44y"]
-atlas = ExtResource("5_drqbs")
+atlas = ExtResource("5_opgcv")
 region = Rect2(0, 1260, 910, 1260)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0h327"]
-atlas = ExtResource("5_drqbs")
+atlas = ExtResource("5_opgcv")
 region = Rect2(910, 1260, 910, 1260)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_edxf6"]
-atlas = ExtResource("5_drqbs")
+atlas = ExtResource("5_opgcv")
 region = Rect2(1820, 1260, 910, 1260)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bndgy"]
-atlas = ExtResource("5_drqbs")
+atlas = ExtResource("5_opgcv")
 region = Rect2(2730, 1260, 910, 1260)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yx8ni"]
-atlas = ExtResource("5_drqbs")
+atlas = ExtResource("5_opgcv")
 region = Rect2(3640, 1260, 910, 1260)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xakvf"]
-atlas = ExtResource("5_drqbs")
+atlas = ExtResource("5_opgcv")
 region = Rect2(0, 2520, 910, 1260)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0vhoy"]
-atlas = ExtResource("5_drqbs")
+atlas = ExtResource("5_opgcv")
 region = Rect2(910, 2520, 910, 1260)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mptu5"]
-atlas = ExtResource("6_r7tod")
+atlas = ExtResource("6_mwmu7")
 region = Rect2(0, 0, 1010, 1510)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3iifj"]
-atlas = ExtResource("6_r7tod")
+atlas = ExtResource("6_mwmu7")
 region = Rect2(1010, 0, 1010, 1510)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uuk7m"]
-atlas = ExtResource("6_r7tod")
+atlas = ExtResource("6_mwmu7")
 region = Rect2(2020, 0, 1010, 1510)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xey2y"]
-atlas = ExtResource("6_r7tod")
+atlas = ExtResource("6_mwmu7")
 region = Rect2(3030, 0, 1010, 1510)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a8ft3"]
-atlas = ExtResource("6_r7tod")
+atlas = ExtResource("6_mwmu7")
 region = Rect2(4040, 0, 1010, 1510)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_p4qnl"]
-atlas = ExtResource("6_r7tod")
+atlas = ExtResource("6_mwmu7")
 region = Rect2(0, 1510, 1010, 1510)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sm1sp"]
-atlas = ExtResource("6_r7tod")
+atlas = ExtResource("6_mwmu7")
 region = Rect2(1010, 1510, 1010, 1510)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_no2rm"]
-atlas = ExtResource("6_r7tod")
+atlas = ExtResource("6_mwmu7")
 region = Rect2(2020, 1510, 1010, 1510)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fgsws"]
-atlas = ExtResource("6_r7tod")
+atlas = ExtResource("6_mwmu7")
 region = Rect2(3030, 1510, 1010, 1510)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tmn05"]
-atlas = ExtResource("6_r7tod")
+atlas = ExtResource("6_mwmu7")
 region = Rect2(4040, 1510, 1010, 1510)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5e5w2"]
-atlas = ExtResource("6_r7tod")
+atlas = ExtResource("6_mwmu7")
 region = Rect2(0, 3020, 1010, 1510)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bod1t"]
-atlas = ExtResource("6_r7tod")
+atlas = ExtResource("6_mwmu7")
 region = Rect2(1010, 3020, 1010, 1510)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_tqyuj"]
@@ -462,27 +463,27 @@ animations = [{
 }]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pvqkx"]
-atlas = ExtResource("7_8ni8t")
+atlas = ExtResource("7_v8rfi")
 region = Rect2(0, 0, 500, 500)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e7oyx"]
-atlas = ExtResource("7_8ni8t")
+atlas = ExtResource("7_v8rfi")
 region = Rect2(0, 166, 500, 166)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bqhjm"]
-atlas = ExtResource("7_8ni8t")
+atlas = ExtResource("7_v8rfi")
 region = Rect2(0, 332, 500, 166)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eb3t5"]
-atlas = ExtResource("7_8ni8t")
+atlas = ExtResource("7_v8rfi")
 region = Rect2(1000, 166, 500, 166)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hdkap"]
-atlas = ExtResource("7_8ni8t")
+atlas = ExtResource("7_v8rfi")
 region = Rect2(500, 166, 500, 166)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ummuf"]
-atlas = ExtResource("7_8ni8t")
+atlas = ExtResource("7_v8rfi")
 region = Rect2(1000, 332, 500, 166)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_4wlr1"]
@@ -601,7 +602,7 @@ PanelContainer/styles/panel = SubResource("StyleBoxFlat_qkmqt")
 
 [node name="ExampleBalloon" type="CanvasLayer"]
 layer = 100
-script = ExtResource("1_f2hwe")
+script = ExtResource("1_4y304")
 next_action = &"space"
 skip_action = &"space"
 
@@ -637,12 +638,17 @@ offset_top = 1714.0
 offset_right = 3384.0
 offset_bottom = 2212.0
 scale = Vector2(0.040000603, 0.040000603)
-texture = ExtResource("3_eu47c")
+texture = ExtResource("8_5bllb")
 region_rect = Rect2(21.949932, 477.51498, 982.5201, 232.32004)
 patch_margin_left = 77
 patch_margin_top = 66
 patch_margin_right = 83
 patch_margin_bottom = 68
+
+[node name="BackgroundPelafalanObjek" type="Sprite2D" parent="Balloon"]
+position = Vector2(1920, 629.8616)
+scale = Vector2(0.9933152, 0.99331534)
+texture = ExtResource("9_ww85m")
 
 [node name="MarginContainer" type="MarginContainer" parent="Balloon"]
 layout_mode = 1
@@ -650,34 +656,37 @@ anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 351.0
-offset_top = -440.0
-offset_right = -565.0
-offset_bottom = -38.0
+offset_left = 1598.0
+offset_top = -1570.1384
+offset_right = -786.25977
+offset_bottom = -1392.1384
 grow_horizontal = 2
 grow_vertical = 0
-scale = Vector2(0.040000603, 0.040000603)
+scale = Vector2(0.4368911, 0.4368911)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Balloon/MarginContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="DialogueLabel" parent="Balloon/MarginContainer/VBoxContainer" instance=ExtResource("4_dffuf")]
+[node name="DialogueLabel" parent="Balloon/MarginContainer/VBoxContainer" instance=ExtResource("9_obj4w")]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/default_color = Color(0.43936253, 0.26519585, 0.2349293, 1)
-theme_override_fonts/normal_font = ExtResource("5_0gpwr")
-theme_override_fonts/bold_font = ExtResource("5_0gpwr")
-theme_override_fonts/bold_italics_font = ExtResource("5_0gpwr")
-theme_override_fonts/italics_font = ExtResource("5_0gpwr")
-theme_override_fonts/mono_font = ExtResource("5_0gpwr")
-theme_override_font_sizes/normal_font_size = 87
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0.34901962, 0.20392157, 0.18039216, 1)
+theme_override_constants/shadow_outline_size = 7
+theme_override_constants/shadow_offset_x = 7
+theme_override_constants/shadow_offset_y = 4
+theme_override_constants/outline_size = 12
+theme_override_fonts/normal_font = ExtResource("11_qqk5w")
+theme_override_font_sizes/normal_font_size = 115
 theme_override_font_sizes/bold_font_size = 87
 theme_override_font_sizes/bold_italics_font_size = 87
 theme_override_font_sizes/italics_font_size = 87
 theme_override_font_sizes/mono_font_size = 87
 text = "Dialogue..."
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Control" type="Control" parent="Balloon"]
 z_index = -4
@@ -694,7 +703,7 @@ offset_left = 73.0
 offset_top = 1449.0
 offset_right = 547.0
 offset_bottom = 1586.0
-texture = ExtResource("3_eu47c")
+texture = ExtResource("8_5bllb")
 region_rect = Rect2(19.529934, 363.77496, 264.99002, 104.06003)
 patch_margin_left = 77
 patch_margin_top = 56
@@ -710,11 +719,11 @@ offset_right = 536.0
 offset_bottom = 1574.0
 mouse_filter = 1
 theme_override_colors/default_color = Color(1, 1, 1, 1)
-theme_override_fonts/normal_font = ExtResource("6_luv4t")
-theme_override_fonts/bold_font = ExtResource("6_luv4t")
-theme_override_fonts/bold_italics_font = ExtResource("6_luv4t")
-theme_override_fonts/italics_font = ExtResource("6_luv4t")
-theme_override_fonts/mono_font = ExtResource("6_luv4t")
+theme_override_fonts/normal_font = ExtResource("11_tfka0")
+theme_override_fonts/bold_font = ExtResource("11_tfka0")
+theme_override_fonts/bold_italics_font = ExtResource("11_tfka0")
+theme_override_fonts/italics_font = ExtResource("11_tfka0")
+theme_override_fonts/mono_font = ExtResource("11_tfka0")
 theme_override_font_sizes/normal_font_size = 90
 theme_override_font_sizes/bold_font_size = 60
 theme_override_font_sizes/bold_italics_font_size = 60
@@ -744,7 +753,7 @@ grow_vertical = 2
 size_flags_vertical = 8
 theme_override_constants/separation = 2
 alignment = 1
-script = ExtResource("7_qva2j")
+script = ExtResource("12_je7c4")
 response_template = NodePath("ResponseExample")
 
 [node name="ResponseExample" type="Button" parent="Balloon/ResponsesMenu"]
