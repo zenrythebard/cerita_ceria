@@ -6,8 +6,8 @@ extends Label
 func _process(delta: float) -> void:
 	match interactible.check_condition:
 		1: 
-			text = "Benda: " + interactible.condition_type
+			text = "carilah benda " + interactible.condition_type
 		2:
-			text = "Benda: Alam"
+			text = "carilah benda alam"
 		3:
-			text = "Benda: " + interactible.condition_type + ", Warna: " + interactible.condition_color
+			text = "carilah benda " + interactible.condition_type + "berarna " + interactible.condition_color

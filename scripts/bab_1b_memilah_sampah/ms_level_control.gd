@@ -1,8 +1,10 @@
 extends Node2D
 @onready var sprite: AnimatedSprite2D = $Sprite
+@onready var papan: Sprite2D = $PapanPetunjuk1024x1024
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	GlobalStopwatch.stopwatch.reset()
 	GlobalAudio.bgm_player.stream = GlobalAudio.BGM_MEMILAH_SAMPAH
 	GlobalAudio.bgm_player.play()
 	Global.neutral_state = true
@@ -12,3 +14,13 @@ func _on_trash_show_level_complete() -> void:
 	var instance = Global.RETURN.instantiate()
 	add_child(instance)
 	instance.reparent(%CanvasShow)
+
+
+func _on_clue_button_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		papan.visible = true
+		GlobalStopwatch.stopwatch._set_paused(true)
+	else:
+		papan.visible = false
+		GlobalStopwatch.stopwatch._set_paused(false)
+		

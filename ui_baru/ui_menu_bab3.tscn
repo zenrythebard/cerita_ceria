@@ -1,9 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://cum7aqms8nfnc"]
+[gd_scene load_steps=5 format=3 uid="uid://cum7aqms8nfnc"]
 
 [ext_resource type="Script" uid="uid://cdsgurrcv5fcq" path="res://ui_baru/ui_menu_bab_3.gd" id="1_px35v"]
 [ext_resource type="Texture2D" uid="uid://w6ju7qg0va84" path="res://ui_baru/bab 5.png" id="2_h78eu"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h78eu"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_px35v"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -26,6 +28,7 @@ offset_top = 3.0
 offset_right = 199.0
 offset_bottom = 147.0
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_h78eu")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_px35v")
 flat = true
 
 [node name="quit" type="Button" parent="."]
@@ -35,6 +38,7 @@ offset_top = -1.0
 offset_right = 3790.0
 offset_bottom = 143.0
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_h78eu")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_px35v")
 flat = true
 
 [node name="home" type="Button" parent="."]
@@ -44,6 +48,7 @@ offset_top = 1829.0
 offset_right = 336.0
 offset_bottom = 2102.0
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_h78eu")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_px35v")
 flat = true
 
 [node name="menu2" type="Button" parent="."]
@@ -53,6 +58,7 @@ offset_top = 1061.0
 offset_right = 2473.0
 offset_bottom = 1725.0
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_h78eu")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_px35v")
 flat = true
 
 [node name="menu1" type="Button" parent="."]
@@ -62,6 +68,7 @@ offset_top = 1062.0
 offset_right = 1871.0
 offset_bottom = 1717.0
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_h78eu")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_px35v")
 flat = true
 
 [connection signal="pressed" from="setting" to="." method="_on_setting_pressed"]

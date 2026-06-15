@@ -22,13 +22,13 @@ func _ready() -> void:
 		return
 
 func _on_click_sprite_neutral_pressed() -> void:
+	Global.neutral_state = false
 	interactible.current_item = name
 	var prev_parent : Node2D = $".."
 	check_cond()
 	if interacted:
 		return
 		
-	Global.neutral_state = false
 	var current_pos : Vector2 = position
 	var current_scale : Vector2 = scale
 	var current_rot : float = rotation_degrees

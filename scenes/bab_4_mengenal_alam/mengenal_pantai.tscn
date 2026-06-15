@@ -1,10 +1,11 @@
-[gd_scene load_steps=43 format=3 uid="uid://btwl2bedjvolo"]
+[gd_scene load_steps=46 format=3 uid="uid://btwl2bedjvolo"]
 
 [ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="1_ac0y3"]
 [ext_resource type="PackedScene" uid="uid://bcxmwmf8cvj21" path="res://scenes/camera_component.tscn" id="1_b1jnx"]
 [ext_resource type="Script" uid="uid://le58hkx20hnl" path="res://scenes/bab_4_mengenal_alam/explore_level.gd" id="1_sj2oy"]
 [ext_resource type="PackedScene" uid="uid://dvt7tnqcq6tc7" path="res://scenes/hud_ui.tscn" id="2_4odm1"]
 [ext_resource type="Script" uid="uid://beo37k0f0irhv" path="res://scenes/bab_4_mengenal_alam/explore_label.gd" id="2_jv52h"]
+[ext_resource type="Texture2D" uid="uid://c8u6bfatrtd0h" path="res://ui_baru/counter_ui.png" id="2_oh1qs"]
 [ext_resource type="Texture2D" uid="uid://ty0k6o5ucjoi" path="res://background_pantai/Bagian 9.png" id="2_qa0b1"]
 [ext_resource type="Texture2D" uid="uid://wjnp1s2sxmp3" path="res://background_pantai/Bagian 8.png" id="3_6ae4i"]
 [ext_resource type="Script" uid="uid://w2g3bey3lj1f" path="res://scenes/bab_4_mengenal_alam/label_condition.gd" id="3_jv52h"]
@@ -12,7 +13,9 @@
 [ext_resource type="Texture2D" uid="uid://d1c1r4cpsx8fd" path="res://background_pantai/Bagian 6.png" id="5_cf6li"]
 [ext_resource type="Script" uid="uid://bmamgjwkxdsad" path="res://scenes/bab_4_mengenal_alam/label_current_item.gd" id="5_i7ir0"]
 [ext_resource type="Texture2D" uid="uid://3slggpo5vkbn" path="res://background_pantai/Bagian 5.png" id="6_04jbk"]
+[ext_resource type="FontFile" uid="uid://b43qjsnydot54" path="res://ui_baru/Matcha Cih.otf" id="6_8me67"]
 [ext_resource type="Texture2D" uid="uid://bgbjp21xoqc4" path="res://background_pantai/Bagian 4.png" id="7_ysfc1"]
+[ext_resource type="Texture2D" uid="uid://cr8vtdjybnm10" path="res://ui_baru/Background pelafalan objek.png" id="8_8lxck"]
 [ext_resource type="Texture2D" uid="uid://b0qbfgr71y365" path="res://background_pantai/Bagian 3.png" id="8_ih7t2"]
 [ext_resource type="Script" uid="uid://c7d7mwp51ouve" path="res://scenes/bab_4_mengenal_alam/exploration_object.gd" id="9_7758v"]
 [ext_resource type="Script" uid="uid://by31pg1ngot6x" path="res://scenes/bab_4_mengenal_alam/exploration_controler.gd" id="9_dkyov"]
@@ -46,31 +49,38 @@
 [node name="MengenalPantai L1" type="Node2D"]
 script = ExtResource("1_sj2oy")
 
-[node name="HUD UI" parent="." instance=ExtResource("2_4odm1")]
-
 [node name="CanvasShow" type="CanvasLayer" parent="."]
 unique_name_in_owner = true
 layer = 5
 
+[node name="CounterUi" type="Sprite2D" parent="CanvasShow"]
+position = Vector2(688, 176)
+scale = Vector2(2, 2)
+texture = ExtResource("2_oh1qs")
+
 [node name="LabelCount" type="Label" parent="CanvasShow"]
-offset_left = 81.0
-offset_top = 194.0
-offset_right = 121.0
-offset_bottom = 254.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+offset_left = 1078.0
+offset_top = 145.0
+offset_right = 1140.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
 theme_override_fonts/font = ExtResource("1_ac0y3")
 theme_override_font_sizes/font_size = 50
+text = "1"
+horizontal_alignment = 1
 script = ExtResource("2_jv52h")
 label_text = "Target objek"
 
 [node name="LabelCondition" type="Label" parent="CanvasShow"]
-offset_left = 81.0
-offset_top = 82.0
-offset_right = 121.0
-offset_bottom = 142.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+offset_left = 209.0
+offset_top = 146.0
+offset_right = 1004.0
+offset_bottom = 206.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
 theme_override_fonts/font = ExtResource("1_ac0y3")
 theme_override_font_sizes/font_size = 50
+text = "carilah benda alam"
+horizontal_alignment = 1
 script = ExtResource("3_jv52h")
 
 [node name="LabelCurrentItem" type="Label" parent="CanvasShow"]
@@ -79,17 +89,31 @@ offset_left = 5.0
 offset_top = 392.0
 offset_right = 3837.0
 offset_bottom = 536.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
 theme_override_constants/shadow_offset_x = 6
 theme_override_constants/shadow_offset_y = 2
-theme_override_constants/outline_size = 4
-theme_override_fonts/font = ExtResource("1_ac0y3")
+theme_override_constants/outline_size = 40
+theme_override_fonts/font = ExtResource("6_8me67")
 theme_override_font_sizes/font_size = 160
 text = "ITEM NAME"
 horizontal_alignment = 1
 script = ExtResource("5_i7ir0")
+
+[node name="BackgroundPelafalanObjek" type="NinePatchRect" parent="CanvasShow"]
+offset_left = 1160.0
+offset_top = 314.0
+offset_right = 2015.2402
+offset_bottom = 512.5914
+scale = Vector2(1.8193717, 1.8193717)
+texture = ExtResource("8_8lxck")
+region_rect = Rect2(0, 0, 680, 191)
+patch_margin_left = 90
+patch_margin_top = 54
+patch_margin_right = 90
+patch_margin_bottom = 55
+
+[node name="HUD UI" parent="." instance=ExtResource("2_4odm1")]
 
 [node name="BG" type="Node2D" parent="."]
 position = Vector2(6583, 1091)

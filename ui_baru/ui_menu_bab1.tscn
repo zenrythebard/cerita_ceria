@@ -1,9 +1,29 @@
-[gd_scene load_steps=4 format=3 uid="uid://mxd70xkg6sx2"]
+[gd_scene load_steps=14 format=3 uid="uid://mxd70xkg6sx2"]
 
 [ext_resource type="Script" uid="uid://b6x17dcffc8wu" path="res://ui_baru/ui_menu_bab_1.gd" id="1_7a1he"]
 [ext_resource type="Texture2D" uid="uid://c53ipa4ugayml" path="res://ui_baru/bab 1.png" id="1_u0sm5"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ttbrv"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_roavb"]
+
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7a1he"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_j4eo6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7ykk1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rh2rk"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_613i5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nf3qj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fr2m7"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4y6xs"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fy7oj"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -25,7 +45,17 @@ offset_left = 55.0
 offset_top = 3.0
 offset_right = 199.0
 offset_bottom = 147.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ttbrv")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_roavb")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_7a1he")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_j4eo6")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_7ykk1")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_rh2rk")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_613i5")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_nf3qj")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_fr2m7")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_4y6xs")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fy7oj")
 flat = true
 
 [node name="close" type="Button" parent="."]
@@ -34,7 +64,17 @@ offset_left = 3692.0
 offset_top = -1.0
 offset_right = 3836.0
 offset_bottom = 143.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ttbrv")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_roavb")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_7a1he")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_j4eo6")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_7ykk1")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_rh2rk")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_613i5")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_nf3qj")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_fr2m7")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_4y6xs")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fy7oj")
 flat = true
 
 [node name="home" type="Button" parent="."]
@@ -43,7 +83,17 @@ offset_left = 63.0
 offset_top = 1829.0
 offset_right = 336.0
 offset_bottom = 2102.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ttbrv")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_roavb")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_7a1he")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_j4eo6")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_7ykk1")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_rh2rk")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_613i5")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_nf3qj")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_fr2m7")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_4y6xs")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fy7oj")
 flat = true
 
 [node name="menu1" type="Button" parent="."]
@@ -52,7 +102,17 @@ offset_left = 1367.0
 offset_top = 1062.0
 offset_right = 1871.0
 offset_bottom = 1717.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ttbrv")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_roavb")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_7a1he")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_j4eo6")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_7ykk1")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_rh2rk")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_613i5")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_nf3qj")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_fr2m7")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_4y6xs")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fy7oj")
 flat = true
 
 [node name="menu2" type="Button" parent="."]
@@ -61,7 +121,17 @@ offset_left = 1969.0
 offset_top = 1061.0
 offset_right = 2473.0
 offset_bottom = 1725.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ttbrv")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_roavb")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_7a1he")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_j4eo6")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_7ykk1")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_rh2rk")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_613i5")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_nf3qj")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_fr2m7")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_4y6xs")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fy7oj")
 flat = true
 
 [connection signal="pressed" from="setting" to="." method="_on_setting_pressed"]

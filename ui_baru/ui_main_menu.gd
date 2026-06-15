@@ -22,4 +22,4 @@ func _on_bab_2_pressed() -> void:
 	get_tree().change_scene_to_file("uid://ct1olmi153yy7")
 
 func _on_bab_3_pressed() -> void:
-	get_tree().change_scene_to_file("uid://cum7aqms8nfnc")
+	get_tree().change_scene_to_file("uid://7up1w5xsboue") 

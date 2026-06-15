@@ -1,4 +1,4 @@
-[gd_scene load_steps=92 format=3 uid="uid://uao2xgwbmgip"]
+[gd_scene load_steps=105 format=3 uid="uid://uao2xgwbmgip"]
 
 [ext_resource type="Texture2D" uid="uid://crhe6xjqdc8d8" path="res://assets/tempat sampah/tempat sampah anorganik.PNG" id="1_eep2c"]
 [ext_resource type="Script" uid="uid://cgaonpmjkwc51" path="res://scripts/bab_1b_memilah_sampah/ms_level_control.gd" id="1_ey8d0"]
@@ -30,6 +30,8 @@
 [ext_resource type="Texture2D" uid="uid://cs6a0a2ogix1v" path="res://assets/sampah organik/kulit apel.PNG" id="18_2plec"]
 [ext_resource type="Texture2D" uid="uid://d2hys3oainirl" path="res://assets/sampah organik/tulang ayam.PNG" id="19_16uoh"]
 [ext_resource type="Texture2D" uid="uid://d4c1n5iam3vi3" path="res://assets/sampah organik/tulang ikan.PNG" id="20_fdytf"]
+[ext_resource type="Texture2D" uid="uid://s18iu8cy7iks" path="res://ui_baru/Clue.png" id="31_2plec"]
+[ext_resource type="Texture2D" uid="uid://c6yy1ssjdx62k" path="res://ui_baru/papan petunjuk 1024x1024.png" id="32_16uoh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dj5in"]
 atlas = ExtResource("10_42oin")
@@ -479,6 +481,28 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_16uoh"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fdytf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_y66ta"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jeppv"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_shj42"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_caoti"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yyhp1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_g8t1y"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hobcb"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nlguo"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_k78r2"]
+
 [node name="Memilah L1" type="Node2D"]
 script = ExtResource("1_ey8d0")
 
@@ -638,6 +662,36 @@ position = Vector2(7163, 2075)
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("20_fdytf")
 
+[node name="Clue" type="Sprite2D" parent="."]
+position = Vector2(256, 1909.9999)
+scale = Vector2(0.31835938, 0.31835938)
+texture = ExtResource("31_2plec")
+
+[node name="ClueButton" type="Button" parent="."]
+offset_left = 104.0
+offset_top = 1769.0
+offset_right = 410.0
+offset_bottom = 2049.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_16uoh")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_fdytf")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_y66ta")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_jeppv")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_shj42")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_caoti")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_yyhp1")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_g8t1y")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_hobcb")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_nlguo")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_k78r2")
+toggle_mode = true
+flat = true
+
+[node name="PapanPetunjuk1024x1024" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1997, 1279)
+scale = Vector2(2.8710938, 2.8710938)
+texture = ExtResource("32_16uoh")
+
 [connection signal="pressed" from="BinAnorganic" to="TrashShow" method="_on_bin_anorganic_pressed"]
 [connection signal="neutral_pressed" from="BinAnorganic/Sprite" to="BinAnorganic" method="_on_sprite_neutral_pressed"]
 [connection signal="pressed" from="BinOrganic" to="TrashShow" method="_on_bin_organic_pressed"]
@@ -645,3 +699,4 @@ texture = ExtResource("20_fdytf")
 [connection signal="level_complete" from="TrashShow" to="." method="_on_trash_show_level_complete"]
 [connection signal="right_bin" from="TrashShow" to="TrashShow" method="_on_right_bin"]
 [connection signal="wrong_bin" from="TrashShow" to="TrashShow" method="_on_wrong_bin"]
+[connection signal="toggled" from="ClueButton" to="." method="_on_clue_button_toggled"]

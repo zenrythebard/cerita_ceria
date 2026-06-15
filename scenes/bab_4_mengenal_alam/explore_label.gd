@@ -6,7 +6,6 @@ extends Label
 func _process(delta: float) -> void:
 	var count : int = interactible.correct_target - interactible.correct_count
 	if interactible.check_condition != 3:
-		text = label_text + ": " + str(count)
+		text = str(count)
 	if interactible.check_condition == 3:
-		count = 1 - interactible.correct_count
-		text = label_text + ": " + str(count)
+		text = str(1)
