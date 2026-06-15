@@ -102,6 +102,8 @@ func check_send():
 		send.button_pressed = 0
 		send.active = false
 		anim_player.play("movetoroom_animation")
+		GlobalAudio.sfx_player.stream = GlobalAudio.SFX_POP
+		GlobalAudio.sfx_player.play()
 		anim_player.seek(0)
 		await get_tree().create_timer(1.1).timeout
 		Global.neutral_state = true
@@ -110,6 +112,8 @@ func check_send():
 	if send.button_pressed != move_to and send.button_pressed != 0:
 		send.button_pressed = 0
 		anim_player.play("fail_animation")
+		GlobalAudio.sfx_player.stream = GlobalAudio.SFX_WRONG_2
+		GlobalAudio.sfx_player.play()
 		anim_player.seek(0)
 		await get_tree().create_timer(1.1).timeout
 		anim_player.play("RESET")

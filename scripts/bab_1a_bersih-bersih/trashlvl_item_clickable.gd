@@ -29,33 +29,45 @@ func _input(event) -> void:
 	await get_tree().create_timer(0.1).timeout
 	if event is InputEventScreenTouch and is_pixel_opaque(event_pos) and disabled == false and camera_2d.moving == false:
 		emit_signal("button_pressed")
-		GlobalAudio.sfx_player.stream = GlobalAudio.SFX_POP
-		GlobalAudio.sfx_player.play()
 		if Global.neutral_state == true:
 			emit_signal("neutral_pressed")
 			match type:
 				"trash":
+					GlobalAudio.sfx_player.stream = GlobalAudio.SFX_POP
+					GlobalAudio.sfx_player.play()
 					emit_signal("trash_pressed")
 					Global.neutral_state = false
 				"interact":
+					GlobalAudio.sfx_player.stream = GlobalAudio.SFX_WRONG_1
+					GlobalAudio.sfx_player.play()
 					emit_signal("other_pressed")
 					Global.neutral_state = false
 				"key":
+					GlobalAudio.sfx_player.stream = GlobalAudio.SFX_POP
+					GlobalAudio.sfx_player.play()
 					emit_signal("key_item_pressed")
 					Global.neutral_state = false
 				"place":
 					if !Global.engaged_items.has(item):
+						GlobalAudio.sfx_player.stream = GlobalAudio.SFX_POP
+						GlobalAudio.sfx_player.play()
 						emit_signal("placable_pressed")
 						Global.neutral_state = false
 						print("placable")
 				"move":
+					GlobalAudio.sfx_player.stream = GlobalAudio.SFX_POP
+					GlobalAudio.sfx_player.play()
 					emit_signal("moveable_pressed")
 					Global.neutral_state = false
 				"place_here":
 					if Global.engaged_items.has(item):
+						GlobalAudio.sfx_player.stream = GlobalAudio.SFX_POP
+						GlobalAudio.sfx_player.play()
 						emit_signal("place_here_pressed")
 						Global.neutral_state = false
 				"dirt":
+					GlobalAudio.sfx_player.stream = GlobalAudio.SFX_POP
+					GlobalAudio.sfx_player.play()
 					emit_signal("dirt_pressed")
 					Global.neutral_state = false
 			dialogue_show()

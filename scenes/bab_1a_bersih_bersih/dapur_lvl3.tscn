@@ -1,4 +1,4 @@
-[gd_scene load_steps=84 format=4 uid="uid://l44rj73c4b8w"]
+[gd_scene load_steps=85 format=4 uid="uid://l44rj73c4b8w"]
 
 [ext_resource type="Script" uid="uid://xv621io6pjn4" path="res://scripts/bab_1a_bersih-bersih/level_control.gd" id="1_imvgg"]
 [ext_resource type="PackedScene" uid="uid://dvt7tnqcq6tc7" path="res://scenes/hud_ui.tscn" id="2_b61hv"]
@@ -18,12 +18,13 @@
 [ext_resource type="Texture2D" uid="uid://d3jeji5t8bqnb" path="res://tiles/512 Tile Map Dinding Dapur 2.png" id="13_lqme3"]
 [ext_resource type="Script" uid="uid://dklvpwcs2ot8v" path="res://scripts/bab_1a_bersih-bersih/tools_active.gd" id="14_2id05"]
 [ext_resource type="Texture2D" uid="uid://vnjw8lb2kfnm" path="res://tiles/512 Tile Map Dinding Dapur 3.png" id="14_7jxil"]
-[ext_resource type="Texture2D" uid="uid://1f21qmhw7wu7" path="res://UI/UI Blank/CHECK.png" id="15_4fyh4"]
+[ext_resource type="Texture2D" uid="uid://1f21qmhw7wu7" path="res://ui_old/UI Blank/CHECK.png" id="15_4fyh4"]
 [ext_resource type="Script" uid="uid://cx86xr4l84pe7" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item_clickable.gd" id="16_tvj4x"]
 [ext_resource type="Texture2D" uid="uid://gbhiedk35j8f" path="res://assets/kotoran/kemoceng.PNG" id="17_5vx37"]
 [ext_resource type="Texture2D" uid="uid://cvem3jkmlnlme" path="res://assets/kotoran/sapu.png" id="18_pclii"]
 [ext_resource type="Texture2D" uid="uid://pnikdo2j7xd8" path="res://assets/kotoran/pel.PNG" id="19_fkqbf"]
 [ext_resource type="Script" uid="uid://clngot2kpm07s" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item.gd" id="20_dm0ya"]
+[ext_resource type="Texture2D" uid="uid://c8u6bfatrtd0h" path="res://ui_baru/counter_ui.png" id="23_yh2vr"]
 [ext_resource type="Texture2D" uid="uid://chsrmmshnltef" path="res://assets/dapur/tempat telur.PNG" id="24_gnvui"]
 [ext_resource type="Texture2D" uid="uid://dails8cneqbfk" path="res://assets/dapur/gantungan dapur.png" id="25_imvgg"]
 [ext_resource type="Texture2D" uid="uid://47en56qp2c07" path="res://assets/dapur/saklar.PNG" id="26_b61hv"]
@@ -1078,15 +1079,6 @@ tile_set = SubResource("TileSet_iw2bi")
 [node name="CanvasShow" type="CanvasLayer" parent="."]
 unique_name_in_owner = true
 
-[node name="Label" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
-offset_right = 40.0
-offset_bottom = 60.0
-theme_override_fonts/font = ExtResource("12_yh2vr")
-theme_override_font_sizes/font_size = 50
-script = ExtResource("13_h6aaa")
-item_counter = NodePath("../../ItemCounter")
-label_text = "Kotoran yang perlu dibersihkan "
-
 [node name="Tools" type="Control" parent="CanvasShow"]
 unique_name_in_owner = true
 z_index = 20
@@ -1173,6 +1165,36 @@ text = "Pel"
 horizontal_alignment = 1
 
 [node name="ToolSprite" type="Sprite2D" parent="CanvasShow"]
+
+[node name="CounterUi" type="Sprite2D" parent="CanvasShow"]
+position = Vector2(688, 176)
+scale = Vector2(2, 2)
+texture = ExtResource("23_yh2vr")
+
+[node name="Counter" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
+offset_left = 1062.0
+offset_top = 145.0
+offset_right = 1160.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("12_yh2vr")
+theme_override_font_sizes/font_size = 50
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("13_h6aaa")
+item_counter = NodePath("../../ItemCounter")
+label_text = "Sampah yang harus dibuang"
+
+[node name="Text" type="Label" parent="CanvasShow"]
+offset_left = 233.0
+offset_top = 145.0
+offset_right = 991.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("12_yh2vr")
+theme_override_font_sizes/font_size = 50
+text = "kotoran yang perlu dibersihkan "
+horizontal_alignment = 1
 
 [node name="Items" type="Node2D" parent="."]
 position = Vector2(49, 0)

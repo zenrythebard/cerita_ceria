@@ -1,4 +1,4 @@
-[gd_scene load_steps=71 format=4 uid="uid://d1ioym628ws5q"]
+[gd_scene load_steps=72 format=4 uid="uid://d1ioym628ws5q"]
 
 [ext_resource type="Script" uid="uid://xv621io6pjn4" path="res://scripts/bab_1a_bersih-bersih/level_control.gd" id="1_vbmmv"]
 [ext_resource type="PackedScene" uid="uid://bcxmwmf8cvj21" path="res://scenes/camera_component.tscn" id="2_10w5a"]
@@ -12,6 +12,7 @@
 [ext_resource type="Script" uid="uid://o6fi2k5k8j88" path="res://scripts/count_label.gd" id="11_14okl"]
 [ext_resource type="Texture2D" uid="uid://gqa3eet5r5w8" path="res://tiles/TILEMAP LUAR/Tak berjudul82_20260520191346.png" id="12_y72pb"]
 [ext_resource type="Script" uid="uid://damv6oq6yqong" path="res://scripts/camera_buttons.gd" id="14_gdn5r"]
+[ext_resource type="Texture2D" uid="uid://c8u6bfatrtd0h" path="res://ui_baru/counter_ui.png" id="14_slb24"]
 [ext_resource type="Script" uid="uid://clngot2kpm07s" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item.gd" id="15_xe3rt"]
 [ext_resource type="Texture2D" uid="uid://ei1vu41kb541" path="res://assets/halaman rumah/bunga bungaan.PNG" id="16_yptnk"]
 [ext_resource type="Script" uid="uid://cx86xr4l84pe7" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item_clickable.gd" id="17_tts65"]
@@ -1122,14 +1123,35 @@ script = ExtResource("2_kb1em")
 [node name="CanvasShow" type="CanvasLayer" parent="."]
 unique_name_in_owner = true
 
-[node name="Label" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
-offset_right = 40.0
-offset_bottom = 23.0
+[node name="CounterUi" type="Sprite2D" parent="CanvasShow"]
+position = Vector2(688, 176)
+scale = Vector2(2, 2)
+texture = ExtResource("14_slb24")
+
+[node name="Counter" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
+offset_left = 1062.0
+offset_top = 145.0
+offset_right = 1160.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
 theme_override_fonts/font = ExtResource("10_ndpc3")
 theme_override_font_sizes/font_size = 50
+text = "1"
+horizontal_alignment = 1
 script = ExtResource("11_14okl")
-item_counter = NodePath("../../Items/Trash")
+item_counter = NodePath("")
 label_text = "Sampah yang harus dibuang"
+
+[node name="Text" type="Label" parent="CanvasShow"]
+offset_left = 274.0
+offset_top = 145.0
+offset_right = 943.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("10_ndpc3")
+theme_override_font_sizes/font_size = 50
+text = "sampah yang harus dibuang"
+horizontal_alignment = 1
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
 position = Vector2(957.0004, 2396.0002)
@@ -1606,7 +1628,6 @@ position = Vector2(-104, 306.99997)
 rotation = 1.9547688
 scale = Vector2(0.3, 0.3)
 texture = ExtResource("44_qyjh4")
-script = ExtResource("17_tts65")
 
 [node name="Daun4" type="Node2D" parent="Items/Daun"]
 position = Vector2(1802, 995)
@@ -1669,6 +1690,3 @@ texture = ExtResource("44_qyjh4")
 [connection signal="trash_pressed" from="Items/Trash/CupMie/Sprite" to="Items/Trash/CupMie" method="_on_sprite_trash_pressed"]
 [connection signal="trash_pressed" from="Items/Trash/Kresek/Sprite" to="Items/Trash/Kresek" method="_on_sprite_trash_pressed"]
 [connection signal="trash_pressed" from="Items/Trash/Kardus/Sprite" to="Items/Trash/Kardus" method="_on_sprite_trash_pressed"]
-[connection signal="other_pressed" from="Items/Daun/Daun3/Sprite" to="Items/Daun/Daun3" method="_on_sprite_other_pressed"]
-[connection signal="placable_pressed" from="Items/Daun/Daun3/Sprite" to="Items/Daun/Daun3" method="_on_sprite_placable_pressed"]
-[connection signal="trash_pressed" from="Items/Daun/Daun3/Sprite" to="Items/Daun/Daun3" method="_on_sprite_trash_pressed"]

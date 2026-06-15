@@ -1,8 +1,9 @@
-[gd_scene load_steps=91 format=3 uid="uid://uao2xgwbmgip"]
+[gd_scene load_steps=92 format=3 uid="uid://uao2xgwbmgip"]
 
 [ext_resource type="Texture2D" uid="uid://crhe6xjqdc8d8" path="res://assets/tempat sampah/tempat sampah anorganik.PNG" id="1_eep2c"]
 [ext_resource type="Script" uid="uid://cgaonpmjkwc51" path="res://scripts/bab_1b_memilah_sampah/ms_level_control.gd" id="1_ey8d0"]
 [ext_resource type="PackedScene" uid="uid://dvt7tnqcq6tc7" path="res://scenes/hud_ui.tscn" id="2_05ebw"]
+[ext_resource type="Texture2D" uid="uid://c8u6bfatrtd0h" path="res://ui_baru/counter_ui.png" id="2_8rhst"]
 [ext_resource type="Texture2D" uid="uid://bohcwfajsk1ta" path="res://illustration/bg_memilah sampah_blur.png" id="2_ab7ux"]
 [ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="2_ekgrw"]
 [ext_resource type="Texture2D" uid="uid://cnut5caq4vaw8" path="res://assets/tempat sampah/tempat sampah organik.PNG" id="2_ey8d0"]
@@ -481,6 +482,38 @@ animations = [{
 [node name="Memilah L1" type="Node2D"]
 script = ExtResource("1_ey8d0")
 
+[node name="CanvasShow" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+
+[node name="CounterUi" type="Sprite2D" parent="CanvasShow"]
+position = Vector2(688, 176)
+scale = Vector2(2, 2)
+texture = ExtResource("2_8rhst")
+
+[node name="Counter" type="Label" parent="CanvasShow" node_paths=PackedStringArray("trash_show")]
+offset_left = 1062.0
+offset_top = 145.0
+offset_right = 1160.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("2_ekgrw")
+theme_override_font_sizes/font_size = 50
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("2_m3ml5")
+trash_show = NodePath("../../TrashShow")
+
+[node name="Text" type="Label" parent="CanvasShow"]
+offset_left = 274.0
+offset_top = 145.0
+offset_right = 943.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("2_ekgrw")
+theme_override_font_sizes/font_size = 50
+text = "sampah yang harus dipilah"
+horizontal_alignment = 1
+
 [node name="HUD UI" parent="." instance=ExtResource("2_05ebw")]
 
 [node name="BgMemilahSampah" type="Sprite2D" parent="."]
@@ -488,19 +521,6 @@ z_index = -1
 position = Vector2(1918.4445, 1069.5)
 scale = Vector2(2.0212963, 2.0212963)
 texture = ExtResource("2_ab7ux")
-
-[node name="CanvasShow" type="CanvasLayer" parent="."]
-unique_name_in_owner = true
-
-[node name="Label" type="Label" parent="."]
-offset_left = 87.0
-offset_top = 50.0
-offset_right = 911.0
-offset_bottom = 170.0
-theme_override_fonts/font = ExtResource("2_ekgrw")
-theme_override_font_sizes/font_size = 100
-script = ExtResource("2_m3ml5")
-label_text = "Target Pemilahan"
 
 [node name="BinAnorganic" type="Node2D" parent="." node_paths=PackedStringArray("sprite")]
 position = Vector2(1052, 1282)

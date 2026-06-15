@@ -1,4 +1,4 @@
-[gd_scene load_steps=90 format=4 uid="uid://bf2vu7c4mxiag"]
+[gd_scene load_steps=91 format=4 uid="uid://bf2vu7c4mxiag"]
 
 [ext_resource type="Script" uid="uid://xv621io6pjn4" path="res://scripts/bab_1a_bersih-bersih/level_control.gd" id="1_rjr1t"]
 [ext_resource type="PackedScene" uid="uid://dvt7tnqcq6tc7" path="res://scenes/hud_ui.tscn" id="2_fbfib"]
@@ -25,6 +25,7 @@
 [ext_resource type="Texture2D" uid="uid://b5h3c4jytxqqy" path="res://assets/dapur/spatula.PNG" id="17_3p3jh"]
 [ext_resource type="Texture2D" uid="uid://7uwx3opc1vh4" path="res://assets/dapur/kitchen set bawah gabungan.png" id="17_5krf0"]
 [ext_resource type="Script" uid="uid://cx86xr4l84pe7" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item_clickable.gd" id="17_7aa5d"]
+[ext_resource type="Texture2D" uid="uid://c8u6bfatrtd0h" path="res://ui_baru/counter_ui.png" id="17_e67lv"]
 [ext_resource type="Texture2D" uid="uid://br5vq8x8ggdpf" path="res://assets/dapur/celemek.PNG" id="17_q1pn2"]
 [ext_resource type="Texture2D" uid="uid://djwdc7hhrj2x7" path="res://assets/dapur/kulkas.png" id="18_1uauo"]
 [ext_resource type="Texture2D" uid="uid://pqetd3gpvbiv" path="res://assets/dapur/kompor.png" id="19_o17as"]
@@ -654,7 +655,6 @@ script = ExtResource("1_rjr1t")
 camera_comp = NodePath("CameraComponent")
 
 [node name="HUD UI" parent="." instance=ExtResource("2_fbfib")]
-visible = false
 
 [node name="CameraComponent" parent="." node_paths=PackedStringArray("camera_2d") instance=ExtResource("3_qlxjn")]
 camera_2d = NodePath("Camera2D")
@@ -690,14 +690,35 @@ tile_set = SubResource("TileSet_3nlbr")
 [node name="CanvasShow" type="CanvasLayer" parent="."]
 unique_name_in_owner = true
 
-[node name="Label" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
-offset_right = 40.0
-offset_bottom = 23.0
+[node name="CounterUi" type="Sprite2D" parent="CanvasShow"]
+position = Vector2(688, 176)
+scale = Vector2(2, 2)
+texture = ExtResource("17_e67lv")
+
+[node name="Counter" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
+offset_left = 1062.0
+offset_top = 145.0
+offset_right = 1160.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
 theme_override_fonts/font = ExtResource("13_q0fhj")
 theme_override_font_sizes/font_size = 50
+text = "1"
+horizontal_alignment = 1
 script = ExtResource("14_d0cch")
 item_counter = NodePath("../../Items/Trash")
 label_text = "Sampah yang harus dibuang"
+
+[node name="Text" type="Label" parent="CanvasShow"]
+offset_left = 274.0
+offset_top = 145.0
+offset_right = 943.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("13_q0fhj")
+theme_override_font_sizes/font_size = 50
+text = "sampah yang harus dibuang"
+horizontal_alignment = 1
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
 position = Vector2(3010.5002, -475.98438)

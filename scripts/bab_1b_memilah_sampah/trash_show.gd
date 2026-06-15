@@ -107,15 +107,22 @@ func check_correct_bin():
 		if bin_id == 1 and organic == true or bin_id == 2 and organic == false:
 			emit_signal("right_bin")
 		else:
+			GlobalAudio.sfx_player.stream = GlobalAudio.SFX_WRONG_1
+			GlobalAudio.sfx_player.play()
 			emit_signal("wrong_bin")
+		return
 	elif bin_id == 0:
 		pass
 	elif bin_id == 1 and organic == true or bin_id == 2 and organic == false:
 		correct_count += 1
 		interacted = true
+		GlobalAudio.sfx_player.stream = GlobalAudio.SFX_POP
+		GlobalAudio.sfx_player.play()
 		emit_signal("right_bin")
 	else:
 		interacted = true
+		GlobalAudio.sfx_player.stream = GlobalAudio.SFX_WRONG_1
+		GlobalAudio.sfx_player.play()
 		emit_signal("wrong_bin")
 
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=82 format=4 uid="uid://jhr7r0qays7y"]
+[gd_scene load_steps=83 format=4 uid="uid://jhr7r0qays7y"]
 
 [ext_resource type="Script" uid="uid://xv621io6pjn4" path="res://scripts/bab_1a_bersih-bersih/level_control.gd" id="1_xmi55"]
 [ext_resource type="PackedScene" uid="uid://dvt7tnqcq6tc7" path="res://scenes/hud_ui.tscn" id="2_3ifex"]
@@ -14,6 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://dbmf6g3gd48ui" path="res://tiles/256 Tile Map Dinding 2.png" id="12_vxesu"]
 [ext_resource type="Texture2D" uid="uid://daufqqcbfmv3m" path="res://tiles/TILEMAP LUAR/Tak berjudul75_20260520132921.png" id="13_h8xko"]
 [ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="13_i4kev"]
+[ext_resource type="Texture2D" uid="uid://c8u6bfatrtd0h" path="res://ui_baru/counter_ui.png" id="14_2y7hl"]
 [ext_resource type="Script" uid="uid://o6fi2k5k8j88" path="res://scripts/count_label.gd" id="14_syq3n"]
 [ext_resource type="Script" uid="uid://clngot2kpm07s" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item.gd" id="15_hjsrs"]
 [ext_resource type="Texture2D" uid="uid://biqgulo3abmj1" path="res://assets/master bedroom/lampu hias 2.PNG" id="17_lh5f6"]
@@ -762,14 +763,35 @@ tile_set = SubResource("TileSet_5hph3")
 [node name="CanvasShow" type="CanvasLayer" parent="."]
 unique_name_in_owner = true
 
-[node name="Label" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
-offset_right = 40.0
-offset_bottom = 23.0
+[node name="CounterUi" type="Sprite2D" parent="CanvasShow"]
+position = Vector2(688, 176)
+scale = Vector2(2, 2)
+texture = ExtResource("14_2y7hl")
+
+[node name="Counter" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
+offset_left = 1062.0
+offset_top = 145.0
+offset_right = 1160.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
 theme_override_fonts/font = ExtResource("13_i4kev")
 theme_override_font_sizes/font_size = 50
+text = "1"
+horizontal_alignment = 1
 script = ExtResource("14_syq3n")
 item_counter = NodePath("../../Items/Trash")
 label_text = "Sampah yang harus dibuang"
+
+[node name="Text" type="Label" parent="CanvasShow"]
+offset_left = 274.0
+offset_top = 145.0
+offset_right = 943.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("13_i4kev")
+theme_override_font_sizes/font_size = 50
+text = "sampah yang harus dibuang"
+horizontal_alignment = 1
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
 position = Vector2(2018.0837, -370.98456)

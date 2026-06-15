@@ -1,4 +1,4 @@
-[gd_scene load_steps=72 format=4 uid="uid://ddey02hnlfjod"]
+[gd_scene load_steps=73 format=4 uid="uid://ddey02hnlfjod"]
 
 [ext_resource type="Script" uid="uid://xv621io6pjn4" path="res://scripts/bab_1a_bersih-bersih/level_control.gd" id="1_megmm"]
 [ext_resource type="Texture2D" uid="uid://dkhnghtnjg745" path="res://tiles/TILEMAP LUAR/Tilemap Jalanan.png" id="2_n5fyx"]
@@ -12,6 +12,7 @@
 [ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="10_x0ocd"]
 [ext_resource type="Script" uid="uid://o6fi2k5k8j88" path="res://scripts/count_label.gd" id="11_6av5q"]
 [ext_resource type="PackedScene" uid="uid://bcxmwmf8cvj21" path="res://scenes/camera_component.tscn" id="12_pqydj"]
+[ext_resource type="Texture2D" uid="uid://c8u6bfatrtd0h" path="res://ui_baru/counter_ui.png" id="13_80d6i"]
 [ext_resource type="Script" uid="uid://damv6oq6yqong" path="res://scripts/camera_buttons.gd" id="14_6no4d"]
 [ext_resource type="Script" uid="uid://cjk4uwt8l57o0" path="res://scripts/bab_1a_bersih-bersih/send_to_room.gd" id="14_yqav8"]
 [ext_resource type="Script" uid="uid://clngot2kpm07s" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item.gd" id="15_hi1p5"]
@@ -1418,6 +1419,36 @@ texture = ExtResource("18_80d6i")
 script = ExtResource("17_vxvd5")
 type = "button"
 metadata/_custom_type_script = "uid://cx86xr4l84pe7"
+
+[node name="CounterUi" type="Sprite2D" parent="CanvasShow"]
+position = Vector2(688, 176)
+scale = Vector2(2, 2)
+texture = ExtResource("13_80d6i")
+
+[node name="Counter" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
+offset_left = 1062.0
+offset_top = 145.0
+offset_right = 1160.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("10_x0ocd")
+theme_override_font_sizes/font_size = 50
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("11_6av5q")
+item_counter = NodePath("")
+label_text = "Sampah yang harus dibuang"
+
+[node name="Text" type="Label" parent="CanvasShow"]
+offset_left = 274.0
+offset_top = 145.0
+offset_right = 943.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("10_x0ocd")
+theme_override_font_sizes/font_size = 50
+text = "benda yang perlu disimpan"
+horizontal_alignment = 1
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 scale = Vector2(4, 4)

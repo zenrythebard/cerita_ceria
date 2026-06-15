@@ -1,4 +1,4 @@
-[gd_scene load_steps=88 format=4 uid="uid://6m43cuhiaxx1"]
+[gd_scene load_steps=89 format=4 uid="uid://6m43cuhiaxx1"]
 
 [ext_resource type="Script" uid="uid://xv621io6pjn4" path="res://scripts/bab_1a_bersih-bersih/level_control.gd" id="1_kirli"]
 [ext_resource type="PackedScene" uid="uid://dvt7tnqcq6tc7" path="res://scenes/hud_ui.tscn" id="2_a5bt8"]
@@ -9,6 +9,7 @@
 [ext_resource type="Script" uid="uid://cjk4uwt8l57o0" path="res://scripts/bab_1a_bersih-bersih/send_to_room.gd" id="7_qh3vj"]
 [ext_resource type="Texture2D" uid="uid://dobjawvt4ye88" path="res://room_icons/ICON R. DAPUR.png" id="8_n10ko"]
 [ext_resource type="Script" uid="uid://cx86xr4l84pe7" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item_clickable.gd" id="9_lqf0s"]
+[ext_resource type="Texture2D" uid="uid://c8u6bfatrtd0h" path="res://ui_baru/counter_ui.png" id="10_n10ko"]
 [ext_resource type="Texture2D" uid="uid://u0ok8pryjhs" path="res://room_icons/ICON R. CUCI.png" id="10_quey5"]
 [ext_resource type="Texture2D" uid="uid://ctcrmg6hae7ya" path="res://room_icons/ICON KAMAR TITA TITO.png" id="11_m3x6o"]
 [ext_resource type="Script" uid="uid://cf7r63pf67kba" path="res://scripts/bab_1a_bersih-bersih/darken.gd" id="12_yhhbf"]
@@ -838,15 +839,6 @@ camera_speed = 50.0
 [node name="CanvasShow" type="CanvasLayer" parent="."]
 unique_name_in_owner = true
 
-[node name="Label" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
-offset_right = 40.0
-offset_bottom = 60.0
-theme_override_fonts/font = ExtResource("5_1ypc1")
-theme_override_font_sizes/font_size = 50
-script = ExtResource("6_jvyjx")
-item_counter = NodePath("../../Items/Placable")
-label_text = "Benda yang perlu disimpan"
-
 [node name="SendToRoom" type="Control" parent="CanvasShow"]
 unique_name_in_owner = true
 z_index = 20
@@ -864,12 +856,35 @@ script = ExtResource("9_lqf0s")
 type = "button"
 metadata/_custom_type_script = "uid://cx86xr4l84pe7"
 
+[node name="Label" type="Label" parent="CanvasShow/SendToRoom/Button1"]
+offset_left = -232.42184
+offset_top = 228.37971
+offset_right = 257.57816
+offset_bottom = 348.37973
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("5_1ypc1")
+theme_override_font_sizes/font_size = 100
+text = "Dapur"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="Button2" type="Sprite2D" parent="CanvasShow/SendToRoom"]
 position = Vector2(2012, 1725)
 scale = Vector2(0.6184873, 0.6184873)
 texture = ExtResource("10_quey5")
 script = ExtResource("9_lqf0s")
 metadata/_custom_type_script = "uid://cx86xr4l84pe7"
+
+[node name="Label" type="Label" parent="CanvasShow/SendToRoom/Button2"]
+offset_left = -358.94022
+offset_top = 228.37971
+offset_right = 390.05978
+offset_bottom = 348.37973
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("5_1ypc1")
+theme_override_font_sizes/font_size = 100
+text = "Ruang Cuci"
+horizontal_alignment = 1
 
 [node name="Button3" type="Sprite2D" parent="CanvasShow/SendToRoom"]
 position = Vector2(2738, 1765.0001)
@@ -878,6 +893,46 @@ texture = ExtResource("11_m3x6o")
 script = ExtResource("9_lqf0s")
 type = "button"
 metadata/_custom_type_script = "uid://cx86xr4l84pe7"
+
+[node name="Label" type="Label" parent="CanvasShow/SendToRoom/Button3"]
+offset_left = -274.8636
+offset_top = 163.30112
+offset_right = 289.1364
+offset_bottom = 283.30115
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("5_1ypc1")
+theme_override_font_sizes/font_size = 100
+text = "Kamar Anak"
+
+[node name="CounterUi" type="Sprite2D" parent="CanvasShow"]
+position = Vector2(688, 176)
+scale = Vector2(2, 2)
+texture = ExtResource("10_n10ko")
+
+[node name="Counter" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
+offset_left = 1062.0
+offset_top = 145.0
+offset_right = 1160.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("5_1ypc1")
+theme_override_font_sizes/font_size = 50
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("6_jvyjx")
+item_counter = NodePath("../../Items/Placable")
+label_text = "Sampah yang harus dibuang"
+
+[node name="Text" type="Label" parent="CanvasShow"]
+offset_left = 274.0
+offset_top = 145.0
+offset_right = 943.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("5_1ypc1")
+theme_override_font_sizes/font_size = 50
+text = "benda yang perlu disimpan"
+horizontal_alignment = 1
 
 [node name="Darken" type="Sprite2D" parent="."]
 visible = false
