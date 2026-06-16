@@ -7,7 +7,6 @@ const LEVEL_1_HALAMANRUMAH = preload("uid://ds6spugweadrc")
 const LEVEL_2_HALAMANRUMAH = preload("uid://grhei24kpgii")
 
 func _ready() -> void:
-	GlobalStopwatch.stopwatch.reset()
 	GlobalStopwatch.stopwatch._set_paused(true)
 	Global.neutral_state = false
 	if get_tree().current_scene.name.contains("L1"):
@@ -25,10 +24,12 @@ func _ready() -> void:
 		"R Tamu L2":
 			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_2_RUANGTAMU, "start_tutorial")
 			await DialogueManager.dialogue_ended
+			GlobalStopwatch.stopwatch._set_paused(false)
 			Global.neutral_state = true
 		"R Tamu L3":
 			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_3_RUANGTAMU, "start_tutorial")
 			await DialogueManager.dialogue_ended
+			GlobalStopwatch.stopwatch._set_paused(false)
 			Global.neutral_state = true
 		"Dapur L1":
 			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_1_RUANGTAMU, "start_tutorial")
@@ -39,10 +40,12 @@ func _ready() -> void:
 		"Dapur L2":
 			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon, LEVEL_2_RUANGTAMU, "start_tutorial")
 			await DialogueManager.dialogue_ended
+			GlobalStopwatch.stopwatch._set_paused(false)
 			Global.neutral_state = true
 		"Dapur L3":
 			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_3_RUANGTAMU, "start_tutorial")
 			await DialogueManager.dialogue_ended
+			GlobalStopwatch.stopwatch._set_paused(false)
 			Global.neutral_state = true
 			
 		"R Keluarga L1":
@@ -54,10 +57,12 @@ func _ready() -> void:
 		"R Keluarga L2":
 			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_2_RUANGTAMU, "start_tutorial")
 			await DialogueManager.dialogue_ended
+			GlobalStopwatch.stopwatch._set_paused(false)
 			Global.neutral_state = true
 		"R Keluarga L3":
 			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_3_RUANGTAMU, "start_tutorial")
 			await DialogueManager.dialogue_ended
+			GlobalStopwatch.stopwatch._set_paused(false)
 			Global.neutral_state = true
 			
 		"Halaman L1":
@@ -69,6 +74,7 @@ func _ready() -> void:
 		"Halaman L2":
 			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_2_HALAMANRUMAH, "start_tutorial")
 			await DialogueManager.dialogue_ended
+			GlobalStopwatch.stopwatch._set_paused(false)
 			Global.neutral_state = true
 
 func _process(delta: float) -> void:
@@ -78,4 +84,4 @@ func _on_item_counter_level_end() -> void:
 	await DialogueManager.dialogue_ended
 	var instance = Global.RETURN.instantiate()
 	add_child(instance)
-	$Return.reparent(%CanvasShow)
+	instance.reparent(%CanvasShow)
