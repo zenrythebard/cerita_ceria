@@ -450,22 +450,6 @@ region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
 script = ExtResource("8_2jp0l")
 metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
-[node name="ClickSprite2" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Rumput"]
-position = Vector2(256.82037, 0)
-scale = Vector2(0.15, 0.15)
-texture = ExtResource("20_tkql6")
-region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
-script = ExtResource("8_2jp0l")
-metadata/_custom_type_script = "uid://bv7ndueoa81i3"
-
-[node name="ClickSprite3" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Rumput"]
-position = Vector2(513.63855, 0)
-scale = Vector2(0.15, 0.15)
-texture = ExtResource("20_tkql6")
-region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
-script = ExtResource("8_2jp0l")
-metadata/_custom_type_script = "uid://bv7ndueoa81i3"
-
 [node name="Ranting" type="Node2D" parent="BG/ground/Interactible/Foreground"]
 position = Vector2(272.2726, 287.27267)
 script = ExtResource("6_tkql6")
@@ -613,8 +597,6 @@ texture = ExtResource("40_hrr77")
 [connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Bola/ClickSprite" to="BG/ground/Interactible/Foreground/Bola" method="_on_click_sprite_neutral_pressed"]
 [connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Kucing/ClickSprite" to="BG/ground/Interactible/Foreground/Kucing" method="_on_click_sprite_neutral_pressed"]
 [connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Rumput/ClickSprite" to="BG/ground/Interactible/Foreground/Rumput" method="_on_click_sprite_neutral_pressed"]
-[connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Rumput/ClickSprite2" to="BG/ground/Interactible/Foreground/Rumput" method="_on_click_sprite_neutral_pressed"]
-[connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Rumput/ClickSprite3" to="BG/ground/Interactible/Foreground/Rumput" method="_on_click_sprite_neutral_pressed"]
 [connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Ranting/ClickSprite" to="BG/ground/Interactible/Foreground/Ranting" method="_on_click_sprite_neutral_pressed"]
 [connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Batu/ClickSprite" to="BG/ground/Interactible/Foreground/Batu" method="_on_click_sprite_neutral_pressed"]
 [connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Semak/ClickSprite" to="BG/ground/Interactible/Foreground/Semak" method="_on_click_sprite_neutral_pressed"]
