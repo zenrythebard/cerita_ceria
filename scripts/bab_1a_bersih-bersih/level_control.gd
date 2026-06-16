@@ -75,12 +75,17 @@ func _ready() -> void:
 			await DialogueManager.dialogue_ended
 			GlobalStopwatch.stopwatch._set_paused(false)
 			Global.neutral_state = true
+		"Halaman L3":
+			DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,LEVEL_2_HALAMANRUMAH, "start_tutorial_2")
+			await DialogueManager.dialogue_ended
+			GlobalStopwatch.stopwatch._set_paused(false)
+			Global.neutral_state = true
 
 func _process(delta: float) -> void:
 	Global.camera_position = camera_comp.camera_2d.position
 	
 func _on_item_counter_level_end() -> void:
-	await DialogueManager.dialogue_ended
 	var instance = Global.RETURN.instantiate()
 	add_child(instance)
 	instance.reparent(%CanvasShow)
+	

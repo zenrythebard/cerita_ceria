@@ -1,61 +1,61 @@
 ~ start_tutorial
-BAPAK: Nah, Tito, kita sekarang temukan sampah yang tersembunyi. 
+BAPAK: [#voice=uid://c450vy55l7ipc] Nah, Tito, kita sekarang temukan sampah yang tersembunyi.  
 BAPAK: [#voice=uid://e7uw7h6nboym] Jika sampah berair, buang airnya ya! supaya tidak dihinggapi jentik nyamuk.  
 BAPAK: [#voice=uid://c3225ffidmbdf] Setelah itu, masukkan kedalam plastik besar 
 => END
 #------SAMPAH------
 ~ botol
-TITO: [color=#32cd32]Botol[/color] 
+TITO: [color=#32cd32]Botol[/color]  [#voice=uid://c6fou4ylufa8d]
 => END
 ~ susu
-TITO: [color=#32cd32]Susu[/color] 
+TITO: [color=#32cd32]Susu[/color]  [#voice=uid://bltv04jercyti]
 => END
 ~ es_cekek
-TITO: [color=#32cd32]Es Cekek[/color] 
+TITO: [color=#32cd32]Es Cekek[/color]  [#voice=uid://c6fou4ylufa8d]
 => END
 ~ surat
-TITO: [color=#32cd32]amplop[/color] 
+TITO: [color=#32cd32]amplop[/color] [#voice=uid://bltv04jercyti]
 => END
 ~ snack
-TITO: [color=#32cd32]kemasan cemilan[/color] 
+TITO: [color=#32cd32]kemasan cemilan[/color]  [#voice=uid://c6fou4ylufa8d]
 => END
 ~ kertas
-TITO: [color=#32cd32]kertas[/color] 
+TITO: [color=#32cd32]kertas[/color]  [#voice=uid://c6fou4ylufa8d]
 => END
 ~ gelas_plastik
-TITO: Betul, [color=#32cd32]gelas plastik[/color] 
+TITO: Betul, [color=#32cd32]gelas plastik[/color]  [#voice=uid://c6fou4ylufa8d]
 => END
 ~ pisang
-TITO: [color=#32cd32]kulit pisang[/color] 
+TITO: [color=#32cd32]kulit pisang[/color]  [#voice=uid://c6fou4ylufa8d]
 => END
 ~ mi_cangkir
-TITO: [color=#32cd32]mi cangkir[/color] 
+TITO: [color=#32cd32]mi cangkir[/color]  [#voice=uid://bltv04jercyti]
 => END
 ~ kresek
-TITO: [color=#32cd32]Kantong plastik[/color] 
+TITO: [color=#32cd32]Kantong plastik[/color]  [#voice=uid://bltv04jercyti]
 => END
 ~ kardus
-TITO: [color=#32cd32]Kardus[/color] 
+TITO: [color=#32cd32]Kardus[/color]  [#voice=uid://bltv04jercyti]
 => END
 #----------------NON-SAMPAH-----------------
 ~ bungaan
-TITO: Pot Bunga
+TITO: Pot Bunga [#voice=uid://vq81tmrtjylh]
 => END
 ~ bush
-TITO: Semak
+TITO: Semak [#voice=uid://vq81tmrtjylh]
 => END
 ~ kendi
-TITO: Kendi Air
+TITO: Kendi Air [#voice=uid://vq81tmrtjylh]
 => END
 ~ kolam
-TITO: Kolam Ikan
+TITO: Kolam Ikan [#voice=uid://vq81tmrtjylh]
 => END
 ~ lampu
-TITO: Lampu Taman
+TITO: Lampu Taman [#voice=uid://vq81tmrtjylh]
 => END
 ~ gelas
-TITO: Gelas Kotor
+TITO: Gelas Kotor [#voice=uid://vq81tmrtjylh]
 => END
 ~ mangkok
-TITO: Mangkok Kotor
+TITO: Mangkok Kotor [#voice=uid://vq81tmrtjylh]
 => END

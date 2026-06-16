@@ -7,6 +7,7 @@ var current_scene : String
 var key_item_dialogue : bool = true
 var level_end_dialogue: bool = true
 signal level_end
+signal show_image
 var no_dialogue : bool
 
 const LEVEL_1_RUANGTAMU = preload("uid://bnypttcr3ehw1")
@@ -84,3 +85,11 @@ func _process(delta: float) -> void:
 			"Halaman L2":
 				if Global.neutral_state == true:
 					get_tree().change_scene_to_file("uid://cx3xlkl0vcxat")
+			"Halaman L3":
+				if Global.neutral_state == true:
+					if level_end_dialogue == true:
+							level_end_dialogue = false
+							emit_signal("show_image")
+							DialogueManager.show_dialogue_balloon_scene(Global.SOLO_BALLOON,LEVEL_2_HALAMANRUMAH, "level_end")
+							await DialogueManager.dialogue_ended
+							emit_signal("level_end")

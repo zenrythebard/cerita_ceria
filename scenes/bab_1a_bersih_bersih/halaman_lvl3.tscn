@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=4 uid="uid://cx3xlkl0vcxat"]
+[gd_scene load_steps=63 format=4 uid="uid://cx3xlkl0vcxat"]
 
 [ext_resource type="Script" uid="uid://xv621io6pjn4" path="res://scripts/bab_1a_bersih-bersih/level_control.gd" id="1_lwnxx"]
 [ext_resource type="PackedScene" uid="uid://bcxmwmf8cvj21" path="res://scenes/camera_component.tscn" id="2_6jq6w"]
@@ -10,7 +10,9 @@
 [ext_resource type="Texture2D" uid="uid://c8u6bfatrtd0h" path="res://ui_baru/counter_ui.png" id="6_lwnxx"]
 [ext_resource type="Texture2D" uid="uid://d2y0pkav6vfgd" path="res://tiles/TILEMAP RUMAH/Tak berjudul53_20260426145555.png" id="7_4j04r"]
 [ext_resource type="Texture2D" uid="uid://k2wu4jfw7j5d" path="res://tiles/TILEMAP RUMAH/Tak berjudul54.png" id="8_boiw2"]
+[ext_resource type="Texture2D" uid="uid://dvbq73ttxb8rb" path="res://illustration/Bab 1 - Menjaga Kebersihan Lingkungan/2. Daur ulang/opening scene taman.png" id="9_ff7lg"]
 [ext_resource type="Texture2D" uid="uid://byxnswi83dgyx" path="res://tiles/TILEMAP RUMAH/Tak berjudul52_20260426145232.png" id="9_rjwqg"]
+[ext_resource type="Script" uid="uid://c5ukxn5j1tqcy" path="res://scenes/bab_1a_bersih_bersih/halaman_ed.gd" id="10_hnjqh"]
 [ext_resource type="Texture2D" uid="uid://be4gcmlqefn8k" path="res://tiles/TILEMAP RUMAH/Tak berjudul48_20260424175539.png" id="10_sdxdg"]
 [ext_resource type="Script" uid="uid://cf7r63pf67kba" path="res://scripts/bab_1a_bersih-bersih/darken.gd" id="11_0rv0j"]
 [ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="12_58g2r"]
@@ -21,8 +23,11 @@
 [ext_resource type="Script" uid="uid://cx86xr4l84pe7" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item_clickable.gd" id="16_ebtjv"]
 [ext_resource type="Script" uid="uid://b724fo2wi1863" path="res://scripts/bab_1a_bersih-bersih/trashlvl_completion_cond.gd" id="16_iptcx"]
 [ext_resource type="Texture2D" uid="uid://dyrgrhtpw00yl" path="res://assets/halaman rumah/bushes.PNG" id="17_rb8qp"]
+[ext_resource type="Script" uid="uid://c8pm48rcb4x3p" path="res://scenes/bab_1a_bersih_bersih/got_section.gd" id="18_qtjas"]
 [ext_resource type="Texture2D" uid="uid://coc10s8ldtpaq" path="res://assets/halaman rumah/kendi air + tutup.PNG" id="18_rpk88"]
 [ext_resource type="Texture2D" uid="uid://buyhs1i8b6ppp" path="res://assets/halaman rumah/kolam ikan.png" id="19_125el"]
+[ext_resource type="Texture2D" uid="uid://b7tl0cicdlb6x" path="res://assets/halaman rumah/got_kotor.PNG" id="19_ff7lg"]
+[ext_resource type="Script" uid="uid://bv7ndueoa81i3" path="res://scripts/bab_1b_memilah_sampah/sprite_click.gd" id="20_hnjqh"]
 [ext_resource type="Texture2D" uid="uid://c0dli142jnkqu" path="res://assets/halaman rumah/lampu taman.PNG" id="20_k4mx8"]
 [ext_resource type="Texture2D" uid="uid://cn1v6eo2ra6d6" path="res://assets/halaman rumah/pohon.png" id="21_r4nlf"]
 [ext_resource type="Texture2D" uid="uid://u5ln5a5uianw" path="res://assets/halaman rumah/pagar rumput, gerbang kayu + lampu horizontal.PNG" id="22_wjsqa"]
@@ -1094,15 +1099,22 @@ item_counter = NodePath("../../Items/ItemCounter")
 label_text = "Sampah yang harus dibuang"
 
 [node name="Text" type="Label" parent="CanvasShow"]
-offset_left = 274.0
+offset_left = 264.0
 offset_top = 145.0
-offset_right = 943.0
+offset_right = 961.0
 offset_bottom = 205.0
 theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
 theme_override_fonts/font = ExtResource("12_58g2r")
 theme_override_font_sizes/font_size = 50
-text = "benda yang perlu disimpan"
+text = "bagian got yang perlu diseret"
 horizontal_alignment = 1
+
+[node name="OpeningSceneTaman" type="Sprite2D" parent="CanvasShow"]
+visible = false
+position = Vector2(1927, 1076.5)
+scale = Vector2(2.025, 2.025)
+texture = ExtResource("9_ff7lg")
+script = ExtResource("10_hnjqh")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 scale = Vector2(4, 4)
@@ -1116,6 +1128,62 @@ position = Vector2(49, 0)
 position = Vector2(-49, 0)
 script = ExtResource("16_iptcx")
 metadata/_custom_type_script = "uid://b724fo2wi1863"
+
+[node name="GotSection" type="Node2D" parent="Items/ItemCounter" node_paths=PackedStringArray("item_counter")]
+position = Vector2(-1013, 1812)
+script = ExtResource("18_qtjas")
+item_counter = NodePath("..")
+
+[node name="ClickSprite" type="Sprite2D" parent="Items/ItemCounter/GotSection"]
+position = Vector2(819, -44)
+rotation = 1.5707964
+texture = ExtResource("19_ff7lg")
+region_enabled = true
+region_rect = Rect2(310.32172, 0, 1380.987, 2048)
+script = ExtResource("20_hnjqh")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="GotSection2" type="Node2D" parent="Items/ItemCounter" node_paths=PackedStringArray("item_counter")]
+position = Vector2(-1013, 2929)
+script = ExtResource("18_qtjas")
+item_counter = NodePath("..")
+
+[node name="ClickSprite" type="Sprite2D" parent="Items/ItemCounter/GotSection2"]
+position = Vector2(819, -44)
+rotation = 1.5707964
+texture = ExtResource("19_ff7lg")
+region_enabled = true
+region_rect = Rect2(310.32172, 0, 1380.987, 2048)
+script = ExtResource("20_hnjqh")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="GotSection3" type="Node2D" parent="Items/ItemCounter" node_paths=PackedStringArray("item_counter")]
+position = Vector2(-1019, 432)
+script = ExtResource("18_qtjas")
+item_counter = NodePath("..")
+
+[node name="ClickSprite" type="Sprite2D" parent="Items/ItemCounter/GotSection3"]
+position = Vector2(819, -44)
+rotation = 1.5707964
+texture = ExtResource("19_ff7lg")
+region_enabled = true
+region_rect = Rect2(310.32172, 0, 1380.987, 2048)
+script = ExtResource("20_hnjqh")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="GotSection4" type="Node2D" parent="Items/ItemCounter" node_paths=PackedStringArray("item_counter")]
+position = Vector2(-1019, -937)
+script = ExtResource("18_qtjas")
+item_counter = NodePath("..")
+
+[node name="ClickSprite" type="Sprite2D" parent="Items/ItemCounter/GotSection4"]
+position = Vector2(819, -44)
+rotation = 1.5707964
+texture = ExtResource("19_ff7lg")
+region_enabled = true
+region_rect = Rect2(310.32172, 0, 1380.987, 2048)
+script = ExtResource("20_hnjqh")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="Furniture" type="Node2D" parent="Items"]
 z_index = 1
@@ -1430,6 +1498,12 @@ texture = SubResource("GradientTexture2D_hg3wf")
 [connection signal="right_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_right_released"]
 [connection signal="up_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_up_pressed"]
 [connection signal="up_released" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_up_released"]
+[connection signal="level_end" from="Items/ItemCounter" to="." method="_on_item_counter_level_end"]
+[connection signal="show_image" from="Items/ItemCounter" to="CanvasShow/OpeningSceneTaman" method="_on_item_counter_show_image"]
+[connection signal="neutral_pressed" from="Items/ItemCounter/GotSection/ClickSprite" to="Items/ItemCounter/GotSection" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="Items/ItemCounter/GotSection2/ClickSprite" to="Items/ItemCounter/GotSection2" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="Items/ItemCounter/GotSection3/ClickSprite" to="Items/ItemCounter/GotSection3" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="Items/ItemCounter/GotSection4/ClickSprite" to="Items/ItemCounter/GotSection4" method="_on_click_sprite_neutral_pressed"]
 [connection signal="other_pressed" from="Items/Furniture/Interactible/Bungaan/Sprite" to="Items/Furniture/Interactible/Bungaan" method="_on_sprite_other_pressed"]
 [connection signal="trash_pressed" from="Items/Furniture/Interactible/Bungaan/Sprite" to="Items/Furniture/Interactible/Bungaan" method="_on_sprite_trash_pressed"]
 [connection signal="other_pressed" from="Items/Furniture/Interactible/Bush/Sprite" to="Items/Furniture/Interactible/Bush" method="_on_sprite_other_pressed"]

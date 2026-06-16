@@ -127,4 +127,4 @@ func get_dialogue():
 			else:
 				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_2_HALAMANRUMAH, item)
 		"Halaman L3":
-				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,load("res://dialogue/level_3_halamanrumah.dialogue"), item)
+				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_2_HALAMANRUMAH, item)

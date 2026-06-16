@@ -1,29 +1,47 @@
 ~ start_tutorial
-BAPAK: Sekarang, kita kumpulkan daun daun dan ranting kering. 
-BAPAK: Taruh didekat pohon atau tumbuhan sebagai pupuk alami.
+BAPAK: [#voice=uid://c1iw34td1g754] Sekarang, kita kumpulkan daun daun dan ranting kering. 
+BAPAK: [#voice=uid://cfgy1t15efstk] Taruh didekat pohon atau tumbuhan sebagai pupuk alami. 
+BAPAK: [#voice=uid://tfa2quvs3k8a] Sampah sampah ini sangat bermanfaat untuk tumbuh tumbuhan!
+TITO: [#voice=uid://vgtrpxtep7oq] Hmmm... Apakah pohonnya akan cepat besar? 
+BAPAK: [#voice=uid://bdqr784kamh6d] Hmm... Mungkin saja.
 => END
+~ start_tutorial_2
+TITO: [#voice=uid://qi8l003ho4pd] Oh tidak! Air gotnya sudah meluap! Ugh bau sekali. 
+BAPAK: [#voice=uid://c3hr1rqoypdff] Ya ampun, kita harus menyingkirkan sampah yang menutupi salurannya.
+BAPAK: [#voice=uid://bpy6fm3rjt8w7] Ayo, seret dan pindahkan sampah yang menutupi lubang.
+=> END
+
+~ level_end
+TITO: [#voice=uid://b0vp6m25rwunt] Akhirnya! Lingkungan kita jadi cantik ya. 
+BAPAK: [#voice=uid://oqydc23sb63m] Benar sekali Tito, lingkungan akan cantik kalau kita rajin membersihkannya. Akan jauh lebih baik lagi kalau kita bisamenjaganya dengan tidak membuang sampah secara sembarangan.
+=> END
+
 ~ daun
-TITO: Ayo [color=#32cd32]daun[/color]nya kumpulkan!
+% TITO: [color=#32cd32]Daun[/color] [#voice=uid://bltv04jercyti]
+% TITO: [color=#32cd32]Daun[/color] [#voice=uid://c6fou4ylufa8d]
 => END
+
+
 #----------------NON-DAUN-----------------
 ~ bungaan
-TITO: Itu [color=#32cd32]pot bunga[/color], bukan daun...
+TITO: Pot Bunga [#voice=uid://vq81tmrtjylh]
 => END
 ~ bush
-TITO: Itu [color=#32cd32]semak[/color], bukan daun...
+TITO: Semak [#voice=uid://vq81tmrtjylh]
 => END
 ~ kendi
-TITO: Itu [color=#32cd32]kendi air[/color], bukan daun...
+TITO: Kendi Air [#voice=uid://vq81tmrtjylh]
 => END
 ~ kolam
-TITO: Itu [color=#32cd32]kolam ikan[/color], bukan daun...
+TITO: Kolam Ikan [#voice=uid://vq81tmrtjylh]
 => END
 ~ lampu
-TITO: Itu [color=#32cd32]lampu-lampu taman[/color], bukan daun...
+TITO: Lampu Taman [#voice=uid://vq81tmrtjylh]
 => END
 ~ gelas
-TITO: [color=#32cd32]Gelas[/color] kotor ini seharusnya dibawa kemana ya...
+TITO:  [color=#32cd32]Gelas Kotor[/color]
 => END
 ~ mangkok
-TITO: [color=#32cd32]Mangkok[/color] kotor ini seharusnya dibawa kemana ya...
+TITO: [color=#32cd32]Mangkok Kotor[/color]
 => END
+
