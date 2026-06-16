@@ -1,4 +1,7 @@
 extends Control
+@onready var play_buttons: Node2D = $"../play_buttons"
+@onready var quit_2: Button = $Quit2
+@onready var restart: Button = $Restart
 
 signal exit
 
@@ -20,4 +23,14 @@ func _on_quit_pressed() -> void:
 	
 func _process(delta: float) -> void:
 	if !get_tree().current_scene.name.contains("Control"):
-		pass
+		play_buttons.visible = true
+		quit_2.disabled = false
+		restart.disabled = false
+	else:
+		play_buttons.visible = false
+		quit_2.disabled = true
+		restart.disabled = true
+
+
+func _on_restart_pressed() -> void:
+	get_tree().change_scene_to_file(Global.load_level)

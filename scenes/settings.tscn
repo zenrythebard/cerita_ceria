@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://dj18atodh667x"]
+[gd_scene load_steps=19 format=3 uid="uid://dj18atodh667x"]
 
 [ext_resource type="Script" uid="uid://ceymt1ox7rj12" path="res://scripts/settings.gd" id="1_gis3k"]
 [ext_resource type="Script" uid="uid://bpc8xe8xiflh1" path="res://ui_baru/settings.gd" id="1_uhhto"]
@@ -11,6 +11,8 @@
 [ext_resource type="Texture2D" uid="uid://c2vo6g8mfxm0p" path="res://ui_old/UI Blank/RESTART.png" id="9_1g033"]
 [ext_resource type="Texture2D" uid="uid://cqd13sodf2iht" path="res://ui_old/HOME.png" id="10_01roj"]
 [ext_resource type="Texture2D" uid="uid://1d12cxv0a3kp" path="res://ui_baru/settings.png" id="10_4ppmf"]
+[ext_resource type="Texture2D" uid="uid://cct5sfhcuavti" path="res://ui_old/buttons/Restart.png" id="12_1g033"]
+[ext_resource type="Texture2D" uid="uid://b3dhhkjv35gj8" path="res://ui_old/buttons/Quit.png" id="13_01roj"]
 
 [sub_resource type="Gradient" id="Gradient_ubhxj"]
 offsets = PackedFloat32Array(0.43333334)
@@ -28,6 +30,8 @@ expand_margin_bottom = 39.0
 region_rect = Rect2(72, 417.5, 884, 66)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uhhto"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_01roj"]
 
 [node name="CanvasSettings" type="CanvasLayer"]
 script = ExtResource("1_uhhto")
@@ -88,6 +92,7 @@ offset_right = 2736.874
 offset_bottom = 667.8738
 scale = Vector2(0.32000124, 0.32000124)
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_uhhto")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_01roj")
 flat = true
 
 [node name="Quit" type="Button" parent="Settings"]
@@ -98,6 +103,7 @@ offset_right = 2166.787
 offset_bottom = 1158.5737
 scale = Vector2(0.12000005, 0.12000005)
 theme_override_font_sizes/font_size = 100
+theme_override_styles/focus = SubResource("StyleBoxEmpty_01roj")
 flat = true
 
 [node name="Sprite2D2" type="Sprite2D" parent="Settings/Quit"]
@@ -111,9 +117,41 @@ position = Vector2(430.2603, 362.00082)
 scale = Vector2(0.789475, 0.789475)
 texture = ExtResource("10_01roj")
 
+[node name="Quit2" type="Button" parent="Settings"]
+layout_mode = 0
+offset_left = 1447.0
+offset_top = 1398.0
+offset_right = 9430.329
+offset_bottom = 3714.666
+scale = Vector2(0.12000005, 0.12000005)
+theme_override_font_sizes/font_size = 100
+theme_override_styles/focus = SubResource("StyleBoxEmpty_01roj")
+flat = true
+
+[node name="Restart" type="Button" parent="Settings"]
+layout_mode = 0
+offset_left = 1460.0
+offset_top = 1010.0
+offset_right = 2366.0
+offset_bottom = 1242.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_01roj")
+flat = true
+
+[node name="play_buttons" type="Node2D" parent="."]
+
+[node name="Restart" type="Sprite2D" parent="play_buttons"]
+position = Vector2(1909, 1122)
+texture = ExtResource("12_1g033")
+
+[node name="Quit" type="Sprite2D" parent="play_buttons"]
+position = Vector2(1922, 1532)
+texture = ExtResource("13_01roj")
+
 [connection signal="exit" from="Settings" to="." method="_on_settings_exit"]
 [connection signal="mouse_exited" from="Settings/Volume Slider/Volume" to="Settings/Volume Slider/Volume" method="_on_mouse_exited"]
 [connection signal="value_changed" from="Settings/Volume Slider/Volume" to="Settings" method="_on_volume_value_changed"]
 [connection signal="value_changed" from="Settings/Volume Slider/Volume" to="Settings/Volume Slider/Volume" method="_on_value_changed"]
 [connection signal="pressed" from="Settings/Back" to="Settings" method="_on_back_pressed"]
 [connection signal="pressed" from="Settings/Quit" to="Settings" method="_on_quit_pressed"]
+[connection signal="pressed" from="Settings/Quit2" to="Settings" method="_on_quit_pressed"]
+[connection signal="pressed" from="Settings/Restart" to="Settings" method="_on_restart_pressed"]

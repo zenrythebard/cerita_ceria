@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://c7tapx3pjea1r"]
+[gd_scene load_steps=9 format=3 uid="uid://c7tapx3pjea1r"]
 
 [ext_resource type="Script" uid="uid://u6250qg5oh05" path="res://scripts/loading_screen.gd" id="1_ep5rh"]
 [ext_resource type="Texture2D" uid="uid://0g0pjwxoc716" path="res://ui_baru/loading bar full.png" id="2_djmwj"]
@@ -8,6 +8,8 @@
 [ext_resource type="Texture2D" uid="uid://dc8y31kf320iu" path="res://ui_old/pLAY/START 3.png" id="6_f7y4a"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_if62a"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qygbf"]
 
 [node name="LoadingScreen" type="Node2D" node_paths=PackedStringArray("progress_bar")]
 script = ExtResource("1_ep5rh")
@@ -42,12 +44,13 @@ scale = Vector2(2.1079102, 2.1079102)
 texture = ExtResource("4_djmwj")
 
 [node name="Button" type="Button" parent="."]
-offset_left = 2120.9998
-offset_top = 1061.9999
-offset_right = 3152.9998
-offset_bottom = 2094.0
+offset_left = 2097.0
+offset_top = 976.0
+offset_right = 3129.0
+offset_bottom = 2008.0001
 scale = Vector2(0.53533787, 0.53533787)
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_if62a")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_qygbf")
 disabled = true
 icon = ExtResource("6_f7y4a")
 flat = true
