@@ -16,7 +16,9 @@ func _ready() -> void:
 		down.queue_free()
 		
 func _on_dialogue_started(resource: DialogueResource):
+	Global.neutral_state = false
 	visible = false
 	
 func _on_dialogue_ended(resource: DialogueResource):
 	visible = true
+	Global.neutral_state = true

@@ -34,13 +34,14 @@ func _ready() -> void:
 		"MengenalTaman L1":
 			load_dialogue = LEVEL_TAMAN
 	
+	GlobalStopwatch.stopwatch.reset()
 	GlobalStopwatch.stopwatch._set_paused(true)
 	Global.neutral_state = false
 	DialogueManager.show_dialogue_balloon_scene(Global.active_balloon,load_dialogue, "start_tutorial")
 	await DialogueManager.dialogue_ended
 	Global.neutral_state = true
 	GlobalStopwatch.stopwatch._set_paused(false)
-	GlobalStopwatch.stopwatch.reset()
+	
 	
 func _physics_process(delta: float) -> void:
 	if correct_count >= correct_target:

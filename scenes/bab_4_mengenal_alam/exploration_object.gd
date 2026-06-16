@@ -24,7 +24,6 @@ func _ready() -> void:
 func _on_click_sprite_neutral_pressed() -> void:
 	if interacted:
 		return
-	Global.neutral_state = false
 	interactible.current_item = name
 	var prev_parent : Node2D = $".."
 	check_cond()
@@ -48,7 +47,6 @@ func _on_click_sprite_neutral_pressed() -> void:
 	if interactible.clicked_items_list.has(item) == false: 
 		interactible.clicked_items_list.append(item)
 		interactible.clicked_items_count += 1
-	Global.neutral_state = true
 	interactible.current_item = ""
 
 func showcase():
