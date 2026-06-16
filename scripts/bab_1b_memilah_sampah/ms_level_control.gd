@@ -11,9 +11,7 @@ func _ready() -> void:
 	sprite.play("tita_idle")
 
 func _on_trash_show_level_complete() -> void:
-	var instance = Global.RETURN.instantiate()
-	add_child(instance)
-	instance.reparent(%CanvasShow)
+	get_tree().change_scene_to_file("uid://b1eagi58vsww1")
 
 
 func _on_clue_button_toggled(toggled_on: bool) -> void:

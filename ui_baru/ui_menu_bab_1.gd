@@ -18,4 +18,4 @@ func _on_menu_1_pressed() -> void:
 	get_tree().change_scene_to_file("uid://py17d4venwt5")
 
 func _on_menu_2_pressed() -> void:
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("uid://c8vams2qs0gt6")

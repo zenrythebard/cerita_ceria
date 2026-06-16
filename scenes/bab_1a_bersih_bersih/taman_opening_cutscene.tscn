@@ -1,0 +1,59 @@
+[gd_scene load_steps=9 format=3 uid="uid://d1yhujy7uwn7v"]
+
+[ext_resource type="Script" uid="uid://db6d75ohe5oku" path="res://scenes/bab_1a_bersih_bersih/taman_opening_cutscene.gd" id="1_x6dsw"]
+[ext_resource type="VideoStream" uid="uid://b4b0jqf1twm5a" path="res://videos/Cutscene taman_converted.ogv" id="2_x6dsw"]
+[ext_resource type="Texture2D" uid="uid://81cgkhe3cur8" path="res://ui_old/buttons/Back.png" id="3_qarba"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1wa0i"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mskla"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_id6aq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dkgk2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yrnas"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_x6dsw")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_right = 3854.0
+offset_bottom = 2170.0
+stream = ExtResource("2_x6dsw")
+volume_db = 3.0299995
+autoplay = true
+expand = true
+
+[node name="Skip" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.132
+anchor_bottom = 0.10300001
+offset_left = 158.59999
+offset_top = 111.0
+offset_right = -10.280029
+offset_bottom = 24.519989
+theme_override_styles/normal = SubResource("StyleBoxEmpty_1wa0i")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_mskla")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_id6aq")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_dkgk2")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_yrnas")
+flat = true
+
+[node name="Back" type="Sprite2D" parent="."]
+position = Vector2(326.6, 182)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("3_qarba")
+flip_h = true
+
+[connection signal="next" from="." to="." method="_on_next"]
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]
+[connection signal="pressed" from="Skip" to="." method="_on_skip_pressed"]

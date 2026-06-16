@@ -17,8 +17,8 @@ func _on_home_pressed():
 
 
 func _on_menu_1_pressed():
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("uid://d1yhujy7uwn7v")
 
 
 func _on_menu_2_pressed():
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("uid://ccxd2gp0dkqwq")

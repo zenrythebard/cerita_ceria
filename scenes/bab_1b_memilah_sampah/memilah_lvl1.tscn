@@ -578,7 +578,7 @@ script = ExtResource("7_m3ml5")
 bin_a = NodePath("../BinAnorganic")
 bin_o = NodePath("../BinOrganic")
 object_count = 7
-total_count = 20
+total_count = 25
 
 [node name="TrashSprite" type="Sprite2D" parent="TrashShow"]
 scale = Vector2(0.3, 0.3)
