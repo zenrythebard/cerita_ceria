@@ -929,6 +929,7 @@ position = Vector2(2012, 1725)
 scale = Vector2(0.6184873, 0.6184873)
 texture = ExtResource("18_5gl63")
 script = ExtResource("17_wivgv")
+type = "button"
 metadata/_custom_type_script = "uid://cx86xr4l84pe7"
 
 [node name="Label" type="Label" parent="CanvasShow/SendToRoom/Button2"]

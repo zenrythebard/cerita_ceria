@@ -78,6 +78,9 @@ TITA:[#voice=uid://blfkm5g21jsiu]Barang bapak jadi tidak hilang lagi deh!
 ~ level_end_dapur
 IBU: Terimakasih Tita, sudah membantu ibu membersihkan dapur.
 => END
+~ level_end_keluarga
+IBU: Terimakasih Tita, sudah membantu ibu membersihkan ruang keluarga.
+=> END
 
 #----------NON-SAMPAH DAPUR---------------
 ~ spatula

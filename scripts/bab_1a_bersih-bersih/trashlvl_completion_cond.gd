@@ -73,7 +73,7 @@ func _process(delta: float) -> void:
 				if level_end_dialogue == true:
 							level_end_dialogue = false
 							await DialogueManager.dialogue_ended
-							DialogueManager.show_dialogue_balloon_scene(Global.SOLO_BALLOON,LEVEL_3_RUANGTAMU, "level_end_dapur")
+							DialogueManager.show_dialogue_balloon_scene(Global.SOLO_BALLOON,LEVEL_3_RUANGTAMU, "level_end_keluarga")
 							await DialogueManager.dialogue_ended
 							emit_signal("level_end")
 				

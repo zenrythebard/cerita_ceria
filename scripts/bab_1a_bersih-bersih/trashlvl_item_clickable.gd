@@ -84,7 +84,7 @@ func get_dialogue():
 			DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_1_RUANGTAMU, item)
 	
 		"R Tamu L2":
-			if type != "place_here":
+			if type != "place_here" and type != "button":
 				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_2_RUANGTAMU, item)
 	
 		"R Tamu L3":
@@ -95,7 +95,7 @@ func get_dialogue():
 			DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_1_RUANGTAMU, item)
 	
 		"Dapur L2":
-			if type != "place_here":
+			if type != "place_here" or type != "button":
 				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_2_RUANGTAMU, item)
 	
 		"Dapur L3":
@@ -106,7 +106,7 @@ func get_dialogue():
 			DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_1_RUANGTAMU, item)
 	
 		"R Keluarga L2":
-			if type != "place_here":
+			if type != "place_here" and type != "button":
 				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_2_RUANGTAMU, item)
 	
 		"R Keluarga L3":
@@ -118,6 +118,8 @@ func get_dialogue():
 			DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_1_HALAMANRUMAH, item)
 		"Halaman L2":
 			if type == "place_here":
+				return
+			if type == "button":
 				return
 			if type == "place":
 				DialogueManager.show_dialogue_balloon_scene(Global.NAME_BALLOON,LEVEL_2_HALAMANRUMAH, "daun")

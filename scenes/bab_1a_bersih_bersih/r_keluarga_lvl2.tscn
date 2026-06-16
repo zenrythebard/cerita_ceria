@@ -850,50 +850,26 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
+tracks/0/path = NodePath(".:scale")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(1483, -898)]
+"values": [Vector2(1, 1)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath(".:scale")
+tracks/1/path = NodePath(".:modulate")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(1, 1)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath(".:modulate")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
 "values": [Color(1, 1, 1, 1)]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath(".:destroy")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [false]
 }
 
 [sub_resource type="Animation" id="Animation_uwsp3"]
@@ -1098,6 +1074,7 @@ position = Vector2(2012, 1725)
 scale = Vector2(0.6184873, 0.6184873)
 texture = ExtResource("10_38v44")
 script = ExtResource("9_loogu")
+type = "button"
 metadata/_custom_type_script = "uid://cx86xr4l84pe7"
 
 [node name="Label" type="Label" parent="CanvasShow/SendToRoom/Button2"]
@@ -1442,7 +1419,7 @@ z_index = 2
 position = Vector2(3593, -1440)
 script = ExtResource("20_cyfyi")
 type = "move"
-item = "tas"
+item = "boneka"
 move_to = 3
 item_counter = NodePath("..")
 
@@ -1460,6 +1437,7 @@ libraries = {
 [node name="KeyItem" type="Node2D" parent="Items"]
 position = Vector2(1483, -898)
 script = ExtResource("42_kr8p0")
+destroy = true
 type = "key"
 item = "key"
 
