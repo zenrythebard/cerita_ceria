@@ -6,16 +6,16 @@ IBU: [#voice=uid://bfdwl450roly3]Jangan sampai ada yang terlewat ya.
 => END
 #------SAMPAH------
 ~ success
-TITA: Hebat! Jadi bersih! [#voice=uid://cbps3jc41in0y]
+TITA: Kerja bagus! [#voice=uid://cbps3jc41in0y]
 => END
 ~ half
-TITA: Hebat! Tapi kok masih kotor ya?  
+TITA: Ehh? [#voice=uid://cfbc2hmthyuki]
 => END
 ~ fail
-TITA: Hmm... coba pakai alat lain.  
+TITA: Oh... Salah ya? [#voice=uid://c0m1fabxp0r4s]
 => END
 ~ neutral
-TITA: Membersihkannya pakai alat apa ya?  
+TITA: Membersihkannya pakai alat apa ya? [#voice=uid://cg7buu0s64ke1]
 => END
 ~ key
 TITA: [#voice=uid://dv55kitmhxp76] [color=#32cd32]Kunci Mobil[/color]
@@ -82,33 +82,23 @@ IBU: Terimakasih Tita, sudah membantu ibu membersihkan dapur.
 
 #----------NON-SAMPAH DAPUR---------------
 ~ spatula
-TITA: [color=#32cd32]Spatula[/color]  
-=> END
+TITA: [color=#32cd32]Spatula[/color] ini sudah bersih.
 ~ wajan
-TITA: [color=#32cd32]Wajan[/color] 
-=> END
+TITA: [color=#32cd32]Wajan[/color] ini sudah bersih.
 ~ panci
-TITA: [color=#32cd32]Panci[/color]  
-=> END
+TITA: [color=#32cd32]Panci[/color] ini sudah bersih.
 ~ sarung_tangan
-TITA: [color=#32cd32]Warung Tangan[/color] 
-=> END
+TITA: [color=#32cd32]sarung tangan[/color] ini sudah bersih.
 ~ cerek
-TITA: [color=#32cd32]Cerek[/color] 
-=> END
+TITA: [color=#32cd32]cerek[/color] ini sudah bersih.
 ~ talenan
-TITA: [color=#32cd32]Talenan[/color]  
-=> END
+TITA: [color=#32cd32]talenan[/color] ini sudah bersih.
 ~ celemek
-TITA: [color=#32cd32]Celemek[/color]  
-=> END
+TITA: [color=#32cd32]celemek[/color] ini sudah bersih.
 
 ~ mangkok
-IBU: [color=#32cd32]Mangkok[/color] 
-=> END
+IBU: [color=#32cd32]mangkok[/color]nya nanti dicuci oleh ibu saja.
 ~ gunting
-IBU: [color=#32cd32]Gunting[/color] 
-=> END
+IBU: [color=#32cd32]Gunting[/color]nya nanti dicuci oleh ibu saja.
 ~ pisau
-IBU: [color=#32cd32]Pisau[/color] 
-=> END
+IBU: [color=#32cd32]Pisau[/color]nya nanti dicuci oleh ibu saja.
