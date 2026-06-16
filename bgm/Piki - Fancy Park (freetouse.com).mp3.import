@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/Piki - Fancy Park (freetouse.com).mp3-6bd736d
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

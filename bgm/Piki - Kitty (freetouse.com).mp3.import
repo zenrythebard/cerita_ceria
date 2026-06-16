@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/Piki - Kitty (freetouse.com).mp3-5a260226e07b
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

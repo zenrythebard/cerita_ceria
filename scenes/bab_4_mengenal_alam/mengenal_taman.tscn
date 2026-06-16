@@ -101,6 +101,7 @@ horizontal_alignment = 1
 script = ExtResource("5_jp8pe")
 
 [node name="BackgroundPelafalanObjek" type="NinePatchRect" parent="CanvasShow"]
+z_index = 22
 offset_left = 1160.0
 offset_top = 314.0
 offset_right = 2015.2402
