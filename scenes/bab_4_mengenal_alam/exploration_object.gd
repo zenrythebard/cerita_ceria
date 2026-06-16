@@ -22,11 +22,11 @@ func _ready() -> void:
 		return
 
 func _on_click_sprite_neutral_pressed() -> void:
+	check_cond()
 	if interacted:
 		return
 	interactible.current_item = name
 	var prev_parent : Node = $".."
-	check_cond()
 	var current_pos : Vector2 = position
 	var current_scale : Vector2 = scale
 	var current_rot : float = rotation_degrees
@@ -55,6 +55,8 @@ func showcase():
 	interactible.current_type = type
 	if correct:
 		interactible.correct_state = 1
+		GlobalAudio.sfx_player.stream = GlobalAudio.SFX_POP
+		GlobalAudio.sfx_player.play()
 		tween.set_parallel(true)
 		tween.tween_property(self, "modulate", Color(1, 1, 1, 1), 0.5)
 		if scale / Vector2(2.2, 2.2) >= Vector2(1.1, 1.1):
@@ -72,6 +74,8 @@ func showcase():
 		emit_signal("showcase_finished")
 	else:
 		interactible.correct_state = 2
+		GlobalAudio.sfx_player.stream = GlobalAudio.SFX_WRONG_1
+		GlobalAudio.sfx_player.play()
 		tween.set_parallel(true)
 		tween.tween_property(self, "modulate", Color(1, 1, 1, 1), 0.5)
 		if scale / Vector2(2.2, 2.2) >= Vector2(1.1, 1.1):

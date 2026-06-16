@@ -13,7 +13,7 @@ func _input(event) -> void:
 	await get_tree().create_timer(0.1).timeout
 	if event is InputEventScreenTouch and is_pixel_opaque(event_pos) and disabled == false:
 		emit_signal("button_pressed")
-		if get_tree().current_scene.name != "Memilah L1":
+		if get_tree().current_scene.name != "Memilah L1" and get_tree().current_scene.name != "MengenalPantai L1" and get_tree().current_scene.name != "MengenalTaman L1":
 			GlobalAudio.sfx_player.stream = GlobalAudio.SFX_POP
 			GlobalAudio.sfx_player.play()
 			if Global.neutral_state == true:

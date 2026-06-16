@@ -1,7 +1,7 @@
 ~ start_tutorial
 IBU:[#voice=uid://cg5eremmh4kdl] Alam sekitar adalah semua hal yang ada di sekeliling kita, baik yang dibuat oleh Tuhan maupun yang kita temui setiap hari di luar rumah. 
 IBU: [#voice=uid://cp5v7yd3gtmlb]Alam membuat hidup kita nyaman dan indah.  
-IBU: Yang manakah [color=#32cd32]benda alam[/color] yang merupakan [color=#32cd32]makhluk hidup[/color], seperti [color=#32cd32]hewan[/color] dan [color=#32cd32]tumbuhan[/color]?
+IBU: [#voice=uid://ch6u3lc0geybs] Ayo cari [color=#32cd32]benda alam[/color] yang merupakan [color=#32cd32]makhluk hidup[/color], seperti [color=#32cd32]hewan[/color] dan [color=#32cd32]tumbuhan[/color]? 
 => END
 ~ check2
 IBU: [#voice=uid://cxorgmiqv2jql] Bagus sekali anak-anak! Sekarang, bisakah kalian menemukan [color=#32cd32]benda alam[/color] yang merupakan  [color=#32cd32]benda mati[/color]? 
@@ -34,10 +34,10 @@ IBU:[#voice=uid://bf18i7dm72pdq] Itu bukan benda mati! Kita perlu mencari benda 
 IBU:  [#voice=uid://cg4nooxped41t]Itu benda mati tapi bukan termasuk benda alam, karena itu buatan manusia.
 => END
 ~ wrongcheck3
-[#voice=uid://duk1r25n10f8u]Belum tepat, nak. Ayo kita coba pelan-pelan. 
+IBU: [#voice=uid://duk1r25n10f8u] Belum tepat, nak. Ayo kita coba pelan-pelan. 
 => END
 ~ hidupputih
-IBU: [#voice=uid://csb4nw7nrmlr2]Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=WHITE]putih[/color] 
+IBU: [#voice=uid://csb4nw7nrmlr2]Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=#c9c9c9]putih[/color] 
 => END
 ~ hiduphijau
 IBU:[#voice=uid://csb4nw7nrmlr2] Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=GREEN]hijau?[/color] 

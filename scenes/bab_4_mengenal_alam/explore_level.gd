@@ -16,6 +16,4 @@ func _ready() -> void:
 			GlobalAudio.bgm_player.stream = GlobalAudio.BGM_TAMAN
 	GlobalAudio.bgm_player.play()
 
-func _process(delta: float) -> void:
-	print(Global.neutral_state)
 	

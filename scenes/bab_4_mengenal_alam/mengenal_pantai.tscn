@@ -138,9 +138,6 @@ repeat_times = 15
 modulate = Color(0.9372549, 0.95686275, 1, 1)
 position = Vector2(5, -80.90909)
 scale = Vector2(1.5, 1.5)
-script = ExtResource("9_7758v")
-item_color = "putih"
-benda_alam = true
 
 [node name="ClickSprite" type="Sprite2D" parent="BG/Clouds/Awan"]
 position = Vector2(-493.8636, 4.545454)
@@ -148,8 +145,6 @@ scale = Vector2(0.4, 0.4)
 texture = ExtResource("4_7758v")
 region_enabled = true
 region_rect = Rect2(-1.5998535, 0.66619873, 4180.5195, 834.27057)
-script = ExtResource("10_cf6li")
-metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="ClickSprite2" type="Sprite2D" parent="BG/Clouds/Awan"]
 position = Vector2(1274.0911, 71.36363)
@@ -157,8 +152,6 @@ scale = Vector2(0.4, 0.4)
 texture = ExtResource("3_6ae4i")
 region_enabled = true
 region_rect = Rect2(1142.8403, 134.90268, 3720.0918, 439.7382)
-script = ExtResource("10_cf6li")
-metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="ClickSprite3" type="Sprite2D" parent="BG/Clouds/Awan"]
 position = Vector2(2648.182, 39.31819)
@@ -167,16 +160,12 @@ texture = ExtResource("4_7758v")
 flip_h = true
 region_enabled = true
 region_rect = Rect2(-87.79028, -0.34054565, 4266.71, 835.27734)
-script = ExtResource("10_cf6li")
-metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="ClickSprite4" type="Sprite2D" parent="BG/Clouds/Awan"]
 position = Vector2(5149.3184, 40.38635)
 scale = Vector2(0.4, 0.4)
 texture = ExtResource("3_6ae4i")
 region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
-script = ExtResource("10_cf6li")
-metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="ClickSprite5" type="Sprite2D" parent="BG/Clouds/Awan"]
 position = Vector2(6242.5, 80.454544)
@@ -185,8 +174,6 @@ texture = ExtResource("4_7758v")
 flip_h = true
 region_enabled = true
 region_rect = Rect2(-87.79028, -0.34054565, 4266.71, 835.27734)
-script = ExtResource("10_cf6li")
-metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="Matahari" type="Node2D" parent="BG/Clouds"]
 position = Vector2(-1982.2727, -348.63635)
@@ -594,11 +581,6 @@ position = Vector2(248, 0)
 scale = Vector2(0.44, 0.44)
 texture = ExtResource("15_ysfc1")
 
-[connection signal="neutral_pressed" from="BG/Clouds/Awan/ClickSprite" to="BG/Clouds/Awan" method="_on_click_sprite_neutral_pressed"]
-[connection signal="neutral_pressed" from="BG/Clouds/Awan/ClickSprite2" to="BG/Clouds/Awan" method="_on_click_sprite_neutral_pressed"]
-[connection signal="neutral_pressed" from="BG/Clouds/Awan/ClickSprite3" to="BG/Clouds/Awan" method="_on_click_sprite_neutral_pressed"]
-[connection signal="neutral_pressed" from="BG/Clouds/Awan/ClickSprite4" to="BG/Clouds/Awan" method="_on_click_sprite_neutral_pressed"]
-[connection signal="neutral_pressed" from="BG/Clouds/Awan/ClickSprite5" to="BG/Clouds/Awan" method="_on_click_sprite_neutral_pressed"]
 [connection signal="neutral_pressed" from="BG/Clouds/Matahari/ClickSprite" to="BG/Clouds/Matahari" method="_on_click_sprite_neutral_pressed"]
 [connection signal="end_dialogue" from="BG/Shore (Main)/Interactible" to="BG/Shore (Main)/Interactible" method="_on_end_dialogue"]
 [connection signal="level_end" from="BG/Shore (Main)/Interactible" to="." method="_on_interactible_level_end"]
