@@ -478,7 +478,7 @@ script = ExtResource("8_2jp0l")
 metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="Ranting" type="Node2D" parent="BG/ground/Interactible/Foreground"]
-position = Vector2(21.363525, 287.27267)
+position = Vector2(272.2726, 287.27267)
 script = ExtResource("6_tkql6")
 item_color = "cokelat"
 benda_alam = true

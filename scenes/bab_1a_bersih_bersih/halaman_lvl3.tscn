@@ -1,4 +1,4 @@
-[gd_scene load_steps=57 format=4 uid="uid://cx3xlkl0vcxat"]
+[gd_scene load_steps=58 format=4 uid="uid://cx3xlkl0vcxat"]
 
 [ext_resource type="Script" uid="uid://xv621io6pjn4" path="res://scripts/bab_1a_bersih-bersih/level_control.gd" id="1_lwnxx"]
 [ext_resource type="PackedScene" uid="uid://bcxmwmf8cvj21" path="res://scenes/camera_component.tscn" id="2_6jq6w"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://dkhnghtnjg745" path="res://tiles/TILEMAP LUAR/Tilemap Jalanan.png" id="4_qtjas"]
 [ext_resource type="Texture2D" uid="uid://be3ypu105pvxk" path="res://tiles/TILEMAP LUAR/Tilemap Tanaman 1.png" id="5_ff7lg"]
 [ext_resource type="Texture2D" uid="uid://b1n2m58i4fyn0" path="res://tiles/TILEMAP LUAR/Tilemap Tanaman 2.png" id="6_hnjqh"]
+[ext_resource type="Texture2D" uid="uid://c8u6bfatrtd0h" path="res://ui_baru/counter_ui.png" id="6_lwnxx"]
 [ext_resource type="Texture2D" uid="uid://d2y0pkav6vfgd" path="res://tiles/TILEMAP RUMAH/Tak berjudul53_20260426145555.png" id="7_4j04r"]
 [ext_resource type="Texture2D" uid="uid://k2wu4jfw7j5d" path="res://tiles/TILEMAP RUMAH/Tak berjudul54.png" id="8_boiw2"]
 [ext_resource type="Texture2D" uid="uid://byxnswi83dgyx" path="res://tiles/TILEMAP RUMAH/Tak berjudul52_20260426145232.png" id="9_rjwqg"]
@@ -18,6 +19,7 @@
 [ext_resource type="Texture2D" uid="uid://gqa3eet5r5w8" path="res://tiles/TILEMAP LUAR/Tak berjudul82_20260520191346.png" id="15_iptcx"]
 [ext_resource type="Texture2D" uid="uid://ei1vu41kb541" path="res://assets/halaman rumah/bunga bungaan.PNG" id="15_sxsik"]
 [ext_resource type="Script" uid="uid://cx86xr4l84pe7" path="res://scripts/bab_1a_bersih-bersih/trashlvl_item_clickable.gd" id="16_ebtjv"]
+[ext_resource type="Script" uid="uid://b724fo2wi1863" path="res://scripts/bab_1a_bersih-bersih/trashlvl_completion_cond.gd" id="16_iptcx"]
 [ext_resource type="Texture2D" uid="uid://dyrgrhtpw00yl" path="res://assets/halaman rumah/bushes.PNG" id="17_rb8qp"]
 [ext_resource type="Texture2D" uid="uid://coc10s8ldtpaq" path="res://assets/halaman rumah/kendi air + tutup.PNG" id="18_rpk88"]
 [ext_resource type="Texture2D" uid="uid://buyhs1i8b6ppp" path="res://assets/halaman rumah/kolam ikan.png" id="19_125el"]
@@ -30,7 +32,6 @@
 [ext_resource type="Texture2D" uid="uid://d1bvm17btmnqg" path="res://assets/halaman rumah/mobil (revisi).PNG" id="26_oft28"]
 [ext_resource type="Texture2D" uid="uid://db37xqpvgy5y" path="res://assets/sampah organik/daun kering 1.PNG" id="28_g8alj"]
 [ext_resource type="Texture2D" uid="uid://cg5tqijhxlylc" path="res://assets/sampah organik/daun kering 2.PNG" id="29_2my6x"]
-[ext_resource type="Script" uid="uid://cf3wt77kxjeyq" path="res://scripts/bab_1a_bersih-bersih/right_place.gd" id="32_ygivr"]
 
 [sub_resource type="Gradient" id="Gradient_kawpp"]
 offsets = PackedFloat32Array(0.43333334)
@@ -1037,7 +1038,7 @@ fill = 1
 fill_from = Vector2(0.50934577, 0.4813084)
 fill_to = Vector2(0, 0.8551402)
 
-[node name="Halaman L2" type="Node2D" node_paths=PackedStringArray("camera_comp")]
+[node name="Halaman L3" type="Node2D" node_paths=PackedStringArray("camera_comp")]
 script = ExtResource("1_lwnxx")
 camera_comp = NodePath("CameraComponent")
 
@@ -1073,13 +1074,35 @@ script = ExtResource("11_0rv0j")
 [node name="CanvasShow" type="CanvasLayer" parent="."]
 unique_name_in_owner = true
 
-[node name="Label" type="Label" parent="CanvasShow"]
-offset_right = 40.0
-offset_bottom = 23.0
+[node name="CounterUi" type="Sprite2D" parent="CanvasShow"]
+position = Vector2(688, 176)
+scale = Vector2(2, 2)
+texture = ExtResource("6_lwnxx")
+
+[node name="Counter" type="Label" parent="CanvasShow" node_paths=PackedStringArray("item_counter")]
+offset_left = 1062.0
+offset_top = 145.0
+offset_right = 1160.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
 theme_override_fonts/font = ExtResource("12_58g2r")
 theme_override_font_sizes/font_size = 50
+text = "1"
+horizontal_alignment = 1
 script = ExtResource("13_q0k8y")
+item_counter = NodePath("../../Items/ItemCounter")
 label_text = "Sampah yang harus dibuang"
+
+[node name="Text" type="Label" parent="CanvasShow"]
+offset_left = 274.0
+offset_top = 145.0
+offset_right = 943.0
+offset_bottom = 205.0
+theme_override_colors/font_color = Color(0.5686275, 0.32941177, 0.1882353, 1)
+theme_override_fonts/font = ExtResource("12_58g2r")
+theme_override_font_sizes/font_size = 50
+text = "benda yang perlu disimpan"
+horizontal_alignment = 1
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 scale = Vector2(4, 4)
@@ -1088,6 +1111,11 @@ tile_set = SubResource("TileSet_rjwqg")
 
 [node name="Items" type="Node2D" parent="."]
 position = Vector2(49, 0)
+
+[node name="ItemCounter" type="Node2D" parent="Items"]
+position = Vector2(-49, 0)
+script = ExtResource("16_iptcx")
+metadata/_custom_type_script = "uid://b724fo2wi1863"
 
 [node name="Furniture" type="Node2D" parent="Items"]
 z_index = 1
@@ -1274,7 +1302,6 @@ texture = SubResource("GradientTexture2D_rjwqg")
 
 [node name="RightPlace" type="Node2D" parent="."]
 z_index = 5
-script = ExtResource("32_ygivr")
 
 [node name="DaunPlace1" type="Node2D" parent="RightPlace"]
 z_index = 1
@@ -1285,7 +1312,7 @@ item = "daun1"
 
 [node name="Sprite" type="Sprite2D" parent="RightPlace/DaunPlace1"]
 modulate = Color(1, 1, 1, 0.3019608)
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("28_g8alj")
 script = ExtResource("16_ebtjv")
 
@@ -1304,7 +1331,7 @@ item = "daun2"
 
 [node name="Sprite" type="Sprite2D" parent="RightPlace/DaunPlace2"]
 modulate = Color(1, 1, 1, 0.3019608)
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("29_2my6x")
 script = ExtResource("16_ebtjv")
 
@@ -1322,7 +1349,7 @@ item = "daun3"
 
 [node name="Sprite" type="Sprite2D" parent="RightPlace/DaunPlace3"]
 modulate = Color(1, 1, 1, 0.3019608)
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("28_g8alj")
 script = ExtResource("16_ebtjv")
 
@@ -1341,7 +1368,7 @@ item = "daun4"
 
 [node name="Sprite" type="Sprite2D" parent="RightPlace/DaunPlace4"]
 modulate = Color(1, 1, 1, 0.3019608)
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("29_2my6x")
 script = ExtResource("16_ebtjv")
 
@@ -1360,7 +1387,7 @@ item = "daun5"
 
 [node name="Sprite" type="Sprite2D" parent="RightPlace/DaunPlace5"]
 modulate = Color(1, 1, 1, 0.3019608)
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("28_g8alj")
 script = ExtResource("16_ebtjv")
 
@@ -1379,7 +1406,7 @@ item = "daun6"
 
 [node name="Sprite" type="Sprite2D" parent="RightPlace/DaunPlace6"]
 modulate = Color(1, 1, 1, 0.3019608)
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("29_2my6x")
 script = ExtResource("16_ebtjv")
 

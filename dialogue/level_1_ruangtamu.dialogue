@@ -1,63 +1,63 @@
 #32cd32 Green Highlight
 ~ start_tutorial
 IBU: [#voice=uid://rry53rfafn82] Pilihlah bagian ruangan yang ada sampahnya!  
-IBU: [#voice=uid://d1fisv7godd6v] [color=#32cd32]Tekan[/color] barang yang merupakan [color=#32cd32]sampah[/color], 
+IBU: [#voice=uid://d1fisv7godd6v] [color=#32cd32]Tekan[/color] barang yang merupakan [color=#YELLOW]sampah[/color], 
 IBU: [#voice=uid://c3hu08l5fajp5] Jika barang bukan sampah, jangan dibuang ya! 
 => END
 #------SAMPAH------
 ~ botol
-TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Botol[/color]
+TITA: [#voice=uid://cbps3jc41in0y] [color=#YELLOW]Botol[/color]
 => END
 ~ susu
-TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Susu[/color]
+TITA: [#voice=uid://dqng6tb64ps57] [color=#YELLOW]Susu[/color]
 => END
 ~ es_cekek
-TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Es Cekek[/color]
+TITA: [#voice=uid://dqng6tb64ps57] [color=#YELLOW]Es Cekek[/color]
 => END
 ~ surat
-TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Amplop[/color]
+TITA: [#voice=uid://cbps3jc41in0y] [color=#YELLOW]Amplop[/color]
 => END
 ~ snack
-TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Cemilan[/color]
+TITA: [#voice=uid://cbps3jc41in0y] [color=#YELLOW]Cemilan[/color]
 => END
 ~ kertas
-TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Kertas[/color]
+TITA: [#voice=uid://dqng6tb64ps57] [color=#YELLOW]Kertas[/color]
 => END
 ~ gelas_plastik
-TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Gelas Plastik[/color]
+TITA: [#voice=uid://dqng6tb64ps57] [color=#YELLOW]Gelas Plastik[/color]
 => END
 ~ pisang
-TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Kulit Pisang[/color]
+TITA: [#voice=uid://cbps3jc41in0y] [color=#YELLOW]Kulit Pisang[/color]
 => END
 ~ mi_cangkir
-TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Mi Cangkir[/color]
+TITA: [#voice=uid://cbps3jc41in0y] [color=#YELLOW]Mi Cangkir[/color]
 => END
 ~ kresek
-TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Kantong Plastik[/color] 
+TITA: [#voice=uid://cbps3jc41in0y] [color=#YELLOW]Kantong Plastik[/color] 
 => END
 ~ kardus
-TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Kardus[/color] 
+TITA: [#voice=uid://dqng6tb64ps57] [color=#YELLOW]Kardus[/color] 
 => END
 #-----------SAMPAH DAPUR
 ~ tulang_ayam
-TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Tulang Ayam[/color] 
+TITA: [#voice=uid://dqng6tb64ps57] [color=#YELLOW]Tulang Ayam[/color] 
 => END
 ~ saset
-TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Bumbu Saset[/color] 
+TITA: [#voice=uid://dqng6tb64ps57] [color=#YELLOW]Bumbu Saset[/color] 
 => END
 ~ kaleng
-TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Kaleng[/color] 
+TITA: [#voice=uid://cbps3jc41in0y] [color=#YELLOW]Kaleng[/color] 
 => END
 ~ karton_telur
-TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Karton Telur[/color] 
+TITA: [#voice=uid://cbps3jc41in0y] [color=#YELLOW]Karton Telur[/color] 
 => END
 ~ apel
-TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]Bekas Apel[/color] 
+TITA: [#voice=uid://dqng6tb64ps57] [color=#YELLOW]Bekas Apel[/color] 
 => END
 ~ tulang_ikan
-TITA: [#voice=uid://cbps3jc41in0y] [color=#32cd32]Tulang Ikan[/color]
+TITA: [#voice=uid://cbps3jc41in0y] [color=#YELLOW]Tulang Ikan[/color]
 ~ cangkang
-TITA: [#voice=uid://dqng6tb64ps57] [color=#32cd32]cangkang[/color]
+TITA: [#voice=uid://dqng6tb64ps57] [color=#YELLOW]cangkang[/color]
 
 
 #----------NON-SAMPAH R TAMU---------------
@@ -92,7 +92,7 @@ TITA: [#voice=uid://brqvdrgcpft6b] Layang-layang
 TITA: [#voice=uid://brqvdrgcpft6b] Bola
 => END
 ~ key
-TITA: [#voice=uid://dv55kitmhxp76] [color=#32cd32]Kunci Mobil[/color]
+TITA: [#voice=uid://dv55kitmhxp76] [color=#YELLOW]Kunci Mobil[/color]
 => END
 ~ jaket
 TITA: [#voice=uid://c0m1fabxp0r4s] Jaket Kotor

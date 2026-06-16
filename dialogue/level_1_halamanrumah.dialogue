@@ -5,57 +5,57 @@ BAPAK: [#voice=uid://c3225ffidmbdf] Setelah itu, masukkan kedalam plastik besar
 => END
 #------SAMPAH------
 ~ botol
-TITO: Betul, [color=#32cd32]botol[/color]nya kita buang ya!
+TITO: [color=#32cd32]Botol[/color] 
 => END
 ~ susu
-TITO: Betul, [color=#32cd32]susu[/color]nya buang ya!
+TITO: [color=#32cd32]Susu[/color] 
 => END
 ~ es_cekek
-TITO: Hebat! [color=#32cd32]es cekek[/color]nya kita buang ya!
+TITO: [color=#32cd32]Es Cekek[/color] 
 => END
 ~ surat
-TITO: Hebat! [color=#32cd32]amplop[/color]nya kita buang ya!
+TITO: [color=#32cd32]amplop[/color] 
 => END
 ~ snack
-TITO: Betul, [color=#32cd32]kemasan cemilan[/color]nya buang ya!
+TITO: [color=#32cd32]kemasan cemilan[/color] 
 => END
 ~ kertas
-TITO: Betul, [color=#32cd32]kertas[/color]nya buang ya!
+TITO: [color=#32cd32]kertas[/color] 
 => END
 ~ gelas_plastik
-TITO: Betul, [color=#32cd32]gelas plastik[/color]nya buang ya!
+TITO: Betul, [color=#32cd32]gelas plastik[/color] 
 => END
 ~ pisang
-TITO: Hebat! [color=#32cd32]kulit pisang[/color]nya kita buang ya!
+TITO: [color=#32cd32]kulit pisang[/color] 
 => END
 ~ mi_cangkir
-TITO: Hebat! [color=#32cd32]mi cangkir[/color]nya kita buang ya!
+TITO: [color=#32cd32]mi cangkir[/color] 
 => END
 ~ kresek
-TITO: Hebat! [color=#32cd32]kantong plastik[/color]nya kita buang ya!
+TITO: [color=#32cd32]Kantong plastik[/color] 
 => END
 ~ kardus
-TITO: Hebat! [color=#32cd32]kardus[/color]nya kita buang ya!
+TITO: [color=#32cd32]Kardus[/color] 
 => END
 #----------------NON-SAMPAH-----------------
 ~ bungaan
-TITO: Itu [color=#32cd32]pot bunga[/color], bukan sampah...
+TITO: Pot Bunga
 => END
 ~ bush
-TITO: Itu [color=#32cd32]semak[/color], bukan sampah...
+TITO: Semak
 => END
 ~ kendi
-TITO: Itu [color=#32cd32]kendi air[/color], bukan sampah...
+TITO: Kendi Air
 => END
 ~ kolam
-TITO: Itu [color=#32cd32]kolam ikan[/color], bukan sampah...
+TITO: Kolam Ikan
 => END
 ~ lampu
-TITO: Itu [color=#32cd32]lampu-lampu taman[/color], bukan sampah...
+TITO: Lampu Taman
 => END
 ~ gelas
-TITO: Itu [color=#32cd32]gelas[/color], bukan sampah...
+TITO: Gelas Kotor
 => END
 ~ mangkok
-TITO: Itu [color=#32cd32]mangkok[/color], bukan sampah...
+TITO: Mangkok Kotor
 => END

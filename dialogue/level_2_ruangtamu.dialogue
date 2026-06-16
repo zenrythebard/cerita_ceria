@@ -55,17 +55,23 @@ TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Selimut[/color]
 
 #----------DAPUR PLACABLE---------------
 ~ spatula
-TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Spatula[/color]  
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Spatula[/color]
+=> END  
 ~ pisau
-TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Pisau[/color]  
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Pisau[/color]
+=> END
 ~ panci
-TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Panci[/color]  
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Panci[/color]
+=> END  
 ~ sarung_tangan
-TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Sarung Tangan[/color]  
+TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Sarung Tangan[/color]
+=> END
 ~ talenan
 TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Talenan[/color]  
+=> END
 ~ gunting
 TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Gunting[/color]  
+=> END
 
 
 #----------DAPUR NONPLACABLE---------------
@@ -84,9 +90,9 @@ TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Boneka[/color]
 => END
 ~ karpet
 TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Karpet[/color]  
-
-#----------R KELUARGA NONPLACABLE------------
 => END
+#----------R KELUARGA NONPLACABLE------------
+
 ~ tanaman_pot
 TITA: Tanaman Pot [#voice=uid://c0m1fabxp0r4s]
 => END

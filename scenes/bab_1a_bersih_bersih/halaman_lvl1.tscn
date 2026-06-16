@@ -1139,7 +1139,7 @@ theme_override_font_sizes/font_size = 50
 text = "1"
 horizontal_alignment = 1
 script = ExtResource("11_14okl")
-item_counter = NodePath("")
+item_counter = NodePath("../../Items/Trash")
 label_text = "Sampah yang harus dibuang"
 
 [node name="Text" type="Label" parent="CanvasShow"]
@@ -1606,7 +1606,7 @@ libraries = {
 position = Vector2(-872, 3434)
 
 [node name="Sprite" type="Sprite2D" parent="Items/Daun/Daun1"]
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("43_5olnf")
 
 [node name="Daun2" type="Node2D" parent="Items/Daun"]
@@ -1616,7 +1616,7 @@ position = Vector2(2851, 2248)
 [node name="Sprite" type="Sprite2D" parent="Items/Daun/Daun2"]
 position = Vector2(-104, 306.99997)
 rotation = 0.27052602
-scale = Vector2(0.3, 0.3)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("44_qyjh4")
 
 [node name="Daun3" type="Node2D" parent="Items/Daun"]
@@ -1626,7 +1626,7 @@ position = Vector2(3485, 2965)
 [node name="Sprite" type="Sprite2D" parent="Items/Daun/Daun3"]
 position = Vector2(-104, 306.99997)
 rotation = 1.9547688
-scale = Vector2(0.3, 0.3)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("44_qyjh4")
 
 [node name="Daun4" type="Node2D" parent="Items/Daun"]
@@ -1634,7 +1634,7 @@ position = Vector2(1802, 995)
 
 [node name="Sprite" type="Sprite2D" parent="Items/Daun/Daun4"]
 rotation = -1.6842427
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("43_5olnf")
 
 [node name="Daun5" type="Node2D" parent="Items/Daun"]
@@ -1642,7 +1642,7 @@ position = Vector2(1523, 4323)
 rotation = 0.97563905
 
 [node name="Sprite" type="Sprite2D" parent="Items/Daun/Daun5"]
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("43_5olnf")
 
 [node name="Daun6" type="Node2D" parent="Items/Daun"]
@@ -1652,7 +1652,7 @@ position = Vector2(-893, 1302)
 [node name="Sprite" type="Sprite2D" parent="Items/Daun/Daun6"]
 position = Vector2(-45.00001, -48.00003)
 rotation = 2.4731317
-scale = Vector2(0.3, 0.3)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("44_qyjh4")
 
 [connection signal="down_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_down_pressed"]

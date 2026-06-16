@@ -1436,7 +1436,7 @@ theme_override_font_sizes/font_size = 50
 text = "1"
 horizontal_alignment = 1
 script = ExtResource("11_6av5q")
-item_counter = NodePath("")
+item_counter = NodePath("../../Placable")
 label_text = "Sampah yang harus dibuang"
 
 [node name="Text" type="Label" parent="CanvasShow"]
@@ -1654,7 +1654,7 @@ item = "daun1"
 item_counter = NodePath("..")
 
 [node name="Sprite" type="Sprite2D" parent="Placable/Daun1"]
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("30_yqav8")
 script = ExtResource("17_vxvd5")
 
@@ -1674,7 +1674,7 @@ item_counter = NodePath("..")
 [node name="Sprite" type="Sprite2D" parent="Placable/Daun2"]
 position = Vector2(-104, 306.99997)
 rotation = 0.27052602
-scale = Vector2(0.3, 0.3)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("31_yqav8")
 script = ExtResource("17_vxvd5")
 
@@ -1694,7 +1694,7 @@ item_counter = NodePath("..")
 [node name="Sprite" type="Sprite2D" parent="Placable/Daun3"]
 position = Vector2(-104, 306.99997)
 rotation = 1.9547688
-scale = Vector2(0.3, 0.3)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("31_yqav8")
 script = ExtResource("17_vxvd5")
 
@@ -1712,7 +1712,7 @@ item_counter = NodePath("..")
 
 [node name="Sprite" type="Sprite2D" parent="Placable/Daun4"]
 rotation = -1.6842427
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("30_yqav8")
 script = ExtResource("17_vxvd5")
 
@@ -1730,7 +1730,7 @@ item = "daun5"
 item_counter = NodePath("..")
 
 [node name="Sprite" type="Sprite2D" parent="Placable/Daun5"]
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("30_yqav8")
 script = ExtResource("17_vxvd5")
 
@@ -1750,7 +1750,7 @@ item_counter = NodePath("..")
 [node name="Sprite" type="Sprite2D" parent="Placable/Daun6"]
 position = Vector2(-45.00001, -48.00003)
 rotation = 2.4731317
-scale = Vector2(0.3, 0.3)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("31_yqav8")
 script = ExtResource("17_vxvd5")
 
@@ -1810,7 +1810,7 @@ item = "daun1"
 
 [node name="Sprite" type="Sprite2D" parent="RightPlace/DaunPlace1"]
 modulate = Color(1, 1, 1, 0.3019608)
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("30_yqav8")
 script = ExtResource("17_vxvd5")
 
@@ -1829,7 +1829,7 @@ item = "daun2"
 
 [node name="Sprite" type="Sprite2D" parent="RightPlace/DaunPlace2"]
 modulate = Color(1, 1, 1, 0.3019608)
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("31_yqav8")
 script = ExtResource("17_vxvd5")
 
@@ -1847,7 +1847,7 @@ item = "daun3"
 
 [node name="Sprite" type="Sprite2D" parent="RightPlace/DaunPlace3"]
 modulate = Color(1, 1, 1, 0.3019608)
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("30_yqav8")
 script = ExtResource("17_vxvd5")
 
@@ -1866,7 +1866,7 @@ item = "daun4"
 
 [node name="Sprite" type="Sprite2D" parent="RightPlace/DaunPlace4"]
 modulate = Color(1, 1, 1, 0.3019608)
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("30_yqav8")
 script = ExtResource("17_vxvd5")
 
@@ -1885,7 +1885,7 @@ item = "daun5"
 
 [node name="Sprite" type="Sprite2D" parent="RightPlace/DaunPlace5"]
 modulate = Color(1, 1, 1, 0.3019608)
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("30_yqav8")
 script = ExtResource("17_vxvd5")
 
@@ -1904,7 +1904,7 @@ item = "daun6"
 
 [node name="Sprite" type="Sprite2D" parent="RightPlace/DaunPlace6"]
 modulate = Color(1, 1, 1, 0.3019608)
-scale = Vector2(0.22, 0.22)
+scale = Vector2(0.11, 0.11)
 texture = ExtResource("31_yqav8")
 script = ExtResource("17_vxvd5")
 
