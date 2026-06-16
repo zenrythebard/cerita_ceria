@@ -19,11 +19,11 @@ TITO: [#voice=uid://yd7jw35mxm8c]Yeyy!
 => END
 ~ correct
 % 
-	BAPAK: Benar!
+	BAPAK: Kerja bagus! [#voice=uid://clwx7eg4nm4y5]
 %
-	BAPAK: Bagus sekali!
+	BAPAK: Bagus, lanjutkan! [#voice=uid://tcjt6etxs6uc]
 % 
-	BAPAK: Hebat!
+	BAPAK: Pintar sekali. [#voice=uid://bfci50abow7by]
 => END
 ~ wrongcheck1
 BAPAK: [#voice=uid://10xucvt0xk5m]Itu bukan benda hidup! Kalian perlu mencari benda hidup seperti hewan dan tumbuhan. 

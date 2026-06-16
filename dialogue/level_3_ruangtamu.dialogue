@@ -79,26 +79,35 @@ TITA:[#voice=uid://blfkm5g21jsiu]Barang bapak jadi tidak hilang lagi deh!
 IBU: Terimakasih Tita, sudah membantu ibu membersihkan dapur.
 => END
 
-
 #----------NON-SAMPAH DAPUR---------------
 ~ spatula
-TITA: [color=#32cd32]Spatula[/color] ini sudah bersih.
+TITA: [color=#32cd32]Spatula[/color]  
+=> END
 ~ wajan
-TITA: [color=#32cd32]Wajan[/color] ini sudah bersih.
+TITA: [color=#32cd32]Wajan[/color] 
+=> END
 ~ panci
-TITA: [color=#32cd32]Panci[/color] ini sudah bersih.
+TITA: [color=#32cd32]Panci[/color]  
+=> END
 ~ sarung_tangan
-TITA: [color=#32cd32]sarung tangan[/color] ini sudah bersih.
+TITA: [color=#32cd32]Warung Tangan[/color] 
+=> END
 ~ cerek
-TITA: [color=#32cd32]cerek[/color] ini sudah bersih.
+TITA: [color=#32cd32]Cerek[/color] 
+=> END
 ~ talenan
-TITA: [color=#32cd32]talenan[/color] ini sudah bersih.
+TITA: [color=#32cd32]Talenan[/color]  
+=> END
 ~ celemek
-TITA: [color=#32cd32]celemek[/color] ini sudah bersih.
+TITA: [color=#32cd32]Celemek[/color]  
+=> END
 
 ~ mangkok
-IBU: [color=#32cd32]mangkok[/color]nya nanti dicuci oleh ibu saja.
+IBU: [color=#32cd32]Mangkok[/color] 
+=> END
 ~ gunting
-IBU: [color=#32cd32]Gunting[/color]nya nanti dicuci oleh ibu saja.
+IBU: [color=#32cd32]Gunting[/color] 
+=> END
 ~ pisau
-IBU: [color=#32cd32]Pisau[/color]nya nanti dicuci oleh ibu saja.
+IBU: [color=#32cd32]Pisau[/color] 
+=> END

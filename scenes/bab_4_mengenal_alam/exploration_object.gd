@@ -25,7 +25,7 @@ func _on_click_sprite_neutral_pressed() -> void:
 	if interacted:
 		return
 	interactible.current_item = name
-	var prev_parent : Node2D = $".."
+	var prev_parent : Node = $".."
 	check_cond()
 	var current_pos : Vector2 = position
 	var current_scale : Vector2 = scale

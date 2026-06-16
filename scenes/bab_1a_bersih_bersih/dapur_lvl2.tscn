@@ -935,11 +935,10 @@ text = "benda yang perlu disimpan"
 horizontal_alignment = 1
 
 [node name="Darken" type="Sprite2D" parent="."]
-visible = false
 z_index = 5
-position = Vector2(2110, 107.000015)
+position = Vector2(5373.04, 107.00051)
 rotation = -3.1415925
-scale = Vector2(121.06997, -205.27133)
+scale = Vector2(223.03998, -205.27133)
 texture = SubResource("GradientTexture2D_65or1")
 script = ExtResource("12_yhhbf")
 
@@ -1116,12 +1115,13 @@ unique_name_in_owner = true
 script = ExtResource("34_e3b8u")
 level_type = "place"
 
-[node name="SarungTangan" type="Node2D" parent="Items/Placable"]
+[node name="SarungTangan" type="Node2D" parent="Items/Placable" node_paths=PackedStringArray("item_counter")]
 z_index = 2
 position = Vector2(5185, -2200)
 script = ExtResource("20_iyg2p")
 type = "place"
 item = "sarung_tangan"
+item_counter = NodePath("..")
 
 [node name="Sprite" type="Sprite2D" parent="Items/Placable/SarungTangan"]
 position = Vector2(-601, 16)
@@ -1158,7 +1158,7 @@ z_index = 1
 position = Vector2(4010, -266)
 script = ExtResource("20_iyg2p")
 type = "place"
-item = "panci"
+item = "pisau"
 item_counter = NodePath("..")
 
 [node name="Sprite" type="Sprite2D" parent="Items/Placable/Pisau"]
@@ -1211,12 +1211,13 @@ libraries = {
 &"": SubResource("AnimationLibrary_xh710")
 }
 
-[node name="Talenan" type="Node2D" parent="Items/Placable"]
+[node name="Talenan" type="Node2D" parent="Items/Placable" node_paths=PackedStringArray("item_counter")]
 z_index = 2
 position = Vector2(3623, 636)
 script = ExtResource("20_iyg2p")
 type = "place"
 item = "talenan"
+item_counter = NodePath("..")
 
 [node name="Sprite" type="Sprite2D" parent="Items/Placable/Talenan"]
 scale = Vector2(0.25, 0.25)
@@ -1228,15 +1229,15 @@ libraries = {
 &"": SubResource("AnimationLibrary_xh710")
 }
 
-[node name="Mangkok" type="Node2D" parent="Items/Placable"]
+[node name="Mangkok" type="Node2D" parent="Items/Placable" node_paths=PackedStringArray("item_counter")]
 z_index = 2
-position = Vector2(3623, 636)
+position = Vector2(1980, -1651)
 script = ExtResource("20_iyg2p")
 type = "place"
 item = "mangkok"
+item_counter = NodePath("..")
 
 [node name="Sprite" type="Sprite2D" parent="Items/Placable/Mangkok"]
-position = Vector2(-1617, -2279)
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("40_gbwoh")
 script = ExtResource("9_lqf0s")

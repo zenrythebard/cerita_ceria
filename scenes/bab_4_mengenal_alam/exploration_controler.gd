@@ -72,16 +72,14 @@ func randomize_color():
 	var check_color : int
 	match current_scene:
 		"MengenalPantai L1":
-			check_color = rng.randi_range(1, 5)
+			check_color = rng.randi_range(1, 3)
 		"MengenalTaman L1":
-			check_color = rng.randi_range(1, 6)
+			check_color = rng.randi_range(1, 4)
 	match check_color:
-		1: condition_color = "merah"
-		2: condition_color = "cokelat"
-		3: condition_color = "hijau"
-		4: condition_color = "biru"
-		5: condition_color = "putih"
-		6: condition_color = "kuning"
+		1: condition_color = "cokelat"
+		2: condition_color = "biru"
+		3: condition_color = "putih"
+		4: condition_color = "kuning"
 
 func randomize_type():
 	var check_type : int = rng.randi_range(0, 1)

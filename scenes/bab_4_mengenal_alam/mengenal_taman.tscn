@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=3 uid="uid://bjxsi88aqpral"]
+[gd_scene load_steps=44 format=3 uid="uid://bjxsi88aqpral"]
 
 [ext_resource type="Script" uid="uid://le58hkx20hnl" path="res://scenes/bab_4_mengenal_alam/explore_level.gd" id="1_d1s76"]
 [ext_resource type="FontFile" uid="uid://67y3y8o8fxi1" path="res://assets/PoetsenOne-Regular.ttf" id="2_ck7te"]
@@ -35,6 +35,7 @@
 [ext_resource type="Texture2D" uid="uid://bpedldfvm55nj" path="res://assets/alam semesta/taman/semak.PNG" id="27_cm50u"]
 [ext_resource type="Texture2D" uid="uid://b31elw0sgqiem" path="res://assets/alam semesta/taman/IMG_2031.PNG" id="27_l6wm5"]
 [ext_resource type="Texture2D" uid="uid://1rojup26spt1" path="res://assets/alam semesta/taman/speeda.PNG" id="29_6woyi"]
+[ext_resource type="Texture2D" uid="uid://c404bqgkmeh51" path="res://assets/alam semesta/taman/batu.PNG" id="33_7o7of"]
 [ext_resource type="PackedScene" uid="uid://bcxmwmf8cvj21" path="res://scenes/camera_component.tscn" id="36_boqru"]
 [ext_resource type="Texture2D" uid="uid://82eq35x08idf" path="res://background_taman/10.png" id="37_7o7of"]
 [ext_resource type="Script" uid="uid://damv6oq6yqong" path="res://scripts/camera_buttons.gd" id="37_ra0gn"]
@@ -135,9 +136,6 @@ repeat_times = 15
 modulate = Color(0.9372549, 0.95686275, 1, 1)
 position = Vector2(2.2727275, -91.36363)
 scale = Vector2(1.8, 1.8)
-script = ExtResource("6_tkql6")
-item_color = "putih"
-benda_alam = true
 
 [node name="ClickSprite" type="Sprite2D" parent="BG/Clouds/awan"]
 position = Vector2(-95.70707, 8.838383)
@@ -145,8 +143,6 @@ scale = Vector2(0.235, 0.235)
 texture = ExtResource("7_mlxsf")
 region_enabled = true
 region_rect = Rect2(-1.5998535, 0.66619873, 4180.5195, 834.27057)
-script = ExtResource("8_2jp0l")
-metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="ClickSprite2" type="Sprite2D" parent="BG/Clouds/awan"]
 position = Vector2(1274.0911, 71.36363)
@@ -154,8 +150,6 @@ scale = Vector2(0.4, 0.4)
 texture = ExtResource("9_7o7of")
 region_enabled = true
 region_rect = Rect2(1142.8403, 134.90268, 3720.0918, 439.7382)
-script = ExtResource("8_2jp0l")
-metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="ClickSprite3" type="Sprite2D" parent="BG/Clouds/awan"]
 position = Vector2(2655.4546, -65.45457)
@@ -164,16 +158,12 @@ texture = ExtResource("7_mlxsf")
 flip_h = true
 region_enabled = true
 region_rect = Rect2(-87.79028, -0.34054565, 4266.71, 835.27734)
-script = ExtResource("8_2jp0l")
-metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="ClickSprite4" type="Sprite2D" parent="BG/Clouds/awan"]
 position = Vector2(5149.3184, 40.38635)
 scale = Vector2(0.4, 0.4)
 texture = ExtResource("7_mlxsf")
 region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
-script = ExtResource("8_2jp0l")
-metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="ClickSprite5" type="Sprite2D" parent="BG/Clouds/awan"]
 position = Vector2(6242.5, 80.454544)
@@ -182,8 +172,6 @@ texture = ExtResource("7_mlxsf")
 flip_h = true
 region_enabled = true
 region_rect = Rect2(-87.79028, -0.34054565, 4266.71, 835.27734)
-script = ExtResource("8_2jp0l")
-metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="matahari" type="Node2D" parent="BG/Clouds"]
 position = Vector2(-2670.909, -341.36365)
@@ -412,6 +400,7 @@ z_index = 4
 [node name="Sepeda" type="Node2D" parent="BG/ground/Interactible/Foreground"]
 position = Vector2(2733.1816, 282.72723)
 script = ExtResource("6_tkql6")
+item_color = "biru"
 
 [node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Sepeda"]
 scale = Vector2(0.3, 0.3)
@@ -486,6 +475,18 @@ benda_alam = true
 [node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Ranting"]
 scale = Vector2(0.08, 0.08)
 texture = ExtResource("19_mlxsf")
+region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
+script = ExtResource("8_2jp0l")
+metadata/_custom_type_script = "uid://bv7ndueoa81i3"
+
+[node name="Batu" type="Node2D" parent="BG/ground/Interactible/Foreground"]
+position = Vector2(-1529.5455, 287.27267)
+script = ExtResource("6_tkql6")
+benda_alam = true
+
+[node name="ClickSprite" type="Sprite2D" parent="BG/ground/Interactible/Foreground/Batu"]
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("33_7o7of")
 region_rect = Rect2(1004.588, 560.4824, 666.0033, 823.8794)
 script = ExtResource("8_2jp0l")
 metadata/_custom_type_script = "uid://bv7ndueoa81i3"
@@ -600,11 +601,6 @@ position = Vector2(248, 0)
 scale = Vector2(0.44, 0.44)
 texture = ExtResource("40_hrr77")
 
-[connection signal="neutral_pressed" from="BG/Clouds/awan/ClickSprite" to="BG/Clouds/awan" method="_on_click_sprite_neutral_pressed"]
-[connection signal="neutral_pressed" from="BG/Clouds/awan/ClickSprite2" to="BG/Clouds/awan" method="_on_click_sprite_neutral_pressed"]
-[connection signal="neutral_pressed" from="BG/Clouds/awan/ClickSprite3" to="BG/Clouds/awan" method="_on_click_sprite_neutral_pressed"]
-[connection signal="neutral_pressed" from="BG/Clouds/awan/ClickSprite4" to="BG/Clouds/awan" method="_on_click_sprite_neutral_pressed"]
-[connection signal="neutral_pressed" from="BG/Clouds/awan/ClickSprite5" to="BG/Clouds/awan" method="_on_click_sprite_neutral_pressed"]
 [connection signal="neutral_pressed" from="BG/Clouds/matahari/ClickSprite" to="BG/Clouds/matahari" method="_on_click_sprite_neutral_pressed"]
 [connection signal="end_dialogue" from="BG/ground/Interactible" to="BG/ground/Interactible" method="_on_end_dialogue"]
 [connection signal="level_end" from="BG/ground/Interactible" to="." method="_on_interactible_level_end"]
@@ -620,6 +616,7 @@ texture = ExtResource("40_hrr77")
 [connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Rumput/ClickSprite2" to="BG/ground/Interactible/Foreground/Rumput" method="_on_click_sprite_neutral_pressed"]
 [connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Rumput/ClickSprite3" to="BG/ground/Interactible/Foreground/Rumput" method="_on_click_sprite_neutral_pressed"]
 [connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Ranting/ClickSprite" to="BG/ground/Interactible/Foreground/Ranting" method="_on_click_sprite_neutral_pressed"]
+[connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Batu/ClickSprite" to="BG/ground/Interactible/Foreground/Batu" method="_on_click_sprite_neutral_pressed"]
 [connection signal="neutral_pressed" from="BG/ground/Interactible/Foreground/Semak/ClickSprite" to="BG/ground/Interactible/Foreground/Semak" method="_on_click_sprite_neutral_pressed"]
 [connection signal="neutral_pressed" from="BG/Trees/Bunga/ClickSprite" to="BG/Trees/Bunga" method="_on_click_sprite_neutral_pressed"]
 [connection signal="down_pressed" from="CameraComponent" to="CameraComponent/Camera2D" method="_on_camera_component_down_pressed"]

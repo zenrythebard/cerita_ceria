@@ -675,11 +675,10 @@ camera_speed = 50.0
 [node name="Timer" type="Timer" parent="."]
 
 [node name="Darken" type="Sprite2D" parent="."]
-visible = false
 z_index = 5
-position = Vector2(2110, 107.000015)
+position = Vector2(5591.951, 107.00054)
 rotation = -3.1415925
-scale = Vector2(121.06997, -205.27133)
+scale = Vector2(229.88095, -205.27133)
 texture = SubResource("GradientTexture2D_65or1")
 script = ExtResource("5_rpq1b")
 
@@ -921,13 +920,12 @@ libraries = {
 
 [node name="Mangkok" type="Node2D" parent="Items/Furniture/Interactible"]
 z_index = 2
-position = Vector2(3623, 636)
+position = Vector2(2026, -1650)
 script = ExtResource("15_wol00")
 type = "interact"
 item = "mangkok"
 
 [node name="Sprite" type="Sprite2D" parent="Items/Furniture/Interactible/Mangkok"]
-position = Vector2(-1617, -2279)
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("30_x67mp")
 script = ExtResource("17_7aa5d")
