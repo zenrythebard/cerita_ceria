@@ -6,13 +6,13 @@ IBU: [#voice=uid://bfdwl450roly3]Jangan sampai ada yang terlewat ya.
 => END
 #------SAMPAH------
 ~ success
-TITA: Hebat! Jadi bersih! [#voice=uid://cbps3jc41in0y]
+TITA: Kerja bagus! [#voice=uid://cbps3jc41in0y]
 => END
 ~ half
-TITA: Hebat! Tapi kok masih kotor ya? [#voice=uid://cfbc2hmthyuki]
+TITA: Ehh? [#voice=uid://cfbc2hmthyuki]
 => END
 ~ fail
-TITA: Hmm... coba pakai alat lain. [#voice=uid://c0m1fabxp0r4s]
+TITA: Oh... Salah ya? [#voice=uid://c0m1fabxp0r4s]
 => END
 ~ neutral
 TITA: Membersihkannya pakai alat apa ya? [#voice=uid://cg7buu0s64ke1]
