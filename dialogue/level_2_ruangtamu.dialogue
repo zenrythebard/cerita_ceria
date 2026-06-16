@@ -77,10 +77,13 @@ TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Gunting[/color]
 #----------DAPUR NONPLACABLE---------------
 ~ wajan
 TITA: Wajan [#voice=uid://c0m1fabxp0r4s]
+=> END
 ~ celemek
 TITA: Celemek [#voice=uid://c0m1fabxp0r4s]
+=> END
 ~ cerek
 TITA: Cerek [#voice=uid://c0m1fabxp0r4s]
+=> END
 #----------R KELUARGA PLACABLE---------------
 ~ tas
 TITA: [#voice=uid://cyf3q28l3vjte] [color=#32cd32]Tas[/color]  
