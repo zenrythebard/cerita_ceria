@@ -10,4 +10,4 @@ func _process(delta: float) -> void:
 		2:
 			text = "carilah benda alam"
 		3:
-			text = "carilah benda " + interactible.condition_type + "berarna " + interactible.condition_color
+			text = "benda " + interactible.condition_type + " berwarna " + interactible.condition_color

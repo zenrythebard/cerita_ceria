@@ -90,19 +90,19 @@ func randomize_type():
 
 func dialogue_handler():
 	if correct_state == 1:
-		DialogueManager.show_dialogue_balloon_scene(Global.active_balloon, load_dialogue, "correct")
+		DialogueManager.show_dialogue_balloon_scene(Global.NO_BALLOON, load_dialogue, "correct")
 		correct_state = 0
 	if correct_state == 2:
 		match check_condition:
 			1:
-				DialogueManager.show_dialogue_balloon_scene(Global.active_balloon, load_dialogue, "wrongcheck1")
+				DialogueManager.show_dialogue_balloon_scene(Global.NO_BALLOON, load_dialogue, "wrongcheck1")
 			2:
 				if current_type == "hidup":
-					DialogueManager.show_dialogue_balloon_scene(Global.active_balloon, load_dialogue, "wrongcheck2_1")
+					DialogueManager.show_dialogue_balloon_scene(Global.NO_BALLOON, load_dialogue, "wrongcheck2_1")
 				else:
-					DialogueManager.show_dialogue_balloon_scene(Global.active_balloon, load_dialogue, "wrongcheck2_2")
+					DialogueManager.show_dialogue_balloon_scene(Global.NO_BALLOON, load_dialogue, "wrongcheck2_2")
 			3:
-				DialogueManager.show_dialogue_balloon_scene(Global.active_balloon, load_dialogue, "wrongcheck3")
+				DialogueManager.show_dialogue_balloon_scene(Global.NO_BALLOON, load_dialogue, "wrongcheck3")
 		correct_state = 0
 	await DialogueManager.dialogue_ended
 	await get_tree().create_timer(1).timeout
