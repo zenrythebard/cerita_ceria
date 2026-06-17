@@ -37,7 +37,7 @@ IBU:  [#voice=uid://cg4nooxped41t] Itu benda mati tapi bukan termasuk benda alam
 IBU: [#voice=uid://duk1r25n10f8u] Belum tepat, nak. Ayo kita coba pelan-pelan. 
 => END
 ~ hidupputih
-IBU: [#voice=uid://csb4nw7nrmlr2] Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=#c9c9c9]putih[/color] 
+IBU: [#voice=uid://csb4nw7nrmlr2] Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=WHITE]putih[/color] 
 => END
 ~ hiduphijau
 IBU:[#voice=uid://csb4nw7nrmlr2] Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=GREEN]hijau?[/color] 
@@ -46,7 +46,7 @@ IBU:[#voice=uid://csb4nw7nrmlr2] Oke! Kalau begitu bisakah kalian mencari [color
 IBU: [#voice=uid://csb4nw7nrmlr2]Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda hidup[/color] yang berwarna [color=RED]merah?[/color]
 => END
 ~ matiputih
-IBU: [#voice=uid://csb4nw7nrmlr2]Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=#c9c9c9]putih[/color]
+IBU: [#voice=uid://csb4nw7nrmlr2]Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=WHITE]putih[/color]
 => END
 ~ matihijau
 IBU: [#voice=uid://csb4nw7nrmlr2]Oke! Kalau begitu bisakah kalian mencari [color=#32cd32]benda mati[/color] yang berwarna [color=GREEN]hijau?[/color]

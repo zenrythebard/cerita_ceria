@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://ccxd2gp0dkqwq"]
 
 [ext_resource type="Script" uid="uid://dkrrmcg21odr4" path="res://scenes/bab_1a_bersih_bersih/pantai_opening_cutscene.gd" id="1_m0frh"]
-[ext_resource type="VideoStream" uid="uid://csd1riw1wt04" path="res://videos/Opening Pantai_converted.ogv" id="2_m0frh"]
+[ext_resource type="VideoStream" uid="uid://borl1fnl5024l" path="res://videos/Opening Pantai Fix_converted.ogv" id="2_m0frh"]
 [ext_resource type="Texture2D" uid="uid://81cgkhe3cur8" path="res://ui_old/buttons/Back.png" id="3_q10vp"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1wa0i"]
