@@ -884,7 +884,7 @@ libraries = {
 }
 
 [node name="Karpet" type="Node2D" parent="Items/Furniture/Interactible"]
-position = Vector2(453, 2126)
+position = Vector2(1805, 2126)
 script = ExtResource("15_hjsrs")
 type = "interact"
 item = "karpet"

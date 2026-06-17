@@ -1340,8 +1340,7 @@ script = ExtResource("34_kk53c")
 level_type = "place"
 
 [node name="Karpet" type="Node2D" parent="Items/Placable" node_paths=PackedStringArray("item_counter")]
-z_index = 1
-position = Vector2(453, 2126)
+position = Vector2(1805, 2126)
 script = ExtResource("20_cyfyi")
 type = "place"
 item = "karpet"

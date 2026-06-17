@@ -68,11 +68,11 @@ IBU: Ruangannya sudah bersih, tapi kunci mobil Bapak masih belum ketemu ya.
 IBU: Coba carilah kembali, Tita.
 => END
 ~ level_end_r_tamu
-IBU:[#voice=uid://jaht5tqf50hx] Wah! Akhirnya semuanya menjadi bersih! 
+IBU: [#voice=uid://jaht5tqf50hx] Wah! Akhirnya semuanya menjadi bersih! 
 TITA: [#voice=uid://fb8lap6078e6] Aku menemukan kunci milik Bapak!
 BAPAK: [#voice=uid://dykhe4wl0oe4y] Terimakasih Tita, kalian pintar sekali!
-TITA:[#voice=uid://blfkm5g21jsiu] Sekarang kita tahu kalau menjaga kebersihan rumah itu penting untuk kenyamanan kita! 
-TITA:[#voice=uid://blfkm5g21jsiu]Barang bapak jadi tidak hilang lagi deh!
+TITA: [#voice=uid://blfkm5g21jsiu] Sekarang kita tahu kalau menjaga kebersihan rumah itu penting untuk kenyamanan kita! 
+TITA: [#voice=uid://blfkm5g21jsiu]Barang bapak jadi tidak hilang lagi deh!
 => END
 
 ~ level_end_dapur
