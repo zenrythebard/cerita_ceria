@@ -388,7 +388,7 @@ metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 
 [node name="Foreground" type="Node2D" parent="BG/Shore (Main)/Interactible"]
 z_index = 4
-position = Vector2(0, 15.90909)
+position = Vector2(0, -53.63636)
 
 [node name="Batu" type="Node2D" parent="BG/Shore (Main)/Interactible/Foreground"]
 position = Vector2(-6527.273, 340.4545)
@@ -567,7 +567,7 @@ bounce_back = false
 [node name="Characters" type="Node2D" parent="CameraComponent"]
 z_index = 10
 y_sort_enabled = true
-position = Vector2(2846, 1525)
+position = Vector2(2846, 1332)
 script = ExtResource("14_ysfc1")
 
 [node name="Tita" type="Sprite2D" parent="CameraComponent/Characters"]

@@ -75,9 +75,9 @@ func _on_camera_component_down_pressed() -> void:
 	moving_down = true
 func _on_camera_component_down_released() -> void:
 	moving_down = false
-	await get_tree().create_timer(0.2).timeout
-	moving = false
 	moving_direction = "null"
+	await get_tree().create_timer(1).timeout
+	moving = false
 
 
 func _on_camera_component_left_pressed() -> void:
@@ -85,9 +85,10 @@ func _on_camera_component_left_pressed() -> void:
 	moving_left = true
 func _on_camera_component_left_released() -> void:
 	moving_left = false
-	await get_tree().create_timer(0.2).timeout
-	moving = false
 	moving_direction = "null"
+	await get_tree().create_timer(1).timeout
+	moving = false
+
 
 
 func _on_camera_component_right_pressed() -> void:
@@ -95,9 +96,9 @@ func _on_camera_component_right_pressed() -> void:
 	moving_right = true
 func _on_camera_component_right_released() -> void:
 	moving_right = false
-	await get_tree().create_timer(0.2).timeout
-	moving = false
 	moving_direction = "null"
+	await get_tree().create_timer(1).timeout
+	moving = false
 
 
 func _on_camera_component_up_pressed() -> void:
@@ -105,9 +106,9 @@ func _on_camera_component_up_pressed() -> void:
 	moving_up = true
 func _on_camera_component_up_released() -> void:
 	moving_up = false
-	await get_tree().create_timer(0.2).timeout
-	moving = false
 	moving_direction = "null"
+	await get_tree().create_timer(1).timeout
+	moving = false
 	
 func moving_neutral_check():
 	if moving:

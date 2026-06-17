@@ -399,7 +399,7 @@ metadata/_custom_type_script = "uid://bv7ndueoa81i3"
 z_index = 4
 
 [node name="Sepeda" type="Node2D" parent="BG/ground/Interactible/Foreground"]
-position = Vector2(2733.1816, 282.72723)
+position = Vector2(2733.1816, 199.54541)
 script = ExtResource("6_tkql6")
 item_color = "biru"
 

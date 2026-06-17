@@ -1,10 +1,14 @@
-[gd_scene load_steps=5 format=3 uid="uid://bcxmwmf8cvj21"]
+[gd_scene load_steps=6 format=3 uid="uid://bcxmwmf8cvj21"]
 
 [ext_resource type="Script" uid="uid://dukm2nc5aechi" path="res://scenes/camera_component.gd" id="1_5kfpg"]
 [ext_resource type="Texture2D" uid="uid://cundu5yq51sga" path="res://ui_old/pLAY/START.png" id="1_ar1wr"]
 [ext_resource type="Script" uid="uid://d246mtls5hqtt" path="res://scripts/canvas_camera.gd" id="1_u2x2j"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_w2dla"]
+radius = 8.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_u2x2j"]
+radius = 8.0
 
 [node name="CameraComponent" type="Node"]
 script = ExtResource("1_5kfpg")
@@ -15,12 +19,12 @@ transform = Transform2D(1, 0, 0, 1, 50, 50)
 script = ExtResource("1_u2x2j")
 
 [node name="Node2D" type="Node2D" parent="CanvasCamera"]
-position = Vector2(-94, -411)
+position = Vector2(-94, -336.00003)
 scale = Vector2(1.2, 1.2)
 
 [node name="UpSprite" type="Sprite2D" parent="CanvasCamera/Node2D"]
 z_index = 50
-position = Vector2(457, 1530.3997)
+position = Vector2(455.83328, 1691.6669)
 rotation = -1.5707964
 scale = Vector2(0.19999939, 0.19999939)
 texture = ExtResource("1_ar1wr")
@@ -33,7 +37,7 @@ shape = SubResource("CircleShape2D_w2dla")
 
 [node name="DownSprite" type="Sprite2D" parent="CanvasCamera/Node2D"]
 z_index = 50
-position = Vector2(457, 1881.3997)
+position = Vector2(457, 1882)
 rotation = 1.5707964
 scale = Vector2(0.19999939, 0.19999939)
 texture = ExtResource("1_ar1wr")
@@ -46,7 +50,7 @@ shape = SubResource("CircleShape2D_w2dla")
 
 [node name="RightSprite" type="Sprite2D" parent="CanvasCamera/Node2D"]
 z_index = 50
-position = Vector2(645.39966, 1705.0001)
+position = Vector2(645.4, 1882)
 scale = Vector2(0.19999939, 0.19999939)
 texture = ExtResource("1_ar1wr")
 
@@ -57,7 +61,7 @@ shape = SubResource("CircleShape2D_w2dla")
 
 [node name="LeftSprite" type="Sprite2D" parent="CanvasCamera/Node2D"]
 z_index = 50
-position = Vector2(269.3997, 1705.0001)
+position = Vector2(269.4, 1882)
 scale = Vector2(0.19999939, 0.19999939)
 texture = ExtResource("1_ar1wr")
 flip_h = true
@@ -65,7 +69,7 @@ flip_h = true
 [node name="LeftButton" type="TouchScreenButton" parent="CanvasCamera/Node2D/LeftSprite"]
 z_index = 50
 scale = Vector2(57.40018, 57.40018)
-shape = SubResource("CircleShape2D_w2dla")
+shape = SubResource("CircleShape2D_u2x2j")
 
 [connection signal="pressed" from="CanvasCamera/Node2D/UpSprite/UpButton" to="." method="_on_up_button_pressed"]
 [connection signal="released" from="CanvasCamera/Node2D/UpSprite/UpButton" to="." method="_on_up_button_released"]
